@@ -1,0 +1,31 @@
+# secrets
+.env
+
+# venv / tooling
+.venv/
+tools/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# data artifacts (large / regenerable) — manifests are kept selectively
+data/raw/
+data/master/
+data/segments/
+data/manifests/*.batch/
+data/review_app/
+data/build/
+
+# keep curated manifests + review decisions in the repo for provenance
+!data/manifests/
+!data/manifests/*.segments.json
+!data/manifests/review.csv
+!data/manifests/dataset_stats.json
+
+# build artifacts
+dist/
+build/
+*.egg-info/
+
+# report figures are deliverables — keep them tracked

@@ -1,0 +1,70 @@
+{
+  "per_language": {
+    "en": {
+      "name": "Indian English",
+      "config": "indian_english",
+      "clips": 142,
+      "minutes": 30.05,
+      "speakers": 5,
+      "speaker_minutes": {
+        "en_mahabharata": 8.48,
+        "en_air_talk": 9.94,
+        "en_air_century": 4.36,
+        "en_tedx_amina": 2.37,
+        "en_audiobook_kafan": 4.91
+      },
+      "emotions": {
+        "neutral": 31,
+        "calm": 31,
+        "sad": 30,
+        "excited": 30,
+        "angry": 12,
+        "fearful": 5,
+        "happy": 3
+      },
+      "styles": {
+        "narrative": 66,
+        "expressive": 35,
+        "formal": 25,
+        "conversational": 16
+      },
+      "human_tagged": 0,
+      "mean_clip_s": 12.7
+    },
+    "te": {
+      "name": "Telugu",
+      "config": "telugu",
+      "clips": 140,
+      "minutes": 30.25,
+      "speakers": 6,
+      "speaker_minutes": {
+        "te_audiobook_kalalavelugu": 9.29,
+        "te_audiobook_bhumiputri": 9.97,
+        "te_kathalu_epic": 4.08,
+        "te_chaganti": 6.15,
+        "te_motivation_kasyap": 0.32,
+        "te_ramaaraavi": 0.43
+      },
+      "emotions": {
+        "calm": 25,
+        "neutral": 24,
+        "angry": 24,
+        "excited": 24,
+        "sad": 24,
+        "fearful": 9,
+        "happy": 7,
+        "surprised": 3
+      },
+      "styles": {
+        "expressive": 62,
+        "narrative": 59,
+        "conversational": 10,
+        "formal": 8,
+        "whisper": 1
+      },
+      "human_tagged": 0,
+      "mean_clip_s": 12.96
+    }
+  },
+  "total_minutes": 60.3
+}

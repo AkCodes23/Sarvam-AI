@@ -1,0 +1,47 @@
+[project]
+name = "sarvam-tts-dataset"
+version = "0.1.0"
+description = "Curated single-speaker TTS dataset pipeline (Indian English + Telugu) using Sarvam APIs"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Sarvam TTS Dataset" }]
+
+dependencies = [
+    "sarvamai>=0.1.0",
+    "yt-dlp>=2024.0.0",
+    "soundfile>=0.12.1",
+    "numpy>=1.26,<2.1",
+    "scipy>=1.11",
+    "librosa>=0.10.2",
+    "praat-parselmouth>=0.4.3",
+    "pyloudnorm>=0.1.1",
+    "datasets>=2.19,<4",   # 4.x+ requires torchcodec for Audio encoding (painful on Windows); 3.x uses soundfile
+    "huggingface_hub>=0.23",
+    "pandas>=2.2",
+    "tqdm>=4.66",
+    "pydantic>=2.6",
+    "python-dotenv>=1.0",
+    "typer>=0.12",
+    "PyYAML>=6.0",
+    "rich>=13.7",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+report = ["markdown>=3.6", "xhtml2pdf>=0.2.17"]
+
+[project.scripts]
+ttsds = "ttsds.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ttsds"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

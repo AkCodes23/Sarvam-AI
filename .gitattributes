@@ -1,0 +1,4 @@
+# Treat these as binary so Git never applies CRLF conversion (would corrupt them)
+*.pdf binary
+*.png binary
+*.wav binary

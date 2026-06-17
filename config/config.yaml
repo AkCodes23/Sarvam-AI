@@ -1,0 +1,70 @@
+# =============================================================================
+# Pipeline configuration. Everything tunable lives here so the report can cite
+# exact thresholds and so iteration = editing this file, not the code.
+# =============================================================================
+
+audio:
+  asr_sample_rate: 16000      # Sarvam STT works best at 16 kHz (mono)
+  master_sample_rate: 24000   # published dataset audio (modern TTS-grade)
+  channels: 1
+
+segmentation:
+  min_duration_s: 3.0         # hard floor — drop shorter
+  max_duration_s: 25.0        # hard ceiling — split longer at internal silence
+  target_min_s: 5.0           # preferred window
+  target_max_s: 15.0
+  silence_top_db: 35          # librosa.effects.split threshold (dB below peak)
+  min_silence_gap_s: 0.25     # minimum gap to treat as a valid cut point
+  edge_pad_s: 0.15            # keep this much silence on each side after trim
+  merge_gap_s: 0.40           # merge same-speaker chunks closer than this
+
+quality:
+  max_clipped_fraction: 0.01  # reject only sustained clipping (>1% of samples at full scale)
+  min_snr_db: 15.0            # speech-vs-noise-floor estimate
+  max_silence_ratio: 0.45     # too much internal silence -> reject
+  min_language_probability: 0.60
+  max_gap_energy_ratio: 0.32  # RMS in inter-phrase pauses / speech RMS; high -> music/noise bed
+  min_chars_per_sec: 2.0      # garbled/empty transcript guard (script-aware)
+  max_chars_per_sec: 32.0
+  dedup_similarity: 0.90      # near-duplicate transcript threshold (token Jaccard)
+
+asr:
+  batch_model: "saaras:v3"    # diarization + timestamps, up to 2h
+  batch_mode: "transcribe"
+  batch_timeout_s: 2400       # 40 min poll ceiling for long files
+  realtime_model: "saarika:v2.5"   # per-segment authoritative transcript (<=30s)
+
+llm:
+  model: "sarvam-30b"   # sarvam-m is deprecated; 30b is a good cost/quality balance for tagging
+  temperature: 0.1
+  max_tokens: 4000      # reasoning model emits ~1.6-2.3k reasoning tokens before the JSON;
+                        # ceiling must clear that or content truncates (billed on actual, not ceiling)
+
+emotion:
+  emotions: [neutral, happy, sad, angry, excited, calm, fearful, surprised]
+  styles: [narrative, conversational, formal, expressive, whisper]
+  low_confidence_threshold: 0.55   # below this -> flag for human review
+  # Acoustic whisper gate (overrides LLM): whispered speech is largely unvoiced
+  # (pitch tracker finds little), low energy, low harmonics-to-noise ratio.
+  whisper:
+    max_voiced_fraction: 0.30
+    max_energy_zscore: -0.40
+    max_hnr_db: 7.0
+
+targets:
+  minutes_per_language: 30.0
+  val_fraction: 0.05          # per-speaker-aware holdout
+
+languages:
+  en:
+    code: "en-IN"
+    name: "Indian English"
+    config: "indian_english"
+  te:
+    code: "te-IN"
+    name: "Telugu"
+    config: "telugu"
+
+dataset:
+  # repo id comes from $HF_DATASET_REPO (e.g. "username/sarvam-tts-in-te-en")
+  license: "cc-by-4.0"        # default tag; per-clip license tracked separately

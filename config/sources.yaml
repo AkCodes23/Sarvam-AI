@@ -1,0 +1,176 @@
+# =============================================================================
+# CURATED SOURCES — the highest-leverage file in this repo.
+#
+# RULE: listen to a sample of every candidate BEFORE trusting it. Reject anything
+# with a second speaker, background music/beds, applause, phone-call audio, heavy
+# reverb, or autotune. The quality gates + the human review app are the safety net;
+# this list is the first filter (chosen by archetype + channel reputation).
+#
+# Selected for MULTIPLE distinct clean voices per language and spread across
+# emotion/style (audiobooks/storytelling -> expressive/sad/happy; lectures/AIR/news
+# -> neutral/formal; discourse -> calm). Compilation channels (music beds) excluded.
+#
+# Field notes: expected_speakers=1 skips diarization filtering for true solo
+# sources; max_minutes caps audio (balance + credits); start_offset_s/end_trim_s
+# skip intros/outros; license is best-effort (clips are short + transformative,
+# used for research, with full provenance retained).
+# =============================================================================
+
+sources:
+  # ================= Indian English =================
+  - id: en_air_talk
+    url: "https://www.youtube.com/watch?v=ax7l6qOqgpQ"
+    language: en
+    content_type: talk
+    speaker_id: en_air_talk
+    license: "Prasar Bharati / AIR (govt, research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 20
+    end_trim_s: 15
+    enabled: true
+    notes: "Akashvani AIR National Programme of Talks (English) — formal/neutral, studio-clean"
+
+  - id: en_nptel
+    url: "https://www.youtube.com/watch?v=Ln_LP7c23WM"
+    language: en
+    content_type: lecture
+    speaker_id: en_nptel
+    license: "NPTEL/SWAYAM (educational, research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 40
+    end_trim_s: 15
+    enabled: true
+    notes: "NPTEL IIT Kharagpur lecture — single instructor, neutral/lecturing Indian English"
+
+  - id: en_mahabharata
+    url: "https://www.youtube.com/watch?v=8qFbaA-BcK4"
+    language: en
+    content_type: story
+    speaker_id: en_mahabharata
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 20
+    end_trim_s: 10
+    enabled: true
+    notes: "Mahabharata storytelling in English — narrative/expressive"
+
+  - id: en_tedx_amina
+    url: "https://www.youtube.com/watch?v=lhv72TsRvHU"
+    language: en
+    content_type: talk
+    speaker_id: en_tedx_amina
+    license: "TED (CC-BY-NC-ND, research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 25
+    end_trim_s: 20
+    enabled: true
+    notes: "TEDx talk, Indian speaker — expressive/excited (gates flag applause)"
+
+  - id: en_audiobook_kafan
+    url: "https://www.youtube.com/watch?v=geqmjQFdr1I"
+    language: en
+    content_type: audiobook
+    speaker_id: en_audiobook_kafan
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 6
+    start_offset_s: 15
+    end_trim_s: 10
+    enabled: true
+    notes: "Premchand 'Kafan' audiobook in English — expressive/sad narration"
+
+  - id: en_air_century
+    url: "https://www.youtube.com/watch?v=2HPHy10Nye8"
+    language: en
+    content_type: talk
+    speaker_id: en_air_century
+    license: "Prasar Bharati / AIR (govt, research use)"
+    expected_speakers: 1
+    max_minutes: 8
+    start_offset_s: 20
+    end_trim_s: 10
+    enabled: true
+    notes: "AIR 'A Century of Stories' — narrative/neutral"
+
+  # ================= Telugu =================
+  - id: te_audiobook_bhumiputri
+    url: "https://www.youtube.com/watch?v=quzuIkIcKDg"
+    language: te
+    content_type: audiobook
+    speaker_id: te_audiobook_bhumiputri
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 25
+    end_trim_s: 15
+    enabled: true
+    notes: "SS Telugu Audio Navalalu — 'Bhumiputri' (Malati Chandur) — expressive novel narration"
+
+  - id: te_audiobook_kalalavelugu
+    url: "https://www.youtube.com/watch?v=Jf2Dul6oQOQ"
+    language: te
+    content_type: audiobook
+    speaker_id: te_audiobook_kalalavelugu
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 20
+    end_trim_s: 15
+    enabled: true
+    notes: "Telugu Navala audiobook 'kalala velugu' — narrative/expressive, distinct voice"
+
+  - id: te_ramaaraavi
+    url: "https://www.youtube.com/watch?v=m0_zSM3E1Bo"
+    language: te
+    content_type: story
+    speaker_id: te_ramaaraavi
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 20
+    end_trim_s: 15
+    enabled: true
+    notes: "Ramaa Raavi storytelling (SumanTV) — animated/expressive single narrator"
+
+  - id: te_chaganti
+    url: "https://www.youtube.com/watch?v=BDME5y_zRN0"
+    language: te
+    content_type: discourse
+    speaker_id: te_chaganti
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 60
+    end_trim_s: 30
+    enabled: true
+    notes: "Chaganti Koteswara Rao pravachanam — calm/formal/varied discourse"
+
+  - id: te_kathalu_epic
+    url: "https://www.youtube.com/watch?v=B0XVq-H8NOU"
+    language: te
+    content_type: story
+    speaker_id: te_kathalu_epic
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 9
+    start_offset_s: 20
+    end_trim_s: 10
+    enabled: true
+    notes: "Telugu moral story (Epic Indian Stories) — narrative; watch for music bed (gates)"
+
+  - id: te_motivation_kasyap
+    url: "https://www.youtube.com/watch?v=TpCbUfYoIIM"
+    language: te
+    content_type: talk
+    speaker_id: te_motivation_kasyap
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 9
+    start_offset_s: 20
+    end_trim_s: 10
+    enabled: true
+    notes: "MVN Kasyap motivational talk — conversational/expressive; watch for music bed"
