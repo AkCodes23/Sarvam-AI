@@ -50,5 +50,10 @@
       "within_cohesion": 0.8049
     }
   },
-  "flagged": []
+  "flagged": [],
+  "roc_auc": 0.9618,
+  "eer": 0.091,
+  "eer_threshold": 0.3527,
+  "n_positive_pairs": 5000,
+  "n_negative_pairs": 5000
 }

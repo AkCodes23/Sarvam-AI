@@ -7,6 +7,7 @@ appendix. Run `python scripts/make_figures.py` first.
 from __future__ import annotations
 
 import base64
+import re
 import sys
 from pathlib import Path
 
@@ -14,6 +15,24 @@ import markdown
 from xhtml2pdf import pisa
 
 from ttsds.config import FIGURES_DIR, REPORTS_DIR
+
+
+def _inline_body_images(html: str) -> tuple[str, set[str]]:
+    """Replace <img src="figures/x.png"> in the body with base64 data URIs so
+    xhtml2pdf renders them. Returns (html, set of inlined figure filenames)."""
+    inlined: set[str] = set()
+
+    def repl(m):
+        src = m.group(1)
+        p = (REPORTS_DIR / src).resolve()
+        if not p.exists():
+            return m.group(0)
+        inlined.add(p.name)
+        b64 = base64.b64encode(p.read_bytes()).decode("ascii")
+        return f'<img class="inlinefig" src="data:image/png;base64,{b64}"'
+
+    html = re.sub(r'<img\s+[^>]*?src="((?:reports/)?figures/[^"]+)"', repl, html)
+    return html, inlined
 
 CSS = """
 @page { size: A4; margin: 1.8cm 1.6cm; }
@@ -26,8 +45,12 @@ code { font-family: Courier, monospace; background: #f1f3f7; font-size: 9.5pt; }
 hr { border: 0; border-top: 1px solid #d6dce6; }
 strong { color: #0f2a52; }
 img { max-width: 100%; }
+.inlinefig { width: 13cm; margin: 6pt 0; }
 .fig { margin: 8pt 0 14pt; }
 .figcap { font-size: 9pt; color: #555; }
+table { -pdf-keep-with-next: true; }
+td, th { border: 0.5px solid #d6dce6; padding: 2pt 5pt; font-size: 9.5pt; }
+th { background: #eef2fb; }
 """
 
 
@@ -35,11 +58,12 @@ def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     md_text = (REPORTS_DIR / "report.md").read_text(encoding="utf-8")
     body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
+    body, inlined = _inline_body_images(body)
 
-    figs = sorted(FIGURES_DIR.glob("*.png"))
+    figs = [f for f in sorted(FIGURES_DIR.glob("*.png")) if f.name not in inlined]
     fig_html = ""
     if figs:
-        fig_html = "<h2>Appendix: Figures</h2>"
+        fig_html = "<h2>Appendix: Additional figures</h2>"
         for f in figs:
             b64 = base64.b64encode(f.read_bytes()).decode("ascii")
             fig_html += (

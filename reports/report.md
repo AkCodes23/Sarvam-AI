@@ -169,6 +169,8 @@ inter-pause gap-energy 0.00–0.03 (no music beds anywhere — even the kathalu/
 sources I'd flagged as risky came back clean), emotion-tag confidence 0.85. The
 round-robin balancer capped dominant emotions (Telugu sad 73→24, excited 65→24) and
 included rare ones fully (surprised 3, happy 7).
+
+![Dataset quality dimensions, English vs Telugu](figures/quality_radar.png)
 - **Emotion validity** is the hardest dimension. Grounding the LLM in per-speaker
   acoustics (not text alone) and overriding whisper acoustically materially improved it,
   but subtle affect remains imperfect — hence the human review pass and the
@@ -196,11 +198,18 @@ assigned `speaker_id`s:
 | Avg. same-speaker similarity | **0.737** |
 | Avg. different-speaker similarity | **0.213** |
 | **Separation** | **0.524** (> 0.3 is strong) |
+| **ROC-AUC** (verification, 5k+5k pairs) | **0.962** |
+| **EER** (equal error rate) | **9.1 %** (threshold 0.353) |
 | Speakers flagged for contamination | **0 / 11** |
 
-Every speaker's clips are far closer to each other than to any other speaker (see the
-speaker-similarity heatmap). Objective evidence that each `speaker_id` is one consistent
-voice — each *segment* is single-speaker, across 11 voices total.
+Framed as a speaker-verification task over 10,000 balanced same/different clip pairs, the
+labels give **AUC 0.962 / EER 9.1 %** — the same/different score distributions are well
+separated. Every speaker's clips are far closer to each other than to any other speaker.
+Objective evidence that each `speaker_id` is one consistent voice — each *segment* is
+single-speaker, across 11 voices total.
+
+![Speaker-centroid cosine similarity heatmap](figures/speaker_similarity.png)
+![Speaker-verification score distributions with EER threshold](figures/speaker_verification.png)
 
 ### 5.2 How accurate are the transcripts? — cross-ASR agreement
 True WER needs human references; instead I re-transcribed a deterministic subset with
@@ -242,6 +251,8 @@ disagreement concentrates between adjacent states (calm↔neutral, excited↔hap
 errors. This is exactly why every row ships with `emotion_confidence` + `tag_source`, and
 why the human-review tool (which records true human labels) is part of the workflow.
 
+![Emotion-label agreement, sarvam-30b vs sarvam-105b](figures/emotion_confusion.png)
+
 ### 5.4 Phonetic and lexical coverage
 | | Indian English | Telugu |
 |---|---|---|
@@ -262,7 +273,123 @@ Telugu's higher TTR reflects its agglutinative morphology and the diverse novel/
 *All claims above are reproducible: `scripts/eval_speaker.py`, `eval_asr.py`, `eval_emotion.py`,
 `eval_phoneme.py`, `eval_basic.py`; figures in the Appendix; raw numbers in `data/manifests/eval_*.json`.*
 
-## 6. What I'd improve with more time
+## 6. Source-level analysis
+
+Quality is decided at the source, so here is every source with its measured profile (kept
+clips, minutes, median SNR, emotion diversity = Shannon entropy over its emotion histogram):
+
+| Lang | Source | Type | Clips | Min | Median SNR | Emotion entropy |
+|---|---|---|---|---|---|---|
+| EN | en_air_talk | AIR talk | 44 | 9.9 | 28.6 dB | 2.24 |
+| EN | en_tedx_amina | TEDx talk | 46 | 9.2 | **43.9 dB** | 2.04 |
+| EN | en_mahabharata | storytelling | 50 | 8.5 | 35.4 dB | **2.60** |
+| EN | en_audiobook_kafan | audiobook | 19 | 4.9 | 25.4 dB | 2.19 |
+| EN | en_air_century | AIR archival | 18 | 4.4 | **19.1 dB** | 1.86 |
+| TE | te_audiobook_bhumiputri | audiobook | 43 | 10.0 | 27.5 dB | 2.53 |
+| TE | te_audiobook_kalalavelugu | audiobook | 50 | 9.4 | 30.6 dB | **2.60** |
+| TE | te_chaganti | discourse | 42 | 9.9 | **18.9 dB** | 2.49 |
+| TE | te_kathalu_epic | storytelling | 39 | 8.8 | 39.9 dB | 2.52 |
+| TE | te_ramaaraavi | storytelling | 47 | 8.6 | **44.9 dB** | 2.34 |
+| TE | te_motivation_kasyap | talk | 47 | 7.9 | 38.6 dB | 2.31 |
+
+![Minutes contributed per source](figures/source_contribution.png)
+
+**Observations (from the data, not assumptions):**
+- **Audiobooks and storytelling give the widest emotional range** — the three highest-entropy
+  sources are `te_audiobook_kalalavelugu` (2.60), `en_mahabharata` (2.60) and
+  `te_audiobook_bhumiputri` (2.53). Narration with character dialogue spans sad→excited→angry
+  naturally; lectures/announcements (`en_air_century` 1.86) are flatter.
+- **Cleanest audio came from the TEDx talk and storytelling channels** (43.9 / 44.9 / 39.9 dB),
+  *not* the audiobooks (25–31 dB). This was counter-intuitive — and a useful reminder that
+  "audiobook = studio-clean" is an assumption worth checking. The TEDx source being clean also
+  contradicts the usual "TEDx = audience noise" worry: the single-speaker diarization filter
+  dropped any applause/audience turns, so none survived into clips.
+- **The two lowest-SNR sources** were `te_chaganti` (18.9 dB, a large-hall devotional discourse)
+  and `en_air_century` (19.1 dB, an older archival AIR recording). Both still cleared the 15 dB
+  floor; their SNR is dominated by room ambience, not unintelligibility (language-ID was 100%).
+  `te_chaganti` contributed clean, expressive discourse worth keeping.
+- Every source yielded **6–8 distinct emotions**, so the balanced selection had real material to
+  draw from in each bucket.
+
+## 7. Rejection analysis
+
+The pipeline kept **445 of 457** candidate segments (97.4 %). The full reject breakdown:
+
+| Rejection reason | Count |
+|---|---|
+| Low SNR (< 15 dB) | **12** |
+| Clipping (sustained) | 0 |
+| Music / noise bed | 0 |
+| Multi-speaker / speaker-change | 0 |
+| Too much silence | 0 |
+| Low ASR confidence | 0 |
+| Bad character rate | 0 |
+| Duplicate transcript | 0 |
+
+![Pipeline funnel](figures/sankey_funnel.png)
+
+All 12 rejections were **low-SNR, and all came from `en_air_century`** (the archival AIR source
+whose median SNR was 19 dB, with a tail of segments below the floor). The *absence* of music,
+clipping, and multi-speaker rejections is not a lax gate — it is the **curation working
+upstream**: compilation channels (which overlay music) were excluded at the source step, the
+clipping gate was fixed to measure sustained clipping (not hot peaks), and only true solo
+sources were chosen, so diarization found one speaker. A low rejection rate here means *the bad
+data was never let in*, not that nothing was checked. The 445 kept clips were then balanced down
+to **282** to hit ~30 min/language while leveling the emotion histogram (the Sankey shows the
+full candidates → kept → selected flow).
+
+## 8. Benchmarking — where this dataset sits
+
+This corpus is deliberately tiny; it is worth being explicit about how it relates to the public
+landscape. (Figures verified via each project's docs/papers; a few hours are approximate — see
+notes.)
+
+| Dataset | ~Hours | Speakers | Domain | Emotion tags | Speaker-verified | Single-speaker segs | Langs | License |
+|---|---|---|---|---|---|---|---|---|
+| Common Voice (en) | ~2,785 | ~100k | read | No | No | Yes | en (+120) | CC0 |
+| Common Voice (te) | ~0.9 | ~67 | read | No | No | Yes | te | CC0 |
+| IndicTTS (IIT-M) | ~40/lang | 2/lang | read (studio) | No | No | Yes | 22 + Indian En | research |
+| OpenSLR SLR66 (te) | ~6–7 | multi | read | No | No | Yes | te | CC-BY-SA |
+| AI4Bharat IndicVoices | ~23,700 | ~51k | spontaneous | No | No | Yes | 22 | CC-BY |
+| AI4Bharat **Rasa** | ~62 | 1/lang | read (expressive) | **Yes** (6+neutral) | No | Yes | as, bn, ta | CC-BY |
+| Emilia | ~101,000 | very large | in-the-wild | No | No | Yes | en/zh/de/fr/ja/ko | CC-BY |
+| Svarah (Indian En) | ~9.6 | 117 | read+spont. | No | No | Yes | en (Indian) | CC-BY |
+| **This dataset** | **~1** | **11** | **in-the-wild** | **Yes** | **Yes (ECAPA)** | **Yes** | **en + te** | **CC-BY-4.0** |
+
+It does not compete on scale, languages, or speakers — every comparator is larger and most are
+more rigorously curated. Its niche is the *combination* rarely found together: per-segment
+emotion/style tags **plus** speaker-embedding verification **plus** guaranteed single-speaker
+clips, on **expressive in-the-wild Indian speech**. Among Indian sets, only AI4Bharat's **Rasa**
+offers comparable emotion labels, but Rasa is studio read-speech from one known speaker per
+language and covers Assamese/Bengali/Tamil — not Telugu or Indian English. Emilia is in-the-wild
+but carries no emotion labels and excludes Indian languages. So this is best used as **expressive
+fine-tuning / emotion-conditioning** data for the en–te pair, complementing (not replacing) the
+large read-speech corpora that supply base coverage. *(Approximate figures: OpenSLR hours and
+IndicTTS licensing vary by mirror; Rasa's expanded HF release is larger than its original paper.)*
+
+## 9. Reproducibility
+
+Everything is config-driven and re-runnable. With a Sarvam key and an HF token in `.env`:
+
+```bash
+git clone https://github.com/AkCodes23/Sarvam-AI && cd Sarvam-AI
+uv venv --python 3.12 .venv && uv pip install -r requirements.txt   # or: uv pip install -e .
+cp .env.example .env            # add SARVAM_API_KEY, HF_TOKEN, HF_USERNAME
+
+ttsds smoke                     # verify Sarvam (en+te) + chat + HF auth
+ttsds process-all               # download → diarize → segment → transcribe → tag (per source)
+ttsds review-build              # open data/review_app/index.html to curate (optional)
+ttsds build && ttsds publish    # balance + finalize + push public dataset
+python scripts/eval_basic.py    # + eval_speaker / eval_asr / eval_emotion / eval_phoneme / eval_sources
+python scripts/make_figures.py && python scripts/make_figures2.py && python scripts/make_report_pdf.py
+```
+
+Determinism: all thresholds live in `config/config.yaml`; sources in `config/sources.yaml`;
+segmentation/gates/taxonomy are unit-tested (`pytest`, 13 tests); eval scripts use fixed seeds
+and deterministic subsampling; pinned deps in `requirements.txt`. Raw per-stage outputs are in
+`data/manifests/*.json` (segment manifests, `eval_*.json`).
+
+## 10. What I'd improve with more time
 
 - **A true human evaluation pass** — the automated checks in §5 are proxies. With listening
   time I'd compute real human WER on a 100-clip audit and human inter-annotator agreement on

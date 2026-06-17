@@ -38,12 +38,26 @@ Design choices that matter (see report for rationale):
 - **Human-in-the-loop** — a reviewer's relabel/transcript fix always wins (`tag_source=human`).
 - **Light normalization** — peak/gentle loudness (no −23 LUFS limiting) so emotional dynamics survive.
 
+## Evaluation highlights (evidence, not claims)
+
+The project proves quality rather than asserting it (full analysis + figures in `reports/report.pdf`):
+
+| Check | Result |
+|---|---|
+| Single-speaker (ECAPA-TDNN) | separation 0.52, **AUC 0.96 / EER 9.1 %**, 0/11 flagged |
+| English transcripts (cross-ASR vs Whisper) | **6.8 % WER / 4.5 % CER**; 100 % language-ID match |
+| Emotion tags (sarvam-30b vs 105b) | 65 % agreement, **Cohen's κ 0.55** |
+| Phoneme coverage | English **39/39 (100 %)**, Telugu 45/50 (90 %) |
+| Rejections | 12 / 457, all low-SNR (0 music / clipping / multi-speaker) |
+
+Reproduce with `python scripts/eval_*.py`; raw numbers in `data/manifests/eval_*.json`.
+
 ## Setup
 
 ```bash
 uv venv --python 3.12 .venv
-uv pip install --python .venv -e .
-# ffmpeg + ffprobe static binaries live in tools/ (see scripts/setup_ffmpeg)
+uv pip install --python .venv -e .      # or: uv pip install -r requirements.txt (pinned)
+# ffmpeg + ffprobe static binaries are auto-resolved from tools/ or PATH
 cp .env.example .env   # fill SARVAM_API_KEY, HF_TOKEN, HF_USERNAME/HF_DATASET_REPO
 ```
 

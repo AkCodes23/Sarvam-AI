@@ -1,0 +1,244 @@
+{
+  "sources": [
+    {
+      "source_id": "en_air_talk",
+      "language": "en",
+      "content_type": "talk",
+      "clips": 44,
+      "minutes": 9.94,
+      "snr_db_median": 28.6,
+      "gap_energy_median": 0.018,
+      "distinct_emotions": 6,
+      "emotion_entropy": 2.243,
+      "conf_median": 0.85,
+      "emotions": {
+        "excited": 14,
+        "calm": 12,
+        "neutral": 10,
+        "sad": 4,
+        "angry": 2,
+        "fearful": 2
+      }
+    },
+    {
+      "source_id": "en_tedx_amina",
+      "language": "en",
+      "content_type": "talk",
+      "clips": 46,
+      "minutes": 9.18,
+      "snr_db_median": 43.9,
+      "gap_energy_median": 0.014,
+      "distinct_emotions": 6,
+      "emotion_entropy": 2.035,
+      "conf_median": 0.85,
+      "emotions": {
+        "excited": 20,
+        "sad": 12,
+        "calm": 6,
+        "neutral": 6,
+        "happy": 1,
+        "angry": 1
+      }
+    },
+    {
+      "source_id": "en_mahabharata",
+      "language": "en",
+      "content_type": "story",
+      "clips": 50,
+      "minutes": 8.48,
+      "snr_db_median": 35.4,
+      "gap_energy_median": 0.02,
+      "distinct_emotions": 7,
+      "emotion_entropy": 2.597,
+      "conf_median": 0.85,
+      "emotions": {
+        "sad": 13,
+        "neutral": 10,
+        "excited": 10,
+        "angry": 6,
+        "calm": 6,
+        "fearful": 3,
+        "happy": 2
+      }
+    },
+    {
+      "source_id": "en_audiobook_kafan",
+      "language": "en",
+      "content_type": "audiobook",
+      "clips": 19,
+      "minutes": 4.91,
+      "snr_db_median": 25.4,
+      "gap_energy_median": 0.0,
+      "distinct_emotions": 5,
+      "emotion_entropy": 2.187,
+      "conf_median": 0.85,
+      "emotions": {
+        "sad": 7,
+        "neutral": 4,
+        "angry": 3,
+        "calm": 3,
+        "excited": 2
+      }
+    },
+    {
+      "source_id": "en_air_century",
+      "language": "en",
+      "content_type": "talk",
+      "clips": 18,
+      "minutes": 4.36,
+      "snr_db_median": 19.1,
+      "gap_energy_median": 0.0,
+      "distinct_emotions": 4,
+      "emotion_entropy": 1.864,
+      "conf_median": 0.85,
+      "emotions": {
+        "calm": 8,
+        "sad": 4,
+        "neutral": 3,
+        "excited": 3
+      }
+    },
+    {
+      "source_id": "te_audiobook_bhumiputri",
+      "language": "te",
+      "content_type": "audiobook",
+      "clips": 43,
+      "minutes": 9.97,
+      "snr_db_median": 27.5,
+      "gap_energy_median": 0.029,
+      "distinct_emotions": 7,
+      "emotion_entropy": 2.533,
+      "conf_median": 0.85,
+      "emotions": {
+        "sad": 11,
+        "excited": 10,
+        "angry": 8,
+        "calm": 6,
+        "neutral": 5,
+        "happy": 2,
+        "fearful": 1
+      }
+    },
+    {
+      "source_id": "te_chaganti",
+      "language": "te",
+      "content_type": "discourse",
+      "clips": 42,
+      "minutes": 9.91,
+      "snr_db_median": 18.9,
+      "gap_energy_median": 0.0,
+      "distinct_emotions": 7,
+      "emotion_entropy": 2.491,
+      "conf_median": 0.85,
+      "emotions": {
+        "excited": 12,
+        "sad": 11,
+        "calm": 7,
+        "neutral": 5,
+        "fearful": 3,
+        "angry": 3,
+        "happy": 1
+      }
+    },
+    {
+      "source_id": "te_audiobook_kalalavelugu",
+      "language": "te",
+      "content_type": "audiobook",
+      "clips": 50,
+      "minutes": 9.44,
+      "snr_db_median": 30.6,
+      "gap_energy_median": 0.022,
+      "distinct_emotions": 8,
+      "emotion_entropy": 2.604,
+      "conf_median": 0.85,
+      "emotions": {
+        "sad": 14,
+        "angry": 12,
+        "neutral": 8,
+        "excited": 7,
+        "calm": 4,
+        "fearful": 2,
+        "surprised": 2,
+        "happy": 1
+      }
+    },
+    {
+      "source_id": "te_kathalu_epic",
+      "language": "te",
+      "content_type": "story",
+      "clips": 39,
+      "minutes": 8.78,
+      "snr_db_median": 39.9,
+      "gap_energy_median": 0.008,
+      "distinct_emotions": 7,
+      "emotion_entropy": 2.521,
+      "conf_median": 0.85,
+      "emotions": {
+        "calm": 10,
+        "excited": 9,
+        "neutral": 7,
+        "sad": 7,
+        "angry": 3,
+        "fearful": 2,
+        "surprised": 1
+      }
+    },
+    {
+      "source_id": "te_ramaaraavi",
+      "language": "te",
+      "content_type": "story",
+      "clips": 47,
+      "minutes": 8.58,
+      "snr_db_median": 44.9,
+      "gap_energy_median": 0.012,
+      "distinct_emotions": 6,
+      "emotion_entropy": 2.336,
+      "conf_median": 0.85,
+      "emotions": {
+        "sad": 16,
+        "excited": 11,
+        "angry": 8,
+        "neutral": 5,
+        "calm": 5,
+        "happy": 2
+      }
+    },
+    {
+      "source_id": "te_motivation_kasyap",
+      "language": "te",
+      "content_type": "talk",
+      "clips": 47,
+      "minutes": 7.88,
+      "snr_db_median": 38.6,
+      "gap_energy_median": 0.015,
+      "distinct_emotions": 7,
+      "emotion_entropy": 2.312,
+      "conf_median": 0.85,
+      "emotions": {
+        "excited": 16,
+        "sad": 14,
+        "neutral": 6,
+        "angry": 5,
+        "calm": 4,
+        "fearful": 1,
+        "happy": 1
+      }
+    }
+  ],
+  "rejection": {
+    "low_snr": 12,
+    "clipping": 0,
+    "music_or_noise_bed": 0,
+    "too_much_silence": 0,
+    "low_asr_conf": 0,
+    "char_rate": 0,
+    "empty_transcript": 0,
+    "duplicate": 0,
+    "duration_out_of_range": 0
+  },
+  "funnel": {
+    "candidates": 457,
+    "kept": 445,
+    "rejected": 12
+  }
+}

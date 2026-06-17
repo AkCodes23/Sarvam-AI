@@ -48,7 +48,7 @@ Total: **60.3 minutes**.
 
 ## Evaluation (evidence, not just claims)
 
-- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52; 0/11 speakers flagged).
+- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52, verification AUC 0.96 / EER 9.1%; 0/11 speakers flagged).
 - **Transcript reliability**: English cross-ASR agreement with Whisper = 6.8% WER / 4.5% CER (n=40) — strong. Realtime ASR language-ID matched the target language on 100% of EN and 100% of TE clips. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
 - **Emotion-tag reliability** (sarvam-30b vs sarvam-105b on 120 clips): 65% agreement, Cohen's κ 0.55.
 - **Phoneme coverage**: English 39 (100%), Telugu 45 (90%).

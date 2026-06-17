@@ -157,10 +157,13 @@ def _eval_section() -> str:
         return ""
     lines = ["", "## Evaluation (evidence, not just claims)", ""]
     if spk:
+        extra = ""
+        if spk.get("roc_auc") is not None:
+            extra = f", verification AUC {spk['roc_auc']:.2f} / EER {spk['eer']*100:.1f}%"
         lines.append(
             f"- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine "
             f"{spk['avg_within']:.2f} vs different-speaker {spk['avg_between']:.2f} "
-            f"(separation {spk['separation']:.2f}; {len(spk.get('flagged', []))}/"
+            f"(separation {spk['separation']:.2f}{extra}; {len(spk.get('flagged', []))}/"
             f"{spk['n_speakers']} speakers flagged)."
         )
     if asr:
