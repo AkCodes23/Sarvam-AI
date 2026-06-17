@@ -1,0 +1,54 @@
+{
+  "n_clips": 445,
+  "n_speakers": 11,
+  "avg_within": 0.7371,
+  "avg_between": 0.2128,
+  "separation": 0.5243,
+  "per_speaker": {
+    "en_air_century": {
+      "clips": 18,
+      "within_cohesion": 0.8291
+    },
+    "en_air_talk": {
+      "clips": 44,
+      "within_cohesion": 0.407
+    },
+    "en_audiobook_kafan": {
+      "clips": 19,
+      "within_cohesion": 0.8358
+    },
+    "en_mahabharata": {
+      "clips": 50,
+      "within_cohesion": 0.7328
+    },
+    "en_tedx_amina": {
+      "clips": 46,
+      "within_cohesion": 0.7536
+    },
+    "te_audiobook_bhumiputri": {
+      "clips": 43,
+      "within_cohesion": 0.8875
+    },
+    "te_audiobook_kalalavelugu": {
+      "clips": 50,
+      "within_cohesion": 0.8365
+    },
+    "te_chaganti": {
+      "clips": 42,
+      "within_cohesion": 0.8243
+    },
+    "te_kathalu_epic": {
+      "clips": 39,
+      "within_cohesion": 0.5823
+    },
+    "te_motivation_kasyap": {
+      "clips": 47,
+      "within_cohesion": 0.6145
+    },
+    "te_ramaaraavi": {
+      "clips": 47,
+      "within_cohesion": 0.8049
+    }
+  },
+  "flagged": []
+}

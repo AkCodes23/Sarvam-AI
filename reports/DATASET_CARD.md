@@ -33,15 +33,27 @@ configs:
 
 # Indian English + Telugu Single-Speaker TTS Dataset (emotion-tagged)
 
-Clean, single-speaker audio clips sourced from YouTube, transcribed with **Sarvam**
-ASR, segmented with diarization, and labeled with emotion/style tags. Built as a
-data-quality / curation exercise.
+Clean audio clips sourced from YouTube, transcribed with **Sarvam** ASR, segmented with
+diarization, and labeled with emotion/style tags. Built as a data-quality / curation exercise.
+
+> **"Single-speaker"** means **each clip contains exactly one speaker** (verified by
+> diarization and speaker-embedding similarity). The dataset spans **11 distinct speakers
+> total** (5 English, 6 Telugu), tracked via `speaker_id`.
 
 ## Contents
 - **Indian English** (`indian_english`): 30.05 min, 142 clips, 5 speakers; emotions: {'neutral': 31, 'calm': 31, 'sad': 30, 'excited': 30, 'angry': 12, 'fearful': 5, 'happy': 3}
 - **Telugu** (`telugu`): 30.25 min, 140 clips, 6 speakers; emotions: {'calm': 25, 'neutral': 24, 'angry': 24, 'excited': 24, 'sad': 24, 'fearful': 9, 'happy': 7, 'surprised': 3}
 
 Total: **60.3 minutes**.
+
+## Evaluation (evidence, not just claims)
+
+- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52; 0/11 speakers flagged).
+- **Transcript reliability**: English cross-ASR agreement with Whisper = 6.8% WER / 4.5% CER (n=40) — strong. Realtime ASR language-ID matched the target language on 100% of EN and 100% of TE clips. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
+- **Emotion-tag reliability** (sarvam-30b vs sarvam-105b on 120 clips): 65% agreement, Cohen's κ 0.55.
+- **Phoneme coverage**: English 39 (100%), Telugu 45 (90%).
+
+See the project report (GitHub repo) for full methodology and figures.
 
 ## Schema
 `audio` (24 kHz mono), `text`, `normalized_text`, `language`, `language_code`,

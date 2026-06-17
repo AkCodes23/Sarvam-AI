@@ -1,0 +1,24 @@
+{
+  "overall": {
+    "n": 120,
+    "emotion_agreement": 0.65,
+    "emotion_kappa": 0.5547,
+    "style_agreement": 0.5833,
+    "style_kappa": 0.404,
+    "failures": 0
+  },
+  "en": {
+    "n": 60,
+    "emotion_agreement": 0.6333,
+    "emotion_kappa": 0.5377,
+    "style_agreement": 0.5,
+    "style_kappa": 0.2955
+  },
+  "te": {
+    "n": 60,
+    "emotion_agreement": 0.6667,
+    "emotion_kappa": 0.5652,
+    "style_agreement": 0.6667,
+    "style_kappa": 0.5146
+  }
+}

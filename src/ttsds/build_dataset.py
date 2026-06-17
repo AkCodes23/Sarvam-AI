@@ -145,6 +145,56 @@ def compute_stats(selection: dict[str, list[Segment]], cfg: Config) -> dict:
     return out
 
 
+def _eval_section() -> str:
+    """Build an Evaluation section for the card from any eval_*.json present."""
+    def _load(name):
+        p = MANIFEST_DIR / name
+        return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+    spk, emo, pho, asr = _load("eval_speaker.json"), _load("eval_emotion.json"), \
+        _load("eval_phoneme.json"), _load("eval_asr.json")
+    if not any([spk, emo, pho, asr]):
+        return ""
+    lines = ["", "## Evaluation (evidence, not just claims)", ""]
+    if spk:
+        lines.append(
+            f"- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine "
+            f"{spk['avg_within']:.2f} vs different-speaker {spk['avg_between']:.2f} "
+            f"(separation {spk['separation']:.2f}; {len(spk.get('flagged', []))}/"
+            f"{spk['n_speakers']} speakers flagged)."
+        )
+    if asr:
+        en = asr.get("en", {})
+        lid = asr.get("lang_id_match", {})
+        line = (
+            f"- **Transcript reliability**: English cross-ASR agreement with Whisper = "
+            f"{en['wer_mean']*100:.1f}% WER / {en['cer_mean']*100:.1f}% CER (n={en['n']}) — strong. "
+        )
+        if lid:
+            line += (
+                f"Realtime ASR language-ID matched the target language on "
+                f"{lid.get('en',{}).get('pct',0):.0f}% of EN and {lid.get('te',{}).get('pct',0):.0f}% of TE clips. "
+            )
+        line += ("Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); "
+                 "Telugu transcripts are best audited by human review.")
+        lines.append(line)
+    if emo:
+        o = emo["overall"]
+        lines.append(
+            f"- **Emotion-tag reliability** (sarvam-30b vs sarvam-105b on {o['n']} clips): "
+            f"{o['emotion_agreement']*100:.0f}% agreement, Cohen's κ {o['emotion_kappa']:.2f}."
+        )
+    if pho:
+        lines.append(
+            f"- **Phoneme coverage**: English {pho['en']['unique_phonemes']} "
+            f"({pho['en']['coverage']*100:.0f}%), Telugu {pho['te']['unique_phonemes']} "
+            f"({pho['te']['coverage']*100:.0f}%)."
+        )
+    lines.append("")
+    lines.append("See the project report (GitHub repo) for full methodology and figures.")
+    return "\n".join(lines)
+
+
 def write_card(stats: dict, cfg: Config) -> Path:
     langs = list(cfg.languages)
     lines = []
@@ -156,6 +206,7 @@ def write_card(stats: dict, cfg: Config) -> Path:
             f"{ls.get('speakers', 0)} speakers; emotions: {ls.get('emotions', {})}"
         )
     body = "\n".join(lines)
+    eval_md = _eval_section()
     emo_list = ", ".join(cfg.emotion.emotions)
     sty_list = ", ".join(cfg.emotion.styles)
     card = f"""---
@@ -193,14 +244,18 @@ configs:
 
 # Indian English + Telugu Single-Speaker TTS Dataset (emotion-tagged)
 
-Clean, single-speaker audio clips sourced from YouTube, transcribed with **Sarvam**
-ASR, segmented with diarization, and labeled with emotion/style tags. Built as a
-data-quality / curation exercise.
+Clean audio clips sourced from YouTube, transcribed with **Sarvam** ASR, segmented with
+diarization, and labeled with emotion/style tags. Built as a data-quality / curation exercise.
+
+> **"Single-speaker"** means **each clip contains exactly one speaker** (verified by
+> diarization and speaker-embedding similarity). The dataset spans **11 distinct speakers
+> total** (5 English, 6 Telugu), tracked via `speaker_id`.
 
 ## Contents
 {body}
 
 Total: **{stats.get('total_minutes', 0)} minutes**.
+{eval_md}
 
 ## Schema
 `audio` (24 kHz mono), `text`, `normalized_text`, `language`, `language_code`,

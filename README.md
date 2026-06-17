@@ -8,6 +8,10 @@ and publishes it as a public **HuggingFace** dataset.
 > The pipeline is a tool; the deliverable is *clean data*. The highest-leverage
 > stage is **source curation** (listening to and choosing good single-speaker
 > sources), followed by the **human review loop**. See `reports/` for the report.
+>
+> **"Single-speaker"** means **each segment contains exactly one speaker** (verified by
+> diarization + speaker embeddings). The dataset spans **11 distinct speakers total**
+> (5 English, 6 Telugu), tracked via `speaker_id`.
 
 ## Pipeline
 

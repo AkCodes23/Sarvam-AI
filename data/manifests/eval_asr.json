@@ -1,0 +1,32 @@
+{
+  "en": {
+    "n": 40,
+    "skipped": 0,
+    "whisper_model": "small.en",
+    "wer_mean": 0.0684,
+    "wer_median": 0.0417,
+    "cer_mean": 0.045,
+    "cer_median": 0.013
+  },
+  "te": {
+    "n": 25,
+    "skipped": 0,
+    "whisper_model": "large-v3",
+    "wer_mean": 0.7485,
+    "wer_median": 0.7586,
+    "cer_mean": 0.3455,
+    "cer_median": 0.368
+  },
+  "lang_id_match": {
+    "en": {
+      "matched": 177,
+      "total": 177,
+      "pct": 100.0
+    },
+    "te": {
+      "matched": 268,
+      "total": 268,
+      "pct": 100.0
+    }
+  }
+}
