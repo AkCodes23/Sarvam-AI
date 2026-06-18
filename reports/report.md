@@ -100,7 +100,7 @@ Each of these was found by looking at the output, not the code.
 Worked:
 
 - Audiobook and storytelling sources gave the best mix of clean audio and emotional range.
-- The double-pass ASR produced clip-accurate transcripts. English cross-checks at 6.8% word error.
+- The double-pass ASR produced clip-accurate transcripts. English cross-checks at 5.5% word error.
 - DNSMOS exposed bad sources that SNR alone missed (the compressed audiobook), and per-source analysis
   made re-curation precise rather than a blanket cut.
 - ECAPA speaker verification confirmed single-speaker integrity objectively (AUC 0.96).
@@ -128,8 +128,8 @@ equal-error rate of 9 percent. No speaker's clips leak into another's.
 
 ![Speaker verification: same vs different similarity with the equal-error threshold](figures/speaker_verification.png)
 
-**Transcripts.** For English, an unrelated recognizer (Whisper) agrees to 6.8 percent word error and
-4.5 percent character error, and the realtime recognizer identified the correct language on 100
+**Transcripts.** For English, an unrelated recognizer (Whisper) agrees to 5.5 percent word error and
+3.4 percent character error, and the realtime recognizer identified the correct language on 100
 percent of clips. For Telugu, where Whisper is unreliable, MMS forced alignment gives a median
 confidence of 0.94 (English 0.95), which says the words are present where the transcript claims. A
 stratified low, middle, and high sample is saved for a human CER audit.
@@ -340,7 +340,7 @@ than a verdict that a clip is bad.
 The brief asked for about 60 minutes split across Indian English and one Indian language, as clean
 single-speaker YouTube clips with accurate transcripts and an emotion tag each, published on
 HuggingFace and built with Sarvam. What shipped: 60.3 minutes (30.2 English, 30.1 Telugu); every clip
-is one speaker, verified at AUC 0.96; transcripts come from Sarvam and hold at 6.8 percent cross-ASR
+is one speaker, verified at AUC 0.96; transcripts come from Sarvam and hold at 5.5 percent cross-ASR
 error in English and 0.94 alignment in Telugu; every clip has an emotion and style tag with a
 confidence; the dataset is public; and the ASR, diarization, emotion, and judge calls all run on
 Sarvam. Reproduction steps are in the repository README.

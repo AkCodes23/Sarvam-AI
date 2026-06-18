@@ -68,7 +68,7 @@ mostly contradictory (68%), not neighboring, so emotion is shipped as advisory w
 
 - Single-speaker (ECAPA-TDNN): same-speaker cosine 0.74 vs different-speaker 0.21; verification
   AUC 0.96, EER 9.1% over 10,000 pairs; 0 of 9 speakers flagged.
-- Transcripts, English: cross-ASR vs Whisper 6.8% WER / 4.5% CER; 100% language-ID match.
+- Transcripts, English: cross-ASR vs Whisper 5.5% WER / 3.4% CER; 100% language-ID match.
 - Transcripts, Telugu: MMS forced-alignment confidence, median 0.94 (English 0.95). Whisper is weak
   in Telugu so cross-ASR is not used there. A stratified low/mid/high sample is saved for human CER.
 - Emotion: two LLM raters agree at Krippendorff alpha 0.44 (human-annotator range). A 3-rater panel
