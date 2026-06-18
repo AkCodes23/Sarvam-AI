@@ -2,8 +2,8 @@
 
 This is a 60-minute speech dataset for training text-to-speech models: 30.2 minutes of Indian English
 and 30.1 minutes of Telugu, cut from YouTube recordings, transcribed and emotion-tagged with Sarvam's
-APIs, and published on HuggingFace. This report describes the pipeline, the changes I made after
-reviewing the data, and the checks I ran on quality.
+APIs, and published on HuggingFace. This report describes the pipeline, the data-quality changes that
+came out of reviewing the output, and the checks run on the result.
 
 - Dataset: https://huggingface.co/datasets/AkCodes23/sarvam-tts-in-te-en
 - Code: https://github.com/AkCodes23/Sarvam-AI
@@ -13,38 +13,38 @@ language (4 English, 5 Telugu, 9 in total) to add accent and speaking-style vari
 one-voice corpus. Most of the sources are storytelling, so the dataset is largely Indian narrative
 speech: mythology, folk tales, and audiobook fiction.
 
-To follow the brief's emphasis on listening to the data, I also ran a manual listening audit of 80
-clips (40 English, 40 Telugu), sampled across all speakers and source types, to check transcript
-accuracy, speaker consistency, and audio cleanliness. The results are in section 8.
+In line with the brief's emphasis on listening to the data, a manual listening audit of 80 clips
+(40 English, 40 Telugu), sampled across all speakers and source types, checked transcript accuracy,
+speaker consistency, and audio cleanliness. The results are in section 8.
 
 ---
 
 ## 1. What I built and how the pipeline works
 
 The pipeline is a modular Python package (`ttsds`) driven by a CLI. It processes one source at a time,
-which let me check each source's output and keep API spend in check before scaling up. The stages:
+so each source's output could be checked and API spend kept down before scaling up. The stages:
 
 1. **Source curation.** I hand-picked YouTube sources that are single-voice by nature: solo
    audiobooks, storytelling channels, single-narrator lectures, and one stage talk. Compilation
    channels and anything with a music bed were left out at this step. Source selection had the largest
-   effect on downstream quality, so I reviewed it most heavily by hand.
+   effect on downstream quality, so it got the most manual review.
 2. **Download and normalize.** `yt-dlp` pulls the best-quality audio plus provenance (channel, date,
    license, video id). `ffmpeg` produces a 16 kHz copy for ASR and a 24 kHz mono master for the
    published audio.
 3. **Batch ASR with diarization** (Sarvam `saaras:v3`). This returns speaker-labelled, time-stamped
-   chunks, which is what lets me keep only the stretches belonging to one speaker.
-4. **Segmentation.** I merge the target speaker's neighbouring chunks into longer runs, ending a run
-   wherever a different speaker appears. Each run is then split
+   chunks, which is what makes it possible to keep only the stretches from one speaker.
+4. **Segmentation.** Neighbouring chunks from the target speaker are merged into longer runs, and a run
+   ends wherever a different speaker appears. Each run is then split
    into clips of 3 to 25 seconds, with a target of 5 to 15. Sarvam's chunk boundaries are only
-   approximate, so I snap each cut to the nearest silence using local energy; that keeps clips from
-   starting or ending in the middle of a word.
+   approximate, so each cut is snapped to the nearest silence using local energy, which keeps clips
+   from starting or ending in the middle of a word.
 5. **Per-segment ASR** (Sarvam `saarika:v2.5`). The batch transcript is tied to the coarse diarization
-   chunks, so once a clip has been cut I transcribe it again on its own. This second pass gives a
+   chunks, so once a clip is cut it is transcribed again on its own. This second pass gives a
    transcript that lines up with the actual clip, along with word timings for trimming and a per-clip
    language-confidence score. It doubles the ASR cost, but it is the main reason the per-clip
    transcripts hold up at the word level.
-6. **Acoustic features** (parselmouth, librosa). For each clip I measure pitch, energy and how much it
-   varies, HNR, spectral tilt, voicing fraction, speaking rate, and pauses. These are z-scored within
+6. **Acoustic features** (parselmouth, librosa). For each clip the pipeline measures pitch, energy and
+   how much it varies, HNR, spectral tilt, voicing fraction, speaking rate, and pauses. These are z-scored within
    each speaker, so what counts as "excited" is judged against how that speaker normally sounds.
 7. **Quality gates.** Per clip, with an explicit reason recorded: sustained clipping, low SNR,
    excessive silence, music or noise bed (inter-pause energy ratio), low ASR confidence, implausible
@@ -123,28 +123,28 @@ A real row (`en_mahabharata_0025`):
 
 ## 2. Iterations to improve data quality
 
-I made the following changes after reviewing intermediate pipeline outputs.
+Each change below came out of reviewing the pipeline's intermediate output.
 
 1. **Clipping gate rejected clean audio.** The first Telugu audiobook lost 41 of 43 clips to a
    "clipping" gate even though the audio was fine. The clips peaked at exactly 1.0 because YouTube
-   masters loud, and my gate had treated any sample at full scale as clipping. Actual clipping shows
-   up as runs of flat-topped samples, so I changed the gate to measure the fraction of flat-topped
-   samples instead. That recovered 43 of 43 clips.
-2. **The LLM copied my prompt template.** Every clip came back "neutral, narrative" with the rationale
-   field reading "<=20 words", which was my instruction text. The model was completing the template
-   literally instead of reasoning about the clip. I removed the template and described the fields
-   instead, and the labels spread out and matched what I could hear.
+   masters loud, and the gate had treated any sample at full scale as clipping. Actual clipping shows
+   up as runs of flat-topped samples, so the gate was changed to measure the fraction of flat-topped
+   samples instead, which recovered all 43 clips.
+2. **The LLM copied the prompt template.** Every clip came back "neutral, narrative" with the rationale
+   field reading "<=20 words", which was the instruction text. The model was completing the template
+   literally instead of reasoning about the clip. Removing the template and describing the fields
+   instead spread the labels out, and they then matched the audio.
 3. **The reasoning model truncated before answering.** Labels were varied but half had low confidence.
    `sarvam-30b` reasons before answering, and at a 1500-token budget it spent all of it reasoning and
-   never wrote the JSON. I raised the budget (billing is by tokens actually used, so a higher ceiling
-   costs nothing) and the truncation stopped. Median tag confidence then reached 0.85.
-4. **DNSMOS re-curation.** Perceptual quality (DNSMOS) flagged 47% of clips below 3.0, over my
+   never wrote the JSON. Raising the budget (billing is by tokens actually used, so a higher ceiling
+   costs nothing) stopped the truncation, and median tag confidence then reached 0.85.
+4. **DNSMOS re-curation.** Perceptual quality (DNSMOS) flagged 47% of clips below 3.0, over the
    pre-set one-third threshold. Per-source analysis showed three sources dragging the set down: an
    archival AIR recording (2.31), a hall discourse (2.27), and an English audiobook (2.42) whose
-   compression DNSMOS heard even though its SNR looked clean. I dropped all three and added a clean
-   lecture and more narration. Pool pass rate rose from 53 to 63 percent.
-5. **Topic focus.** The sources were mostly storytelling, so I made that the dataset's theme rather
-   than a random mix, using LLM topic tags to prefer narrative clips in selection.
+   compression DNSMOS heard even though its SNR looked clean. Dropping all three and adding a clean
+   lecture and more narration raised the pool pass rate from 53 to 63 percent.
+5. **Topic focus.** The sources were mostly storytelling, so that became the dataset's theme rather
+   than a random mix, with LLM topic tags used to prefer narrative clips during selection.
 
 ## 3. What worked and what did not
 
@@ -154,7 +154,7 @@ Worked:
 - The double-pass ASR produced clip-accurate transcripts. English cross-checks at 5.8% word error
   against an independent recognizer.
 - DNSMOS exposed bad sources that SNR alone missed (the compressed audiobook), and per-source numbers
-  let me drop those specific sources instead of cutting across the board.
+  made it possible to drop those specific sources instead of cutting across the board.
 - ECAPA speaker verification confirmed single-speaker integrity (AUC 0.96).
 - MMS forced alignment provides a transcript check that holds up in Telugu. Switching the second
   recognizer to an Indic, Telugu-specialized model roughly halved the Telugu cross-ASR word error
@@ -166,18 +166,18 @@ Did not work or needed care:
   transfer to Telugu, and the larger model endorses 26 percent of the smaller model's labels on
   acoustic grounds. The labels ship with confidences and are best used as an expressive-TTS filter
   that a human can refine, not as ground truth.
-- pyannote overlap detection is behind a license that cannot be accepted from a script, so I used an
-  intra-clip embedding-cohesion check instead.
+- pyannote overlap detection is behind a license that cannot be accepted from a script, so an
+  intra-clip embedding-cohesion check stands in for it.
 - Telugu cross-ASR stays inconclusive even with the Indic recognizer: it still disagrees with Sarvam
   at 47 percent word error, since two independent Telugu systems diverge heavily on spelling and word
-  splits. For Telugu I trust forced alignment and the listening pass more than cross-ASR.
+  splits. For Telugu, forced alignment and the listening pass carry more weight than cross-ASR.
 - Clean studio-grade Indian English is scarce on YouTube. The cleanest English clips are off-topic
   (a lecture, a talk), which forced a trade-off described in section 4.
 
 ## 4. Quality observations and decisions
 
-Each observation below is backed by a measurement, and where it helps I point to a specific clip you
-can pull up in the dataset to check it.
+Each observation below is backed by a measurement, and where it helps, a specific clip is cited that
+can be pulled up in the dataset to check it.
 
 **Evaluation methodology.** Every number in this report comes from a script in `scripts/`, run over the
 published clips, with the output saved as JSON under `data/manifests/`. Speaker verification embeds
@@ -193,7 +193,7 @@ language), reporting percent agreement, Cohen's κ, and Krippendorff α (`eval_e
 epitran for Telugu IPA) over the normalized transcripts, and lexical diversity (type-token ratio, Zipf)
 is computed over the same text (`eval_phoneme.py`, `phoneme_freq.py`).
 
-**Single-speaker.** I embedded every clip with ECAPA-TDNN and compared the embeddings by cosine
+**Single-speaker.** Every clip is embedded with ECAPA-TDNN and the embeddings compared by cosine
 similarity. Same-speaker pairs score 0.74 on average and different-speaker pairs 0.21. Treated as a
 verification task over 10,000 pairs, that separation gives an AUC of 0.96 and a 9 percent equal-error
 rate, so clips from one speaker do not bleed into another's.
@@ -202,13 +202,13 @@ rate, so clips from one speaker do not bleed into another's.
 
 **Transcripts.** For English, an independent recognizer (Whisper small.en) agrees with the Sarvam
 transcripts at 5.8 percent word error, and the realtime recognizer identified the correct language on
-100 percent of clips. For Telugu I used an Indic recognizer rather than generic Whisper: a
+100 percent of clips. For Telugu, an Indic recognizer was used rather than generic Whisper: a
 Telugu-specialized Whisper fine-tune (vasista22) brings the word error against Sarvam to 47 percent
 (median 50), down from 76 percent with generic Whisper-large. That is still high: two independent
 Telugu ASR systems disagree heavily on a morphologically rich, sandhi-heavy script. So for Telugu I
 weight MMS forced alignment (median 0.94 confidence, English 0.95) and the human listening pass above
-cross-ASR. I report word error rather than character error throughout, since it is the stricter test of
-whether the words are right.
+cross-ASR. Word error is reported throughout rather than character error, since it is the stricter
+test of whether the words are right.
 
 The second ASR pass is what catches the worst transcript errors. On `en_mahabharata_e67_0019`, for
 example, the coarse batch pass produced "Karna about to creeper", and the per-clip pass corrected it
@@ -221,8 +221,8 @@ resolutions is in section 5.
 ![MMS forced-alignment confidence, per language](figures/mms_align_dist.png)
 
 **Emotion.** The emotion labels are best read as weakly supervised annotations, intended for filtering
-expressive TTS data, rather than as ground-truth emotion. I measured their reliability instead of
-assuming it. On a 120-clip sample (60 per language), the smaller tagging model (`sarvam-30b`) and the
+expressive TTS data, rather than as ground-truth emotion. Their reliability was measured rather than
+assumed. On a 120-clip sample (60 per language), the smaller tagging model (`sarvam-30b`) and the
 larger validation model (`sarvam-105b`) gave the same label 65 percent of the time, with Cohen's κ
 0.55 and Krippendorff α 0.44 between them, which is moderate agreement. Most of the disagreements fall
 on adjacent classes such as calm versus neutral. Two acoustic speech-emotion models (emotion2vec,
@@ -238,8 +238,8 @@ emotion (usually happy or excited) rather than as a separate flag.
 
 ![Emotion-label agreement across raters](figures/agreement_bars.png)
 
-**Overlap.** pyannote is gated, so I embedded short windows within each clip and checked that they all
-match the same speaker. Median cohesion is 0.58, the single-speaker level, and only 9 clips fall
+**Overlap.** pyannote is gated, so short windows within each clip were embedded and checked to confirm
+they all match the same speaker. Median cohesion is 0.58, the single-speaker level, and only 9 clips fall
 below 0.40 and are flagged for a listen.
 
 **Perceptual quality and the topic trade-off.** DNSMOS scores how clean audio sounds. Selecting for
@@ -282,7 +282,7 @@ the gate stage itself, because the bad recordings had already been removed earli
 and the DNSMOS step; the gates are the last line of defence, not the first. Concrete error and
 edge-case examples are in section 5.
 
-**Other decisions.** I used light loudness normalization instead of a hard target, so the intensity
+**Other decisions.** Light loudness normalization was used instead of a hard target, so the intensity
 dynamics that carry emotion survive. Human edits always override automated labels. Gender is inferred
 from median F0 with known speakers corrected by hand. The full 60 minutes is kept rather than applying
 a hard DNSMOS cut, with `dnsmos_pass` exposing the studio-grade subset.
@@ -322,8 +322,8 @@ laughter, so in practice this never comes up. Other non-verbal sounds (noise, co
 pause) can be marked inline with tags like `<cough>` when they are clearly audible, but those come from
 a listening pass and are not in the auto-generated transcripts yet.
 
-When a clip is cut off mid-sentence, I mark it in `annotated_text` with a trailing em dash, as in
-"...does it have to do with —", while leaving the raw `text` field clean for training.
+When a clip is cut off mid-sentence, it is marked in `annotated_text` with a trailing em dash, as in
+"...does it have to do with —", while the raw `text` field is left clean for training.
 
 Code-mixing would normally be handled by keeping the English word in Latin script and bracketing it,
 for example "aa [project] inka [complete] kaaledu". In this dataset it never triggers. Sarvam's ASR
@@ -331,7 +331,7 @@ transliterates English into Telugu script, so an English word like "project" com
 Telugu characters, and the detector that looks for Latin-script runs finds none. `has_codemix` is
 therefore zero across all 150 Telugu clips. The handling is in place, but there is no code-mixing left
 in the text to annotate; catching genuine code-switches would need an ASR pass built for code-mixed
-speech, which I have left for future work.
+speech, which is left for future work.
 
 **Edge-case audit (real examples).**
 
@@ -346,8 +346,8 @@ speech, which I have left for future work.
 **Curation decisions.** I kept clips with minor issues and annotated them explicitly rather than
 removing them. Noisy English storytelling clips (DNSMOS just under 3.0) stayed because they carry the
 storytelling voice and emotion the dataset is built around, and `quality_flag` / `dnsmos_pass` let a
-user exclude them. I removed three whole sources that DNSMOS exposed as perceptually poor (2.3 to 2.4),
-because no per-clip flag rescues a bad recording. I let topic coherence outweigh DNSMOS on the English
+user exclude them. Three whole sources that DNSMOS exposed as perceptually poor (2.3 to 2.4) were
+dropped, because no per-clip flag rescues a bad recording. I let topic coherence outweigh DNSMOS on the English
 side, accepting a lower clean-rate for a coherent storytelling corpus; a user who disagrees can use the
 flags to rebuild a cleaner or different subset without touching the audio. The flags also cluster
 usefully. `transcript_review_needed` is higher in Telugu (46 vs 17), consistent with Telugu being the
@@ -425,7 +425,7 @@ hand-typed, which is the reason so much of this report is spent checking them.
 
 ## 7. Dataset analysis
 
-Beyond the per-clip checks in section 4, I ran six dataset-level analyses to see how the data is
+Beyond the per-clip checks in section 4, six dataset-level analyses look at how the data is
 distributed and where its limits are (`scripts/analyze_dataset.py`, `eval_emotion.py`).
 
 **Split integrity.** The train/validation/test split is stratified by emotion and speaker. No clip
@@ -481,7 +481,7 @@ points to YouTube's lossy encoding low-passing the sources. The set is well suit
 ![Spectral roll-off per language](figures/spectral_bandwidth.png)
 
 **SNR versus perceptual quality.** SNR and DNSMOS are only moderately correlated (Pearson r = 0.52),
-which is why I kept both. A clip can have a clean noise floor (high SNR) yet a low DNSMOS because of
+which is why both are kept. A clip can have a clean noise floor (high SNR) yet a low DNSMOS because of
 codec or mastering artifacts the SNR estimate cannot see; the compressed English audiobook from
 section 2 was exactly that case.
 
@@ -489,7 +489,7 @@ section 2 was exactly that case.
 
 ## 8. Human quality audit
 
-I checked quality two ways: automated validation, and a manual listening audit of the clips by ear.
+Quality was checked two ways: automated validation, and a manual listening audit of the clips by ear.
 
 The automatic layer is the larger model (`sarvam-105b`) reading each clip's transcript and acoustic
 summary, with no access to the audio. Across the 310 published clips it judged 89 percent of
