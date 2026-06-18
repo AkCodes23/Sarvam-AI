@@ -55,7 +55,7 @@ and API credits are protected before scaling. The stages:
 
 Final dataset:
 
-| | Indian English | Telugu |
+| Metric | Indian English | Telugu |
 |---|---|---|
 | Minutes | 30.2 | 30.1 |
 | Clips (train / val / test) | 160 (144 / 8 / 8) | 150 (134 / 8 / 8) |

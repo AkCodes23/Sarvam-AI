@@ -48,10 +48,33 @@ img { max-width: 100%; }
 .inlinefig { width: 13cm; margin: 6pt 0; }
 .fig { margin: 8pt 0 14pt; }
 .figcap { font-size: 9pt; color: #555; }
-table { -pdf-keep-with-next: true; }
+table { -pdf-keep-with-next: true; width: 100%; }
 td, th { border: 0.5px solid #d6dce6; padding: 2pt 5pt; font-size: 9.5pt; }
 th { background: #eef2fb; }
 """
+
+
+def _add_colgroups(html: str) -> str:
+    """xhtml2pdf does not auto-size table columns and collapses an empty first
+    header to near-zero width, overlapping cells. Force explicit column widths via a
+    colgroup on every table (first column wider for label/metric tables)."""
+    def repl(m: "re.Match") -> str:
+        table = m.group(0)
+        first_row = re.search(r"<tr>(.*?)</tr>", table, re.DOTALL)
+        if not first_row:
+            return table
+        ncols = len(re.findall(r"<t[hd][ >]", first_row.group(1)))
+        if ncols < 2:
+            return table
+        if ncols == 3:
+            widths = [40, 30, 30]            # label/metric column wider
+        else:                                # first column (names/ids) gets ~2x weight
+            first = round(200 / (ncols + 1))
+            rest = round((100 - first) / (ncols - 1))
+            widths = [first] + [rest] * (ncols - 1)
+        cols = "".join(f'<col width="{w}%"/>' for w in widths)
+        return table.replace("<table>", f"<table><colgroup>{cols}</colgroup>", 1)
+    return re.sub(r"<table>.*?</table>", repl, html, flags=re.DOTALL)
 
 
 def main() -> None:
@@ -59,6 +82,7 @@ def main() -> None:
     md_text = (REPORTS_DIR / "report.md").read_text(encoding="utf-8")
     body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
     body, _ = _inline_body_images(body)
+    body = _add_colgroups(body)
     # only the figures referenced inline in the report appear; no figure dump.
     html = f"<html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body}</body></html>"
     out = REPORTS_DIR / "report.pdf"
