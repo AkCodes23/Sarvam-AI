@@ -1,5 +1,10 @@
 """LLM-as-judge + topic classification, one Sarvam call per clip.
 
+Two-model design: the *smaller* model (`sarvam-30b`, set in config) produces the
+emotion/style tags during processing; this independent *validator* pass uses the
+*larger* `sarvam-105b` to judge them. A larger model checking a smaller model's
+output is a stronger cross-check than self-grading. Runs over the published clips.
+
 For each kept clip the judge sees the transcript and the per-speaker acoustic
 summary (it cannot hear audio, so this judges the transcript text and whether the
 acoustics support the emotion label, not raw audio fidelity). It returns:
@@ -19,10 +24,13 @@ import json
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 
+from ttsds.build_dataset import FINAL_SELECTION
 from ttsds.config import MANIFEST_DIR, load_config
 from ttsds.models import load_all_segments
 from ttsds.sarvam_client import chat_json
 from ttsds.tag_emotion import describe_acoustics
+
+VALIDATOR_MODEL = "sarvam-105b"   # larger model validates the smaller model's tags
 
 TOPICS = ["mythology", "folktale", "fiction", "education", "news",
           "motivation", "devotional", "conversation", "other"]
@@ -46,7 +54,7 @@ def judge(seg, cfg) -> dict | None:
         f"Stated emotion: {seg.emotion}\n"
         f"Acoustics:\n{describe_acoustics(seg)}"
     )
-    r = chat_json(SYSTEM, user, model=cfg.llm.model, temperature=0.1,
+    r = chat_json(SYSTEM, user, model=VALIDATOR_MODEL, temperature=0.1,
                   max_tokens=4000, reasoning_effort="low")
     if not r:
         return None
@@ -68,7 +76,13 @@ def judge(seg, cfg) -> dict | None:
 
 def main() -> None:
     cfg = load_config()
-    segs = [s for s in load_all_segments() if s.is_kept()]
+    import os
+    pub = set()
+    for rs in json.loads(FINAL_SELECTION.read_text(encoding="utf-8")).values():
+        for r in rs:
+            pub.add(os.path.splitext(os.path.basename(r["audio"]))[0])
+    segs = [s for s in load_all_segments() if s.is_kept() and s.id in pub]
+    print(f"validating {len(segs)} published clips with {VALIDATOR_MODEL}", flush=True)
     out: dict[str, dict] = {}
 
     def work(s):

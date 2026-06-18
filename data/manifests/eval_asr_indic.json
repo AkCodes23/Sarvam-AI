@@ -1,0 +1,15 @@
+{
+  "en": {
+    "n": 40,
+    "model": "openai/whisper-small.en",
+    "wer_mean": 0.058,
+    "wer_median": 0.0466
+  },
+  "te": {
+    "n": 40,
+    "model": "vasista22/whisper-telugu-base",
+    "wer_mean": 0.4676,
+    "wer_median": 0.5
+  },
+  "_recognizer": "indic-whisper-ft-fallback"
+}

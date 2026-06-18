@@ -34,3 +34,7 @@ build/
 .venv_ser/
 data/manifests/disabled/
 data/manifests/*.log
+
+# PDF-viewer duplicate exports and working report copy
+reports/report - *.pdf
+reports/report_improvements.*

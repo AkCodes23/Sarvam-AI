@@ -1,0 +1,20 @@
+{
+  "indian_english": {
+    "clips": 160,
+    "lead_ms_median": 30,
+    "lead_ms_mean": 46,
+    "trail_ms_median": 125,
+    "trail_ms_mean": 149,
+    "pct_clips_gt_150ms_edge": 44,
+    "total_trimmable_s": 31.2
+  },
+  "telugu": {
+    "clips": 150,
+    "lead_ms_median": 20,
+    "lead_ms_mean": 37,
+    "trail_ms_median": 90,
+    "trail_ms_mean": 95,
+    "pct_clips_gt_150ms_edge": 20,
+    "total_trimmable_s": 19.9
+  }
+}

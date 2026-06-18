@@ -1,0 +1,4045 @@
+{
+  "model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "threshold": 0.5,
+  "summary": {
+    "en": {
+      "_clips": 160,
+      "music_bed": 9
+    },
+    "te": {
+      "_clips": 150
+    }
+  },
+  "per_clip": {
+    "en_mahabharata_0029": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.009,
+        "breath": 0.016,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0045": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.004,
+        "music": 0.291
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0027": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.006,
+        "breath": 0.013,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0024": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.007,
+        "breath": 0.021,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0026": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.003,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0025": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.01,
+        "breath": 0.025,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0001": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.006,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0000": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.002,
+        "breath": 0.005,
+        "music": 0.327
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0035": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.006,
+        "breath": 0.005,
+        "music": 0.019
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0044": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.01,
+        "breath": 0.012,
+        "music": 0.014
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0002": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.005,
+        "breath": 0.008,
+        "music": 0.66
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_mahabharata_e69_0020": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.003,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0043": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.013,
+        "music": 0.022
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0008": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.256
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0011": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.023,
+        "breath": 0.075,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0014": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.423
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0036": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.004,
+        "breath": 0.007,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0033": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.012,
+        "breath": 0.041,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0007": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.024,
+        "breath": 0.045,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0047": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.007,
+        "breath": 0.012,
+        "music": 0.491
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0042": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.004,
+        "music": 0.646
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_nptel_0033": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.013,
+        "breath": 0.119,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0041": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.127
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0038": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.025,
+        "breath": 0.032,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0013": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.014,
+        "breath": 0.006,
+        "music": 0.069
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0010": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.011,
+        "breath": 0.022,
+        "music": 0.106
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0001": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.002,
+        "breath": 0.013,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0006": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.003,
+        "breath": 0.0,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_tedx_amina_0004": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.004,
+        "breath": 0.002,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0023": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.007,
+        "breath": 0.003,
+        "music": 0.131
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0007": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0000": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.012,
+        "breath": 0.021,
+        "music": 0.671
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_mahabharata_e69_0003": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.014,
+        "breath": 0.033,
+        "music": 0.036
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0041": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.014,
+        "breath": 0.148,
+        "music": 0.013
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0013": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.0,
+        "breath": 0.005,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0004": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.003,
+        "breath": 0.001,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0032": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.005,
+        "breath": 0.037,
+        "music": 0.587
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_mahabharata_0040": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.021,
+        "breath": 0.16,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0016": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.007,
+        "breath": 0.01,
+        "music": 0.016
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0012": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.011,
+        "music": 0.493
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0004": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.009,
+        "cough": 0.008,
+        "breath": 0.015,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0041": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.005,
+        "breath": 0.014,
+        "music": 0.132
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0034": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.011,
+        "breath": 0.008,
+        "music": 0.021
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0039": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.006,
+        "breath": 0.008,
+        "music": 0.025
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0016": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.053,
+        "breath": 0.012,
+        "music": 0.214
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0010": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.017,
+        "breath": 0.009,
+        "music": 0.013
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0046": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.006,
+        "music": 0.742
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_mahabharata_0001": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.521
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_air_talk_0043": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.01,
+        "breath": 0.026,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0019": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0007": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.069,
+        "breath": 0.023,
+        "music": 0.016
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0009": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.024,
+        "music": 0.076
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0037": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.061,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_tedx_amina_0043": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.007,
+        "breath": 0.002,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0015": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.006,
+        "breath": 0.016,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0000": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.006,
+        "breath": 0.012,
+        "music": 0.348
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0040": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.006,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0035": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.008,
+        "cough": 0.021,
+        "breath": 0.044,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0011": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.011,
+        "breath": 0.004,
+        "music": 0.572
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_mahabharata_e67_0003": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.004,
+        "breath": 0.004,
+        "music": 0.041
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0020": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.002,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0014": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.007,
+        "breath": 0.018,
+        "music": 0.066
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0017": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.004,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0027": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0038": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.001,
+        "breath": 0.004,
+        "music": 0.07
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0021": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.003,
+        "breath": 0.016,
+        "music": 0.301
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0033": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.012,
+        "breath": 0.014,
+        "music": 0.039
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0021": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.021,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0033": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.015,
+        "breath": 0.096,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0043": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.017,
+        "cough": 0.001,
+        "breath": 0.01,
+        "music": 0.081
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0036": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0038": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.03
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0005": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.014,
+        "breath": 0.027,
+        "music": 0.022
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0015": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.279
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0033": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.049
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_tedx_amina_0007": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.003,
+        "breath": 0.002,
+        "music": 0.024
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0010": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.003,
+        "breath": 0.005,
+        "music": 0.019
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0022": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.012,
+        "breath": 0.252,
+        "music": 0.022
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0032": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.005,
+        "breath": 0.019,
+        "music": 0.134
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0034": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.01,
+        "breath": 0.005,
+        "music": 0.03
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0030": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.166
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0010": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.007,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_tedx_amina_0041": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.003,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0012": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.005,
+        "music": 0.022
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0012": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.001,
+        "breath": 0.107,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0024": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.039
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0028": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.005,
+        "breath": 0.01,
+        "music": 0.616
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_mahabharata_0023": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.032,
+        "breath": 0.032,
+        "music": 0.021
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0048": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.002,
+        "breath": 0.002,
+        "music": 0.36
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0014": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.002,
+        "breath": 0.003,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0017": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.002,
+        "breath": 0.001,
+        "music": 0.037
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0032": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.005,
+        "breath": 0.002,
+        "music": 0.046
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0039": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.008,
+        "breath": 0.009,
+        "music": 0.013
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0016": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.269
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0013": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.003,
+        "breath": 0.112,
+        "music": 0.014
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0018": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.003,
+        "music": 0.02
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0008": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0006": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.004,
+        "breath": 0.008,
+        "music": 0.013
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0025": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.001,
+        "breath": 0.006,
+        "music": 0.18
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0044": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.232
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0009": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.003,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0007": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.002,
+        "breath": 0.014,
+        "music": 0.024
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0017": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.041,
+        "breath": 0.054,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0025": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.102
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0031": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.023
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0037": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.002,
+        "breath": 0.004,
+        "music": 0.054
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0023": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.011,
+        "breath": 0.008,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0002": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.006,
+        "breath": 0.009,
+        "music": 0.042
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0040": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.0,
+        "breath": 0.003,
+        "music": 0.377
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0028": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.005,
+        "music": 0.441
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0019": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.003,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0027": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.003,
+        "breath": 0.027,
+        "music": 0.001
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0018": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.003,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0039": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.0,
+        "breath": 0.003,
+        "music": 0.363
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0037": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.005,
+        "breath": 0.005,
+        "music": 0.49
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0002": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0016": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.007,
+        "cough": 0.035,
+        "breath": 0.062,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0005": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.019,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0006": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.006,
+        "breath": 0.007,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0042": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.002,
+        "breath": 0.004,
+        "music": 0.126
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0024": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.008,
+        "breath": 0.046,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_tedx_amina_0044": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.001,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0008": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.005,
+        "breath": 0.005,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0026": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.016,
+        "breath": 0.036,
+        "music": 0.022
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0003": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.02
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0031": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.007,
+        "breath": 0.165,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_tedx_amina_0034": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.003,
+        "breath": 0.001,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0034": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.02,
+        "breath": 0.016,
+        "music": 0.365
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0049": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.291
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0039": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.005,
+        "breath": 0.033,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0037": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.005,
+        "breath": 0.006,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0005": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.011,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0018": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.004,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_0030": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.009,
+        "music": 0.533
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": true
+    },
+    "en_tedx_amina_0027": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.004,
+        "breath": 0.001,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_tedx_amina_0003": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.006,
+        "breath": 0.005,
+        "music": 0.05
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0010": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.011,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0015": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.009,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0034": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.001,
+        "breath": 0.003,
+        "music": 0.327
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0038": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.015,
+        "breath": 0.012,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0025": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.018,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0022": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.017,
+        "breath": 0.089,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0023": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.091
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0029": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0036": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.056,
+        "breath": 0.005,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0034": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.015,
+        "breath": 0.089,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0009": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.016,
+        "breath": 0.008,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0002": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.111,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e69_0035": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.001,
+        "breath": 0.005,
+        "music": 0.165
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0040": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.007,
+        "breath": 0.017,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0029": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.018,
+        "breath": 0.016,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0039": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.006,
+        "breath": 0.014,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0031": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.018,
+        "cough": 0.014,
+        "breath": 0.007,
+        "music": 0.05
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0020": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.299
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_air_talk_0001": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.005,
+        "breath": 0.011,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0015": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.003,
+        "breath": 0.018,
+        "music": 0.031
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0000": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.004,
+        "breath": 0.005,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0024": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.052
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_nptel_0051": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.023,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "en_mahabharata_e67_0004": {
+      "lang": "en",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.002,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0013": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.005,
+        "breath": 0.007,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0004": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.008,
+        "breath": 0.002,
+        "music": 0.045
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0045": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.013,
+        "cough": 0.034,
+        "breath": 0.024,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0022": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.007,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0037": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.016,
+        "cough": 0.009,
+        "breath": 0.024,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0028": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.014,
+        "breath": 0.006,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0008": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.006,
+        "breath": 0.003,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0005": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.013,
+        "breath": 0.01,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0049": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.028,
+        "breath": 0.006,
+        "music": 0.035
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0034": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.003,
+        "breath": 0.006,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0018": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.009,
+        "breath": 0.006,
+        "music": 0.018
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0023": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.006,
+        "breath": 0.002,
+        "music": 0.02
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0014": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.006,
+        "breath": 0.008,
+        "music": 0.028
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0040": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.005,
+        "breath": 0.004,
+        "music": 0.02
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0016": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.052,
+        "breath": 0.021,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0032": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.008,
+        "breath": 0.004,
+        "music": 0.014
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0025": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.023,
+        "breath": 0.008,
+        "music": 0.03
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0011": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.007,
+        "breath": 0.009,
+        "music": 0.013
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0009": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.027,
+        "breath": 0.011,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0024": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.01,
+        "breath": 0.005,
+        "music": 0.101
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0036": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.009,
+        "breath": 0.004,
+        "music": 0.138
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0044": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.008,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0038": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.0,
+        "breath": 0.002,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0040": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.023,
+        "breath": 0.014,
+        "music": 0.189
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0027": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.005,
+        "breath": 0.005,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0029": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.015,
+        "breath": 0.005,
+        "music": 0.1
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0033": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.002,
+        "breath": 0.004,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0014": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0010": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.014,
+        "breath": 0.002,
+        "music": 0.014
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0007": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.014,
+        "breath": 0.032,
+        "music": 0.104
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0038": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.02,
+        "breath": 0.018,
+        "music": 0.037
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0016": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.008,
+        "breath": 0.019,
+        "music": 0.066
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0017": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.179,
+        "cough": 0.05,
+        "breath": 0.029,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0048": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.004,
+        "breath": 0.006,
+        "music": 0.035
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0013": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.035,
+        "breath": 0.016,
+        "music": 0.025
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0034": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.014,
+        "breath": 0.006,
+        "music": 0.045
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0004": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.011,
+        "cough": 0.034,
+        "breath": 0.019,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0021": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.032,
+        "breath": 0.035,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0008": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.012,
+        "breath": 0.004,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0008": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.007,
+        "breath": 0.004,
+        "music": 0.018
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0010": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.004,
+        "breath": 0.012,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0009": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0027": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.009,
+        "breath": 0.009,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0018": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.001,
+        "breath": 0.003,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0000": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.017,
+        "breath": 0.027,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0038": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0017": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.011,
+        "breath": 0.012,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0007": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.009,
+        "breath": 0.002,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0029": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.014,
+        "breath": 0.012,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0011": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.017,
+        "breath": 0.012,
+        "music": 0.016
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0032": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0045": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.005,
+        "breath": 0.002,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0046": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.006,
+        "breath": 0.003,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0011": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.012,
+        "breath": 0.004,
+        "music": 0.022
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0035": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.012,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0027": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.013,
+        "breath": 0.004,
+        "music": 0.019
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0007": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.003,
+        "breath": 0.003,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0012": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.01,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0025": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.01,
+        "cough": 0.042,
+        "breath": 0.014,
+        "music": 0.02
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0043": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.019,
+        "breath": 0.009,
+        "music": 0.014
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0031": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0003": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.019,
+        "cough": 0.032,
+        "breath": 0.007,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0037": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0026": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.046,
+        "cough": 0.023,
+        "breath": 0.029,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0027": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.026,
+        "breath": 0.028,
+        "music": 0.028
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0042": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.007,
+        "cough": 0.018,
+        "breath": 0.019,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0012": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0020": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.011,
+        "breath": 0.002,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0006": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.006,
+        "cough": 0.008,
+        "breath": 0.009,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0025": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.002,
+        "breath": 0.003,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0011": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.004,
+        "breath": 0.002,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0025": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.02,
+        "breath": 0.007,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0016": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.008,
+        "breath": 0.002,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0015": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.013,
+        "breath": 0.004,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0001": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.013,
+        "breath": 0.005,
+        "music": 0.066
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0041": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.004,
+        "music": 0.001
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0028": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.01,
+        "breath": 0.004,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0039": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.01,
+        "cough": 0.007,
+        "breath": 0.004,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0004": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0000": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.015,
+        "breath": 0.005,
+        "music": 0.2
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0015": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.013,
+        "breath": 0.02,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0017": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.008,
+        "breath": 0.003,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0032": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.006,
+        "breath": 0.002,
+        "music": 0.014
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0009": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.017,
+        "breath": 0.005,
+        "music": 0.247
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0030": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.006,
+        "breath": 0.004,
+        "music": 0.096
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0031": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.002,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0018": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.018,
+        "breath": 0.005,
+        "music": 0.099
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0018": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.001,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0036": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.01,
+        "breath": 0.012,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0026": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.006,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0002": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.014,
+        "breath": 0.002,
+        "music": 0.106
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0040": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.003,
+        "breath": 0.002,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0031": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.017,
+        "cough": 0.038,
+        "breath": 0.006,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0019": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.014,
+        "breath": 0.008,
+        "music": 0.02
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0003": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.002,
+        "breath": 0.001,
+        "music": 0.295
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0001": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.003,
+        "music": 0.071
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0010": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.019,
+        "breath": 0.045,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0035": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.008,
+        "breath": 0.004,
+        "music": 0.021
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0035": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.007,
+        "breath": 0.003,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0006": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.007,
+        "breath": 0.004,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0019": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0043": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.012,
+        "breath": 0.006,
+        "music": 0.242
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0047": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.009,
+        "breath": 0.002,
+        "music": 0.024
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0023": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.174,
+        "cough": 0.003,
+        "breath": 0.008,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0013": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.008,
+        "breath": 0.166,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0003": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0002": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.017,
+        "breath": 0.004,
+        "music": 0.013
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0010": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.007,
+        "breath": 0.004,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0030": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.004,
+        "breath": 0.003,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0024": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.014,
+        "breath": 0.014,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0021": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.001,
+        "breath": 0.002,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0026": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.011,
+        "breath": 0.005,
+        "music": 0.083
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0006": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.001,
+        "music": 0.003
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0022": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.005,
+        "breath": 0.016,
+        "music": 0.004
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0014": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.006,
+        "breath": 0.016,
+        "music": 0.007
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0001": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.002,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0019": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.012,
+        "cough": 0.014,
+        "breath": 0.012,
+        "music": 0.018
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0006": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.076,
+        "breath": 0.052,
+        "music": 0.069
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0029": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.003,
+        "breath": 0.002,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0015": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.002,
+        "breath": 0.003,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0020": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.012,
+        "cough": 0.012,
+        "breath": 0.018,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0002": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0012": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.003,
+        "breath": 0.001,
+        "music": 0.017
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0033": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.003,
+        "breath": 0.002,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0036": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.042,
+        "cough": 0.028,
+        "breath": 0.036,
+        "music": 0.006
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0005": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.002
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0012": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.008,
+        "breath": 0.006,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0008": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.013,
+        "breath": 0.005,
+        "music": 0.014
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0034": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.004,
+        "breath": 0.002,
+        "music": 0.012
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_ramaaraavi_0020": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.002,
+        "breath": 0.005,
+        "music": 0.01
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0020": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.006,
+        "breath": 0.008,
+        "music": 0.026
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0035": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.002,
+        "breath": 0.004,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0009": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.005,
+        "breath": 0.001,
+        "music": 0.013
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0017": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.003,
+        "breath": 0.001,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0031": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.004,
+        "cough": 0.029,
+        "breath": 0.023,
+        "music": 0.008
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0027": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.001,
+        "breath": 0.005,
+        "music": 0.005
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0003": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.0,
+        "breath": 0.0,
+        "music": 0.001
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0042": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.012,
+        "breath": 0.004,
+        "music": 0.09
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_kathalu_epic_0000": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.003,
+        "cough": 0.005,
+        "breath": 0.008,
+        "music": 0.015
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0022": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.018,
+        "breath": 0.004,
+        "music": 0.323
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_motivation_kasyap_0037": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.014,
+        "breath": 0.015,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0028": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.016,
+        "breath": 0.004,
+        "music": 0.023
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0020": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.003,
+        "breath": 0.002,
+        "music": 0.019
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0029": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.004,
+        "breath": 0.002,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0007": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.002,
+        "cough": 0.012,
+        "breath": 0.003,
+        "music": 0.011
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0000": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.002,
+        "music": 0.018
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0015": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.006,
+        "breath": 0.003,
+        "music": 0.14
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0046": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.001,
+        "cough": 0.009,
+        "breath": 0.004,
+        "music": 0.042
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_bhumiputri_0042": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.0,
+        "cough": 0.002,
+        "breath": 0.001,
+        "music": 0.009
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    },
+    "te_audiobook_kalalavelugu_0037": {
+      "lang": "te",
+      "probs": {
+        "laughter": 0.005,
+        "cough": 0.027,
+        "breath": 0.004,
+        "music": 0.04
+      },
+      "has_laughter": false,
+      "has_cough": false,
+      "has_breath": false,
+      "music_bed": false
+    }
+  }
+}

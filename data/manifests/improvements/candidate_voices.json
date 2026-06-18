@@ -1,0 +1,88 @@
+{
+  "en_estories": {
+    "clips": 47,
+    "minutes": 5.1,
+    "dnsmos_median": 3.41,
+    "dnsmos_pass_pct": 100,
+    "snr_db_median": 50.6,
+    "emotions": {
+      "sad": 18,
+      "excited": 10,
+      "neutral": 8,
+      "happy": 4,
+      "angry": 4,
+      "calm": 2,
+      "fearful": 1
+    },
+    "nearest_published_speaker": "en_air_talk",
+    "max_cosine_to_published": 0.16,
+    "distinct_voice": true,
+    "all_cosines": {
+      "en_air_talk": 0.16,
+      "en_nptel": 0.143,
+      "te_kathalu_epic": 0.131,
+      "te_audiobook_bhumiputri": 0.077,
+      "en_mahabharata": 0.072,
+      "en_tedx_amina": 0.072,
+      "te_ramaaraavi": 0.05,
+      "te_motivation_kasyap": 0.035,
+      "te_audiobook_kalalavelugu": -0.033
+    }
+  },
+  "en_audiobook_kafan": {
+    "clips": 19,
+    "minutes": 4.9,
+    "dnsmos_median": 2.44,
+    "dnsmos_pass_pct": 0,
+    "snr_db_median": 25.4,
+    "emotions": {
+      "neutral": 7,
+      "sad": 5,
+      "angry": 3,
+      "calm": 2,
+      "excited": 2
+    },
+    "nearest_published_speaker": "te_kathalu_epic",
+    "max_cosine_to_published": 0.225,
+    "distinct_voice": true,
+    "all_cosines": {
+      "te_kathalu_epic": 0.225,
+      "en_nptel": 0.174,
+      "te_motivation_kasyap": 0.144,
+      "en_air_talk": 0.134,
+      "en_mahabharata": 0.122,
+      "te_audiobook_kalalavelugu": 0.105,
+      "te_audiobook_bhumiputri": 0.042,
+      "te_ramaaraavi": 0.032,
+      "en_tedx_amina": 0.011
+    }
+  },
+  "en_air_century": {
+    "clips": 18,
+    "minutes": 4.4,
+    "dnsmos_median": 2.35,
+    "dnsmos_pass_pct": 0,
+    "snr_db_median": 19.1,
+    "emotions": {
+      "calm": 8,
+      "sad": 4,
+      "neutral": 3,
+      "excited": 2,
+      "angry": 1
+    },
+    "nearest_published_speaker": "en_mahabharata",
+    "max_cosine_to_published": 0.341,
+    "distinct_voice": true,
+    "all_cosines": {
+      "en_mahabharata": 0.341,
+      "en_air_talk": 0.285,
+      "te_motivation_kasyap": 0.203,
+      "te_kathalu_epic": 0.161,
+      "en_nptel": 0.107,
+      "te_audiobook_kalalavelugu": 0.089,
+      "te_ramaaraavi": 0.032,
+      "en_tedx_amina": -0.003,
+      "te_audiobook_bhumiputri": -0.026
+    }
+  }
+}

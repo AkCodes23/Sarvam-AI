@@ -1,0 +1,115 @@
+{
+  "n": 310,
+  "ser_categorical_agreement_pct": 22,
+  "note_ser_labelset": "SER model emits 6 classes (no fearful/surprised) and rarely predicts calm",
+  "confusion_LLM_to_SER": {
+    "happy": {
+      "happy": 5,
+      "angry": 3,
+      "neutral": 3,
+      "excited": 1
+    },
+    "fearful": {
+      "happy": 6,
+      "neutral": 3,
+      "sad": 2,
+      "angry": 2,
+      "excited": 1
+    },
+    "angry": {
+      "angry": 16,
+      "neutral": 16,
+      "excited": 10,
+      "sad": 8,
+      "happy": 7
+    },
+    "neutral": {
+      "happy": 21,
+      "sad": 13,
+      "neutral": 11,
+      "angry": 6,
+      "excited": 5
+    },
+    "calm": {
+      "happy": 19,
+      "neutral": 16,
+      "sad": 11,
+      "excited": 6,
+      "angry": 3,
+      "calm": 1
+    },
+    "sad": {
+      "sad": 26,
+      "neutral": 14,
+      "happy": 8,
+      "angry": 4,
+      "excited": 3,
+      "calm": 1
+    },
+    "excited": {
+      "happy": 16,
+      "neutral": 11,
+      "angry": 11,
+      "excited": 10,
+      "sad": 7,
+      "calm": 1
+    },
+    "surprised": {
+      "happy": 3
+    }
+  },
+  "vad_mean_by_tag": {
+    "happy": {
+      "valence": 0.543,
+      "arousal": 0.599,
+      "n": 12
+    },
+    "fearful": {
+      "valence": 0.463,
+      "arousal": 0.602,
+      "n": 14
+    },
+    "angry": {
+      "valence": 0.433,
+      "arousal": 0.628,
+      "n": 57
+    },
+    "neutral": {
+      "valence": 0.497,
+      "arousal": 0.561,
+      "n": 56
+    },
+    "calm": {
+      "valence": 0.502,
+      "arousal": 0.534,
+      "n": 56
+    },
+    "sad": {
+      "valence": 0.423,
+      "arousal": 0.525,
+      "n": 56
+    },
+    "excited": {
+      "valence": 0.486,
+      "arousal": 0.614,
+      "n": 56
+    },
+    "surprised": {
+      "valence": 0.541,
+      "arousal": 0.602,
+      "n": 3
+    }
+  },
+  "vad_directional_check": {
+    "positive_tags_mean_valence": 0.51,
+    "negative_tags_mean_valence": 0.44,
+    "valence_orders_correctly": true,
+    "high_arousal_tags_mean_arousal": 0.611,
+    "low_arousal_tags_mean_arousal": 0.54,
+    "arousal_orders_correctly": true
+  },
+  "sarvam_30b_vs_105b": {
+    "sarvam30b_vs_105b_agree_pct": 54,
+    "n": 80
+  }
+}
