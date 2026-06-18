@@ -145,6 +145,22 @@ Each change below came out of reviewing the pipeline's intermediate output.
    lecture and more narration raised the pool pass rate from 53 to 63 percent.
 5. **Topic focus.** The sources were mostly storytelling, so that became the dataset's theme rather
    than a random mix, with LLM topic tags used to prefer narrative clips during selection.
+6. **Telugu transcript check switched to an Indic recognizer.** The first independent recognizer for
+   Telugu was generic Whisper, but it disagreed with Sarvam at 76 percent word error, which reflected
+   Whisper's weakness on Telugu rather than transcript errors. A Telugu-specialized recognizer brought
+   that down to 47 percent, and forced alignment and the listening pass became the primary Telugu
+   checks (sections 3 and 4).
+7. **Validation moved to a larger model.** The first emotion cross-check effectively had the tagging
+   model grade its own taxonomy. Validation moved to the larger `sarvam-105b` judging the smaller
+   `sarvam-30b`'s tags, which is a more independent test than self-grading (sections 4 and 7).
+8. **The low-confidence emotion flag was over-firing.** An early version of `emotion_low_confidence`
+   folded in the judge's endorsement and flagged about 60 percent of clips, which made it useless.
+   Keying it to the tag's own confidence (below 0.55) instead left only the genuinely uncertain clips
+   flagged, 0 in English and 2 in Telugu.
+9. **An annotation layer for imperfect-but-usable clips.** Reading and listening to clips surfaced
+   recurring imperfections: truncated utterances, mild background noise, the occasional possible second
+   voice. Rather than drop those clips, an annotation layer (`quality_flag`, `has_truncation`,
+   `transcript_review_needed`, `overlap_flag`) was added so they ship labeled and filterable (section 5).
 
 ## 3. What worked and what did not
 
