@@ -1,7 +1,7 @@
 """Edge-case annotation pass (no pipeline rebuild, no Sarvam calls).
 
 Derives per-clip annotation flags from scores already in the manifests and writes
-them back: has_noise, has_truncation, has_codemix, has_laughter,
+them back: quality_flag, has_truncation, has_codemix, has_laughter,
 emotion_low_confidence, transcript_review_needed, overlap_suspected,
 low_quality_audio, a combined `annotation_flags` string, and an `annotated_text`
 (English code-switch spans bracketed, truncation marked with an em dash).
@@ -48,7 +48,8 @@ def main() -> None:
 
         has_truncation = bool(txt) and txt[-1] not in TERMINAL
         has_codemix = s.language != "en" and bool(re.search(r"[A-Za-z]{2,}", txt))
-        has_noise = (ovrl is not None and ovrl < 3.0) or (snr is not None and snr < 18) \
+        # an automatically inferred audio-quality concern (a proxy, not verified audible noise)
+        quality_flag = (ovrl is not None and ovrl < 3.0) or (snr is not None and snr < 18) \
             or (m.get("gap_energy_ratio", 0) or 0) > 0.30
         low_quality_audio = ovrl is not None and ovrl < 2.8
         emotion_low_conf = (s.emotion_confidence or 1.0) < 0.55   # the tag's own confidence
@@ -57,7 +58,7 @@ def main() -> None:
         overlap = bool(m.get("overlap_flag", False))
 
         flags = []
-        if has_noise: flags.append("noise")
+        if quality_flag: flags.append("quality")
         if has_truncation: flags.append("truncation")
         if has_codemix: flags.append("codemix")
         if emotion_low_conf: flags.append("emotion_low_confidence")
@@ -66,11 +67,11 @@ def main() -> None:
         if low_quality_audio: flags.append("low_quality_audio")
 
         m.update({
-            "has_noise": has_noise, "has_truncation": has_truncation,
+            "quality_flag": quality_flag, "has_truncation": has_truncation,
             "has_codemix": has_codemix, "has_laughter": False,
             "emotion_low_confidence": emotion_low_conf,
             "transcript_review_needed": transcript_review,
-            "overlap_suspected": overlap, "low_quality_audio": low_quality_audio,
+            "low_quality_audio": low_quality_audio,  # overlap uses the existing overlap_flag metric
             "annotation_flags": "|".join(flags),
             "annotated_text": annotated_text(s, has_truncation),
         })
@@ -85,7 +86,7 @@ def main() -> None:
         save_segments(sid, group)
 
     print(f"{'flag':<26}{'EN':>8}{'TE':>8}")
-    keys = ["noise", "truncation", "codemix", "emotion_low_confidence",
+    keys = ["quality", "truncation", "codemix", "emotion_low_confidence",
             "transcript_review_needed", "overlap_suspected", "low_quality_audio"]
     for k in keys:
         en, te = stats["en"][k], stats["te"][k]

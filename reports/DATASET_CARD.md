@@ -41,8 +41,8 @@ Clean audio clips sourced from YouTube, transcribed with **Sarvam** ASR, segment
 diarization, and labeled with emotion/style tags. Built as a data-quality / curation exercise.
 
 > **"Single-speaker"** means **each clip contains exactly one speaker** (verified by
-> diarization and speaker-embedding similarity). The dataset spans **11 distinct speakers
-> total** (5 English, 6 Telugu), tracked via `speaker_id`.
+> diarization and speaker-embedding similarity). The dataset spans **9 distinct speakers
+> total** (4 English, 5 Telugu), tracked via `speaker_id`.
 
 ## Contents
 - **Indian English** (`indian_english`): 30.17 min, 160 clips, 4 speakers; emotions: {'angry': 30, 'neutral': 29, 'calm': 29, 'sad': 29, 'excited': 29, 'fearful': 8, 'happy': 6}
@@ -52,7 +52,7 @@ Total: **60.25 minutes**.
 
 ## Evaluation (evidence, not just claims)
 
-- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52, verification AUC 0.96 / EER 9.1%; 0/11 speakers flagged).
+- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52, verification AUC 0.96 / EER 9.1%; 0/11 candidate speakers flagged).
 - **Transcript reliability**: English cross-ASR agreement with Whisper = 5.5% WER / 3.4% CER (n=40), strong. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
 - **Emotion-tag reliability** (sarvam-30b vs sarvam-105b on 120 clips): 65% agreement, Cohen's κ 0.55.
 - **Phoneme coverage**: English 39 (100%), Telugu 44 (88%).
@@ -74,19 +74,20 @@ flags (below); and provenance (`source_video_id/url/channel`, `license`,
 `segment_start/end`, `sample_rate`).
 
 ## Annotation flags
-Each clip records what is imperfect about it, so users can filter rather than trust blindly:
-`has_noise` (DNSMOS < 3.0, or SNR < 18 dB, or noisy pauses), `low_quality_audio` (DNSMOS < 2.8),
-`has_truncation` (ends mid-utterance), `has_codemix` (preserved English in a regional clip;
-note Sarvam ASR transliterates English into Telugu script, so this is currently 0), `has_laughter`
-(audible laughter, set by a listening pass), `emotion_low_confidence` (tag confidence < 0.55),
+Each clip records what is imperfect about it, so users can filter rather than trust blindly.
+The two audio-quality flags are automatically inferred proxies, not verified audible-noise labels:
+`quality_flag` (a quality concern: DNSMOS < 3.0, or SNR < 18 dB, or elevated energy in pauses) and
+`low_quality_audio` (clearly degraded: DNSMOS < 2.8). The rest:
+`has_truncation` (ends mid-utterance), `has_codemix` (preserved English in a regional clip; 0 in
+practice, since Sarvam ASR transliterates English into Telugu script), `has_laughter` (audible
+laughter, set by a listening pass), `emotion_low_confidence` (tag confidence < 0.55),
 `transcript_review_needed` (judge-flagged or alignment < 0.85), `overlap_flag` (possible second
 voice). `annotation_flags` is the pipe-joined list per clip.
 
 ## Filtering recommendations
-- Studio-like subset: `dnsmos_pass == true and has_noise == false and has_truncation == false`
+- Studio-like subset: `dnsmos_pass == true and quality_flag == false and has_truncation == false`
 - Expressive subset: `emotion_confidence > 0.7 and emotion != "neutral"`
 - Storytelling subset: `topic in ('mythology', 'folktale', 'fiction')`
-- Clean multilingual subset: `has_codemix == false`
 - Review queue: `transcript_review_needed == true or emotion_low_confidence == true`
 
 ## How it was built

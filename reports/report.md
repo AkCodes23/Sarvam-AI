@@ -199,31 +199,31 @@ layer that records it. Every clip carries an `annotation_flags` string and match
 and users filter on them.
 
 **Flag definitions.**
-- `has_noise`: perceptual quality below par (DNSMOS OVRL under 3.0, or SNR under 18 dB, or audible energy in pauses).
-- `low_quality_audio`: DNSMOS OVRL under 2.8 (clearly degraded).
+- `quality_flag`: an automatically inferred audio-quality concern, not a verified audible-noise label (set when DNSMOS OVRL is under 3.0, or SNR under 18 dB, or there is elevated energy in the pauses). I named it `quality_flag` rather than `has_noise` precisely so it is not read as "this clip definitely contains audible noise".
+- `low_quality_audio`: the stricter automated quality proxy, DNSMOS OVRL under 2.8 (clearly degraded).
 - `has_truncation`: the transcript does not end on terminal punctuation, so the clip likely ends mid-utterance.
 - `has_codemix`: the regional-language clip contains preserved English words (see the convention below).
 - `has_laughter`: audible laughter. This needs a listening or audio-event pass, so it is left false by default and documented as a convention.
 - `emotion_low_confidence`: the emotion tag's own confidence is below 0.55.
 - `transcript_review_needed`: the LLM judge flagged the transcript, or MMS alignment is below 0.85.
-- `overlap_suspected`: intra-clip speaker cohesion is low, a possible second voice.
+- `overlap_flag`: intra-clip speaker cohesion is low, a possible second voice.
 
 **Statistics (published set).**
 
 | Flag | English (of 160) | Telugu (of 150) |
 |---|---|---|
-| has_noise | 68 | 28 |
+| quality_flag | 68 | 28 |
 | has_truncation | 11 | 31 |
 | transcript_review_needed | 17 | 46 |
 | low_quality_audio | 36 | 10 |
-| overlap_suspected | 3 | 4 |
+| overlap_flag | 3 | 4 |
 | emotion_low_confidence | 0 | 2 |
 | has_codemix / has_laughter | 0 | 0 |
 
 **Conventions.**
 - Speech events use inline tags where clearly audible: `<noise>`, `<laughter>`, `<cough>`, `<breath>`, `<pause>`, used sparingly. These belong to a listening pass and are not auto-inserted, so they do not appear in the current auto-generated transcripts.
 - Truncation is marked with a trailing em dash in `annotated_text`, for example "...does it have to do with —". The raw `text` field stays clean for training.
-- Code-mixing preserves the English word in Latin script and brackets it, for example "aa [project] inka [complete] kaaledu", without transliterating it into Telugu script. An honest finding: Sarvam ASR already transliterates English into Telugu script, so no Latin code-switches survive in the transcripts and `has_codemix` is zero. Preserving genuine code-switches would need a code-switch-aware ASR pass, noted as future work.
+- Code-mixing: genuine English code-switches would be kept in Latin script and bracketed (for example "aa [project] inka [complete] kaaledu"), but Sarvam ASR transliterates English into Telugu script, so none survive and `has_codemix` is zero. Code-switch-aware ASR is future work.
 
 **Edge-case audit (real examples).**
 
@@ -233,12 +233,12 @@ and users filter on them.
 | AIR talk (ax7l6qOqgpQ) | clip ends mid-utterance | "...does it have to do with" | "...does it have to do with —" | has_truncation=true, em dash in annotated_text |
 | en_air_talk_0024 | emotion ambiguous | 30b: sad | 105b: neutral | advisory; emotion confidence plus flag, kept |
 | en_mahabharata_0004 | emotion ambiguous (nearby) | 30b: happy | 105b: excited | advisory; both plausible, kept |
-| en_mahabharata_e67 clips | DNSMOS 2.85 to 2.9, mild | (kept) | (kept) | has_noise=true, recoverable via dnsmos_pass filter |
+| en_mahabharata_e67 clips | DNSMOS 2.85 to 2.9, mild | (kept) | (kept) | quality_flag=true, recoverable via dnsmos_pass filter |
 
 **Curation decisions, stated as decisions.** I kept clips that are imperfect but useful and labeled
 the imperfection instead of dropping them. Noisy English storytelling clips (DNSMOS just under 3.0)
 stayed because they carry the storytelling voice and emotion the dataset is built around, and
-`has_noise` / `dnsmos_pass` let a user exclude them. I removed three whole sources that DNSMOS exposed
+`quality_flag` / `dnsmos_pass` let a user exclude them. I removed three whole sources that DNSMOS exposed
 as perceptually poor (2.3 to 2.4), because no per-clip flag rescues a bad recording. I let topic
 coherence outweigh DNSMOS on the English side, accepting a lower clean-rate for a coherent storytelling
 corpus, and the flags mean a user who disagrees can rebuild a cleaner or different subset without

@@ -117,7 +117,7 @@ def _record(seg: Segment, final_wav: Path, sr: int) -> dict:
         "llm_tts_suitable": m.get("tts_suitable"),
         "annotated_text": m.get("annotated_text") or seg.transcript,
         "annotation_flags": m.get("annotation_flags", ""),
-        "has_noise": bool(m.get("has_noise", False)),
+        "quality_flag": bool(m.get("quality_flag", False)),
         "has_truncation": bool(m.get("has_truncation", False)),
         "has_codemix": bool(m.get("has_codemix", False)),
         "has_laughter": bool(m.get("has_laughter", False)),
@@ -209,7 +209,7 @@ def _eval_section() -> str:
             f"- **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine "
             f"{spk['avg_within']:.2f} vs different-speaker {spk['avg_between']:.2f} "
             f"(separation {spk['separation']:.2f}{extra}; {len(spk.get('flagged', []))}/"
-            f"{spk['n_speakers']} speakers flagged)."
+            f"{spk['n_speakers']} candidate speakers flagged)."
         )
     if asr:
         en = asr.get("en", {})
@@ -333,8 +333,8 @@ Clean audio clips sourced from YouTube, transcribed with **Sarvam** ASR, segment
 diarization, and labeled with emotion/style tags. Built as a data-quality / curation exercise.
 
 > **"Single-speaker"** means **each clip contains exactly one speaker** (verified by
-> diarization and speaker-embedding similarity). The dataset spans **11 distinct speakers
-> total** (5 English, 6 Telugu), tracked via `speaker_id`.
+> diarization and speaker-embedding similarity). The dataset spans **9 distinct speakers
+> total** (4 English, 5 Telugu), tracked via `speaker_id`.
 
 ## Contents
 {body}
@@ -353,19 +353,20 @@ flags (below); and provenance (`source_video_id/url/channel`, `license`,
 `segment_start/end`, `sample_rate`).
 
 ## Annotation flags
-Each clip records what is imperfect about it, so users can filter rather than trust blindly:
-`has_noise` (DNSMOS < 3.0, or SNR < 18 dB, or noisy pauses), `low_quality_audio` (DNSMOS < 2.8),
-`has_truncation` (ends mid-utterance), `has_codemix` (preserved English in a regional clip;
-note Sarvam ASR transliterates English into Telugu script, so this is currently 0), `has_laughter`
-(audible laughter, set by a listening pass), `emotion_low_confidence` (tag confidence < 0.55),
+Each clip records what is imperfect about it, so users can filter rather than trust blindly.
+The two audio-quality flags are automatically inferred proxies, not verified audible-noise labels:
+`quality_flag` (a quality concern: DNSMOS < 3.0, or SNR < 18 dB, or elevated energy in pauses) and
+`low_quality_audio` (clearly degraded: DNSMOS < 2.8). The rest:
+`has_truncation` (ends mid-utterance), `has_codemix` (preserved English in a regional clip; 0 in
+practice, since Sarvam ASR transliterates English into Telugu script), `has_laughter` (audible
+laughter, set by a listening pass), `emotion_low_confidence` (tag confidence < 0.55),
 `transcript_review_needed` (judge-flagged or alignment < 0.85), `overlap_flag` (possible second
 voice). `annotation_flags` is the pipe-joined list per clip.
 
 ## Filtering recommendations
-- Studio-like subset: `dnsmos_pass == true and has_noise == false and has_truncation == false`
+- Studio-like subset: `dnsmos_pass == true and quality_flag == false and has_truncation == false`
 - Expressive subset: `emotion_confidence > 0.7 and emotion != "neutral"`
 - Storytelling subset: `topic in {"mythology", "folktale", "fiction"}`
-- Clean multilingual subset: `has_codemix == false`
 - Review queue: `transcript_review_needed == true or emotion_low_confidence == true`
 
 ## How it was built

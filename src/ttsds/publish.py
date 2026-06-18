@@ -46,7 +46,7 @@ _FEATURES = Features({
     # edge-case annotation
     "annotated_text": Value("string"),
     "annotation_flags": Value("string"),
-    "has_noise": Value("bool"),
+    "quality_flag": Value("bool"),
     "has_truncation": Value("bool"),
     "has_codemix": Value("bool"),
     "has_laughter": Value("bool"),

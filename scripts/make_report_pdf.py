@@ -54,26 +54,41 @@ th { background: #eef2fb; }
 """
 
 
-def _add_colgroups(html: str) -> str:
-    """xhtml2pdf does not auto-size table columns and collapses an empty first
-    header to near-zero width, overlapping cells. Force explicit column widths via a
-    colgroup on every table (first column wider for label/metric tables)."""
+def _set_col_widths(html: str) -> str:
+    """Force explicit table column widths. xhtml2pdf ignores <colgroup>/<col> widths
+    but DOES honor a width attribute on the first row's cells, so we inject percentage
+    widths there. Without this, columns distribute equally and long first-column ids
+    (underscore-joined, unbreakable) overflow into the next cell. The first column gets a
+    generous share on wide data tables; numeric/label columns split the remainder."""
+    def widths_for(ncols: int) -> list[int]:
+        if ncols == 3:
+            return [40, 30, 30]              # label/metric column wider
+        first = 34 if ncols >= 6 else round(200 / (ncols + 1))
+        rest = round((100 - first) / (ncols - 1))
+        return [first] + [rest] * (ncols - 1)
+
     def repl(m: "re.Match") -> str:
         table = m.group(0)
-        first_row = re.search(r"<tr>(.*?)</tr>", table, re.DOTALL)
+        first_row = re.search(r"<tr[^>]*>(.*?)</tr>", table, re.DOTALL)
         if not first_row:
             return table
-        ncols = len(re.findall(r"<t[hd][ >]", first_row.group(1)))
-        if ncols < 2:
+        row = first_row.group(1)
+        if len(re.findall(r"<t[hd][\s>]", row)) < 2:
             return table
-        if ncols == 3:
-            widths = [40, 30, 30]            # label/metric column wider
-        else:                                # first column (names/ids) gets ~2x weight
-            first = round(200 / (ncols + 1))
-            rest = round((100 - first) / (ncols - 1))
-            widths = [first] + [rest] * (ncols - 1)
-        cols = "".join(f'<col width="{w}%"/>' for w in widths)
-        return table.replace("<table>", f"<table><colgroup>{cols}</colgroup>", 1)
+        widths = widths_for(len(re.findall(r"<t[hd][\s>]", row)))
+        idx = [0]
+
+        def add_width(cm: "re.Match") -> str:
+            tag, attrs = cm.group(1), cm.group(2)
+            i = idx[0]
+            idx[0] += 1
+            if "width" in attrs or i >= len(widths):
+                return cm.group(0)
+            return f'<{tag}{attrs} width="{widths[i]}%">'
+
+        new_row = re.sub(r"<(t[hd])([^>]*)>", add_width, row)
+        return table.replace(first_row.group(0), first_row.group(0).replace(row, new_row, 1), 1)
+
     return re.sub(r"<table>.*?</table>", repl, html, flags=re.DOTALL)
 
 
@@ -82,7 +97,7 @@ def main() -> None:
     md_text = (REPORTS_DIR / "report.md").read_text(encoding="utf-8")
     body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
     body, _ = _inline_body_images(body)
-    body = _add_colgroups(body)
+    body = _set_col_widths(body)
     # only the figures referenced inline in the report appear; no figure dump.
     html = f"<html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body}</body></html>"
     out = REPORTS_DIR / "report.pdf"
