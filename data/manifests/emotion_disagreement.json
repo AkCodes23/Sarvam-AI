@@ -1,0 +1,47 @@
+{
+  "n": 80,
+  "agree": 43,
+  "disagree": 37,
+  "failures": 0,
+  "neighboring": 12,
+  "contradictory": 25,
+  "neighboring_pct": 32,
+  "examples": [
+    {
+      "id": "en_air_talk_0012",
+      "a": "calm",
+      "b": "neutral",
+      "neighboring": true
+    },
+    {
+      "id": "en_air_talk_0024",
+      "a": "sad",
+      "b": "neutral",
+      "neighboring": false
+    },
+    {
+      "id": "en_air_talk_0036",
+      "a": "calm",
+      "b": "neutral",
+      "neighboring": true
+    },
+    {
+      "id": "en_mahabharata_0004",
+      "a": "happy",
+      "b": "excited",
+      "neighboring": true
+    },
+    {
+      "id": "en_mahabharata_0010",
+      "a": "calm",
+      "b": "neutral",
+      "neighboring": true
+    },
+    {
+      "id": "en_mahabharata_0028",
+      "a": "calm",
+      "b": "neutral",
+      "neighboring": true
+    }
+  ]
+}

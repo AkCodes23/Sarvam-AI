@@ -43,6 +43,16 @@ _FEATURES = Features({
     # topic + LLM-judge cross-check
     "topic": Value("string"),
     "llm_tts_suitable": Value("float32"),
+    # edge-case annotation
+    "annotated_text": Value("string"),
+    "annotation_flags": Value("string"),
+    "has_noise": Value("bool"),
+    "has_truncation": Value("bool"),
+    "has_codemix": Value("bool"),
+    "has_laughter": Value("bool"),
+    "emotion_low_confidence": Value("bool"),
+    "transcript_review_needed": Value("bool"),
+    "low_quality_audio": Value("bool"),
     # provenance
     "source_video_id": Value("string"),
     "source_url": Value("string"),

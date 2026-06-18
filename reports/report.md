@@ -136,12 +136,15 @@ stratified low, middle, and high sample is saved for a human CER audit.
 
 ![MMS forced-alignment confidence, per language](figures/mms_align_dist.png)
 
-**Emotion.** Two Sarvam models labeling the same clips agree at Krippendorff alpha 0.44 (moderate
-agreement). Adding two speech-emotion models (emotion2vec, audeering) as outside
-raters drops the three-way alpha near zero, because both SER models call most clips neutral and
-neither handles Telugu. An independent LLM judge endorsed the emotion on only 37 percent of clips.
-The consistent message across three methods is that text and acoustics underdetermine emotion, so I
-ship a confidence and a label source on every clip and mark emotion for human review.
+**Emotion.** This is the soft dimension and I treat it as advisory, not ground truth. Two Sarvam
+models on the same clips agree on 54 percent (Krippendorff alpha 0.44, moderate); their disagreements
+span both nearby classes (calm and neutral) and genuinely different ones, which is the honest reality
+of judging emotion from a short clip. Two speech-emotion models (emotion2vec, audeering) drop the
+three-way alpha near zero because they default to neutral and were not built for Telugu, and an
+independent LLM judge endorsed the emotion on 37 percent of clips. So I do not present emotion as
+verified: every clip ships an emotion confidence and a label source, low-confidence clips are flagged
+(`emotion_low_confidence`), and a user who wants only confident or only expressive emotion can filter
+on those fields. The labels are a useful starting layer that a listening pass can refine.
 
 ![Emotion-label agreement across raters](figures/agreement_bars.png)
 
@@ -181,27 +184,71 @@ varied).
 **Rejection analysis.** At the per-clip gate stage, 12 of 457 candidates were rejected, all for low
 SNR, all from one archival source. There were zero clipping, music-bed, or multi-speaker rejections,
 because the bad sources were filtered upstream at curation and at the DNSMOS step. A low rejection
-rate here means the bad data was never let in, not that nothing was checked.
-
-**Concrete error examples.** Real cases the double-pass and the judge surfaced:
-
-| Clip | Issue | Cause | What happens |
-|---|---|---|---|
-| en_mahabharata_e67_0019 | "Karna about to creeper" | batch ASR garbled a name | per-clip realtime pass corrected it to "turned about Kripa" |
-| en_mahabharata_0048 | trailing fragment "Prabhasha." in batch text | batch chunk overran the clip | realtime pass produced the clip-aligned transcript without it |
-| en_air_talk_0004 | fragmented transcript (judge) | clip cut mid-utterance | flagged for review, candidate to drop |
-| en_air_talk_0000 | emotion "calm" not supported (judge) | acoustics contradict the text | kept at low confidence, marked for human relabel |
-| en_air_talk_0001 | emotion "angry" mismatched (judge) | text-acoustics conflict | flagged, emotion is review-only |
-
-The clustering on `en_air_talk` is itself a finding: that source has the most fragmented
-transcripts and the shakiest emotion fit, which is why it contributes few clips to the final set.
+rate here means the bad data was never let in, not that nothing was checked. Concrete error and
+edge-case examples are collected in section 5.
 
 **Other decisions.** Light loudness normalization instead of a hard loudness target, so the intensity
 dynamics that carry emotion survive. Human edits always override automated labels. Gender is inferred
 from median F0 with known speakers corrected by hand. The full 60 minutes is kept rather than applying
 a hard DNSMOS cut, with `dnsmos_pass` exposing the studio-grade subset.
 
-## 5. TTS readiness analysis
+## 5. Edge cases and annotation decisions
+
+Real speech is messier than a clean read, so rather than hide what is imperfect I added an annotation
+layer that records it. Every clip carries an `annotation_flags` string and matching boolean fields,
+and users filter on them.
+
+**Flag definitions.**
+- `has_noise`: perceptual quality below par (DNSMOS OVRL under 3.0, or SNR under 18 dB, or audible energy in pauses).
+- `low_quality_audio`: DNSMOS OVRL under 2.8 (clearly degraded).
+- `has_truncation`: the transcript does not end on terminal punctuation, so the clip likely ends mid-utterance.
+- `has_codemix`: the regional-language clip contains preserved English words (see the convention below).
+- `has_laughter`: audible laughter. This needs a listening or audio-event pass, so it is left false by default and documented as a convention.
+- `emotion_low_confidence`: the emotion tag's own confidence is below 0.55.
+- `transcript_review_needed`: the LLM judge flagged the transcript, or MMS alignment is below 0.85.
+- `overlap_suspected`: intra-clip speaker cohesion is low, a possible second voice.
+
+**Statistics (published set).**
+
+| Flag | English (of 160) | Telugu (of 150) |
+|---|---|---|
+| has_noise | 68 | 28 |
+| has_truncation | 11 | 31 |
+| transcript_review_needed | 17 | 46 |
+| low_quality_audio | 36 | 10 |
+| overlap_suspected | 3 | 4 |
+| emotion_low_confidence | 0 | 2 |
+| has_codemix / has_laughter | 0 | 0 |
+
+**Conventions.**
+- Speech events use inline tags where clearly audible: `<noise>`, `<laughter>`, `<cough>`, `<breath>`, `<pause>`, used sparingly. These belong to a listening pass and are not auto-inserted, so they do not appear in the current auto-generated transcripts.
+- Truncation is marked with a trailing em dash in `annotated_text`, for example "...does it have to do with —". The raw `text` field stays clean for training.
+- Code-mixing preserves the English word in Latin script and brackets it, for example "aa [project] inka [complete] kaaledu", without transliterating it into Telugu script. An honest finding: Sarvam ASR already transliterates English into Telugu script, so no Latin code-switches survive in the transcripts and `has_codemix` is zero. Preserving genuine code-switches would need a code-switch-aware ASR pass, noted as future work.
+
+**Edge-case audit (real examples).**
+
+| Clip | Issue | Original | Final | Resolution |
+|---|---|---|---|---|
+| en_mahabharata_e67_0019 | ASR garbled a name | "Karna about to creeper" | "turned about Kripa" | per-clip realtime re-ASR fixed it |
+| AIR talk (ax7l6qOqgpQ) | clip ends mid-utterance | "...does it have to do with" | "...does it have to do with —" | has_truncation=true, em dash in annotated_text |
+| en_air_talk_0024 | emotion ambiguous | 30b: sad | 105b: neutral | advisory; emotion confidence plus flag, kept |
+| en_mahabharata_0004 | emotion ambiguous (nearby) | 30b: happy | 105b: excited | advisory; both plausible, kept |
+| en_mahabharata_e67 clips | DNSMOS 2.85 to 2.9, mild | (kept) | (kept) | has_noise=true, recoverable via dnsmos_pass filter |
+
+**Curation decisions, stated as decisions.** I kept clips that are imperfect but useful and labeled
+the imperfection instead of dropping them. Noisy English storytelling clips (DNSMOS just under 3.0)
+stayed because they carry the storytelling voice and emotion the dataset is built around, and
+`has_noise` / `dnsmos_pass` let a user exclude them. I removed three whole sources that DNSMOS exposed
+as perceptually poor (2.3 to 2.4), because no per-clip flag rescues a bad recording. I let topic
+coherence outweigh DNSMOS on the English side, accepting a lower clean-rate for a coherent storytelling
+corpus, and the flags mean a user who disagrees can rebuild a cleaner or different subset without
+touching the audio. The principle is to surface every imperfection as a filterable flag, so the
+consumer, not only the curator, can make the trade-off. The flags also cluster usefully:
+`transcript_review_needed` is higher in Telugu (46 vs 17), consistent with Telugu being the harder ASR
+target, and the AIR talk source accounts for most truncated and emotion-ambiguous English clips, which
+is why it contributes few clips to the final set.
+
+## 6. TTS readiness analysis
 
 What a TTS practitioner checks before training on a corpus.
 
@@ -239,7 +286,7 @@ set weak for TTS.
 
 ![Vocabulary and Zipf distribution](figures/tts_lexical.png)
 
-## 6. Human quality audit
+## 7. Human quality audit
 
 There are two layers here and I am explicit about which is which.
 
@@ -263,7 +310,7 @@ These are left as the listening pass rather than filled with automatic numbers, 
 a human audit is that a human did it. The 40-clip sample and the tool are in the repository, so the
 numbers are one short session away.
 
-## 7. What I would improve given more time
+## 8. What I would improve given more time
 
 - A human listening pass. Every check above is automatic. The real next step is one annotator going
   through the alignment-sorted transcript sample and a second labeling emotion, which turns the proxy
@@ -275,7 +322,7 @@ numbers are one short session away.
   coherence and high DNSMOS at the same time.
 - Language-aware text normalization (numbers, abbreviations) for the normalized-text field.
 
-## 8. Cross-check against the brief
+## 9. Cross-check against the brief
 
 The brief asked for about 60 minutes split across Indian English and one Indian language, as clean
 single-speaker YouTube clips with accurate transcripts and an emotion tag each, published on

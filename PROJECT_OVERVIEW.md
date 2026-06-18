@@ -34,8 +34,17 @@ Per-row schema: `audio` (24 kHz), `text`, `normalized_text`, `language`, `langua
 `style`, `emotion_confidence`, `tag_source` (auto/human), `speaker_id`, `gender`, `accent`, `duration`,
 `snr_db`, `dnsmos_ovrl`, `dnsmos_sig`, `dnsmos_bak`, `dnsmos_pass`, `squim_stoi`, `squim_pesq`,
 `squim_sisdr`, `mms_align_score`, `overlap_flag`, `ser_emotion`, `valence`, `arousal`, `dominance`,
-`topic`, `llm_tts_suitable`, `source_video_id`, `source_url`, `source_channel`, `license`,
+`topic`, `llm_tts_suitable`, `annotated_text`, `annotation_flags`, `has_noise`, `has_truncation`,
+`has_codemix`, `has_laughter`, `emotion_low_confidence`, `transcript_review_needed`,
+`low_quality_audio`, `source_video_id`, `source_url`, `source_channel`, `license`,
 `segment_start`, `segment_end`, `sample_rate`.
+
+Edge-case annotation layer (no pipeline rebuild): per-clip flags derived from existing scores let
+users filter (studio-like, expressive, storytelling, clean-multilingual, review-queue). Published-set
+flag counts: noise EN 68 / TE 28, truncation 11 / 31, transcript_review 17 / 46, low_quality 36 / 10,
+overlap 3 / 4. has_codemix is 0 because Sarvam ASR transliterates English into Telugu script
+(documented). Honest finding on emotion: same-taxonomy 30b-vs-105b agree 54%, and disagreements are
+mostly contradictory (68%), not neighboring, so emotion is shipped as advisory with confidence + flags.
 
 ## 4. Pipeline (one source at a time)
 

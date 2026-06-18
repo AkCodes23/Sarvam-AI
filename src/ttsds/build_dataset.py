@@ -115,6 +115,15 @@ def _record(seg: Segment, final_wav: Path, sr: int) -> dict:
         "dominance": m.get("dominance"),
         "topic": m.get("topic_category"),
         "llm_tts_suitable": m.get("tts_suitable"),
+        "annotated_text": m.get("annotated_text") or seg.transcript,
+        "annotation_flags": m.get("annotation_flags", ""),
+        "has_noise": bool(m.get("has_noise", False)),
+        "has_truncation": bool(m.get("has_truncation", False)),
+        "has_codemix": bool(m.get("has_codemix", False)),
+        "has_laughter": bool(m.get("has_laughter", False)),
+        "emotion_low_confidence": bool(m.get("emotion_low_confidence", False)),
+        "transcript_review_needed": bool(m.get("transcript_review_needed", False)),
+        "low_quality_audio": bool(m.get("low_quality_audio", False)),
         "source_video_id": seg.source_video_id,
         "source_url": seg.source_url,
         "source_channel": seg.source_channel,
@@ -334,11 +343,30 @@ Total: **{stats.get('total_minutes', 0)} minutes**.
 {eval_md}
 
 ## Schema
-`audio` (24 kHz mono), `text`, `normalized_text`, `language`, `language_code`,
+`audio` (24 kHz mono), `text` (raw transcript), `annotated_text` (English code-switch
+spans bracketed, truncation marked with an em dash), `normalized_text`, `language`,
 `emotion` ({emo_list}), `style` ({sty_list}), `emotion_confidence`, `tag_source`
-(`auto`/`human`), `speaker_id`, `duration`, `snr_db`, `source_video_id`,
-`source_url`, `source_channel`, `license`, `segment_start`, `segment_end`,
-`sample_rate`.
+(`auto`/`human`), `topic`, `speaker_id`, `gender`, `accent`, `duration`; quality scores
+(`snr_db`, `dnsmos_ovrl/sig/bak`, `dnsmos_pass`, `squim_*`, `mms_align_score`,
+`overlap_flag`, `llm_tts_suitable`); VAD (`valence`/`arousal`/`dominance`); annotation
+flags (below); and provenance (`source_video_id/url/channel`, `license`,
+`segment_start/end`, `sample_rate`).
+
+## Annotation flags
+Each clip records what is imperfect about it, so users can filter rather than trust blindly:
+`has_noise` (DNSMOS < 3.0, or SNR < 18 dB, or noisy pauses), `low_quality_audio` (DNSMOS < 2.8),
+`has_truncation` (ends mid-utterance), `has_codemix` (preserved English in a regional clip;
+note Sarvam ASR transliterates English into Telugu script, so this is currently 0), `has_laughter`
+(audible laughter, set by a listening pass), `emotion_low_confidence` (tag confidence < 0.55),
+`transcript_review_needed` (judge-flagged or alignment < 0.85), `overlap_flag` (possible second
+voice). `annotation_flags` is the pipe-joined list per clip.
+
+## Filtering recommendations
+- Studio-like subset: `dnsmos_pass == true and has_noise == false and has_truncation == false`
+- Expressive subset: `emotion_confidence > 0.7 and emotion != "neutral"`
+- Storytelling subset: `topic in {"mythology", "folktale", "fiction"}`
+- Clean multilingual subset: `has_codemix == false`
+- Review queue: `transcript_review_needed == true or emotion_low_confidence == true`
 
 ## How it was built
 1. Curated single-speaker YouTube sources (audiobooks, lectures, news, storytelling).
