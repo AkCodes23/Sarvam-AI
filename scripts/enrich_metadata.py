@@ -15,7 +15,7 @@ from ttsds.models import Segment
 
 SCORE_FILES = [
     "score_audio_quality.json", "score_mms_align.json",
-    "score_overlap.json", "score_ser.json",
+    "score_overlap.json", "score_ser.json", "score_llm_judge.json",
 ]
 ACCENT = {"en": "Indian English", "te": "Telugu"}
 F0_GENDER_BOUNDARY_HZ = 165.0

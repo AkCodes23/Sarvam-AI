@@ -3,71 +3,71 @@
     "en": {
       "name": "Indian English",
       "config": "indian_english",
-      "clips": 169,
-      "minutes": 30.01,
+      "clips": 160,
+      "minutes": 30.17,
       "speakers": 4,
       "speaker_minutes": {
-        "en_nptel": 6.74,
-        "en_air_talk": 5.31,
-        "en_mahabharata": 13.49,
-        "en_tedx_amina": 4.47
+        "en_mahabharata": 23.87,
+        "en_nptel": 2.54,
+        "en_tedx_amina": 1.6,
+        "en_air_talk": 2.16
       },
       "emotions": {
-        "angry": 31,
-        "neutral": 31,
-        "calm": 31,
-        "sad": 31,
-        "excited": 31,
+        "angry": 30,
+        "neutral": 29,
+        "calm": 29,
+        "sad": 29,
+        "excited": 29,
         "fearful": 8,
         "happy": 6
       },
       "styles": {
-        "narrative": 60,
-        "expressive": 57,
-        "formal": 38,
-        "conversational": 14
+        "narrative": 65,
+        "expressive": 56,
+        "formal": 33,
+        "conversational": 6
       },
       "human_tagged": 0,
-      "mean_clip_s": 10.65,
-      "dnsmos_ovrl_median": 3.21,
-      "dnsmos_pass_pct": 86,
-      "mms_align_median": 0.948
+      "mean_clip_s": 11.31,
+      "dnsmos_ovrl_median": 3.09,
+      "dnsmos_pass_pct": 58,
+      "mms_align_median": 0.954
     },
     "te": {
       "name": "Telugu",
       "config": "telugu",
-      "clips": 156,
-      "minutes": 30.05,
+      "clips": 150,
+      "minutes": 30.08,
       "speakers": 5,
       "speaker_minutes": {
-        "te_audiobook_kalalavelugu": 8.31,
-        "te_ramaaraavi": 7.01,
-        "te_kathalu_epic": 6.19,
-        "te_motivation_kasyap": 4.06,
-        "te_audiobook_bhumiputri": 4.48
+        "te_kathalu_epic": 6.77,
+        "te_audiobook_kalalavelugu": 7.54,
+        "te_ramaaraavi": 7.5,
+        "te_audiobook_bhumiputri": 6.34,
+        "te_motivation_kasyap": 1.94
       },
       "emotions": {
-        "calm": 29,
-        "neutral": 28,
-        "angry": 28,
-        "excited": 28,
-        "sad": 28,
-        "happy": 6,
+        "calm": 27,
+        "neutral": 27,
+        "angry": 27,
+        "excited": 27,
+        "sad": 27,
         "fearful": 6,
+        "happy": 6,
         "surprised": 3
       },
       "styles": {
-        "narrative": 71,
-        "expressive": 63,
-        "conversational": 17,
-        "formal": 5
+        "narrative": 78,
+        "expressive": 55,
+        "conversational": 13,
+        "formal": 4
       },
       "human_tagged": 0,
-      "mean_clip_s": 11.56,
-      "dnsmos_ovrl_median": 3.19,
-      "dnsmos_pass_pct": 86,
-      "mms_align_median": 0.934
+      "mean_clip_s": 12.03,
+      "dnsmos_ovrl_median": 3.16,
+      "dnsmos_pass_pct": 81,
+      "mms_align_median": 0.937
     }
   },
-  "total_minutes": 60.06
+  "total_minutes": 60.25
 }

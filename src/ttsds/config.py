@@ -108,6 +108,7 @@ class EmotionCfg(BaseModel):
 class TargetsCfg(BaseModel):
     minutes_per_language: float
     val_fraction: float
+    prefer_topics: list[str] = []
 
 
 class LanguageCfg(BaseModel):

@@ -29,6 +29,15 @@ def _jaccard(a: set[str], b: set[str]) -> float:
     return len(a & b) / len(a | b)
 
 
+def latin_fraction(text: str) -> float:
+    """Fraction of alphabetic characters that are Latin (ASCII). Near 1 for English,
+    near 0 for pure Telugu script; a high value on a Telugu clip means code-mixing."""
+    letters = [c for c in text if c.isalpha()]
+    if not letters:
+        return 0.0
+    return sum(1 for c in letters if c.isascii()) / len(letters)
+
+
 def apply_gates(seg: Segment, cfg: Config) -> Segment:
     q = cfg.quality
     y, sr = read_wav(PROJECT_ROOT / seg.wav_path)
@@ -75,6 +84,10 @@ def apply_gates(seg: Segment, cfg: Config) -> Segment:
         flags.append(f"music_or_noise_bed({gap:.2f})")
     if seg.asr_language_code and seg.asr_language_code != seg.language_code:
         flags.append(f"lang_mismatch({seg.asr_language_code})")
+    lat = latin_fraction(seg.transcript)
+    seg.metrics["latin_fraction"] = round(lat, 3)
+    if seg.language != "en" and lat > 0.5:   # heavy English in a non-English clip
+        flags.append(f"code_mixed({lat:.2f})")
 
     seg.reject_reasons = reasons
     seg.flags = flags

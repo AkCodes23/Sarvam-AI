@@ -45,19 +45,21 @@ diarization, and labeled with emotion/style tags. Built as a data-quality / cura
 > total** (5 English, 6 Telugu), tracked via `speaker_id`.
 
 ## Contents
-- **Indian English** (`indian_english`): 30.01 min, 169 clips, 4 speakers; emotions: {'angry': 31, 'neutral': 31, 'calm': 31, 'sad': 31, 'excited': 31, 'fearful': 8, 'happy': 6}
-- **Telugu** (`telugu`): 30.05 min, 156 clips, 5 speakers; emotions: {'calm': 29, 'neutral': 28, 'angry': 28, 'excited': 28, 'sad': 28, 'happy': 6, 'fearful': 6, 'surprised': 3}
+- **Indian English** (`indian_english`): 30.17 min, 160 clips, 4 speakers; emotions: {'angry': 30, 'neutral': 29, 'calm': 29, 'sad': 29, 'excited': 29, 'fearful': 8, 'happy': 6}
+- **Telugu** (`telugu`): 30.08 min, 150 clips, 5 speakers; emotions: {'calm': 27, 'neutral': 27, 'angry': 27, 'excited': 27, 'sad': 27, 'fearful': 6, 'happy': 6, 'surprised': 3}
 
-Total: **60.06 minutes**.
+Total: **60.25 minutes**.
 
 ## Evaluation (evidence, not just claims)
 
 - **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52, verification AUC 0.96 / EER 9.1%; 0/11 speakers flagged).
-- **Transcript reliability**: English cross-ASR agreement with Whisper = 6.8% WER / 4.5% CER (n=40), strong. Realtime ASR language-ID matched the target language on 100% of EN and 100% of TE clips. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
+- **Transcript reliability**: English cross-ASR agreement with Whisper = 5.5% WER / 3.4% CER (n=40), strong. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
 - **Emotion-tag reliability** (sarvam-30b vs sarvam-105b on 120 clips): 65% agreement, Cohen's κ 0.55.
 - **Phoneme coverage**: English 39 (100%), Telugu 44 (88%).
-- **Perceptual quality** (DNSMOS OVRL, published set): EN 3.21 (86% pass>3.0), TE 3.19 (86% pass>3.0). Filter `dnsmos_pass=True` for a stricter subset.
-- **Transcript–audio alignment** (MMS forced-align): median confidence EN 0.948, TE 0.934.
+- **Perceptual quality** (DNSMOS OVRL, published set): EN 3.09 (58% pass>3.0), TE 3.16 (81% pass>3.0). Filter `dnsmos_pass=True` for a stricter subset.
+- **Transcript–audio alignment** (MMS forced-align): median confidence EN 0.954, TE 0.937.
+- **Emotion-label agreement** (Krippendorff alpha): 0.4442 between the two LLM raters (0.4+ is the field norm). A 3-rater panel adding SER models drops near zero, since off-the-shelf SER clusters toward neutral and does not transfer to Telugu. Per-clip VAD (valence, arousal, dominance) is included.
+- **LLM-as-judge cross-check** (independent model, 499 clips): 75% of transcripts judged clean and 81% suitable to train on. Each clip also has a topic; the set is mostly storytelling (mythology, folk tales, audiobook fiction).
 
 See the project report (GitHub repo) for full methodology and figures.
 

@@ -1,0 +1,4493 @@
+{
+  "en_air_talk_0000": {
+    "topic_category": "education",
+    "topic": "content versus candy floss",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustics and low audio quality",
+    "language": "en"
+  },
+  "en_air_talk_0001": {
+    "topic_category": "education",
+    "topic": "Panel discussion on publishing",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "en"
+  },
+  "en_air_talk_0002": {
+    "topic_category": "education",
+    "topic": "Content vs. candy floss",
+    "tts_suitable": 0.4,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low energy and breathy voice",
+    "language": "en"
+  },
+  "en_air_talk_0003": {
+    "topic_category": "education",
+    "topic": "Introduction of speakers",
+    "tts_suitable": 0.75,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Incomplete transcript",
+    "language": "en"
+  },
+  "en_air_talk_0004": {
+    "topic_category": "education",
+    "topic": "Introduction to a writer",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Fragmented transcript",
+    "language": "en"
+  },
+  "en_air_talk_0005": {
+    "topic_category": "education",
+    "topic": "Literary history discussion",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic-emotion mismatch",
+    "language": "en"
+  },
+  "en_air_talk_0006": {
+    "topic_category": "education",
+    "topic": "Premchand's writing style",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice quality and low energy",
+    "language": "en"
+  },
+  "en_air_talk_0007": {
+    "topic_category": "fiction",
+    "topic": "Salman Rushdie's Midnight's Children",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_air_talk_0008": {
+    "topic_category": "education",
+    "topic": "Books about Indian life",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion label",
+    "language": "en"
+  },
+  "en_air_talk_0009": {
+    "topic_category": "education",
+    "topic": "Summary of various topics",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low voice clarity",
+    "language": "en"
+  },
+  "en_air_talk_0010": {
+    "topic_category": "fiction",
+    "topic": "Modern Indian love stories",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues for emotion",
+    "language": "en"
+  },
+  "en_air_talk_0011": {
+    "topic_category": "education",
+    "topic": "content creation",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "grammatical issues and incomplete thoughts",
+    "language": "en"
+  },
+  "en_air_talk_0012": {
+    "topic_category": "education",
+    "topic": "variety in fiction",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Fragmented transcript",
+    "language": "en"
+  },
+  "en_air_talk_0013": {
+    "topic_category": "education",
+    "topic": "Writers and democratization",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Filler words like 'you know'",
+    "language": "en"
+  },
+  "en_air_talk_0014": {
+    "topic_category": "other",
+    "topic": "Writing for English Readers",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Anger not supported by acoustics",
+    "language": "en"
+  },
+  "en_air_talk_0015": {
+    "topic_category": "conversation",
+    "topic": "Market expansion discussion",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammatical errors",
+    "language": "en"
+  },
+  "en_air_talk_0016": {
+    "topic_category": "conversation",
+    "topic": "Critique of writing",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Typo: 'the the'",
+    "language": "en"
+  },
+  "en_air_talk_0017": {
+    "topic_category": "education",
+    "topic": "Rural and urban realities",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "en"
+  },
+  "en_air_talk_0018": {
+    "topic_category": "education",
+    "topic": "New readers and the Indian economy",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Incomplete sentence",
+    "language": "en"
+  },
+  "en_air_talk_0019": {
+    "topic_category": "education",
+    "topic": "Indian economic history",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Incomplete transcript and low voice clarity",
+    "language": "en"
+  },
+  "en_air_talk_0020": {
+    "topic_category": "education",
+    "topic": "Economic shift and English skills",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Slightly run-on sentence structure",
+    "language": "en"
+  },
+  "en_air_talk_0021": {
+    "topic_category": "education",
+    "topic": "Career training institutes",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "en"
+  },
+  "en_air_talk_0022": {
+    "topic_category": "education",
+    "topic": "Book prerequisites",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic features",
+    "language": "en"
+  },
+  "en_air_talk_0023": {
+    "topic_category": "conversation",
+    "topic": "thinking about book stalls",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory cues",
+    "language": "en"
+  },
+  "en_air_talk_0024": {
+    "topic_category": "education",
+    "topic": "Economics and English",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotion",
+    "language": "en"
+  },
+  "en_air_talk_0025": {
+    "topic_category": "education",
+    "topic": "English skill improvement",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incomplete and grammatically incorrect transcript",
+    "language": "en"
+  },
+  "en_air_talk_0026": {
+    "topic_category": "conversation",
+    "topic": "Book genre discussion",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Minor typo: 'Humra'",
+    "language": "en"
+  },
+  "en_air_talk_0027": {
+    "topic_category": "education",
+    "topic": "Changing readership patterns",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic features",
+    "language": "en"
+  },
+  "en_air_talk_0028": {
+    "topic_category": "education",
+    "topic": "Representation of rural life",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Breathy voice",
+    "language": "en"
+  },
+  "en_air_talk_0029": {
+    "topic_category": "education",
+    "topic": "Indian reading classes",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Messy transcript with fillers",
+    "language": "en"
+  },
+  "en_air_talk_0030": {
+    "topic_category": "motivation",
+    "topic": "New jobs and trends",
+    "tts_suitable": 1.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical errors",
+    "language": "en"
+  },
+  "en_air_talk_0031": {
+    "topic_category": "education",
+    "topic": "Writing about rural life",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Slightly informal phrasing with conversational fillers",
+    "language": "en"
+  },
+  "en_air_talk_0032": {
+    "topic_category": "conversation",
+    "topic": "Social issues",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Unedited transcript with repetition",
+    "language": "en"
+  },
+  "en_air_talk_0033": {
+    "topic_category": "fiction",
+    "topic": "Love for Premchand stories",
+    "tts_suitable": 0.85,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Slightly awkward phrasing",
+    "language": "en"
+  },
+  "en_air_talk_0034": {
+    "topic_category": "conversation",
+    "topic": "Generational literary criticism",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Incomplete thought",
+    "language": "en"
+  },
+  "en_air_talk_0035": {
+    "topic_category": "education",
+    "topic": "Quality of writing",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High pitch variation contradicts calm emotion",
+    "language": "en"
+  },
+  "en_air_talk_0036": {
+    "topic_category": "education",
+    "topic": "English in the job market",
+    "tts_suitable": 1.0,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Filler words present",
+    "language": "en"
+  },
+  "en_air_talk_0037": {
+    "topic_category": "conversation",
+    "topic": "Writers' style discussion",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammatical awkwardness and mixed language",
+    "language": "en"
+  },
+  "en_air_talk_0038": {
+    "topic_category": "other",
+    "topic": "Perceived lack of elite status",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Run-on sentence structure",
+    "language": "en"
+  },
+  "en_air_talk_0039": {
+    "topic_category": "motivation",
+    "topic": "Giving tools to readers",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical error in transcript",
+    "language": "en"
+  },
+  "en_air_talk_0040": {
+    "topic_category": "education",
+    "topic": "English as a language of privilege",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Unusual low-pitch, flat, breathy vocal profile",
+    "language": "en"
+  },
+  "en_air_talk_0041": {
+    "topic_category": "education",
+    "topic": "publishing opinion",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_air_talk_0042": {
+    "topic_category": "conversation",
+    "topic": "Critique of writing",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented and emotionally charged transcript",
+    "language": "en"
+  },
+  "en_air_talk_0043": {
+    "topic_category": "conversation",
+    "topic": "Reacting to a disturbing point",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented transcript",
+    "language": "en"
+  },
+  "en_mahabharata_0000": {
+    "topic_category": "mythology",
+    "topic": "Ancient Indian epic",
+    "tts_suitable": 0.85,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy variation contradicts neutral tone",
+    "language": "en"
+  },
+  "en_mahabharata_0001": {
+    "topic_category": "mythology",
+    "topic": "Rishi Vyasa's birth",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0002": {
+    "topic_category": "mythology",
+    "topic": "Vyasa's lost poem",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0003": {
+    "topic_category": "mythology",
+    "topic": "Divine invocation",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Incomplete clip",
+    "language": "en"
+  },
+  "en_mahabharata_0004": {
+    "topic_category": "motivation",
+    "topic": "Poem composition",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "en"
+  },
+  "en_mahabharata_0005": {
+    "topic_category": "other",
+    "topic": "Request for a writer",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Slightly low HNR",
+    "language": "en"
+  },
+  "en_mahabharata_0006": {
+    "topic_category": "mythology",
+    "topic": "Brahma suggests Ganesha",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy level lower than usual for excitement",
+    "language": "en"
+  },
+  "en_mahabharata_0007": {
+    "topic_category": "mythology",
+    "topic": "Ganesha, the scribe",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_0008": {
+    "topic_category": "mythology",
+    "topic": "Ganesh's creative condition",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low HNR",
+    "language": "en"
+  },
+  "en_mahabharata_0009": {
+    "topic_category": "other",
+    "topic": "Poem recitation",
+    "tts_suitable": 0.4,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustics suggest agitation, not calm",
+    "language": "en"
+  },
+  "en_mahabharata_0010": {
+    "topic_category": "mythology",
+    "topic": "Vyas's condition for writing",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0011": {
+    "topic_category": "mythology",
+    "topic": "Ganesha's thoughts on Vyasa",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical issues",
+    "language": "en"
+  },
+  "en_mahabharata_0012": {
+    "topic_category": "mythology",
+    "topic": "Ganesha and Vyasa",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0013": {
+    "topic_category": "mythology",
+    "topic": "Vyasa dictating a poem",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low HNR (13.3 dB)",
+    "language": "en"
+  },
+  "en_mahabharata_0014": {
+    "topic_category": "mythology",
+    "topic": "Ganesha and Vyasa",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Content-emotion mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_0015": {
+    "topic_category": "mythology",
+    "topic": "Beginning of the Mahabharata",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice clarity (HNR)",
+    "language": "en"
+  },
+  "en_mahabharata_0016": {
+    "topic_category": "mythology",
+    "topic": "King's vast kingdom",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Contradictory acoustic metrics",
+    "language": "en"
+  },
+  "en_mahabharata_0017": {
+    "topic_category": "mythology",
+    "topic": "Shantanu's river encounter",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Lacks emotional range",
+    "language": "en"
+  },
+  "en_mahabharata_0018": {
+    "topic_category": "mythology",
+    "topic": "Mythological love story",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low expressiveness",
+    "language": "en"
+  },
+  "en_mahabharata_0019": {
+    "topic_category": "fiction",
+    "topic": "Romantic proposal",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice quality (HNR)",
+    "language": "en"
+  },
+  "en_mahabharata_0020": {
+    "topic_category": "mythology",
+    "topic": "King begging for mercy",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_0021": {
+    "topic_category": "fiction",
+    "topic": "A lady's conditions for a king",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustics mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_0022": {
+    "topic_category": "folktale",
+    "topic": "Concession to a difficult request",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High energy variation contradicts sad emotion",
+    "language": "en"
+  },
+  "en_mahabharata_0023": {
+    "topic_category": "fiction",
+    "topic": "A warning",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotional cues",
+    "language": "en"
+  },
+  "en_mahabharata_0024": {
+    "topic_category": "folktale",
+    "topic": "setting boundaries",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0025": {
+    "topic_category": "fiction",
+    "topic": "Conditional threat",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0026": {
+    "topic_category": "fiction",
+    "topic": "King's agreement to conditions",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low HNR (15.0 dB) may reduce clarity.",
+    "language": "en"
+  },
+  "en_mahabharata_0027": {
+    "topic_category": "fiction",
+    "topic": "Dialogue from a story",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_0028": {
+    "topic_category": "mythology",
+    "topic": "Shantanu's marriage",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_0029": {
+    "topic_category": "mythology",
+    "topic": "Shantanu's joyful reaction",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "en"
+  },
+  "en_mahabharata_0030": {
+    "topic_category": "folktale",
+    "topic": "royal birth scene",
+    "tts_suitable": 0.4,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent prosody",
+    "language": "en"
+  },
+  "en_mahabharata_0031": {
+    "topic_category": "fiction",
+    "topic": "He sees his queen drown",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description, especially pitch variation.",
+    "language": "en"
+  },
+  "en_mahabharata_0032": {
+    "topic_category": "mythology",
+    "topic": "Horrified mother drops baby into river",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mixed acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_0033": {
+    "topic_category": "fiction",
+    "topic": "Recalling a promise",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0034": {
+    "topic_category": "mythology",
+    "topic": "Shantanu's lost son",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent sad emotion cues",
+    "language": "en"
+  },
+  "en_mahabharata_0035": {
+    "topic_category": "fiction",
+    "topic": "King's tragic discovery",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low-energy response to a shocking event may be unnatural.",
+    "language": "en"
+  },
+  "en_mahabharata_0036": {
+    "topic_category": "folktale",
+    "topic": "Queen's cruelty",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "en"
+  },
+  "en_mahabharata_0037": {
+    "topic_category": "fiction",
+    "topic": "A king's promise",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Inconsistent energy description",
+    "language": "en"
+  },
+  "en_mahabharata_0038": {
+    "topic_category": "fiction",
+    "topic": "King stops queen from drowning baby",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low HNR (12.5 dB)",
+    "language": "en"
+  },
+  "en_mahabharata_0039": {
+    "topic_category": "fiction",
+    "topic": "Queen's promise",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High energy variation",
+    "language": "en"
+  },
+  "en_mahabharata_0040": {
+    "topic_category": "fiction",
+    "topic": "King's broken promise",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0041": {
+    "topic_category": "fiction",
+    "topic": "queen's broken promise",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "high energy variation within clip",
+    "language": "en"
+  },
+  "en_mahabharata_0042": {
+    "topic_category": "mythology",
+    "topic": "Ganga, the river goddess",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_0043": {
+    "topic_category": "mythology",
+    "topic": "Vasus and Rishi Vashishta",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0044": {
+    "topic_category": "mythology",
+    "topic": "Vashishta cursed humans",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic mismatch with anger",
+    "language": "en"
+  },
+  "en_mahabharata_0045": {
+    "topic_category": "mythology",
+    "topic": "Vasus and Prabhasa",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_0046": {
+    "topic_category": "mythology",
+    "topic": "Sage's curse on the Vasus",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low expressiveness may not convey sadness.",
+    "language": "en"
+  },
+  "en_mahabharata_0047": {
+    "topic_category": "mythology",
+    "topic": "Mythological curse story",
+    "tts_suitable": 0.2,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low emotional expressiveness",
+    "language": "en"
+  },
+  "en_mahabharata_0048": {
+    "topic_category": "mythology",
+    "topic": "Mythological statement",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_0049": {
+    "topic_category": "mythology",
+    "topic": "Shantanu's reaction to a story",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0000": {
+    "topic_category": "folktale",
+    "topic": "Stories of Mahabharata",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low HNR (11.4 dB) indicates breathiness.",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0001": {
+    "topic_category": "mythology",
+    "topic": "Krishna's trickery",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic cues ambiguous",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0002": {
+    "topic_category": "folktale",
+    "topic": "Duryodhan's disappointment",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Breathiness and low voice clarity",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0003": {
+    "topic_category": "mythology",
+    "topic": "Arjun's loyalty",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0004": {
+    "topic_category": "motivation",
+    "topic": "A throne's power",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Disjointed logic",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0005": {
+    "topic_category": "mythology",
+    "topic": "Dron's frustration with Duryodhan",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotional cues",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0006": {
+    "topic_category": "mythology",
+    "topic": "Pandava warriors armor",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy variation mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0007": {
+    "topic_category": "fiction",
+    "topic": "A continuing battle",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0008": {
+    "topic_category": "mythology",
+    "topic": "Dron in battle",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0009": {
+    "topic_category": "mythology",
+    "topic": "Karna advises Duryodhan",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory energy levels",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0010": {
+    "topic_category": "mythology",
+    "topic": "A vow of help",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Content-emotion mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0011": {
+    "topic_category": "mythology",
+    "topic": "Kripacharya laughing at Karna",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High pitch variation inconsistent with sadness",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0012": {
+    "topic_category": "mythology",
+    "topic": "A taunt to Duryodhan",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0013": {
+    "topic_category": "mythology",
+    "topic": "Karna's furious outburst",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Excessive breathiness",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0014": {
+    "topic_category": "mythology",
+    "topic": "Threat of violence",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammatical error",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0015": {
+    "topic_category": "mythology",
+    "topic": "Ashwatthama's outburst",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "High emotional intensity may not suit neutral voice training",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0016": {
+    "topic_category": "mythology",
+    "topic": "Aswatthama's confrontation",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0017": {
+    "topic_category": "mythology",
+    "topic": "Conditional forgiveness",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory energy variation",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0018": {
+    "topic_category": "mythology",
+    "topic": "Kripa's warning to Karna",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues for emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0019": {
+    "topic_category": "mythology",
+    "topic": "Kripa asks charioteer",
+    "tts_suitable": 0.9,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammatical error in transcript",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0020": {
+    "topic_category": "mythology",
+    "topic": "Battle scene",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory energy description (high energy, low variation)",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0023": {
+    "topic_category": "fiction",
+    "topic": "Battlefield scene",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Ambiguous emotion: neutral transcript with fearful-sounding acoustics",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0024": {
+    "topic_category": "mythology",
+    "topic": "Pandava army defeat",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0025": {
+    "topic_category": "mythology",
+    "topic": "Arjun search",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Unnatural phrasing and contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0026": {
+    "topic_category": "mythology",
+    "topic": "Karna battle scene",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0027": {
+    "topic_category": "mythology",
+    "topic": "Mahabharata dialogue",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradiction between stated emotion and acoustic description",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0028": {
+    "topic_category": "mythology",
+    "topic": "Krishna and his chariot",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0029": {
+    "topic_category": "mythology",
+    "topic": "Arjun's confusion",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0030": {
+    "topic_category": "mythology",
+    "topic": "Krishna's command",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0031": {
+    "topic_category": "mythology",
+    "topic": "Karna's Shakti weapon",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy variation high",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0032": {
+    "topic_category": "mythology",
+    "topic": "Karna's weapon",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0033": {
+    "topic_category": "fiction",
+    "topic": "Character's plan and pressure",
+    "tts_suitable": 0.85,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0034": {
+    "topic_category": "mythology",
+    "topic": "Arjun's declaration to face Karna",
+    "tts_suitable": 0.85,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Grammatical error in transcript",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0035": {
+    "topic_category": "mythology",
+    "topic": "Karna's invincibility",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0036": {
+    "topic_category": "mythology",
+    "topic": "Arjun and Krishna's discussion",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice clarity (HNR) and contradictory energy metrics.",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0037": {
+    "topic_category": "mythology",
+    "topic": "Krishna and Ghatotkacha",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0038": {
+    "topic_category": "mythology",
+    "topic": "Krishna to Ghatotkacha",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High energy variation",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0039": {
+    "topic_category": "mythology",
+    "topic": "Karna causing trouble",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "lower energy variation",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0040": {
+    "topic_category": "fiction",
+    "topic": "Using your magic",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_mahabharata_e67_0041": {
+    "topic_category": "mythology",
+    "topic": "Arjun's command to a warrior",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0000": {
+    "topic_category": "mythology",
+    "topic": "Mahabharata Stories",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice clarity and high breathiness",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0001": {
+    "topic_category": "mythology",
+    "topic": "Pandavas' clever lie",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0002": {
+    "topic_category": "folktale",
+    "topic": "15th day of war",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description doesn't match sad emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0003": {
+    "topic_category": "mythology",
+    "topic": "Duryodhan's urgent meeting",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy variation contradicts calm emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0004": {
+    "topic_category": "mythology",
+    "topic": "Determined not to pick",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0005": {
+    "topic_category": "mythology",
+    "topic": "Indian epic",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous acoustic support for emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0006": {
+    "topic_category": "mythology",
+    "topic": "Pandavas win war",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy variation lower",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0007": {
+    "topic_category": "mythology",
+    "topic": "Duryodhan's determination",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic features",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0008": {
+    "topic_category": "mythology",
+    "topic": "Character's hatred for Pandavas",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched acoustic profile for stated emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0009": {
+    "topic_category": "mythology",
+    "topic": "Generals in Duryodhan's tent",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustics for stated emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0010": {
+    "topic_category": "mythology",
+    "topic": "Defeating the Pandavas",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0011": {
+    "topic_category": "motivation",
+    "topic": "request to plan war",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "breathiness and pitch variation",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0012": {
+    "topic_category": "mythology",
+    "topic": "Warrior's resolve for victory",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues for stated emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0013": {
+    "topic_category": "mythology",
+    "topic": "Strategic suggestion",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0014": {
+    "topic_category": "fiction",
+    "topic": "Warrior's confidence",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0015": {
+    "topic_category": "mythology",
+    "topic": "Mahabharata dialogue",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotional cues",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0016": {
+    "topic_category": "mythology",
+    "topic": "Warrior's capability",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice clarity",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0017": {
+    "topic_category": "mythology",
+    "topic": "Offer to lead",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0018": {
+    "topic_category": "mythology",
+    "topic": "Karna's loyalty",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy variation higher than usual",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0019": {
+    "topic_category": "mythology",
+    "topic": "Mythological threat",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent emotional cues",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0020": {
+    "topic_category": "mythology",
+    "topic": "Duryodhan and Karna",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0021": {
+    "topic_category": "mythology",
+    "topic": "Karna on Kurukshetra",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0023": {
+    "topic_category": "mythology",
+    "topic": "Battle strategy in Mahabharata",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0024": {
+    "topic_category": "mythology",
+    "topic": "Mahabharata formation",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Minor repetition",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0025": {
+    "topic_category": "mythology",
+    "topic": "Kurukshetra battle scene",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description (high energy variation vs. low)",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0028": {
+    "topic_category": "mythology",
+    "topic": "Epic warrior battle",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic cues contradict stated emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0030": {
+    "topic_category": "mythology",
+    "topic": "Battle aftermath",
+    "tts_suitable": 0.9,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammatical error: 'Ashwatthama were'",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0031": {
+    "topic_category": "mythology",
+    "topic": "Ashwatthama's challenge to Arjun",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Contradictory acoustic markers",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0032": {
+    "topic_category": "mythology",
+    "topic": "Krishna and Arjun",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustics don't match stated emotion",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0033": {
+    "topic_category": "mythology",
+    "topic": "Guru debt, Kshatriya path",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0034": {
+    "topic_category": "mythology",
+    "topic": "Battle scene",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low voice clarity (HNR 6.6 dB)",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0035": {
+    "topic_category": "mythology",
+    "topic": "Mahabharata battle",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0037": {
+    "topic_category": "mythology",
+    "topic": "Mahabharata battle scene",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustics mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0038": {
+    "topic_category": "mythology",
+    "topic": "Krishna and Arjun's dialogue",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Disjointed transcript",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0039": {
+    "topic_category": "mythology",
+    "topic": "Ashwatthama's revenge",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Inconsistent energy and variation",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0040": {
+    "topic_category": "mythology",
+    "topic": "Arjun's fierce battle",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0041": {
+    "topic_category": "fiction",
+    "topic": "Fictional battle",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0042": {
+    "topic_category": "mythology",
+    "topic": "Karna's accusation",
+    "tts_suitable": 1.0,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Comma splice",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0043": {
+    "topic_category": "mythology",
+    "topic": "A warrior's challenge",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_mahabharata_e69_0044": {
+    "topic_category": "mythology",
+    "topic": "Nakul vs Karna fight",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic metrics",
+    "language": "en"
+  },
+  "en_nptel_0000": {
+    "topic_category": "education",
+    "topic": "Instructor introduction",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "en"
+  },
+  "en_nptel_0001": {
+    "topic_category": "education",
+    "topic": "Academic history",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_nptel_0002": {
+    "topic_category": "education",
+    "topic": "Personal career history",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Mismatch between text and emotion",
+    "language": "en"
+  },
+  "en_nptel_0003": {
+    "topic_category": "education",
+    "topic": "Factual statement",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Incomplete sentence",
+    "language": "en"
+  },
+  "en_nptel_0004": {
+    "topic_category": "education",
+    "topic": "Institute facts",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low HNR",
+    "language": "en"
+  },
+  "en_nptel_0005": {
+    "topic_category": "education",
+    "topic": "Starting a course",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_nptel_0006": {
+    "topic_category": "education",
+    "topic": "Software engineering basics",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_nptel_0007": {
+    "topic_category": "education",
+    "topic": "Answering based on this",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Unclear emotional content",
+    "language": "en"
+  },
+  "en_nptel_0008": {
+    "topic_category": "education",
+    "topic": "Software engineering definition",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "en"
+  },
+  "en_nptel_0009": {
+    "topic_category": "education",
+    "topic": "Software engineering approaches",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_nptel_0010": {
+    "topic_category": "education",
+    "topic": "software development approaches",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "breathiness",
+    "language": "en"
+  },
+  "en_nptel_0011": {
+    "topic_category": "education",
+    "topic": "building construction",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented transcript",
+    "language": "en"
+  },
+  "en_nptel_0012": {
+    "topic_category": "education",
+    "topic": "Construction advice",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Incomplete sentence",
+    "language": "en"
+  },
+  "en_nptel_0013": {
+    "topic_category": "education",
+    "topic": "Construction materials",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory energy description",
+    "language": "en"
+  },
+  "en_nptel_0014": {
+    "topic_category": "education",
+    "topic": "Instructional advice",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Fragmented sentence",
+    "language": "en"
+  },
+  "en_nptel_0015": {
+    "topic_category": "education",
+    "topic": "building a large building",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "energy higher than neutral",
+    "language": "en"
+  },
+  "en_nptel_0016": {
+    "topic_category": "other",
+    "topic": "Building description",
+    "tts_suitable": 0.2,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Fragmented, not a coherent thought",
+    "language": "en"
+  },
+  "en_nptel_0017": {
+    "topic_category": "education",
+    "topic": "Futility of building",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_nptel_0018": {
+    "topic_category": "other",
+    "topic": "General complaint",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_nptel_0019": {
+    "topic_category": "education",
+    "topic": "Software code example",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Breathy voice",
+    "language": "en"
+  },
+  "en_nptel_0020": {
+    "topic_category": "other",
+    "topic": "Software development discussion",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustics indicate higher energy, not neutral",
+    "language": "en"
+  },
+  "en_nptel_0021": {
+    "topic_category": "education",
+    "topic": "Intuition and software development",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Unusual breathiness",
+    "language": "en"
+  },
+  "en_nptel_0022": {
+    "topic_category": "education",
+    "topic": "Software development task",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "High energy variation contradicts calm emotion",
+    "language": "en"
+  },
+  "en_nptel_0023": {
+    "topic_category": "education",
+    "topic": "Software engineering techniques",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_nptel_0024": {
+    "topic_category": "education",
+    "topic": "Software engineering definition",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Unusual breathiness",
+    "language": "en"
+  },
+  "en_nptel_0025": {
+    "topic_category": "education",
+    "topic": "Software development techniques",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent energy description",
+    "language": "en"
+  },
+  "en_nptel_0026": {
+    "topic_category": "education",
+    "topic": "Methodologies for development",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent acoustic description",
+    "language": "en"
+  },
+  "en_nptel_0027": {
+    "topic_category": "education",
+    "topic": "Course techniques and guidelines",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_nptel_0028": {
+    "topic_category": "education",
+    "topic": "IEEE software engineering definition",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description is contradictory",
+    "language": "en"
+  },
+  "en_nptel_0029": {
+    "topic_category": "education",
+    "topic": "IEEE software engineering definition",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "High breathiness",
+    "language": "en"
+  },
+  "en_nptel_0030": {
+    "topic_category": "education",
+    "topic": "Software engineering definition",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "en"
+  },
+  "en_nptel_0031": {
+    "topic_category": "education",
+    "topic": "Systematic approach",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Repetitive phrasing",
+    "language": "en"
+  },
+  "en_nptel_0032": {
+    "topic_category": "education",
+    "topic": "Development from programmer experience",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_nptel_0033": {
+    "topic_category": "motivation",
+    "topic": "Software engineering motivation",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low pitch/energy variation may not convey happiness",
+    "language": "en"
+  },
+  "en_nptel_0034": {
+    "topic_category": "education",
+    "topic": "Learning software engineering",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_nptel_0035": {
+    "topic_category": "education",
+    "topic": "User requirements",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Flat delivery, low expressiveness",
+    "language": "en"
+  },
+  "en_nptel_0036": {
+    "topic_category": "education",
+    "topic": "User expectations for software",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotion support",
+    "language": "en"
+  },
+  "en_nptel_0037": {
+    "topic_category": "education",
+    "topic": "Software vs. hardware cost",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic profile contradicts neutral emotion",
+    "language": "en"
+  },
+  "en_nptel_0038": {
+    "topic_category": "conversation",
+    "topic": "Software debugging frustration",
+    "tts_suitable": 1.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical errors",
+    "language": "en"
+  },
+  "en_nptel_0039": {
+    "topic_category": "education",
+    "topic": "Technical limitation feedback",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Potential emotion mismatch between stated and acoustic description",
+    "language": "en"
+  },
+  "en_nptel_0040": {
+    "topic_category": "news",
+    "topic": "Software delivery delays",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Ambiguous acoustic profile",
+    "language": "en"
+  },
+  "en_nptel_0041": {
+    "topic_category": "education",
+    "topic": "Software resource usage",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented transcript and low voice clarity",
+    "language": "en"
+  },
+  "en_nptel_0042": {
+    "topic_category": "education",
+    "topic": "Project development issues",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Incomplete transcript",
+    "language": "en"
+  },
+  "en_nptel_0043": {
+    "topic_category": "education",
+    "topic": "Project failure",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Unusual breathiness",
+    "language": "en"
+  },
+  "en_nptel_0044": {
+    "topic_category": "education",
+    "topic": "Software vs hardware cost comparison",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low voice clarity contradicts excitement",
+    "language": "en"
+  },
+  "en_nptel_0045": {
+    "topic_category": "education",
+    "topic": "Company spending analysis",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "en"
+  },
+  "en_nptel_0046": {
+    "topic_category": "education",
+    "topic": "1960s hardware costs",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incomplete transcript fragment",
+    "language": "en"
+  },
+  "en_nptel_0047": {
+    "topic_category": "education",
+    "topic": "Cost changes in tech",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic evidence",
+    "language": "en"
+  },
+  "en_nptel_0048": {
+    "topic_category": "education",
+    "topic": "Cost ratio analysis",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent emotion and acoustics",
+    "language": "en"
+  },
+  "en_nptel_0049": {
+    "topic_category": "education",
+    "topic": "Laptop and software cost",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low clarity and high breathiness",
+    "language": "en"
+  },
+  "en_nptel_0050": {
+    "topic_category": "education",
+    "topic": "Cost of license",
+    "tts_suitable": 0.9,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incomplete sentence",
+    "language": "en"
+  },
+  "en_nptel_0051": {
+    "topic_category": "education",
+    "topic": "Software vs. Hardware Cost",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description contradicts stated emotion",
+    "language": "en"
+  },
+  "en_nptel_0052": {
+    "topic_category": "conversation",
+    "topic": "Software cost",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_tedx_amina_0000": {
+    "topic_category": "other",
+    "topic": "School memory",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Conversational fillers",
+    "language": "en"
+  },
+  "en_tedx_amina_0001": {
+    "topic_category": "education",
+    "topic": "A class performance",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Not a single coherent thought",
+    "language": "en"
+  },
+  "en_tedx_amina_0002": {
+    "topic_category": "devotional",
+    "topic": "Describing a ritual",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Transcript is an incomplete, run-on thought.",
+    "language": "en"
+  },
+  "en_tedx_amina_0003": {
+    "topic_category": "education",
+    "topic": "School assembly process",
+    "tts_suitable": 0.85,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Acoustic/emotion mismatch",
+    "language": "en"
+  },
+  "en_tedx_amina_0004": {
+    "topic_category": "conversation",
+    "topic": "practicing for a presentation",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "inconsistent vocal quality",
+    "language": "en"
+  },
+  "en_tedx_amina_0005": {
+    "topic_category": "other",
+    "topic": "Stage performance anxiety",
+    "tts_suitable": 0.85,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotional mismatch between transcript and stated emotion",
+    "language": "en"
+  },
+  "en_tedx_amina_0006": {
+    "topic_category": "other",
+    "topic": "Personal anxiety",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Filler words and run-on sentences",
+    "language": "en"
+  },
+  "en_tedx_amina_0007": {
+    "topic_category": "fiction",
+    "topic": "Personal embarrassment",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_tedx_amina_0008": {
+    "topic_category": "education",
+    "topic": "Personal school assembly failure",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Neutral tone for stated emotion",
+    "language": "en"
+  },
+  "en_tedx_amina_0009": {
+    "topic_category": "conversation",
+    "topic": "Personal anecdote",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "en"
+  },
+  "en_tedx_amina_0010": {
+    "topic_category": "other",
+    "topic": "being called a nickname",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory emotion",
+    "language": "en"
+  },
+  "en_tedx_amina_0011": {
+    "topic_category": "motivation",
+    "topic": "Overcoming embarrassment",
+    "tts_suitable": 0.5,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "en"
+  },
+  "en_tedx_amina_0012": {
+    "topic_category": "education",
+    "topic": "Student's experience with teachers",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incomplete sentence",
+    "language": "en"
+  },
+  "en_tedx_amina_0013": {
+    "topic_category": "education",
+    "topic": "Personal story about grades",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Incomplete transcript",
+    "language": "en"
+  },
+  "en_tedx_amina_0014": {
+    "topic_category": "other",
+    "topic": "Student burnout",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Content-emotion mismatch",
+    "language": "en"
+  },
+  "en_tedx_amina_0015": {
+    "topic_category": "conversation",
+    "topic": "Realization",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammatical error in transcript ('And but')",
+    "language": "en"
+  },
+  "en_tedx_amina_0016": {
+    "topic_category": "conversation",
+    "topic": "Personal memory",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_tedx_amina_0017": {
+    "topic_category": "other",
+    "topic": "being absorbed in books",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_tedx_amina_0018": {
+    "topic_category": "other",
+    "topic": "Realization of lack",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotional cues",
+    "language": "en"
+  },
+  "en_tedx_amina_0019": {
+    "topic_category": "conversation",
+    "topic": "Question about stage performance",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory energy cues",
+    "language": "en"
+  },
+  "en_tedx_amina_0020": {
+    "topic_category": "other",
+    "topic": "Personal disappointment",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High energy contradicts sad emotion",
+    "language": "en"
+  },
+  "en_tedx_amina_0021": {
+    "topic_category": "conversation",
+    "topic": "Personal reflection",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues and disjointed transcript",
+    "language": "en"
+  },
+  "en_tedx_amina_0022": {
+    "topic_category": "other",
+    "topic": "Youth festival memory",
+    "tts_suitable": 0.85,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Filler words",
+    "language": "en"
+  },
+  "en_tedx_amina_0023": {
+    "topic_category": "conversation",
+    "topic": "Recalling a dance with mom",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "en"
+  },
+  "en_tedx_amina_0024": {
+    "topic_category": "conversation",
+    "topic": "Request for a solo performance",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent acoustic profile",
+    "language": "en"
+  },
+  "en_tedx_amina_0025": {
+    "topic_category": "conversation",
+    "topic": "personal fear",
+    "tts_suitable": 1.0,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Unedited speech",
+    "language": "en"
+  },
+  "en_tedx_amina_0026": {
+    "topic_category": "other",
+    "topic": "personal reflection",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Fragmented thought",
+    "language": "en"
+  },
+  "en_tedx_amina_0027": {
+    "topic_category": "education",
+    "topic": "Self-improvement reading",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "en"
+  },
+  "en_tedx_amina_0028": {
+    "topic_category": "motivation",
+    "topic": "Using the mind to achieve goals",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description contradicts stated emotion",
+    "language": "en"
+  },
+  "en_tedx_amina_0029": {
+    "topic_category": "motivation",
+    "topic": "power of the mind",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_tedx_amina_0030": {
+    "topic_category": "other",
+    "topic": "Nature of thought",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic data",
+    "language": "en"
+  },
+  "en_tedx_amina_0031": {
+    "topic_category": "motivation",
+    "topic": "self-belief and thoughts",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "en"
+  },
+  "en_tedx_amina_0032": {
+    "topic_category": "education",
+    "topic": "Realization about belief",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent emotional cues",
+    "language": "en"
+  },
+  "en_tedx_amina_0033": {
+    "topic_category": "education",
+    "topic": "belief definition",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "incomplete transcript",
+    "language": "en"
+  },
+  "en_tedx_amina_0034": {
+    "topic_category": "motivation",
+    "topic": "Self-transformation advice",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Incomplete sentence",
+    "language": "en"
+  },
+  "en_tedx_amina_0035": {
+    "topic_category": "motivation",
+    "topic": "Countering negative thoughts",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_tedx_amina_0036": {
+    "topic_category": "education",
+    "topic": "neural pathways transformation",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues for emotion",
+    "language": "en"
+  },
+  "en_tedx_amina_0037": {
+    "topic_category": "conversation",
+    "topic": "Personal failure reflection",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Ambiguous pronoun 'You'",
+    "language": "en"
+  },
+  "en_tedx_amina_0038": {
+    "topic_category": "motivation",
+    "topic": "Personal development",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Vocal strain or breathiness",
+    "language": "en"
+  },
+  "en_tedx_amina_0039": {
+    "topic_category": "conversation",
+    "topic": "Personal acting story",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "en"
+  },
+  "en_tedx_amina_0040": {
+    "topic_category": "conversation",
+    "topic": "Audition announcement",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Repetitive phrasing",
+    "language": "en"
+  },
+  "en_tedx_amina_0041": {
+    "topic_category": "fiction",
+    "topic": "Grandmother's concern",
+    "tts_suitable": 1.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Acoustic/emotional mismatch",
+    "language": "en"
+  },
+  "en_tedx_amina_0042": {
+    "topic_category": "conversation",
+    "topic": "questioning stage ability",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "en"
+  },
+  "en_tedx_amina_0043": {
+    "topic_category": "fiction",
+    "topic": "Dialogue about audition conditions",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Incomplete transcript and emotion-acoustic mismatch",
+    "language": "en"
+  },
+  "en_tedx_amina_0044": {
+    "topic_category": "conversation",
+    "topic": "Future movies discussion",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Pitch variation conflicts with calm emotion",
+    "language": "en"
+  },
+  "en_tedx_amina_0045": {
+    "topic_category": "motivation",
+    "topic": "Audition experience",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Inconsistent acoustic profile",
+    "language": "en"
+  },
+  "te_audiobook_bhumiputri_0000": {
+    "topic_category": "education",
+    "topic": "Introduction to a novel",
+    "tts_suitable": 0.5,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice clarity",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0001": {
+    "topic_category": "fiction",
+    "topic": "Female author's audio novels",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description contradicts emotion",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0002": {
+    "topic_category": "motivation",
+    "topic": "Content creator asking for engagement",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0003": {
+    "topic_category": "fiction",
+    "topic": "Bhumiputri novel start",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic data",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0004": {
+    "topic_category": "fiction",
+    "topic": "sad character scene",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0005": {
+    "topic_category": "conversation",
+    "topic": "Travel arrangements",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Unclear transcript, sad not supported",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0006": {
+    "topic_category": "folktale",
+    "topic": "Telugu folktale",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Non-fluent transcript",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0007": {
+    "topic_category": "folktale",
+    "topic": "Shankar Rao's story",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "run-on sentence",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0008": {
+    "topic_category": "conversation",
+    "topic": "Telugu conversation",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Repetitions and transcription errors",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0009": {
+    "topic_category": "conversation",
+    "topic": "Language complaint",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Minor grammatical errors",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0010": {
+    "topic_category": "conversation",
+    "topic": "personal reflection",
+    "tts_suitable": 0.5,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "energy variation high but pitch variation low",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0011": {
+    "topic_category": "folktale",
+    "topic": "A character's questions",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Low voice clarity (HNR)",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0012": {
+    "topic_category": "other",
+    "topic": "Excitement and anticipation",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Transcript content contradicts stated emotion and acoustic description",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0013": {
+    "topic_category": "conversation",
+    "topic": "Vagudu river-like speech",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0014": {
+    "topic_category": "other",
+    "topic": "Confused questions",
+    "tts_suitable": 0.1,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incoherent transcript and poor voice quality",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0015": {
+    "topic_category": "other",
+    "topic": "పొదుపు కథ",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "అసాధారణ భాష మరియు తక్కువ స్వరం నాణ్యత",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0016": {
+    "topic_category": "folktale",
+    "topic": "A riddle about money",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0017": {
+    "topic_category": "mythology",
+    "topic": "కనకదుర్గ రాక సన్నాహాలు",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "రన్-ఆన్ వాక్యం మరియు తక్కువ వ్యక్తీకరణ",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0018": {
+    "topic_category": "folktale",
+    "topic": "Durga's happy experiences",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Repetitive phrases and confusing structure",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0019": {
+    "topic_category": "mythology",
+    "topic": "Krishna avatar dialogue",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Mix of languages and grammatical issues",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0020": {
+    "topic_category": "fiction",
+    "topic": "Dialogue snippet",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Unnatural phrasing",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0021": {
+    "topic_category": "fiction",
+    "topic": "రామకృష్ణుని ఆకలి",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "విచ్ఛిన్నమైన ఆలోచన",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0022": {
+    "topic_category": "conversation",
+    "topic": "Angry refusal",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description not consistent with angry emotion",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0023": {
+    "topic_category": "other",
+    "topic": "Durga movies",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Run-on sentence, lacks punctuation",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0024": {
+    "topic_category": "conversation",
+    "topic": "Durga's placement problem",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Language mismatch",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0025": {
+    "topic_category": "other",
+    "topic": "Reputation complaint",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Slightly unnatural phrasing",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0026": {
+    "topic_category": "folktale",
+    "topic": "Character description",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic cues",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0027": {
+    "topic_category": "mythology",
+    "topic": "Durga arrival speculation",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented thoughts, low energy variation",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0028": {
+    "topic_category": "fiction",
+    "topic": "Character's thought",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0029": {
+    "topic_category": "folktale",
+    "topic": "Mythical teacher story",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Unclear transcript and low expressiveness",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0030": {
+    "topic_category": "mythology",
+    "topic": "Durga's letters description",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Awkward grammar",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0031": {
+    "topic_category": "mythology",
+    "topic": "Durga's enchantment",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0032": {
+    "topic_category": "folktale",
+    "topic": "Mythological scene",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Low expressiveness contradicts anger",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0033": {
+    "topic_category": "folktale",
+    "topic": "Man walking to temple",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic data",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0034": {
+    "topic_category": "fiction",
+    "topic": "Telugu narrative",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Awkward phrasing and repetition",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0035": {
+    "topic_category": "folktale",
+    "topic": "Shankar Rao and Ramakrishna",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "mixed language and disjointed content",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0036": {
+    "topic_category": "conversation",
+    "topic": "love letter question",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "energy variation lower",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0037": {
+    "topic_category": "other",
+    "topic": "mythology",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Language mismatch: The transcript is in Telugu, but the stated emotion is 'sad' ",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0038": {
+    "topic_category": "conversation",
+    "topic": "రామకృష్ణ విసుగు",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "మిశ్రమ భాషలు మరియు విరుద్ధమైన ధ్వనిశాస్త్రం",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0039": {
+    "topic_category": "conversation",
+    "topic": "explanation of love",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "stilted dialogue",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0040": {
+    "topic_category": "folktale",
+    "topic": "Father's love in letters",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0041": {
+    "topic_category": "devotional",
+    "topic": "Devotional love reflection",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0042": {
+    "topic_category": "mythology",
+    "topic": "Durga's arrival",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mixed acoustic cues for emotion",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0000": {
+    "topic_category": "folktale",
+    "topic": "Ramachandra and Padmavati",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0001": {
+    "topic_category": "folktale",
+    "topic": "Padmalatha's desire to be a householder",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent acoustic cues",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0002": {
+    "topic_category": "mythology",
+    "topic": "Ramachandra approaches Padmalata",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "high energy variation",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0003": {
+    "topic_category": "fiction",
+    "topic": "A sad conversation",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0004": {
+    "topic_category": "fiction",
+    "topic": "ఆందోళనతో కూడిన ఏకపాత్రాభినయం",
+    "tts_suitable": 0.2,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "అస్థిరమైన భాష/ధ్వనిశాస్త్రం",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0005": {
+    "topic_category": "other",
+    "topic": "home life",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Broken grammar and transliteration",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0006": {
+    "topic_category": "conversation",
+    "topic": "వాదన గురించి",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "వ్యాకరణ వింతలు",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0007": {
+    "topic_category": "fiction",
+    "topic": "Narrative dialogue",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented narrative structure",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0008": {
+    "topic_category": "conversation",
+    "topic": "Ramanamma challenges thief",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Minor grammatical errors",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0009": {
+    "topic_category": "mythology",
+    "topic": "Padma's Fear",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0010": {
+    "topic_category": "mythology",
+    "topic": "రామచంద్ర గృహం",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Prosody-text mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0011": {
+    "topic_category": "folktale",
+    "topic": "Telugu folktale",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent emotional cues",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0012": {
+    "topic_category": "conversation",
+    "topic": "Ramanamma's plan",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low energy variation",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0013": {
+    "topic_category": "fiction",
+    "topic": "Character interaction",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0014": {
+    "topic_category": "fiction",
+    "topic": "Urge to leave",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0015": {
+    "topic_category": "fiction",
+    "topic": "పద్మలత దగ్గరికి ఒక వ్యక్తి వెళ్ళడం",
+    "tts_suitable": 0.2,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "భాషా వైరుధ్యం: తెలుగు లిపిలో ఉన్న లిఖితం",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0016": {
+    "topic_category": "conversation",
+    "topic": "Relationship confusion",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incoherent, conversational style",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0017": {
+    "topic_category": "other",
+    "topic": "Personal reflection",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Unnatural phrasing and language mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0018": {
+    "topic_category": "folktale",
+    "topic": "Question about feelings",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Acoustic description contradicts stated emotion",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0019": {
+    "topic_category": "conversation",
+    "topic": "Confrontational Argument",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Content-emotion mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0020": {
+    "topic_category": "other",
+    "topic": "Telugu question",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Unclear phrasing",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0021": {
+    "topic_category": "motivation",
+    "topic": "Excited about movies",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incoherent transcript",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0022": {
+    "topic_category": "fiction",
+    "topic": "Sad conversation about stuck at home",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Unnatural phrasing",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0023": {
+    "topic_category": "fiction",
+    "topic": "Telugu narrative snippet",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical errors and contradictory acoustics",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0024": {
+    "topic_category": "folktale",
+    "topic": "calm scene",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "awkward phrasing",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0025": {
+    "topic_category": "conversation",
+    "topic": "A shaving kit conversation",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent energy levels",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0026": {
+    "topic_category": "other",
+    "topic": "Internal monologue",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Unclear transcript and poor acoustic quality",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0027": {
+    "topic_category": "fiction",
+    "topic": "పద్మలత మరియు ఆమె పనిమనిషి",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "భాషా అసమతుల్యత",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0028": {
+    "topic_category": "education",
+    "topic": "Health advice",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0029": {
+    "topic_category": "conversation",
+    "topic": "Padmalatha's habits",
+    "tts_suitable": 0.5,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Fragmented thought",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0030": {
+    "topic_category": "folktale",
+    "topic": "Divine beauty description",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Non-English language",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0031": {
+    "topic_category": "other",
+    "topic": "Rapid-fire questions",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Unstructured monologue",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0032": {
+    "topic_category": "fiction",
+    "topic": "sad narrative",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0033": {
+    "topic_category": "fiction",
+    "topic": "Padam and Ramachandra",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description inconsistent with emotion",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0034": {
+    "topic_category": "folktale",
+    "topic": "Daily routine",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0035": {
+    "topic_category": "other",
+    "topic": "Writing legs to sleep",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0036": {
+    "topic_category": "folktale",
+    "topic": "Ramachandra's work",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Nonsensical transcript",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0037": {
+    "topic_category": "folktale",
+    "topic": "Man's lost service after wedding",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "awkward phrasing",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0038": {
+    "topic_category": "folktale",
+    "topic": "Ravanamma's story",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0039": {
+    "topic_category": "other",
+    "topic": "Attending to service",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Garbled transcript",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0040": {
+    "topic_category": "folktale",
+    "topic": "Story about Ravanamma",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Language mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0041": {
+    "topic_category": "other",
+    "topic": "మొగుడి గైర్హాజరీపై ఆందోళన",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0042": {
+    "topic_category": "conversation",
+    "topic": "Waiting for husband",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotion; acoustics suggest frustration over anger.",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0043": {
+    "topic_category": "other",
+    "topic": "Personal statement",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0044": {
+    "topic_category": "conversation",
+    "topic": "Argument with father",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Broken grammar / incoherent sentence",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0045": {
+    "topic_category": "folktale",
+    "topic": "వ్యక్తిగత వేదన ప్రకటన",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "కంటెంట్-ఎమోషన్ మధ్య పొంతన లేకపోవడం",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0046": {
+    "topic_category": "other",
+    "topic": "Angry argument",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Broken grammar",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0047": {
+    "topic_category": "conversation",
+    "topic": "Argument with partner",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Fragmented thought",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0048": {
+    "topic_category": "folktale",
+    "topic": "Telugu dialogue",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0049": {
+    "topic_category": "folktale",
+    "topic": "రావణమ్మ పిచ్చి మరియు రాముని ధైర్యం",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "ముక్కలుగా ఉన్న వాక్యం",
+    "language": "te"
+  },
+  "te_kathalu_epic_0000": {
+    "topic_category": "fiction",
+    "topic": "రాజుకు మంత్రి నివేదిక",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "భావోద్వేగ లేబుల్ ట్రాన్స్‌క్రిప్ట్ కంటెంట్‌తో సరిపోలకపోవచ్చు",
+    "language": "te"
+  },
+  "te_kathalu_epic_0001": {
+    "topic_category": "conversation",
+    "topic": "Island's food shortage",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "energy variation higher than usual",
+    "language": "te"
+  },
+  "te_kathalu_epic_0002": {
+    "topic_category": "other",
+    "topic": "population reduction suggestion",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "unusual prosody",
+    "language": "te"
+  },
+  "te_kathalu_epic_0003": {
+    "topic_category": "other",
+    "topic": "జనాభా నియంత్రణ ఆందోళన",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_kathalu_epic_0004": {
+    "topic_category": "fiction",
+    "topic": "ప్రతిపాదిత దాడి",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "తెలుగు భాష",
+    "language": "te"
+  },
+  "te_kathalu_epic_0005": {
+    "topic_category": "conversation",
+    "topic": "Island resource sharing",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description not calm",
+    "language": "te"
+  },
+  "te_kathalu_epic_0006": {
+    "topic_category": "conversation",
+    "topic": "Prince's angry question",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Non-English transcript",
+    "language": "te"
+  },
+  "te_kathalu_epic_0007": {
+    "topic_category": "folktale",
+    "topic": "questions about an island and king",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "mismatch between stated emotion (neutral) and emotional content of the transcrip",
+    "language": "te"
+  },
+  "te_kathalu_epic_0008": {
+    "topic_category": "conversation",
+    "topic": "story request",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "translation artifacts",
+    "language": "te"
+  },
+  "te_kathalu_epic_0009": {
+    "topic_category": "folktale",
+    "topic": "ఒక కథలో మారువేషం",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "పరస్పర విరుద్ధమైన ధ్వని సమాచారం",
+    "language": "te"
+  },
+  "te_kathalu_epic_0010": {
+    "topic_category": "folktale",
+    "topic": "A king's peaceful rest",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustics contradict stated emotion",
+    "language": "te"
+  },
+  "te_kathalu_epic_0011": {
+    "topic_category": "folktale",
+    "topic": "King and alms seeker",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatch between stated emotion and acoustics",
+    "language": "te"
+  },
+  "te_kathalu_epic_0012": {
+    "topic_category": "folktale",
+    "topic": "merchant's plea",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustics show higher energy, not neutral",
+    "language": "te"
+  },
+  "te_kathalu_epic_0013": {
+    "topic_category": "folktale",
+    "topic": "royal encounter",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "language inconsistency",
+    "language": "te"
+  },
+  "te_kathalu_epic_0014": {
+    "topic_category": "folktale",
+    "topic": "King Devadatta's departure",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Awkward phrasing",
+    "language": "te"
+  },
+  "te_kathalu_epic_0015": {
+    "topic_category": "folktale",
+    "topic": "A character's regret",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_kathalu_epic_0016": {
+    "topic_category": "motivation",
+    "topic": "Sad reflection",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Language mismatch",
+    "language": "te"
+  },
+  "te_kathalu_epic_0017": {
+    "topic_category": "folktale",
+    "topic": "బిచ్చగాడు కోనేరులో",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_kathalu_epic_0018": {
+    "topic_category": "folktale",
+    "topic": "Narrative scene",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description does not fully support angry emotion",
+    "language": "te"
+  },
+  "te_kathalu_epic_0019": {
+    "topic_category": "other",
+    "topic": "offering flowers and giving",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "higher breathiness and lower pitch variation",
+    "language": "te"
+  },
+  "te_kathalu_epic_0020": {
+    "topic_category": "conversation",
+    "topic": "Moral reflection",
+    "tts_suitable": 0.2,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Language mismatch",
+    "language": "te"
+  },
+  "te_kathalu_epic_0021": {
+    "topic_category": "conversation",
+    "topic": "Temple flower offering",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High energy variation",
+    "language": "te"
+  },
+  "te_kathalu_epic_0022": {
+    "topic_category": "devotional",
+    "topic": "Offering flowers to devotees",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Unnatural phrasing in transcript",
+    "language": "te"
+  },
+  "te_kathalu_epic_0023": {
+    "topic_category": "other",
+    "topic": "Personal reflection",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Language mismatch",
+    "language": "te"
+  },
+  "te_kathalu_epic_0024": {
+    "topic_category": "motivation",
+    "topic": "Reflection on giving and receiving",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammar and emotion mismatch",
+    "language": "te"
+  },
+  "te_kathalu_epic_0025": {
+    "topic_category": "folktale",
+    "topic": "రాజు మార్పు",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "భాషా అసమతుల్యత",
+    "language": "te"
+  },
+  "te_kathalu_epic_0026": {
+    "topic_category": "conversation",
+    "topic": "Prince's reply to minister",
+    "tts_suitable": 0.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mixed language",
+    "language": "te"
+  },
+  "te_kathalu_epic_0027": {
+    "topic_category": "folktale",
+    "topic": "Telling a story from Kambala desam",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Split narrative and higher pitch variation",
+    "language": "te"
+  },
+  "te_kathalu_epic_0028": {
+    "topic_category": "folktale",
+    "topic": "King's ancestor hunting in forest",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_kathalu_epic_0029": {
+    "topic_category": "fiction",
+    "topic": "A man sees a flower",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent emotion description",
+    "language": "te"
+  },
+  "te_kathalu_epic_0030": {
+    "topic_category": "mythology",
+    "topic": "A curse is pronounced",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Low voice clarity and breathiness, contradicting the stated emotion",
+    "language": "te"
+  },
+  "te_kathalu_epic_0031": {
+    "topic_category": "folktale",
+    "topic": "curse protecting a kingdom",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradiction between stated emotion and acoustic description",
+    "language": "te"
+  },
+  "te_kathalu_epic_0032": {
+    "topic_category": "folktale",
+    "topic": "A king's happy life",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_kathalu_epic_0033": {
+    "topic_category": "folktale",
+    "topic": "Mythological narrative",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy level higher than usual, contradicting calm emotion",
+    "language": "te"
+  },
+  "te_kathalu_epic_0034": {
+    "topic_category": "folktale",
+    "topic": "fearful king's question",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "energy variation high",
+    "language": "te"
+  },
+  "te_kathalu_epic_0035": {
+    "topic_category": "conversation",
+    "topic": "Questioning confusion",
+    "tts_suitable": 0.5,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion and acoustics",
+    "language": "te"
+  },
+  "te_kathalu_epic_0036": {
+    "topic_category": "folktale",
+    "topic": "King's island conquest",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description mismatch",
+    "language": "te"
+  },
+  "te_kathalu_epic_0037": {
+    "topic_category": "folktale",
+    "topic": "Devadatta's hidden cruelty",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "",
+    "language": "te"
+  },
+  "te_kathalu_epic_0038": {
+    "topic_category": "folktale",
+    "topic": "Folktale narrative",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "grammatical errors",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0000": {
+    "topic_category": "other",
+    "topic": "Questioning loneliness",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Language mix",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0001": {
+    "topic_category": "other",
+    "topic": "Loneliness and social life",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Mixed language and incomplete sentences",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0002": {
+    "topic_category": "conversation",
+    "topic": "Feeling ignored by others",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "grammatical errors",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0003": {
+    "topic_category": "other",
+    "topic": "Loneliness and dependency",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammatical awkwardness, likely machine-translated",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0004": {
+    "topic_category": "conversation",
+    "topic": "Loneliness discussion",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented, not clean",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0005": {
+    "topic_category": "education",
+    "topic": "Understanding a difference",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Grammar issue",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0006": {
+    "topic_category": "conversation",
+    "topic": "question about being alone",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Energy variation mismatch",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0007": {
+    "topic_category": "conversation",
+    "topic": "Teamwork and humor",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "High breathiness and pitch variation",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0008": {
+    "topic_category": "other",
+    "topic": "Loneliness and Solitude",
+    "tts_suitable": 0.1,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Low voice clarity (HNR)",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0009": {
+    "topic_category": "conversation",
+    "topic": "loneliness and love",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "filler words",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0010": {
+    "topic_category": "conversation",
+    "topic": "Missing loved ones",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic profile does not match angry",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0011": {
+    "topic_category": "conversation",
+    "topic": "Distinguishing types of love",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Acoustic description contradicts stated emotion",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0012": {
+    "topic_category": "conversation",
+    "topic": "unloved and rejected",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "low pitch variation contradicts angry",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0013": {
+    "topic_category": "other",
+    "topic": "Feeling lonely",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Non-standard language transcript",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0014": {
+    "topic_category": "other",
+    "topic": "Loneliness and deep meaning",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Mixed language (Telugu/English)",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0015": {
+    "topic_category": "conversation",
+    "topic": "Loneliness and misunderstanding",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0016": {
+    "topic_category": "conversation",
+    "topic": "Discussing a topic in depth",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Incomplete thoughts or grammatical issues",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0017": {
+    "topic_category": "motivation",
+    "topic": "Don't be lonely, be lovely",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0018": {
+    "topic_category": "conversation",
+    "topic": "lonely conversation",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical errors and fragmented content",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0019": {
+    "topic_category": "education",
+    "topic": "Musk deer and musk",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mismatched emotion label",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0020": {
+    "topic_category": "education",
+    "topic": "Ethical perfume making",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Awkward phrasing",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0021": {
+    "topic_category": "conversation",
+    "topic": "Deer's strange love for perfume",
+    "tts_suitable": 0.75,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0022": {
+    "topic_category": "folktale",
+    "topic": "Deer's daily routine",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Unclear narrative and emotion",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0023": {
+    "topic_category": "folktale",
+    "topic": "Deer's scent trail",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Mixed language",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0024": {
+    "topic_category": "other",
+    "topic": "sad life reflection",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "transcription errors",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0025": {
+    "topic_category": "folktale",
+    "topic": "Allegory about a deer's thought",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Slightly unnatural phrasing in transcript",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0026": {
+    "topic_category": "motivation",
+    "topic": "Overcoming loneliness",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Mixed Telugu-English and non-standard grammar",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0027": {
+    "topic_category": "motivation",
+    "topic": "Giving value to self",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description not calm",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0028": {
+    "topic_category": "conversation",
+    "topic": "Feeling not needed",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Mixed acoustic cues",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0029": {
+    "topic_category": "other",
+    "topic": "ఫీలింగ్ ఆఫ్ నాట్ నీడెడ్",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "బ్రోకెన్ గ్రామర్ మరియు కన్ఫ్యూజింగ్ అకౌస్టిక్స్",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0030": {
+    "topic_category": "other",
+    "topic": "Loneliness and sadness",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Low voice clarity (HNR)",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0031": {
+    "topic_category": "fiction",
+    "topic": "Feeling unloved and hated",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic-emotion mismatch",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0032": {
+    "topic_category": "conversation",
+    "topic": "Question about being hated",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Repetitive phrasing",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0033": {
+    "topic_category": "motivation",
+    "topic": "Feeling lonely and misunderstood",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Stated emotion contradicts content and acoustics",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0034": {
+    "topic_category": "other",
+    "topic": "Loneliness is universal",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Mixed-language transcript",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0035": {
+    "topic_category": "motivation",
+    "topic": "Self-worth advice",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Language mismatch",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0036": {
+    "topic_category": "education",
+    "topic": "Motivational advice",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion-acoustic mismatch",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0037": {
+    "topic_category": "other",
+    "topic": "Self-worth inquiry",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low voice clarity",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0038": {
+    "topic_category": "education",
+    "topic": "Self-respect and self-value",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Repetitive and unpolished",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0039": {
+    "topic_category": "education",
+    "topic": "Simple value technique",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0040": {
+    "topic_category": "conversation",
+    "topic": "Simple technique explanation",
+    "tts_suitable": 0.4,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Low voice clarity (HNR)",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0041": {
+    "topic_category": "motivation",
+    "topic": "Qualities you like",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Repetitive phrasing",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0042": {
+    "topic_category": "conversation",
+    "topic": "explaining a concept with example",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "grammatical error or typo",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0043": {
+    "topic_category": "education",
+    "topic": "Describing a task",
+    "tts_suitable": 0.2,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Language mismatch (Telugu transcript for single-language model)",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0044": {
+    "topic_category": "other",
+    "topic": "Personal statement",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustics",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0045": {
+    "topic_category": "conversation",
+    "topic": "Setting up microphone for representation",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Fragmented speech with unusual energy and breathiness",
+    "language": "te"
+  },
+  "te_motivation_kasyap_0046": {
+    "topic_category": "education",
+    "topic": "Lady investigator",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Unnatural phrasing",
+    "language": "te"
+  },
+  "te_ramaaraavi_0000": {
+    "topic_category": "mythology",
+    "topic": "King's lineage question",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic profile",
+    "language": "te"
+  },
+  "te_ramaaraavi_0001": {
+    "topic_category": "folktale",
+    "topic": "kingdom far away",
+    "tts_suitable": 0.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "inconsistent acoustic cues",
+    "language": "te"
+  },
+  "te_ramaaraavi_0002": {
+    "topic_category": "conversation",
+    "topic": "Loneliness and societal change",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion mismatch",
+    "language": "te"
+  },
+  "te_ramaaraavi_0003": {
+    "topic_category": "fiction",
+    "topic": "Girl's boredom with life",
+    "tts_suitable": 0.75,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic cues suggest emotion, not neutrality",
+    "language": "te"
+  },
+  "te_ramaaraavi_0004": {
+    "topic_category": "fiction",
+    "topic": "గ్రామ జీవితం మరియు నిరాశ",
+    "tts_suitable": 0.95,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "తప్పుగా ఉన్న ఎమోషన్ లేబుల్",
+    "language": "te"
+  },
+  "te_ramaaraavi_0005": {
+    "topic_category": "folktale",
+    "topic": "Girl's sadness",
+    "tts_suitable": 0.2,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Language mismatch (Telugu transcript)",
+    "language": "te"
+  },
+  "te_ramaaraavi_0006": {
+    "topic_category": "folktale",
+    "topic": "girl walking away",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "low expressiveness",
+    "language": "te"
+  },
+  "te_ramaaraavi_0007": {
+    "topic_category": "folktale",
+    "topic": "Girl discovers new place",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustics",
+    "language": "te"
+  },
+  "te_ramaaraavi_0008": {
+    "topic_category": "folktale",
+    "topic": "Poetic reflection on nature",
+    "tts_suitable": 0.4,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Unnatural energy variation",
+    "language": "te"
+  },
+  "te_ramaaraavi_0009": {
+    "topic_category": "other",
+    "topic": "Describing a place",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic profile generic",
+    "language": "te"
+  },
+  "te_ramaaraavi_0010": {
+    "topic_category": "other",
+    "topic": "Pollen is strange",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "acoustic description suggests non-neutral emotion",
+    "language": "te"
+  },
+  "te_ramaaraavi_0011": {
+    "topic_category": "folktale",
+    "topic": "ఒక పువ్వు తిరుగుతోంది",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "విరుద్ధమైన ధ్వని వివరణ",
+    "language": "te"
+  },
+  "te_ramaaraavi_0012": {
+    "topic_category": "fiction",
+    "topic": "young man shouting",
+    "tts_suitable": 0.2,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Garbled transcript",
+    "language": "te"
+  },
+  "te_ramaaraavi_0013": {
+    "topic_category": "folktale",
+    "topic": "A princess's story",
+    "tts_suitable": 0.6,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Broken grammar",
+    "language": "te"
+  },
+  "te_ramaaraavi_0014": {
+    "topic_category": "folktale",
+    "topic": "Gandharva forest protection",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical issues",
+    "language": "te"
+  },
+  "te_ramaaraavi_0015": {
+    "topic_category": "folktale",
+    "topic": "Story quote",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Pitch variation high",
+    "language": "te"
+  },
+  "te_ramaaraavi_0016": {
+    "topic_category": "folktale",
+    "topic": "A folktale about gnomes",
+    "tts_suitable": 0.3,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Inconsistent energy and low clarity",
+    "language": "te"
+  },
+  "te_ramaaraavi_0017": {
+    "topic_category": "mythology",
+    "topic": "Girl destroyed by gandharva love",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Lower pitch variation and energy variation may reduce expressiveness",
+    "language": "te"
+  },
+  "te_ramaaraavi_0018": {
+    "topic_category": "folktale",
+    "topic": "Gandharva tale",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Unnatural phrasing",
+    "language": "te"
+  },
+  "te_ramaaraavi_0019": {
+    "topic_category": "mythology",
+    "topic": "Suvrata's reassurance",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "energy variation higher than usual",
+    "language": "te"
+  },
+  "te_ramaaraavi_0020": {
+    "topic_category": "folktale",
+    "topic": "family story",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "fragmented transcript",
+    "language": "te"
+  },
+  "te_ramaaraavi_0021": {
+    "topic_category": "fiction",
+    "topic": "తండ్రి కోసం విలాపం",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "శ్వాసతో కూడిన స్వరం (తక్కువ HNR)",
+    "language": "te"
+  },
+  "te_ramaaraavi_0022": {
+    "topic_category": "mythology",
+    "topic": "Gandharva queen carries away",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_ramaaraavi_0023": {
+    "topic_category": "conversation",
+    "topic": "Personal anecdote",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Ambiguous emotional content",
+    "language": "te"
+  },
+  "te_ramaaraavi_0024": {
+    "topic_category": "folktale",
+    "topic": "Forest guardian stays",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic-emotion mismatch",
+    "language": "te"
+  },
+  "te_ramaaraavi_0025": {
+    "topic_category": "mythology",
+    "topic": "Full moon garden",
+    "tts_suitable": 0.8,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Contradictory content: 'prisoner' vs. 'excited'",
+    "language": "te"
+  },
+  "te_ramaaraavi_0026": {
+    "topic_category": "folktale",
+    "topic": "Princess at the end of the world",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Grammatical issues and fragmented narrative",
+    "language": "te"
+  },
+  "te_ramaaraavi_0027": {
+    "topic_category": "folktale",
+    "topic": "city isolation",
+    "tts_suitable": 0.5,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "non-standard language and low variation",
+    "language": "te"
+  },
+  "te_ramaaraavi_0028": {
+    "topic_category": "fiction",
+    "topic": "Depressed lament",
+    "tts_suitable": 0.8,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Content-emotion mismatch",
+    "language": "te"
+  },
+  "te_ramaaraavi_0029": {
+    "topic_category": "folktale",
+    "topic": "A prisoner's question",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory emotion cues",
+    "language": "te"
+  },
+  "te_ramaaraavi_0030": {
+    "topic_category": "devotional",
+    "topic": "goddess tests",
+    "tts_suitable": 0.6,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "filler words",
+    "language": "te"
+  },
+  "te_ramaaraavi_0031": {
+    "topic_category": "fiction",
+    "topic": "Fearful prediction",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic features",
+    "language": "te"
+  },
+  "te_ramaaraavi_0032": {
+    "topic_category": "other",
+    "topic": "Personal reflection",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "",
+    "language": "te"
+  },
+  "te_ramaaraavi_0033": {
+    "topic_category": "folktale",
+    "topic": "Mythological story with sadness",
+    "tts_suitable": 0.7,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Mixed language and grammatical inconsistencies",
+    "language": "te"
+  },
+  "te_ramaaraavi_0034": {
+    "topic_category": "motivation",
+    "topic": "Loneliness and royalty",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic mismatch",
+    "language": "te"
+  },
+  "te_ramaaraavi_0035": {
+    "topic_category": "mythology",
+    "topic": "Stuck among gandharvas",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic description inconsistent with sadness",
+    "language": "te"
+  },
+  "te_ramaaraavi_0036": {
+    "topic_category": "folktale",
+    "topic": "A person hiding in the forest",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Contradictory acoustic description",
+    "language": "te"
+  },
+  "te_ramaaraavi_0037": {
+    "topic_category": "fiction",
+    "topic": "Descriptive scene",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "Low expressiveness",
+    "language": "te"
+  },
+  "te_ramaaraavi_0038": {
+    "topic_category": "folktale",
+    "topic": "Telugu folktale",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "low expressive variation",
+    "language": "te"
+  },
+  "te_ramaaraavi_0039": {
+    "topic_category": "folktale",
+    "topic": "She goes away with them",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Acoustic cues inconsistent with anger",
+    "language": "te"
+  },
+  "te_ramaaraavi_0040": {
+    "topic_category": "folktale",
+    "topic": "Festival description",
+    "tts_suitable": 0.9,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "Emotion label contradicts acoustic description",
+    "language": "te"
+  },
+  "te_ramaaraavi_0041": {
+    "topic_category": "folktale",
+    "topic": "జంటలు నృత్యం చేయడం, ఒక రెక్కల గుర్రం కనిపిస్తుంది",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "భాషా అసమతుల్యత: తెలుగు పాఠ్యం",
+    "language": "te"
+  },
+  "te_ramaaraavi_0042": {
+    "topic_category": "mythology",
+    "topic": "Girl queen of gandharvas",
+    "tts_suitable": 0.9,
+    "transcript_clean": false,
+    "emotion_supported": true,
+    "issue": "Repetitive phrasing",
+    "language": "te"
+  },
+  "te_ramaaraavi_0043": {
+    "topic_category": "folktale",
+    "topic": "mythological chase scene",
+    "tts_suitable": 0.7,
+    "transcript_clean": true,
+    "emotion_supported": false,
+    "issue": "fragmented transcript, acoustics don't strongly support sad emotion",
+    "language": "te"
+  },
+  "te_ramaaraavi_0044": {
+    "topic_category": "folktale",
+    "topic": "Gandharva princess angry",
+    "tts_suitable": 1.0,
+    "transcript_clean": true,
+    "emotion_supported": true,
+    "issue": "",
+    "language": "te"
+  },
+  "te_ramaaraavi_0045": {
+    "topic_category": "folktale",
+    "topic": "Mythological scene",
+    "tts_suitable": 0.3,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Disjointed transcript and contradictory acoustic description",
+    "language": "te"
+  },
+  "te_ramaaraavi_0046": {
+    "topic_category": "folktale",
+    "topic": "girl and witch",
+    "tts_suitable": 0.0,
+    "transcript_clean": false,
+    "emotion_supported": false,
+    "issue": "Language not in specified categories (Telugu)",
+    "language": "te"
+  }
+}

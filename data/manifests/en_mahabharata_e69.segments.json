@@ -62,7 +62,14 @@
       "dominance": 0.6486,
       "ser_emotion": "happy",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Mahabharata Stories",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Low voice clarity and high breathiness"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -143,7 +150,14 @@
       "dominance": 0.5848,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Pandavas' clever lie",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": "Contradictory acoustic description"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -224,7 +238,14 @@
       "dominance": 0.4692,
       "ser_emotion": "calm",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "folktale",
+      "topic": "15th day of war",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Acoustic description doesn't match sad emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -305,7 +326,14 @@
       "dominance": 0.5305,
       "ser_emotion": "neutral",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Duryodhan's urgent meeting",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Energy variation contradicts calm emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -386,7 +414,14 @@
       "dominance": 0.6137,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Determined not to pick",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": ""
     },
     "status": "pass",
     "reject_reasons": [],
@@ -467,7 +502,14 @@
       "dominance": 0.6454,
       "ser_emotion": "excited",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Indian epic",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Ambiguous acoustic support for emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -548,7 +590,14 @@
       "dominance": 0.7654,
       "ser_emotion": "happy",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Pandavas win war",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Energy variation lower"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -629,7 +678,14 @@
       "dominance": 0.6046,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Duryodhan's determination",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic features"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -710,7 +766,14 @@
       "dominance": 0.6319,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Character's hatred for Pandavas",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Mismatched acoustic profile for stated emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -791,7 +854,14 @@
       "dominance": 0.4933,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Generals in Duryodhan's tent",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustics for stated emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -872,7 +942,14 @@
       "dominance": 0.5891,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Defeating the Pandavas",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic cues"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -953,7 +1030,14 @@
       "dominance": 0.6957,
       "ser_emotion": "happy",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "motivation",
+      "topic": "request to plan war",
+      "tts_suitable": 0.8,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "breathiness and pitch variation"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1034,7 +1118,14 @@
       "dominance": 0.7008,
       "ser_emotion": "angry",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Warrior's resolve for victory",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic cues for stated emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1115,7 +1206,14 @@
       "dominance": 0.7356,
       "ser_emotion": "excited",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Strategic suggestion",
+      "tts_suitable": 0.3,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": ""
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1196,7 +1294,14 @@
       "dominance": 0.7384,
       "ser_emotion": "happy",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "fiction",
+      "topic": "Warrior's confidence",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic profile"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1277,7 +1382,14 @@
       "dominance": 0.4746,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Mahabharata dialogue",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Ambiguous emotional cues"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1358,7 +1470,14 @@
       "dominance": 0.7413,
       "ser_emotion": "angry",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Warrior's capability",
+      "tts_suitable": 0.8,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Low voice clarity"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1439,7 +1558,14 @@
       "dominance": 0.5462,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Offer to lead",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic cues"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1520,7 +1646,14 @@
       "dominance": 0.4385,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Karna's loyalty",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Energy variation higher than usual"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1601,7 +1734,14 @@
       "dominance": 0.7218,
       "ser_emotion": "happy",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Mythological threat",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Inconsistent emotional cues"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1682,7 +1822,14 @@
       "dominance": 0.5533,
       "ser_emotion": "neutral",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Duryodhan and Karna",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": ""
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1763,7 +1910,14 @@
       "dominance": 0.6169,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Karna on Kurukshetra",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": ""
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1830,7 +1984,8 @@
       "spectral_flatness": 0.0117,
       "chars_per_sec": 17.54,
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0
     },
     "status": "reject",
     "reject_reasons": [
@@ -1913,7 +2068,14 @@
       "dominance": 0.4902,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Battle strategy in Mahabharata",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic cues"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -1994,7 +2156,14 @@
       "dominance": 0.5757,
       "ser_emotion": "neutral",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Mahabharata formation",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": "Minor repetition"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2075,7 +2244,14 @@
       "dominance": 0.5929,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Kurukshetra battle scene",
+      "tts_suitable": 0.95,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic description (high energy variation vs. low)"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2142,7 +2318,8 @@
       "spectral_flatness": 0.0102,
       "chars_per_sec": 13.28,
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0
     },
     "status": "reject",
     "reject_reasons": [
@@ -2211,7 +2388,8 @@
       "spectral_flatness": 0.0203,
       "chars_per_sec": 14.13,
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0
     },
     "status": "reject",
     "reject_reasons": [
@@ -2294,7 +2472,14 @@
       "dominance": 0.6815,
       "ser_emotion": "excited",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Epic warrior battle",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Acoustic cues contradict stated emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2361,7 +2546,8 @@
       "spectral_flatness": 0.0209,
       "chars_per_sec": 15.12,
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0
     },
     "status": "reject",
     "reject_reasons": [
@@ -2444,7 +2630,14 @@
       "dominance": 0.544,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Battle aftermath",
+      "tts_suitable": 0.9,
+      "transcript_clean": false,
+      "emotion_supported": true,
+      "issue": "Grammatical error: 'Ashwatthama were'"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2525,7 +2718,14 @@
       "dominance": 0.638,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Ashwatthama's challenge to Arjun",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": "Contradictory acoustic markers"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2606,7 +2806,14 @@
       "dominance": 0.5908,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Krishna and Arjun",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Acoustics don't match stated emotion"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2687,7 +2894,14 @@
       "dominance": 0.6588,
       "ser_emotion": "neutral",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Guru debt, Kshatriya path",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Mismatched emotion and acoustics"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2768,7 +2982,14 @@
       "dominance": 0.6787,
       "ser_emotion": "happy",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Battle scene",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": "Low voice clarity (HNR 6.6 dB)"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2849,7 +3070,14 @@
       "dominance": 0.6106,
       "ser_emotion": "happy",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Mahabharata battle",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic cues"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -2916,7 +3144,8 @@
       "spectral_flatness": 0.0156,
       "chars_per_sec": 12.94,
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0
     },
     "status": "reject",
     "reject_reasons": [
@@ -2999,7 +3228,14 @@
       "dominance": 0.5514,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Mahabharata battle scene",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Emotion-acoustics mismatch"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -3080,7 +3316,14 @@
       "dominance": 0.6478,
       "ser_emotion": "angry",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Krishna and Arjun's dialogue",
+      "tts_suitable": 0.8,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": "Disjointed transcript"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -3161,7 +3404,14 @@
       "dominance": 0.7606,
       "ser_emotion": "angry",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Ashwatthama's revenge",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": "Inconsistent energy and variation"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -3242,7 +3492,14 @@
       "dominance": 0.7306,
       "ser_emotion": "angry",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Arjun's fierce battle",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": ""
     },
     "status": "pass",
     "reject_reasons": [],
@@ -3323,7 +3580,14 @@
       "dominance": 0.6025,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "fiction",
+      "topic": "Fictional battle",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Emotion mismatch"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -3404,7 +3668,14 @@
       "dominance": 0.7275,
       "ser_emotion": "angry",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Karna's accusation",
+      "tts_suitable": 1.0,
+      "transcript_clean": false,
+      "emotion_supported": true,
+      "issue": "Comma splice"
     },
     "status": "pass",
     "reject_reasons": [],
@@ -3485,7 +3756,14 @@
       "dominance": 0.6611,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "A warrior's challenge",
+      "tts_suitable": 1.0,
+      "transcript_clean": true,
+      "emotion_supported": true,
+      "issue": ""
     },
     "status": "pass",
     "reject_reasons": [],
@@ -3566,7 +3844,14 @@
       "dominance": 0.5995,
       "ser_emotion": "sad",
       "gender": "female",
-      "accent": "Indian English"
+      "accent": "Indian English",
+      "latin_fraction": 1.0,
+      "topic_category": "mythology",
+      "topic": "Nakul vs Karna fight",
+      "tts_suitable": 0.9,
+      "transcript_clean": true,
+      "emotion_supported": false,
+      "issue": "Contradictory acoustic metrics"
     },
     "status": "pass",
     "reject_reasons": [],

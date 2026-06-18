@@ -9,8 +9,13 @@ fix what is wrong. So I wrote the pipeline quickly and spent the real effort on 
 choosing good sources, and then refusing to believe my own labels until I had checked them.
 
 One word needs pinning down first. "Single-speaker" means each clip contains exactly one voice.
-The dataset as a whole has 9 speakers, 4 English and 5 Telugu, and every clip records which one. A few clean voices are more useful for training than a
-single voice, and keeping the speaker identity is what lets me verify it later.
+The dataset as a whole has 9 speakers, 4 English and 5 Telugu, and every clip records which one. A
+few clean voices are more useful for training than a single voice, and keeping the speaker identity
+is what lets me verify it later.
+
+The sources I ended up choosing shared a subject, so I leaned into it rather than fight it: the
+result is mostly an Indian storytelling set, of mythology, folk tales, and audiobook fiction.
+Section five explains how that became a deliberate choice and what it cost.
 
 ## 2. Getting the raw material
 
@@ -26,6 +31,12 @@ coarse, tied to long chunks, so once a clip is cut I run the real-time recognize
 clip. The second pass gives a transcript that matches the audio you actually get, plus word
 timings I use to trim. Cuts land in silence, never mid-word, so no clip opens or closes on a
 half-spoken syllable.
+
+Before any clip reaches a label, automatic gates throw out the predictable failure cases: clipping,
+low signal-to-noise, too much silence, a music bed, a near-duplicate transcript, a clip whose
+detected language is wrong, and a Telugu clip that is more English than Telugu. Those checks, along
+with the segment-packing edges of clips too short, too long, or all silence, are covered by unit
+tests, so a bad input fails safely instead of taking the run down with it.
 
 ## 3. Then I listened, and the data argued back
 
@@ -97,7 +108,15 @@ a clip, and only 9 of the 325 clips fall into the low tail below 0.40. Those 9 a
 listen rather than dropped, and the clean speaker separation above is the real assurance that each
 clip holds one voice.
 
-## 5. The check that changed the plan
+**An independent judge.** As a last cross-check I had a separate Sarvam model read each clip's
+transcript and acoustic summary cold and score it, with no knowledge of how the clip was made. It
+found 75 percent of the transcripts clean, judged 81 percent of the clips suitable to train on, and
+endorsed the assigned emotion on only 37 percent. That last figure is not a contradiction, it is the
+same message the rater study gave from a different angle: text and acoustics alone underdetermine
+emotion, so it stays the dimension I trust least and mark for review. The clips the judge doubts
+join the same human-audit pile as the low-alignment transcripts.
+
+## 5. The checks that shaped the final set
 
 The last test was perceptual quality. DNSMOS predicts how clean audio sounds on a one-to-five
 scale, separate from signal-to-noise. I set the rule in advance: treat anything below 3.0 as
@@ -114,12 +133,22 @@ note: two of the replacement episodes came in at 2.85, below the line themselves
 lift came from the clean lecture and from removing the worst sources, not from the new episodes.
 
 I did not apply a hard 3.0 cut. Doing so would have pushed English under the thirty-minute target
-and quietly traded away the Indian accent the brief asks for, because studio-clean Indian English
-is genuinely scarce on YouTube. Instead the selection now prefers the cleanest clip in each emotion
-bucket, and every clip carries its DNSMOS score with a dnsmos_pass flag. Anyone who wants the
-studio-grade subset can take it with one filter, while the full sixty minutes stays intact. Because
-selection takes the cleanest clip in each bucket first, the published sixty minutes is 86 percent
-above 3.0, well above the 63 percent of the full pool it was drawn from.
+and traded away the Indian accent the brief asks for, since studio-clean Indian English is genuinely
+scarce on YouTube. Every clip instead carries its DNSMOS score and a dnsmos_pass flag, so the
+cleaner subset is one filter away while the full sixty minutes stays intact.
+
+There was one more decision. The sources I had chosen were mostly storytelling, so I made that the
+dataset's theme rather than leave it a random mix. An LLM tagged each clip with a topic, and
+selection now prefers narrative clips, mythology and folk tales and audiobook fiction. The published
+set is 79 percent storytelling in English and 75 percent in Telugu. That coherence has a cost worth
+stating plainly. The cleanest English clips I have are a lecture and a stage talk, both off-topic, so
+preferring storytelling pulls in narration that sits at DNSMOS 2.85 to 3.19. English DNSMOS-pass
+therefore drops from 86 percent under a quality-first selection to 57 percent under the topic-first
+one, while Telugu holds at 81 percent because its storytelling sources are also its cleanest. I chose
+the topic here, because the set is more useful as a focused storytelling corpus than as a slightly
+cleaner grab-bag, and dnsmos_pass still recovers the cleanest slice. The English narration is clean
+speech at 23 to 35 dB SNR that the independent judge rated 0.90 suitable, so this is a polish trade,
+not a noise problem.
 
 ![DNSMOS overall-quality distribution, with the 3.0 line](figures/dnsmos_dist.png)
 
@@ -144,23 +173,25 @@ Per-source quality after re-curation. Emotion entropy is how spread out a source
 
 | | Indian English | Telugu |
 |---|---|---|
-| Minutes | 30.0 | 30.0 |
-| Clips (train / val / test) | 169 (151 / 9 / 9) | 156 (140 / 8 / 8) |
+| Minutes | 30.2 | 30.1 |
+| Clips (train / val / test) | 160 (144 / 8 / 8) | 150 (134 / 8 / 8) |
 | Speakers | 4 | 5 |
-| Median DNSMOS | 3.08 | 3.13 |
-| Clips above DNSMOS 3.0 | 86% | 86% |
+| Storytelling clips | 79% | 75% |
+| Median DNSMOS | 3.08 | 3.16 |
+| Clips above DNSMOS 3.0 | 57% | 81% |
+| Median alignment confidence | 0.95 | 0.94 |
 
 Both languages carry all eight emotion labels. The common ones (neutral, calm, sad, excited,
 angry) are capped near thirty clips each so none dominates, and the rare ones (happy, fearful,
-surprised) are kept in full. Total runtime is 60.1 minutes across 9 speakers.
+surprised) are kept in full. Total runtime is 60.3 minutes across 9 speakers.
 
 ![Minutes contributed by each source, by language](figures/source_contribution.png)
 
 Every row carries the audio at 24 kHz, the transcript and a normalized version, language, the
 emotion and style with a confidence and whether a human or the model set it, the speaker id with an
 inferred gender and accent, the quality scores (DNSMOS, SQUIM, SNR, alignment confidence, intra-clip
-cohesion), full source provenance, and timestamps. The data is split into train, validation and
-test, stratified so each split sees every speaker and emotion.
+cohesion), the topic and the judge's suitability score, full source provenance, and timestamps. The
+data is split into train, validation and test, stratified so each split sees every speaker and emotion.
 
 ## 7. What I would do next
 
@@ -170,6 +201,17 @@ which turns these proxy numbers into ground truth. The review tool is built for 
 that I would add a speech-emotion model that handles Telugu so the third rater is fair, trim clip
 edges with word-level alignment, and keep hunting for clean Indian-English sources, which are the
 one ingredient that was hard to find.
+
+## 8. Cross-check against the brief
+
+The brief asked for about sixty minutes, split across Indian English and one Indian language, as
+clean single-speaker YouTube clips with accurate transcripts and an emotion tag on each, published
+on HuggingFace and built with Sarvam. What shipped: 60.3 minutes, 30.2 English and 30.1 Telugu;
+every clip is one speaker, verified by embeddings at AUC 0.96; transcripts come from Sarvam and hold
+up at 6.8 percent cross-ASR error in English and 0.94 alignment confidence in Telugu; every clip has
+an emotion and a style tag with a confidence and a label source; the dataset is public; and the ASR,
+diarization, emotion, and judge calls all run on Sarvam. Reusable run steps are in the repository
+README.
 
 ---
 

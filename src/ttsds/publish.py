@@ -40,6 +40,9 @@ _FEATURES = Features({
     "valence": Value("float32"),
     "arousal": Value("float32"),
     "dominance": Value("float32"),
+    # topic + LLM-judge cross-check
+    "topic": Value("string"),
+    "llm_tts_suitable": Value("float32"),
     # provenance
     "source_video_id": Value("string"),
     "source_url": Value("string"),

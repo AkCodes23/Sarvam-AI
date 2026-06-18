@@ -26,12 +26,16 @@ def _ovrl(s: Segment) -> float:
     return float(v) if v is not None else 0.0
 
 
-def _round_robin_balance(segs: list[Segment], target_seconds: float) -> list[Segment]:
+def _round_robin_balance(segs: list[Segment], target_seconds: float,
+                         prefer_topics: list[str] | None = None) -> list[Segment]:
     """Pick across emotion buckets in turn so rare emotions are fully included and
-    the dominant one (usually neutral) is capped — until we hit the target. Within
-    each bucket, prefer the cleanest clips by DNSMOS OVRL (quality-priority selection)."""
+    the dominant one (usually neutral) is capped, until we hit the target. Within each
+    bucket, prefer the target topics first (a coherent narrative set), then the cleanest
+    clips by DNSMOS OVRL."""
+    prefer = set(prefer_topics or [])
     buckets: dict[str, list[Segment]] = defaultdict(list)
-    for s in sorted(segs, key=lambda x: (-_ovrl(x), x.id)):  # cleanest first
+    for s in sorted(segs, key=lambda x: (
+            0 if x.metrics.get("topic_category") in prefer else 1, -_ovrl(x), x.id)):
         buckets[s.emotion or "neutral"].append(s)
     # order buckets smallest-first so scarce emotions are exhausted before neutral
     order = sorted(buckets, key=lambda k: len(buckets[k]))
@@ -62,7 +66,7 @@ def select_and_balance(cfg: Config, segments: list[Segment] | None = None) -> di
         if avail <= target:
             out[lang] = sorted(lang_segs, key=lambda x: x.id)  # take everything
         else:
-            out[lang] = _round_robin_balance(lang_segs, target)
+            out[lang] = _round_robin_balance(lang_segs, target, cfg.targets.prefer_topics)
     return out
 
 
@@ -109,6 +113,8 @@ def _record(seg: Segment, final_wav: Path, sr: int) -> dict:
         "valence": m.get("valence"),
         "arousal": m.get("arousal"),
         "dominance": m.get("dominance"),
+        "topic": m.get("topic_category"),
+        "llm_tts_suitable": m.get("tts_suitable"),
         "source_video_id": seg.source_video_id,
         "source_url": seg.source_url,
         "source_channel": seg.source_channel,
@@ -238,11 +244,23 @@ def _eval_section() -> str:
                 f"- **Transcript–audio alignment** (MMS forced-align): median confidence EN "
                 f"{en['mms_align_median']}, TE {te.get('mms_align_median')}."
             )
-    if agr and agr.get("krippendorff_alpha_llms") is not None:
+    if agr and agr.get("llm_inter_model_alpha") is not None:
         lines.append(
-            f"- **Emotion-label agreement** (Krippendorff α): {agr['krippendorff_alpha_llms']} "
-            f"across the two LLM raters (≥0.4 = field norm); VAD dimensions (valence/arousal/"
-            f"dominance) are included per clip."
+            f"- **Emotion-label agreement** (Krippendorff alpha): {agr['llm_inter_model_alpha']} "
+            f"between the two LLM raters (0.4+ is the field norm). A 3-rater panel adding SER models "
+            f"drops near zero, since off-the-shelf SER clusters toward neutral and does not transfer "
+            f"to Telugu. Per-clip VAD (valence, arousal, dominance) is included."
+        )
+    judge = _load("score_llm_judge.json")
+    if judge:
+        n = len(judge) or 1
+        clean = sum(1 for v in judge.values() if v.get("transcript_clean"))
+        good = sum(1 for v in judge.values() if (v.get("tts_suitable") or 0) >= 0.5)
+        lines.append(
+            f"- **LLM-as-judge cross-check** (independent model, {len(judge)} clips): "
+            f"{clean*100//n}% of transcripts judged clean and {good*100//n}% suitable to train on. "
+            f"Each clip also has a topic; the set is mostly storytelling (mythology, folk tales, "
+            f"audiobook fiction)."
         )
     lines.append("")
     lines.append("See the project report (GitHub repo) for full methodology and figures.")
