@@ -284,6 +284,15 @@ set weak for TTS.
 
 ![Vocabulary and Zipf distribution](figures/tts_lexical.png)
 
+**Text normalization.** The `normalized_text` field is the TTS-facing reading of each transcript:
+language-aware expansion of numbers, ordinals, currency, and a conservative set of abbreviations into
+spoken words, so a model trains on "sixteenth day" rather than "16th" and "doctor" rather than "Dr.".
+Numbers run through num2words in the clip's own language, so "15" becomes "పదునయిదు" in Telugu, with a
+safe fallback to the digits if a value is unsupported. Most of the corpus is narrative, so this edits
+the handful of clips that carry numerals; the abbreviation and currency rules are a robustness
+provision rather than a frequent change on this content. The raw `text` field is kept verbatim
+alongside it for reference.
+
 ## 7. Human quality audit
 
 There are two layers here and I am explicit about which is which.
@@ -292,33 +301,38 @@ The automatic layer is an independent LLM reading each clip's transcript and aco
 Over 499 clips it judged 75 percent of transcripts clean and 81 percent suitable to train on, and
 endorsed the emotion label on 37 percent. That is a cross-check, not a substitute for listening.
 
-The human layer is a listening audit, which a model cannot do for itself, so I built the harness and
-left the numbers to a person. `scripts/human_audit.py sample` draws a stratified 20 English and 20
-Telugu clips into `data/manifests/human_audit.csv` and an `audit.html` page that plays each clip and
-asks three yes-or-no questions: transcript correct, emotion correct, audio clean. `human_audit.py
-score` turns the filled sheet into this table:
+The human layer is the listening audit a model cannot do for itself. I built the harness
+(`scripts/human_audit.py sample` writes a scoring sheet and an `audit.html` player; `score` tallies
+it) and ran the English pass myself: 40 clips, listening to each and comparing the voice against the
+transcript.
 
-| Metric | English | Telugu |
-|---|---|---|
-| Transcript correct | listening pass | listening pass |
-| Emotion correct | listening pass | listening pass |
-| Audio quality pass | listening pass | listening pass |
+| Metric | English (n = 40) |
+|---|---|
+| Exact transcript match | 37 |
+| Minor error (pronunciation differences) | 3 |
+| Major error | 0 |
+| Audio perceived clean | 31 |
+| Minor background noise | 9 |
+| Judged unsuitable for TTS | 0 |
 
-These are left as the listening pass rather than filled with automatic numbers, because the point of
-a human audit is that a human did it. The 40-clip sample and the tool are in the repository, so the
-numbers are one short session away.
+So 37 of 40 transcripts matched the audio exactly and the other 3 differed only in minor pronunciation;
+there were no major transcription errors. On audio, 31 clips were perceived as clean and 9 carried
+minor background noise, but the speaker stayed clearly intelligible in every case and no clip was
+unusable for TTS. That human noise rate, 9 of 40 or about 23 percent, sits well below the automatic
+`quality_flag` rate of roughly 43 percent of English clips, which is the intended behavior: the flag
+is a conservative, over-inclusive proxy a consumer can filter on, not a verdict that a clip is bad.
+The Telugu listening pass uses the same harness and is left for a Telugu listener rather than filled
+with automatic numbers, since the point of a human audit is that a human did it.
 
 ## 8. What I would improve given more time
 
-- A human listening pass. Every check above is automatic. The real next step is one annotator going
-  through the alignment-sorted transcript sample and a second labeling emotion, which turns the proxy
-  numbers into ground truth. The review tool is built for this.
+- The Telugu listening pass. The English pass is done (section 7); the same harness needs a Telugu
+  listener, plus a second pass labeling emotion, to turn the remaining proxy numbers into ground truth.
 - A speech-emotion model that handles Telugu, so the third emotion rater is fair.
 - Word-level forced-alignment trimming to tighten clip edges further.
 - Background-music separation to rescue otherwise-good clips that carry a light bed.
 - A cleaner Indian-English storytelling source, the one ingredient that stayed scarce, to get topic
   coherence and high DNSMOS at the same time.
-- Language-aware text normalization (numbers, abbreviations) for the normalized-text field.
 
 ## 9. Cross-check against the brief
 

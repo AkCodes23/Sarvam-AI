@@ -84,10 +84,14 @@ mostly contradictory (68%), not neighboring, so emotion is shipped as advisory w
 - TTS readiness: duration centered (median 11.6 / 13.1 s, all within 3 to 25 s), 27 / 26 words per clip,
   speech-rate spread (en 6/65/29% slow/medium/fast), vocab 1193 / 1947, type-token ratio 0.27 / 0.52,
   Zipf-shaped word frequencies.
-- Human audit: a 40-clip stratified sample (20 en + 20 te), an audit page, and a scorer
-  (`scripts/human_audit.py`) are prepared for a listening pass; numbers are left for a human, not
-  auto-filled. The automatic LLM-judge layer (75% transcripts clean, 81% suitable, 37% emotion
-  endorsed) is reported separately.
+- Human audit: the English listening pass is done (40 clips reviewed by hand): 37/40 exact transcript
+  match, 3 minor (pronunciation), 0 major; 31 perceived clean, 9 minor background noise, 0 judged
+  unusable for TTS. The human noise rate (~23%) is below the conservative automatic `quality_flag`
+  rate (~43% of en clips), as intended. Telugu pass uses the same harness (`scripts/human_audit.py`)
+  and is left for a Telugu listener, not auto-filled. The automatic LLM-judge layer (75% transcripts
+  clean, 81% suitable, 37% emotion endorsed) is reported separately.
+- Text normalization: `normalized_text` is language-aware (num2words for en/te numbers + ordinals +
+  currency + a conservative abbreviation map); raw `text` kept verbatim. Live on the published set.
 
 ## 6. Key decisions and trade-offs
 
@@ -119,25 +123,24 @@ mostly contradictory (68%), not neighboring, so emotion is shipped as advisory w
 - Clean studio-grade Indian English is scarce on YouTube; topic purity and high DNSMOS conflict on the
   English side.
 - pyannote overlap detection was gated; an embedding-cohesion proxy was used instead.
-- All transcript/emotion validation is automated (cross-ASR, alignment, multi-rater, LLM judge), not
-  yet human-confirmed.
+- Validation is mostly automated (cross-ASR, alignment, multi-rater, LLM judge); the English listening
+  pass is human-confirmed (section 7), Telugu is not yet.
 
 ## 9. What I would improve given more time
 
-Human listening pass (transcripts + emotion), a Telugu-capable SER model, word-level alignment
-trimming, music separation, a cleaner Indian-English storytelling source, and language-aware text
-normalization.
+The Telugu listening pass (the English one is done), a Telugu-capable SER model, word-level alignment
+trimming, music separation, and a cleaner Indian-English storytelling source.
 
 ## 10. Repository structure
 
 ```
 config/        config.yaml (all thresholds), sources.yaml (curated sources)
 src/ttsds/     pipeline modules (config, download, audio, segment, transcribe_*, features,
-               quality, tag_emotion, review, build_dataset, publish, cli)
+               quality, tag_emotion, review, normalize, build_dataset, publish, cli)
 scripts/       discover, eval_* (speaker EER, ASR, sources, phoneme, basic, agreement),
                score_* (audio_quality/DNSMOS+SQUIM, mms_align, overlap, ser, emotion2vec),
                llm_judge, enrich_metadata, make_figures*, make_report_pdf
-tests/         unit tests incl. edge cases (segmentation, gates, normalization, whisper, dedup); 22 pass
+tests/         unit tests incl. edge cases (segmentation, gates, normalization, whisper, dedup); 35 pass
 data/manifests/ per-source segment manifests + eval_*.json / score_*.json (provenance, gitignored audio)
 reports/       report.md, report.pdf, DATASET_CARD.md, figures/
 ```

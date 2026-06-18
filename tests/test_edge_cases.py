@@ -22,7 +22,8 @@ def _seg(**kw):
 # --- text normalization edge cases ---
 def test_normalize_collapses_whitespace_keeps_content():
     assert normalize_text("  హాయ్   అండి \n\t world  ") == "హాయ్ అండి world"
-    assert normalize_text("count 42 items, 3.5%") == "count 42 items, 3.5%"
+    # now language-aware: numbers/symbols expand to spoken form (see test_normalize.py)
+    assert normalize_text("count 42 items, 3.5%") == "count forty-two items, three point five percent"
     assert normalize_text("") == ""
     assert normalize_text("\n\n\t  ") == ""
 

@@ -65,7 +65,8 @@ See the project report (GitHub repo) for full methodology and figures.
 
 ## Schema
 `audio` (24 kHz mono), `text` (raw transcript), `annotated_text` (English code-switch
-spans bracketed, truncation marked with an em dash), `normalized_text`, `language`,
+spans bracketed, truncation marked with an em dash), `normalized_text` (language-aware:
+numbers and abbreviations expanded for TTS reading), `language`,
 `emotion` (neutral, happy, sad, angry, excited, calm, fearful, surprised), `style` (narrative, conversational, formal, expressive, whisper), `emotion_confidence`, `tag_source`
 (`auto`/`human`), `topic`, `speaker_id`, `gender`, `accent`, `duration`; quality scores
 (`snr_db`, `dnsmos_ovrl/sig/bak`, `dnsmos_pass`, `squim_*`, `mms_align_score`,

@@ -4,21 +4,17 @@ apply final light loudness normalization, and emit final records + stats + card.
 from __future__ import annotations
 
 import json
-import re
 from collections import defaultdict
 from pathlib import Path
 
 from .audio import loudness_normalize, read_wav, write_wav
 from .config import DATA_DIR, MANIFEST_DIR, PROJECT_ROOT, REPORTS_DIR, Config
 from .models import Segment, load_all_segments
+from .normalize import normalize_text
 
 BUILD_DIR = DATA_DIR / "build"
 FINAL_SELECTION = MANIFEST_DIR / "final_selection.json"
 STATS_PATH = MANIFEST_DIR / "dataset_stats.json"
-
-
-def normalize_text(text: str) -> str:
-    return re.sub(r"\s+", " ", text).strip()
 
 
 def _ovrl(s: Segment) -> float:
@@ -88,7 +84,7 @@ def _record(seg: Segment, final_wav: Path, sr: int) -> dict:
     return {
         "audio": str(final_wav.relative_to(PROJECT_ROOT)),
         "text": seg.transcript,
-        "normalized_text": normalize_text(seg.transcript),
+        "normalized_text": normalize_text(seg.transcript, seg.language),
         "language": seg.language,
         "language_code": seg.language_code,
         "emotion": seg.emotion,
@@ -344,7 +340,8 @@ Total: **{stats.get('total_minutes', 0)} minutes**.
 
 ## Schema
 `audio` (24 kHz mono), `text` (raw transcript), `annotated_text` (English code-switch
-spans bracketed, truncation marked with an em dash), `normalized_text`, `language`,
+spans bracketed, truncation marked with an em dash), `normalized_text` (language-aware:
+numbers and abbreviations expanded for TTS reading), `language`,
 `emotion` ({emo_list}), `style` ({sty_list}), `emotion_confidence`, `tag_source`
 (`auto`/`human`), `topic`, `speaker_id`, `gender`, `accent`, `duration`; quality scores
 (`snr_db`, `dnsmos_ovrl/sig/bak`, `dnsmos_pass`, `squim_*`, `mms_align_score`,

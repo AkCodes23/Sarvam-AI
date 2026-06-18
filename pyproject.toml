@@ -26,6 +26,7 @@ dependencies = [
     "PyYAML>=6.0",
     "rich>=13.7",
     "matplotlib>=3.8",
+    "num2words>=0.5.13",   # language-aware number-to-words for normalized_text (en + te)
 ]
 
 [project.optional-dependencies]
