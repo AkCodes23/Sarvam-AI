@@ -48,7 +48,8 @@ img { max-width: 100%; }
 .inlinefig { width: 13cm; margin: 6pt 0; }
 .fig { margin: 8pt 0 14pt; }
 .figcap { font-size: 9pt; color: #555; }
-table { -pdf-keep-with-next: true; width: 100%; }
+table { width: 100%; }
+thead { -pdf-repeat: true; }
 td, th { border: 0.5px solid #d6dce6; padding: 2pt 5pt; font-size: 9.5pt; }
 th { background: #eef2fb; }
 """
