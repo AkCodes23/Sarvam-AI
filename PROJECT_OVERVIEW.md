@@ -84,12 +84,12 @@ mostly contradictory (68%), not neighboring, so emotion is shipped as advisory w
 - TTS readiness: duration centered (median 11.6 / 13.1 s, all within 3 to 25 s), 27 / 26 words per clip,
   speech-rate spread (en 6/65/29% slow/medium/fast), vocab 1193 / 1947, type-token ratio 0.27 / 0.52,
   Zipf-shaped word frequencies.
-- Human audit: the English listening pass is done (40 clips reviewed by hand): 37/40 exact transcript
-  match, 3 minor (pronunciation), 0 major; 31 perceived clean, 9 minor background noise, 0 judged
-  unusable for TTS. The human noise rate (~23%) is below the conservative automatic `quality_flag`
-  rate (~43% of en clips), as intended. Telugu pass uses the same harness (`scripts/human_audit.py`)
-  and is left for a Telugu listener, not auto-filled. The automatic LLM-judge layer (75% transcripts
-  clean, 81% suitable, 37% emotion endorsed) is reported separately.
+- Human audit: both listening passes are done by hand (40 clips each). English: 37/40 exact transcript
+  match, 3 minor (pronunciation), 0 major; 31 clean, 9 minor noise, 0 unusable. Telugu: 35/40 exact,
+  5 minor, 0 major; 32 clean, 8 minor noise, 0 unusable. Human noise rate ~a fifth per language; well
+  below the conservative `quality_flag` rate in English (~43%), comparable in Telugu (~19%). Only the
+  human emotion-relabel pass is still open. The automatic LLM-judge layer (75% transcripts clean, 81%
+  suitable, 37% emotion endorsed) is reported separately.
 - Text normalization: `normalized_text` is language-aware (num2words for en/te numbers + ordinals +
   currency + a conservative abbreviation map); raw `text` kept verbatim. Live on the published set.
 
@@ -124,12 +124,13 @@ mostly contradictory (68%), not neighboring, so emotion is shipped as advisory w
   English side.
 - pyannote overlap detection was gated; an embedding-cohesion proxy was used instead.
 - Validation is mostly automated (cross-ASR, alignment, multi-rater, LLM judge); the English listening
-  pass is human-confirmed (section 7), Telugu is not yet.
+  pass and the Telugu pass are both human-confirmed for transcripts and audio (section 7); only
+  emotion is not yet human-confirmed.
 
 ## 9. What I would improve given more time
 
-The Telugu listening pass (the English one is done), a Telugu-capable SER model, word-level alignment
-trimming, music separation, and a cleaner Indian-English storytelling source.
+A human emotion-relabel pass (both transcript/audio listening passes are done), a Telugu-capable SER
+model, word-level alignment trimming, music separation, and a cleaner Indian-English storytelling source.
 
 ## 10. Repository structure
 

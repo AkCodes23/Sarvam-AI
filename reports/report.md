@@ -303,31 +303,32 @@ endorsed the emotion label on 37 percent. That is a cross-check, not a substitut
 
 The human layer is the listening audit a model cannot do for itself. I built the harness
 (`scripts/human_audit.py sample` writes a scoring sheet and an `audit.html` player; `score` tallies
-it) and ran the English pass myself: 40 clips, listening to each and comparing the voice against the
-transcript.
+it) and ran both passes by hand: 40 English and 40 Telugu clips, listening to each and comparing the
+voice against the transcript.
 
-| Metric | English (n = 40) |
-|---|---|
-| Exact transcript match | 37 |
-| Minor error (pronunciation differences) | 3 |
-| Major error | 0 |
-| Audio perceived clean | 31 |
-| Minor background noise | 9 |
-| Judged unsuitable for TTS | 0 |
+| Metric | English (n = 40) | Telugu (n = 40) |
+|---|---|---|
+| Exact transcript match | 37 | 35 |
+| Minor error (pronunciation differences) | 3 | 5 |
+| Major error | 0 | 0 |
+| Audio perceived clean | 31 | 32 |
+| Minor background noise | 9 | 8 |
+| Judged unsuitable for TTS | 0 | 0 |
 
-So 37 of 40 transcripts matched the audio exactly and the other 3 differed only in minor pronunciation;
-there were no major transcription errors. On audio, 31 clips were perceived as clean and 9 carried
-minor background noise, but the speaker stayed clearly intelligible in every case and no clip was
-unusable for TTS. That human noise rate, 9 of 40 or about 23 percent, sits well below the automatic
-`quality_flag` rate of roughly 43 percent of English clips, which is the intended behavior: the flag
-is a conservative, over-inclusive proxy a consumer can filter on, not a verdict that a clip is bad.
-The Telugu listening pass uses the same harness and is left for a Telugu listener rather than filled
-with automatic numbers, since the point of a human audit is that a human did it.
+Transcripts held up well in both languages: 37 of 40 English and 35 of 40 Telugu matched the audio
+exactly, the rest differed only in minor pronunciation, and there were no major transcription errors
+on either side. On audio, minor background noise showed up in 9 English and 8 Telugu clips, but the
+speaker stayed clearly intelligible in every case and not one clip was judged unusable for TTS. The
+human noise rate is about a fifth of clips in each language; in English that sits well below the
+automatic `quality_flag` rate (~43 percent), and in Telugu it is comparable (~19 percent), which fits
+how the flag is meant to work: a conservative, over-inclusive proxy a consumer can filter on rather
+than a verdict that a clip is bad.
 
 ## 8. What I would improve given more time
 
-- The Telugu listening pass. The English pass is done (section 7); the same harness needs a Telugu
-  listener, plus a second pass labeling emotion, to turn the remaining proxy numbers into ground truth.
+- A human emotion-labeling pass. The transcript-and-audio listening audit is now done for both
+  languages (section 7); emotion is still checked only by the automatic raters, so a human relabeling
+  pass would turn that last proxy into ground truth. The review tool supports it.
 - A speech-emotion model that handles Telugu, so the third emotion rater is fair.
 - Word-level forced-alignment trimming to tighten clip edges further.
 - Background-music separation to rescue otherwise-good clips that carry a light bed.
