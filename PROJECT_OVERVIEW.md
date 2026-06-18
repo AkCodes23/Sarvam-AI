@@ -14,7 +14,7 @@ judgment and curation, not scripting.
 
 - HuggingFace dataset (public): https://huggingface.co/datasets/AkCodes23/sarvam-tts-in-te-en
 - GitHub repository (public): https://github.com/AkCodes23/Sarvam-AI
-- PDF report: `reports/report.pdf` in the repo (build + quality report, 6 sections).
+- PDF report: `reports/report.pdf` in the repo (build + quality report, 8 sections).
 
 ## 3. Dataset specification
 
@@ -70,9 +70,15 @@ Per-row schema: `audio` (24 kHz), `text`, `normalized_text`, `language`, `langua
 - Overlap: intra-clip ECAPA cohesion, median 0.58; 9 of 325 clips flagged below 0.40 (pyannote gated).
 - Perceptual quality (DNSMOS OVRL): published set 57% above 3.0 in English, 81% in Telugu; median
   3.08 / 3.16. `dnsmos_pass` flag exposes the studio-grade subset.
-- Phoneme coverage: English 39/39 (100%), Telugu 44/50 (88%).
-- Lexical/prosodic: type-token ratio English 0.33 / Telugu 0.59; speaking rate 149 / 117 wpm; internal
-  silence 5.9%.
+- Phoneme coverage: English 39/39 (100%), Telugu 45/50 (88%); rarest Telugu phones are aspirated/breathy
+  consonants (1 to 13 occurrences).
+- TTS readiness: duration centered (median 11.6 / 13.1 s, all within 3 to 25 s), 27 / 26 words per clip,
+  speech-rate spread (en 6/65/29% slow/medium/fast), vocab 1193 / 1947, type-token ratio 0.27 / 0.52,
+  Zipf-shaped word frequencies.
+- Human audit: a 40-clip stratified sample (20 en + 20 te), an audit page, and a scorer
+  (`scripts/human_audit.py`) are prepared for a listening pass; numbers are left for a human, not
+  auto-filled. The automatic LLM-judge layer (75% transcripts clean, 81% suitable, 37% emotion
+  endorsed) is reported separately.
 
 ## 6. Key decisions and trade-offs
 

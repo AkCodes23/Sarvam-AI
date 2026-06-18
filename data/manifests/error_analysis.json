@@ -1,0 +1,53 @@
+{
+  "transcript_corrections": [
+    {
+      "id": "en_mahabharata_0048",
+      "before": "The eighth son of yours is the eighth Vasu. Prabhasha.",
+      "after": "The eighth son of yours is the eighth Vasu."
+    },
+    {
+      "id": "en_mahabharata_e67_0019",
+      "before": "Karna about to creeper and then asked his charioteer to take him to the middle of the pond.",
+      "after": "turned about Kripa and then asked his charioteer to take him to the middle of the Pandava."
+    },
+    {
+      "id": "en_mahabharata_e69_0020",
+      "before": "Duryodhana called the priests and formally consecrated Karna as the Kaurava commander in chief.",
+      "after": "Duryodhan called the priests and formally consecrated Karna as the Kaurava commander-in-chief."
+    }
+  ],
+  "transcript_flags": [
+    {
+      "id": "en_air_talk_0004",
+      "lang": "en",
+      "issue": "Fragmented transcript"
+    },
+    {
+      "id": "en_air_talk_0011",
+      "lang": "en",
+      "issue": "grammatical issues and incomplete thoughts"
+    },
+    {
+      "id": "en_air_talk_0015",
+      "lang": "en",
+      "issue": "Grammatical errors"
+    }
+  ],
+  "emotion_flags": [
+    {
+      "id": "en_air_talk_0000",
+      "emotion": "calm",
+      "issue": "Contradictory acoustics and low audio quality"
+    },
+    {
+      "id": "en_air_talk_0001",
+      "emotion": "angry",
+      "issue": "Mismatched emotion and acoustics"
+    },
+    {
+      "id": "en_air_talk_0002",
+      "emotion": "neutral",
+      "issue": "Low energy and breathy voice"
+    }
+  ]
+}

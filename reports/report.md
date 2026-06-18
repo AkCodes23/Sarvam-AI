@@ -94,10 +94,6 @@ Each of these was found by looking at the output, not the code.
    lecture and more narration. Pool pass rate rose from 53 to 63 percent.
 5. **Topic focus.** The sources were mostly storytelling, so I made that the dataset's theme rather
    than a random mix, using LLM topic tags to prefer narrative clips in selection.
-6. **Robustness fixes during scaling.** Hardened forced-alignment against token-longer-than-audio
-   clips, switched audio loading to soundfile where librosa clashed with speechbrain, pinned
-   `datasets<4` to avoid a torchcodec dependency on Windows, and recovered cleanly when Sarvam credits
-   ran out mid-run (per-source idempotent processing meant only the missing sources re-ran).
 
 ## 3. What worked and what did not
 
@@ -121,7 +117,6 @@ Did not work or needed care:
 - Whisper is weak in Telugu, so cross-ASR is not a valid transcript check there.
 - Clean studio-grade Indian English is scarce on YouTube. The cleanest English clips are off-topic
   (a lecture, a talk), which forced a trade-off described in section 4.
-- Sarvam credits ran out twice mid-build and had to be topped up.
 
 ## 4. Quality observations and decisions
 
@@ -141,8 +136,8 @@ stratified low, middle, and high sample is saved for a human CER audit.
 
 ![MMS forced-alignment confidence, per language](figures/mms_align_dist.png)
 
-**Emotion.** Two Sarvam models labeling the same clips agree at Krippendorff alpha 0.44, which is the
-range human annotators reach. Adding two speech-emotion models (emotion2vec, audeering) as outside
+**Emotion.** Two Sarvam models labeling the same clips agree at Krippendorff alpha 0.44 (moderate
+agreement). Adding two speech-emotion models (emotion2vec, audeering) as outside
 raters drops the three-way alpha near zero, because both SER models call most clips neutral and
 neither handles Telugu. An independent LLM judge endorsed the emotion on only 37 percent of clips.
 The consistent message across three methods is that text and acoustics underdetermine emotion, so I
@@ -188,12 +183,87 @@ SNR, all from one archival source. There were zero clipping, music-bed, or multi
 because the bad sources were filtered upstream at curation and at the DNSMOS step. A low rejection
 rate here means the bad data was never let in, not that nothing was checked.
 
+**Concrete error examples.** Real cases the double-pass and the judge surfaced:
+
+| Clip | Issue | Cause | What happens |
+|---|---|---|---|
+| en_mahabharata_e67_0019 | "Karna about to creeper" | batch ASR garbled a name | per-clip realtime pass corrected it to "turned about Kripa" |
+| en_mahabharata_0048 | trailing fragment "Prabhasha." in batch text | batch chunk overran the clip | realtime pass produced the clip-aligned transcript without it |
+| en_air_talk_0004 | fragmented transcript (judge) | clip cut mid-utterance | flagged for review, candidate to drop |
+| en_air_talk_0000 | emotion "calm" not supported (judge) | acoustics contradict the text | kept at low confidence, marked for human relabel |
+| en_air_talk_0001 | emotion "angry" mismatched (judge) | text-acoustics conflict | flagged, emotion is review-only |
+
+The clustering on `en_air_talk` is itself a finding: that source has the most fragmented
+transcripts and the shakiest emotion fit, which is why it contributes few clips to the final set.
+
 **Other decisions.** Light loudness normalization instead of a hard loudness target, so the intensity
 dynamics that carry emotion survive. Human edits always override automated labels. Gender is inferred
 from median F0 with known speakers corrected by hand. The full 60 minutes is kept rather than applying
 a hard DNSMOS cut, with `dnsmos_pass` exposing the studio-grade subset.
 
-## 5. What I would improve given more time
+## 5. TTS readiness analysis
+
+What a TTS practitioner checks before training on a corpus.
+
+**Phoneme coverage.** English covers all 39 ARPAbet phonemes (100 percent). Telugu covers 45 of the
+roughly 50 in its inventory (about 88 percent). The thinnest Telugu phonemes are the aspirated and
+breathy-voiced consonants: the retroflex aspirate and breathy-g appear once each, the palatal aspirate
+twice, and aspirated dental, k, and p between 10 and 13 times each. These are marginal phones that
+enter Telugu mainly through Sanskrit and loanwords, so they are under-represented in any natural corpus
+this size, and a model trained here will see them rarely. In English the rarest are ZH (0.03 percent)
+and OY (0.09 percent), as expected.
+
+![Phoneme frequency, English and Telugu](figures/phoneme_freq.png)
+
+**Duration.** Clips run 3.1 to 24.5 seconds in English (median 11.6) and 3.1 to 22.8 in Telugu
+(median 13.1). None hit the 3 second floor or 25 second ceiling as a pile-up, and the distribution is
+centered rather than bunched at the edges, which is what a trainer wants.
+
+![Clip duration distribution](figures/tts_duration.png)
+
+**Transcript length.** Median 27 words per clip in English and 26 in Telugu, a comfortable single
+utterance length.
+
+![Transcript length per clip](figures/tts_transcript_len.png)
+
+**Speech rate.** English centers on 144 words per minute (6 percent slow, 65 percent medium, 29
+percent fast); Telugu on 122 (18 percent slow, 80 percent medium, 2 percent fast). The range matters,
+because a model that only hears one tempo generalizes poorly.
+
+![Speech rate distribution](figures/tts_speech_rate.png)
+
+**Lexical diversity.** English has 1,193 unique words over 30 minutes (type-token ratio 0.27), Telugu
+1,947 (0.52, higher because Telugu inflects heavily). The word-frequency curve follows the expected
+Zipf shape, so the text is natural language rather than a few repeated lines, which would make the
+set weak for TTS.
+
+![Vocabulary and Zipf distribution](figures/tts_lexical.png)
+
+## 6. Human quality audit
+
+There are two layers here and I am explicit about which is which.
+
+The automatic layer is an independent LLM reading each clip's transcript and acoustic summary cold.
+Over 499 clips it judged 75 percent of transcripts clean and 81 percent suitable to train on, and
+endorsed the emotion label on 37 percent. That is a cross-check, not a substitute for listening.
+
+The human layer is a listening audit, which a model cannot do for itself, so I built the harness and
+left the numbers to a person. `scripts/human_audit.py sample` draws a stratified 20 English and 20
+Telugu clips into `data/manifests/human_audit.csv` and an `audit.html` page that plays each clip and
+asks three yes-or-no questions: transcript correct, emotion correct, audio clean. `human_audit.py
+score` turns the filled sheet into this table:
+
+| Metric | English | Telugu |
+|---|---|---|
+| Transcript correct | listening pass | listening pass |
+| Emotion correct | listening pass | listening pass |
+| Audio quality pass | listening pass | listening pass |
+
+These are left as the listening pass rather than filled with automatic numbers, because the point of
+a human audit is that a human did it. The 40-clip sample and the tool are in the repository, so the
+numbers are one short session away.
+
+## 7. What I would improve given more time
 
 - A human listening pass. Every check above is automatic. The real next step is one annotator going
   through the alignment-sorted transcript sample and a second labeling emotion, which turns the proxy
@@ -205,7 +275,7 @@ a hard DNSMOS cut, with `dnsmos_pass` exposing the studio-grade subset.
   coherence and high DNSMOS at the same time.
 - Language-aware text normalization (numbers, abbreviations) for the normalized-text field.
 
-## 6. Cross-check against the brief
+## 8. Cross-check against the brief
 
 The brief asked for about 60 minutes split across Indian English and one Indian language, as clean
 single-speaker YouTube clips with accurate transcripts and an emotion tag each, published on

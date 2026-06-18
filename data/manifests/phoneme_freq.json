@@ -1,0 +1,162 @@
+{
+  "en": {
+    "unique": 39,
+    "total_tokens": 16457,
+    "rarest_8": [
+      {
+        "phoneme": "G",
+        "count": 124,
+        "pct": 0.75
+      },
+      {
+        "phoneme": "AW",
+        "count": 97,
+        "pct": 0.59
+      },
+      {
+        "phoneme": "JH",
+        "count": 93,
+        "pct": 0.57
+      },
+      {
+        "phoneme": "TH",
+        "count": 92,
+        "pct": 0.56
+      },
+      {
+        "phoneme": "UH",
+        "count": 92,
+        "pct": 0.56
+      },
+      {
+        "phoneme": "CH",
+        "count": 84,
+        "pct": 0.51
+      },
+      {
+        "phoneme": "OY",
+        "count": 15,
+        "pct": 0.09
+      },
+      {
+        "phoneme": "ZH",
+        "count": 5,
+        "pct": 0.03
+      }
+    ],
+    "top_8": [
+      {
+        "phoneme": "AH",
+        "count": 1730
+      },
+      {
+        "phoneme": "N",
+        "count": 1184
+      },
+      {
+        "phoneme": "T",
+        "count": 1066
+      },
+      {
+        "phoneme": "R",
+        "count": 873
+      },
+      {
+        "phoneme": "IH",
+        "count": 864
+      },
+      {
+        "phoneme": "D",
+        "count": 847
+      },
+      {
+        "phoneme": "S",
+        "count": 710
+      },
+      {
+        "phoneme": "K",
+        "count": 566
+      }
+    ]
+  },
+  "te": {
+    "unique": 45,
+    "total_tokens": 25535,
+    "rarest_8": [
+      {
+        "phoneme": "b̤",
+        "count": 49,
+        "pct": 0.19
+      },
+      {
+        "phoneme": "h",
+        "count": 43,
+        "pct": 0.17
+      },
+      {
+        "phoneme": "kʰ",
+        "count": 13,
+        "pct": 0.05
+      },
+      {
+        "phoneme": "pʰ",
+        "count": 13,
+        "pct": 0.05
+      },
+      {
+        "phoneme": "t̪ʰ",
+        "count": 10,
+        "pct": 0.04
+      },
+      {
+        "phoneme": "t͡ʃʰ",
+        "count": 2,
+        "pct": 0.01
+      },
+      {
+        "phoneme": "ʈʰ",
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "phoneme": "ɡ̤",
+        "count": 1,
+        "pct": 0.0
+      }
+    ],
+    "top_8": [
+      {
+        "phoneme": "ə",
+        "count": 5248
+      },
+      {
+        "phoneme": "ɪ",
+        "count": 1754
+      },
+      {
+        "phoneme": "ʊ",
+        "count": 1709
+      },
+      {
+        "phoneme": "n",
+        "count": 1640
+      },
+      {
+        "phoneme": "a",
+        "count": 1599
+      },
+      {
+        "phoneme": "m",
+        "count": 1244
+      },
+      {
+        "phoneme": "k",
+        "count": 1042
+      },
+      {
+        "phoneme": "r",
+        "count": 956
+      }
+    ]
+  }
+}
