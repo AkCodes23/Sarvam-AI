@@ -1,0 +1,236 @@
+{
+  "split_integrity": {
+    "indian_english": {
+      "sizes": {
+        "train": 144,
+        "val": 8,
+        "test": 8
+      },
+      "clip_overlap_across_splits": 0,
+      "speakers_train": 4,
+      "speakers_val": 2,
+      "speakers_test": 3,
+      "all_speakers_seen_in_train": true,
+      "cross_split_transcript_dups": 0,
+      "emotion_per_split": {
+        "train": {
+          "angry": 26,
+          "calm": 27,
+          "excited": 25,
+          "fearful": 8,
+          "happy": 4,
+          "neutral": 27,
+          "sad": 27
+        },
+        "val": {
+          "angry": 2,
+          "calm": 1,
+          "excited": 2,
+          "happy": 1,
+          "neutral": 1,
+          "sad": 1
+        },
+        "test": {
+          "angry": 2,
+          "calm": 1,
+          "excited": 2,
+          "happy": 1,
+          "neutral": 1,
+          "sad": 1
+        }
+      }
+    },
+    "telugu": {
+      "sizes": {
+        "train": 134,
+        "val": 8,
+        "test": 8
+      },
+      "clip_overlap_across_splits": 0,
+      "speakers_train": 5,
+      "speakers_val": 4,
+      "speakers_test": 4,
+      "all_speakers_seen_in_train": true,
+      "cross_split_transcript_dups": 0,
+      "emotion_per_split": {
+        "train": {
+          "angry": 23,
+          "calm": 25,
+          "excited": 24,
+          "fearful": 5,
+          "happy": 6,
+          "neutral": 25,
+          "sad": 23,
+          "surprised": 3
+        },
+        "val": {
+          "angry": 2,
+          "calm": 1,
+          "excited": 1,
+          "fearful": 1,
+          "neutral": 1,
+          "sad": 2
+        },
+        "test": {
+          "angry": 2,
+          "calm": 1,
+          "excited": 2,
+          "neutral": 1,
+          "sad": 2
+        }
+      }
+    }
+  },
+  "per_speaker": [
+    {
+      "speaker_id": "en_mahabharata",
+      "language": "en",
+      "gender": "female",
+      "clips": 122,
+      "minutes": 23.9,
+      "median_dnsmos": 2.95,
+      "median_snr_db": 26.9,
+      "n_emotions": 7
+    },
+    {
+      "speaker_id": "te_audiobook_kalalavelugu",
+      "language": "te",
+      "gender": "female",
+      "clips": 41,
+      "minutes": 7.5,
+      "median_dnsmos": 3.22,
+      "median_snr_db": 30.4,
+      "n_emotions": 8
+    },
+    {
+      "speaker_id": "te_ramaaraavi",
+      "language": "te",
+      "gender": "female",
+      "clips": 41,
+      "minutes": 7.5,
+      "median_dnsmos": 3.24,
+      "median_snr_db": 42.5,
+      "n_emotions": 6
+    },
+    {
+      "speaker_id": "te_kathalu_epic",
+      "language": "te",
+      "gender": "male",
+      "clips": 30,
+      "minutes": 6.8,
+      "median_dnsmos": 3.16,
+      "median_snr_db": 40.1,
+      "n_emotions": 7
+    },
+    {
+      "speaker_id": "te_audiobook_bhumiputri",
+      "language": "te",
+      "gender": "female",
+      "clips": 27,
+      "minutes": 6.3,
+      "median_dnsmos": 2.97,
+      "median_snr_db": 27.5,
+      "n_emotions": 7
+    },
+    {
+      "speaker_id": "en_nptel",
+      "language": "en",
+      "gender": "male",
+      "clips": 20,
+      "minutes": 2.5,
+      "median_dnsmos": 3.34,
+      "median_snr_db": 35.3,
+      "n_emotions": 5
+    },
+    {
+      "speaker_id": "en_air_talk",
+      "language": "en",
+      "gender": "female",
+      "clips": 10,
+      "minutes": 2.2,
+      "median_dnsmos": 3.17,
+      "median_snr_db": 30.7,
+      "n_emotions": 5
+    },
+    {
+      "speaker_id": "te_motivation_kasyap",
+      "language": "te",
+      "gender": "male",
+      "clips": 11,
+      "minutes": 1.9,
+      "median_dnsmos": 3.04,
+      "median_snr_db": 39.2,
+      "n_emotions": 7
+    },
+    {
+      "speaker_id": "en_tedx_amina",
+      "language": "en",
+      "gender": "female",
+      "clips": 8,
+      "minutes": 1.6,
+      "median_dnsmos": 3.29,
+      "median_snr_db": 41.9,
+      "n_emotions": 6
+    }
+  ],
+  "vad_by_emotion": {
+    "happy": {
+      "valence": 0.543,
+      "arousal": 0.599,
+      "n": 12
+    },
+    "fearful": {
+      "valence": 0.463,
+      "arousal": 0.602,
+      "n": 14
+    },
+    "angry": {
+      "valence": 0.433,
+      "arousal": 0.628,
+      "n": 57
+    },
+    "neutral": {
+      "valence": 0.497,
+      "arousal": 0.561,
+      "n": 56
+    },
+    "calm": {
+      "valence": 0.502,
+      "arousal": 0.534,
+      "n": 56
+    },
+    "sad": {
+      "valence": 0.423,
+      "arousal": 0.525,
+      "n": 56
+    },
+    "excited": {
+      "valence": 0.486,
+      "arousal": 0.614,
+      "n": 56
+    },
+    "surprised": {
+      "valence": 0.541,
+      "arousal": 0.602,
+      "n": 3
+    }
+  },
+  "spectral_bandwidth": {
+    "en": {
+      "n": 50,
+      "rolloff99_hz_median": 4143,
+      "energy_above_8khz_median_pct": 0.18,
+      "clips_truly_wideband_pct": 10
+    },
+    "te": {
+      "n": 50,
+      "rolloff99_hz_median": 2584,
+      "energy_above_8khz_median_pct": 0.05,
+      "clips_truly_wideband_pct": 6
+    }
+  },
+  "snr_vs_dnsmos": {
+    "pearson_r": 0.523,
+    "n": 310
+  }
+}

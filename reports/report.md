@@ -15,7 +15,7 @@ speech: mythology, folk tales, and audiobook fiction.
 
 To follow the brief's emphasis on listening to the data, I also ran a manual listening audit of 80
 clips (40 English, 40 Telugu), sampled across all speakers and source types, to check transcript
-accuracy, speaker consistency, and audio cleanliness. The results are in section 7.
+accuracy, speaker consistency, and audio cleanliness. The results are in section 8.
 
 ---
 
@@ -423,7 +423,71 @@ leaves only a few minutes per speaker, so this is better suited to multi-speaker
 experiments than to training a single high-fidelity voice. The transcripts are ASR-derived rather than
 hand-typed, which is the reason so much of this report is spent checking them.
 
-## 7. Human quality audit
+## 7. Dataset analysis
+
+Beyond the per-clip checks in section 4, I ran six dataset-level analyses to see how the data is
+distributed and where its limits are (`scripts/analyze_dataset.py`, `eval_emotion.py`).
+
+**Split integrity.** The train/validation/test split is stratified by emotion and speaker. No clip
+appears in more than one split, no transcript is duplicated across splits, and every speaker in
+validation and test is also present in training, so there is no leakage and the held-out sets follow
+the training distribution. The emotion histogram is preserved in each split. Split sizes are 144/8/8
+for English and 134/8/8 for Telugu.
+
+**Per-speaker distribution and quality.** The nine voices are far from evenly sized. On the English
+side one narrator, `en_mahabharata`, supplies 23.9 of the 30.2 English minutes (about 79 percent),
+while the other three English voices contribute 1.6 to 2.5 minutes each. Telugu is more balanced,
+spread across five speakers of 1.9 to 7.5 minutes. The practical consequence is that the English half
+behaves close to a single-speaker set, which is worth knowing before training a multi-speaker model.
+
+| Speaker | Lang | Gender | Clips | Minutes | Median DNSMOS |
+|---|---|---|---|---|---|
+| en_mahabharata | en | F | 122 | 23.9 | 2.95 |
+| en_nptel | en | M | 20 | 2.5 | 3.34 |
+| en_air_talk | en | F | 10 | 2.2 | 3.17 |
+| en_tedx_amina | en | F | 8 | 1.6 | 3.29 |
+| te_ramaaraavi | te | F | 41 | 7.5 | 3.24 |
+| te_audiobook_kalalavelugu | te | F | 41 | 7.5 | 3.22 |
+| te_kathalu_epic | te | M | 30 | 6.8 | 3.16 |
+| te_audiobook_bhumiputri | te | F | 27 | 6.3 | 2.97 |
+| te_motivation_kasyap | te | M | 11 | 1.9 | 3.04 |
+
+![Minutes per speaker](figures/per_speaker_minutes.png)
+
+**Emotion agreement and confusion.** The two LLM raters agree on the label for 65 percent of the
+120-clip sample (Cohen's κ 0.55). The confusion is structured rather than random: `calm` is the least
+stable label, scattering to `sad` (8 clips) and `neutral` (6), and every `happy` clip was relabelled
+`excited`. The strong diagonals are `sad` and `excited`. This is the adjacent-class confusion noted in
+section 4, now visible pair by pair.
+
+![Emotion-label confusion, 30b vs 105b](figures/emotion_confusion.png)
+
+**Valence-arousal consistency.** Even where the categorical labels disagree, the acoustic
+valence-arousal estimates line up with them in the expected direction. Positive labels (happy,
+surprised, calm) sit at higher valence than negative ones (sad, angry, fearful), and high-arousal
+labels (angry, excited, fearful) sit above the low-arousal ones (calm, sad, neutral). The labels are
+therefore at least consistent with the prosody, which is what justifies using them as a weakly
+supervised filter.
+
+![Measured valence-arousal per emotion label](figures/vad_by_emotion.png)
+
+**Audio bandwidth and spectral quality.** This one is a genuine limitation. Although every clip is
+stored at 24 kHz, the audio is effectively band-limited: 99 percent of the energy sits below about
+4 kHz in English and 2.6 kHz in Telugu, and only 0.1 to 0.2 percent of the energy is above 8 kHz. Some
+of that is speech's natural low-frequency dominance, but the near-absence of high-frequency content
+points to YouTube's lossy encoding low-passing the sources. The set is well suited to standard 16 to
+24 kHz TTS, but not to full-band, high-fidelity synthesis where crisp sibilance matters.
+
+![Spectral roll-off per language](figures/spectral_bandwidth.png)
+
+**SNR versus perceptual quality.** SNR and DNSMOS are only moderately correlated (Pearson r = 0.52),
+which is why I kept both. A clip can have a clean noise floor (high SNR) yet a low DNSMOS because of
+codec or mastering artifacts the SNR estimate cannot see; the compressed English audiobook from
+section 2 was exactly that case.
+
+![SNR versus DNSMOS](figures/snr_vs_dnsmos.png)
+
+## 8. Human quality audit
 
 I checked quality two ways: automated validation, and a manual listening audit of the clips by ear.
 
@@ -455,10 +519,10 @@ automatic `quality_flag` rate (~43 percent); in Telugu it is comparable (~19 per
 the flag is meant to work: it is a conservative, over-inclusive proxy a consumer can filter on, and a
 flag firing does not mean the clip is bad.
 
-## 8. What I would improve given more time
+## 9. What I would improve given more time
 
 - A human emotion-labeling pass. The transcript-and-audio listening audit is now done for both
-  languages (section 7); emotion is still checked only by the automatic raters, so a human relabeling
+  languages (section 8); emotion is still checked only by the automatic raters, so a human relabeling
   pass would turn that last proxy into ground truth. The review tool supports it.
 - A speech-emotion model that handles Telugu, so the third emotion rater is fair.
 - Word-level forced-alignment trimming to tighten clip edges further.
