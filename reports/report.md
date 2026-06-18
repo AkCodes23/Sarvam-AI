@@ -240,8 +240,10 @@ resolutions is in section 5.
 expressive TTS data, rather than as ground-truth emotion. Their reliability was measured rather than
 assumed. On a 120-clip sample (60 per language), the smaller tagging model (`sarvam-30b`) and the
 larger validation model (`sarvam-105b`) gave the same label 65 percent of the time, with Cohen's κ
-0.55 and Krippendorff α 0.44 between them, which is moderate agreement. Most of the disagreements fall
-on adjacent classes such as calm versus neutral. Two acoustic speech-emotion models (emotion2vec,
+0.55 and Krippendorff α 0.44 between them, which is moderate agreement. The disagreement is structured,
+not random (heatmap below): `calm` is the least stable label, scattering to `sad` (8 clips) and
+`neutral` (6), and every `happy` clip was relabelled `excited`, while `sad` and `excited` are firmly on
+the diagonal. Two acoustic speech-emotion models (emotion2vec,
 audeering) drop the three-rater Krippendorff α to about 0.01, because they collapse toward neutral and
 were not trained for Telugu. In a separate pass where the larger model judges whether the acoustics
 support the 30b label, it endorses 26 percent of them. Because the labels are weakly supervised, each
@@ -251,6 +253,8 @@ by filtering on those fields. For instance `en_mahabharata_0040` ("The angry kin
 for my promise") is tagged angry at 0.95 confidence, while `te_ramaaraavi_0040` is tagged angry at only
 0.40 and would be removed by a confidence threshold. Laughter, where it occurs, is recorded as an
 emotion (usually happy or excited) rather than as a separate flag.
+
+![Emotion-label confusion between the two Sarvam models (30b tags vs 105b validator)](figures/emotion_confusion.png)
 
 ![Emotion-label agreement across raters](figures/agreement_bars.png)
 
@@ -470,13 +474,9 @@ behaves close to a single-speaker set, which is worth knowing before training a 
 
 ![Minutes per speaker](figures/per_speaker_minutes.png)
 
-**Emotion agreement and confusion.** The two LLM raters agree on the label for 65 percent of the
-120-clip sample (Cohen's κ 0.55). The confusion is structured rather than random: `calm` is the least
-stable label, scattering to `sad` (8 clips) and `neutral` (6), and every `happy` clip was relabelled
-`excited`. The strong diagonals are `sad` and `excited`. This is the adjacent-class confusion noted in
-section 4, now visible pair by pair.
-
-![Emotion-label confusion, 30b vs 105b](figures/emotion_confusion.png)
+**Emotion agreement and confusion.** The two LLM raters agree on 65 percent of the 120-clip sample
+(Cohen's κ 0.55), and the disagreement is concentrated on adjacent classes (`calm` to `sad` and
+`neutral`, `happy` to `excited`). The confusion matrix and the full discussion are in section 4.
 
 **Valence-arousal consistency.** Even where the categorical labels disagree, the acoustic
 valence-arousal estimates line up with them in the expected direction. Positive labels (happy,
