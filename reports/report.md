@@ -250,8 +250,6 @@ is why it contributes few clips to the final set.
 
 ## 6. TTS readiness analysis
 
-What a TTS practitioner checks before training on a corpus.
-
 **Phoneme coverage.** English covers all 39 ARPAbet phonemes (100 percent). Telugu covers 45 of the
 roughly 50 in its inventory (about 88 percent). The thinnest Telugu phonemes are the aspirated and
 breathy-voiced consonants: the retroflex aspirate and breathy-g appear once each, the palatal aspirate
