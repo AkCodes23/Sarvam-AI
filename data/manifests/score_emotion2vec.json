@@ -1,0 +1,302 @@
+{
+  "en_air_talk_0000": {
+    "label": "neutral"
+  },
+  "en_air_talk_0005": {
+    "label": "neutral"
+  },
+  "en_air_talk_0010": {
+    "label": "neutral"
+  },
+  "en_air_talk_0016": {
+    "label": "neutral"
+  },
+  "en_air_talk_0021": {
+    "label": "neutral"
+  },
+  "en_air_talk_0027": {
+    "label": "neutral"
+  },
+  "en_air_talk_0032": {
+    "label": "neutral"
+  },
+  "en_air_talk_0038": {
+    "label": "other"
+  },
+  "en_air_talk_0043": {
+    "label": "happy"
+  },
+  "en_mahabharata_0005": {
+    "label": "neutral"
+  },
+  "en_mahabharata_0010": {
+    "label": "other"
+  },
+  "en_mahabharata_0016": {
+    "label": "surprised"
+  },
+  "en_mahabharata_0021": {
+    "label": "happy"
+  },
+  "en_mahabharata_0026": {
+    "label": "neutral"
+  },
+  "en_mahabharata_0032": {
+    "label": "disgusted"
+  },
+  "en_mahabharata_0037": {
+    "label": "neutral"
+  },
+  "en_mahabharata_0043": {
+    "label": "happy"
+  },
+  "en_mahabharata_0048": {
+    "label": "neutral"
+  },
+  "en_mahabharata_e67_0004": {
+    "label": "angry"
+  },
+  "en_mahabharata_e67_0009": {
+    "label": "sad"
+  },
+  "en_mahabharata_e67_0015": {
+    "label": "angry"
+  },
+  "en_mahabharata_e67_0020": {
+    "label": "angry"
+  },
+  "en_mahabharata_e67_0028": {
+    "label": "happy"
+  },
+  "en_mahabharata_e67_0033": {
+    "label": "neutral"
+  },
+  "en_mahabharata_e67_0039": {
+    "label": "sad"
+  },
+  "en_mahabharata_e69_0002": {
+    "label": "neutral"
+  },
+  "en_mahabharata_e69_0007": {
+    "label": "sad"
+  },
+  "en_mahabharata_e69_0013": {
+    "label": "neutral"
+  },
+  "en_mahabharata_e69_0018": {
+    "label": "neutral"
+  },
+  "en_mahabharata_e69_0025": {
+    "label": "sad"
+  },
+  "en_mahabharata_e69_0033": {
+    "label": "neutral"
+  },
+  "en_mahabharata_e69_0040": {
+    "label": "sad"
+  },
+  "en_nptel_0000": {
+    "label": "neutral"
+  },
+  "en_nptel_0006": {
+    "label": "neutral"
+  },
+  "en_nptel_0011": {
+    "label": "neutral"
+  },
+  "en_nptel_0017": {
+    "label": "neutral"
+  },
+  "en_nptel_0022": {
+    "label": "neutral"
+  },
+  "en_nptel_0028": {
+    "label": "neutral"
+  },
+  "en_nptel_0033": {
+    "label": "neutral"
+  },
+  "en_nptel_0038": {
+    "label": "neutral"
+  },
+  "en_nptel_0044": {
+    "label": "neutral"
+  },
+  "en_nptel_0049": {
+    "label": "neutral"
+  },
+  "en_tedx_amina_0002": {
+    "label": "neutral"
+  },
+  "en_tedx_amina_0007": {
+    "label": "happy"
+  },
+  "en_tedx_amina_0013": {
+    "label": "happy"
+  },
+  "en_tedx_amina_0018": {
+    "label": "happy"
+  },
+  "en_tedx_amina_0024": {
+    "label": "happy"
+  },
+  "en_tedx_amina_0029": {
+    "label": "happy"
+  },
+  "en_tedx_amina_0035": {
+    "label": "happy"
+  },
+  "en_tedx_amina_0040": {
+    "label": "happy"
+  },
+  "te_audiobook_bhumiputri_0000": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0004": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0009": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0013": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0018": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0022": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0027": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0031": {
+    "label": "neutral"
+  },
+  "te_audiobook_bhumiputri_0036": {
+    "label": "happy"
+  },
+  "te_audiobook_bhumiputri_0040": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0002": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0006": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0011": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0015": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0020": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0024": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0029": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0033": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0038": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0042": {
+    "label": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0047": {
+    "label": "neutral"
+  },
+  "te_kathalu_epic_0001": {
+    "label": "happy"
+  },
+  "te_kathalu_epic_0006": {
+    "label": "happy"
+  },
+  "te_kathalu_epic_0010": {
+    "label": "neutral"
+  },
+  "te_kathalu_epic_0015": {
+    "label": "happy"
+  },
+  "te_kathalu_epic_0019": {
+    "label": "neutral"
+  },
+  "te_kathalu_epic_0024": {
+    "label": "happy"
+  },
+  "te_kathalu_epic_0029": {
+    "label": "surprised"
+  },
+  "te_kathalu_epic_0033": {
+    "label": "neutral"
+  },
+  "te_kathalu_epic_0038": {
+    "label": "neutral"
+  },
+  "te_motivation_kasyap_0003": {
+    "label": "neutral"
+  },
+  "te_motivation_kasyap_0008": {
+    "label": "neutral"
+  },
+  "te_motivation_kasyap_0012": {
+    "label": "sad"
+  },
+  "te_motivation_kasyap_0017": {
+    "label": "happy"
+  },
+  "te_motivation_kasyap_0021": {
+    "label": "neutral"
+  },
+  "te_motivation_kasyap_0026": {
+    "label": "neutral"
+  },
+  "te_motivation_kasyap_0030": {
+    "label": "sad"
+  },
+  "te_motivation_kasyap_0035": {
+    "label": "neutral"
+  },
+  "te_motivation_kasyap_0039": {
+    "label": "sad"
+  },
+  "te_motivation_kasyap_0044": {
+    "label": "happy"
+  },
+  "te_ramaaraavi_0001": {
+    "label": "surprised"
+  },
+  "te_ramaaraavi_0006": {
+    "label": "happy"
+  },
+  "te_ramaaraavi_0010": {
+    "label": "happy"
+  },
+  "te_ramaaraavi_0015": {
+    "label": "neutral"
+  },
+  "te_ramaaraavi_0019": {
+    "label": "neutral"
+  },
+  "te_ramaaraavi_0024": {
+    "label": "neutral"
+  },
+  "te_ramaaraavi_0028": {
+    "label": "happy"
+  },
+  "te_ramaaraavi_0033": {
+    "label": "neutral"
+  },
+  "te_ramaaraavi_0037": {
+    "label": "neutral"
+  },
+  "te_ramaaraavi_0042": {
+    "label": "happy"
+  }
+}

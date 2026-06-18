@@ -62,40 +62,64 @@
       }
     },
     {
-      "source_id": "en_audiobook_kafan",
+      "source_id": "en_mahabharata_e69",
       "language": "en",
-      "content_type": "audiobook",
-      "clips": 19,
-      "minutes": 4.91,
-      "snr_db_median": 25.4,
+      "content_type": "story",
+      "clips": 40,
+      "minutes": 8.14,
+      "snr_db_median": 24.0,
       "gap_energy_median": 0.0,
-      "distinct_emotions": 5,
-      "emotion_entropy": 2.187,
+      "distinct_emotions": 7,
+      "emotion_entropy": 2.516,
       "conf_median": 0.85,
       "emotions": {
-        "sad": 7,
-        "neutral": 4,
-        "angry": 3,
-        "calm": 3,
-        "excited": 2
+        "excited": 10,
+        "sad": 8,
+        "angry": 8,
+        "calm": 6,
+        "neutral": 6,
+        "happy": 1,
+        "fearful": 1
       }
     },
     {
-      "source_id": "en_air_century",
+      "source_id": "en_mahabharata_e67",
       "language": "en",
-      "content_type": "talk",
-      "clips": 18,
-      "minutes": 4.36,
-      "snr_db_median": 19.1,
+      "content_type": "story",
+      "clips": 40,
+      "minutes": 8.12,
+      "snr_db_median": 22.9,
       "gap_energy_median": 0.0,
-      "distinct_emotions": 4,
-      "emotion_entropy": 1.864,
+      "distinct_emotions": 6,
+      "emotion_entropy": 2.39,
       "conf_median": 0.85,
       "emotions": {
-        "calm": 8,
-        "sad": 4,
-        "neutral": 3,
-        "excited": 3
+        "sad": 12,
+        "angry": 10,
+        "calm": 6,
+        "excited": 6,
+        "neutral": 4,
+        "fearful": 2
+      }
+    },
+    {
+      "source_id": "en_nptel",
+      "language": "en",
+      "content_type": "lecture",
+      "clips": 53,
+      "minutes": 6.94,
+      "snr_db_median": 35.7,
+      "gap_energy_median": 0.028,
+      "distinct_emotions": 6,
+      "emotion_entropy": 2.357,
+      "conf_median": 0.85,
+      "emotions": {
+        "calm": 14,
+        "excited": 13,
+        "neutral": 13,
+        "sad": 6,
+        "angry": 5,
+        "happy": 2
       }
     },
     {
@@ -117,27 +141,6 @@
         "neutral": 5,
         "happy": 2,
         "fearful": 1
-      }
-    },
-    {
-      "source_id": "te_chaganti",
-      "language": "te",
-      "content_type": "discourse",
-      "clips": 42,
-      "minutes": 9.91,
-      "snr_db_median": 18.9,
-      "gap_energy_median": 0.0,
-      "distinct_emotions": 7,
-      "emotion_entropy": 2.491,
-      "conf_median": 0.85,
-      "emotions": {
-        "excited": 12,
-        "sad": 11,
-        "calm": 7,
-        "neutral": 5,
-        "fearful": 3,
-        "angry": 3,
-        "happy": 1
       }
     },
     {
@@ -226,7 +229,7 @@
     }
   ],
   "rejection": {
-    "low_snr": 12,
+    "low_snr": 7,
     "clipping": 0,
     "music_or_noise_bed": 0,
     "too_much_silence": 0,
@@ -237,8 +240,8 @@
     "duration_out_of_range": 0
   },
   "funnel": {
-    "candidates": 457,
-    "kept": 445,
-    "rejected": 12
+    "candidates": 506,
+    "kept": 499,
+    "rejected": 7
   }
 }

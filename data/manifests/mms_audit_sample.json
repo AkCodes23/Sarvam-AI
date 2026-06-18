@@ -1,0 +1,36 @@
+{
+  "en": {
+    "low": [
+      "en_tedx_amina_0024",
+      "en_nptel_0004",
+      "en_nptel_0003"
+    ],
+    "mid": [
+      "en_mahabharata_e69_0031",
+      "en_nptel_0031",
+      "en_tedx_amina_0031"
+    ],
+    "high": [
+      "en_nptel_0032",
+      "en_mahabharata_0033",
+      "en_mahabharata_e67_0007"
+    ]
+  },
+  "te": {
+    "low": [
+      "te_ramaaraavi_0039",
+      "te_motivation_kasyap_0005",
+      "te_motivation_kasyap_0032"
+    ],
+    "mid": [
+      "te_audiobook_bhumiputri_0026",
+      "te_audiobook_kalalavelugu_0042",
+      "te_audiobook_kalalavelugu_0010"
+    ],
+    "high": [
+      "te_audiobook_kalalavelugu_0023",
+      "te_kathalu_epic_0029",
+      "te_kathalu_epic_0017"
+    ]
+  }
+}

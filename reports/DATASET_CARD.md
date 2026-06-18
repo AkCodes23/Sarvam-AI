@@ -23,12 +23,16 @@ configs:
     path: indian_english/train-*
   - split: validation
     path: indian_english/validation-*
+  - split: test
+    path: indian_english/test-*
 - config_name: telugu
   data_files:
   - split: train
     path: telugu/train-*
   - split: validation
     path: telugu/validation-*
+  - split: test
+    path: telugu/test-*
 ---
 
 # Indian English + Telugu Single-Speaker TTS Dataset (emotion-tagged)
@@ -41,17 +45,19 @@ diarization, and labeled with emotion/style tags. Built as a data-quality / cura
 > total** (5 English, 6 Telugu), tracked via `speaker_id`.
 
 ## Contents
-- **Indian English** (`indian_english`): 30.05 min, 142 clips, 5 speakers; emotions: {'neutral': 31, 'calm': 31, 'sad': 30, 'excited': 30, 'angry': 12, 'fearful': 5, 'happy': 3}
-- **Telugu** (`telugu`): 30.25 min, 140 clips, 6 speakers; emotions: {'calm': 25, 'neutral': 24, 'angry': 24, 'excited': 24, 'sad': 24, 'fearful': 9, 'happy': 7, 'surprised': 3}
+- **Indian English** (`indian_english`): 30.01 min, 169 clips, 4 speakers; emotions: {'angry': 31, 'neutral': 31, 'calm': 31, 'sad': 31, 'excited': 31, 'fearful': 8, 'happy': 6}
+- **Telugu** (`telugu`): 30.05 min, 156 clips, 5 speakers; emotions: {'calm': 29, 'neutral': 28, 'angry': 28, 'excited': 28, 'sad': 28, 'happy': 6, 'fearful': 6, 'surprised': 3}
 
-Total: **60.3 minutes**.
+Total: **60.06 minutes**.
 
 ## Evaluation (evidence, not just claims)
 
 - **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52, verification AUC 0.96 / EER 9.1%; 0/11 speakers flagged).
-- **Transcript reliability**: English cross-ASR agreement with Whisper = 6.8% WER / 4.5% CER (n=40) — strong. Realtime ASR language-ID matched the target language on 100% of EN and 100% of TE clips. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
+- **Transcript reliability**: English cross-ASR agreement with Whisper = 6.8% WER / 4.5% CER (n=40), strong. Realtime ASR language-ID matched the target language on 100% of EN and 100% of TE clips. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
 - **Emotion-tag reliability** (sarvam-30b vs sarvam-105b on 120 clips): 65% agreement, Cohen's κ 0.55.
-- **Phoneme coverage**: English 39 (100%), Telugu 45 (90%).
+- **Phoneme coverage**: English 39 (100%), Telugu 44 (88%).
+- **Perceptual quality** (DNSMOS OVRL, published set): EN 3.21 (86% pass>3.0), TE 3.19 (86% pass>3.0). Filter `dnsmos_pass=True` for a stricter subset.
+- **Transcript–audio alignment** (MMS forced-align): median confidence EN 0.948, TE 0.934.
 
 See the project report (GitHub repo) for full methodology and figures.
 
@@ -70,7 +76,7 @@ See the project report (GitHub repo) for full methodology and figures.
 5. Automated quality gates (clipping, SNR, silence, music/noise bed, ASR confidence, dedup).
 6. Hybrid emotion tagging: per-speaker-normalized acoustic features + Sarvam LLM,
    with an acoustic whisper override.
-7. Human review (listen, fix transcripts, relabel) — **human labels override automated ones**.
+7. Human review (listen, fix transcripts, relabel); **human labels override automated ones**.
 8. Light loudness normalization (dynamics preserved), balanced emotion selection.
 
 ## Audio

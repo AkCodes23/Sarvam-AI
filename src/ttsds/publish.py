@@ -21,8 +21,26 @@ _FEATURES = Features({
     "emotion_confidence": Value("float32"),
     "tag_source": Value("string"),
     "speaker_id": Value("string"),
+    "gender": Value("string"),
+    "accent": Value("string"),
     "duration": Value("float32"),
+    # audio quality
     "snr_db": Value("float32"),
+    "dnsmos_ovrl": Value("float32"),
+    "dnsmos_sig": Value("float32"),
+    "dnsmos_bak": Value("float32"),
+    "dnsmos_pass": Value("bool"),
+    "squim_stoi": Value("float32"),
+    "squim_pesq": Value("float32"),
+    "squim_sisdr": Value("float32"),
+    # transcript + emotion validation
+    "mms_align_score": Value("float32"),
+    "overlap_flag": Value("bool"),
+    "ser_emotion": Value("string"),
+    "valence": Value("float32"),
+    "arousal": Value("float32"),
+    "dominance": Value("float32"),
+    # provenance
     "source_video_id": Value("string"),
     "source_url": Value("string"),
     "source_channel": Value("string"),
@@ -33,15 +51,21 @@ _FEATURES = Features({
 })
 
 
-def _stratified_split(recs: list[dict], val_fraction: float) -> tuple[list[dict], list[dict]]:
-    k = max(2, round(1.0 / val_fraction)) if val_fraction > 0 else 0
+def _stratified_split(recs: list[dict], val_fraction: float):
+    """Stratified 3-way split: every k-th -> test, next -> validation, rest -> train."""
+    k = max(3, round(1.0 / val_fraction)) if val_fraction > 0 else 0
     ordered = sorted(recs, key=lambda r: (r["emotion"] or "", r["speaker_id"], r["audio"]))
     if k == 0:
-        return ordered, []
-    train, val = [], []
+        return ordered, [], []
+    train, val, test = [], [], []
     for i, r in enumerate(ordered):
-        (val if i % k == 0 else train).append(r)
-    return train, val
+        if i % k == 0:
+            test.append(r)
+        elif i % k == 1:
+            val.append(r)
+        else:
+            train.append(r)
+    return train, val, test
 
 
 def _to_dataset(recs: list[dict], sr: int) -> Dataset:
@@ -63,10 +87,12 @@ def build_dataset_dicts(cfg: Config) -> dict[str, DatasetDict]:
     for config_name, recs in records.items():
         if not recs:
             continue
-        train, val = _stratified_split(recs, cfg.targets.val_fraction)
+        train, val, test = _stratified_split(recs, cfg.targets.val_fraction)
         dd = {"train": _to_dataset(train, sr)}
         if val:
             dd["validation"] = _to_dataset(val, sr)
+        if test:
+            dd["test"] = _to_dataset(test, sr)
         out[config_name] = DatasetDict(dd)
     return out
 

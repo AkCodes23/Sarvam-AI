@@ -21,11 +21,17 @@ def normalize_text(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _ovrl(s: Segment) -> float:
+    v = s.metrics.get("dnsmos_ovrl")
+    return float(v) if v is not None else 0.0
+
+
 def _round_robin_balance(segs: list[Segment], target_seconds: float) -> list[Segment]:
     """Pick across emotion buckets in turn so rare emotions are fully included and
-    the dominant one (usually neutral) is capped — until we hit the target."""
+    the dominant one (usually neutral) is capped — until we hit the target. Within
+    each bucket, prefer the cleanest clips by DNSMOS OVRL (quality-priority selection)."""
     buckets: dict[str, list[Segment]] = defaultdict(list)
-    for s in sorted(segs, key=lambda x: x.id):
+    for s in sorted(segs, key=lambda x: (-_ovrl(x), x.id)):  # cleanest first
         buckets[s.emotion or "neutral"].append(s)
     # order buckets smallest-first so scarce emotions are exhausted before neutral
     order = sorted(buckets, key=lambda k: len(buckets[k]))
@@ -73,6 +79,8 @@ def finalize_audio(seg: Segment, cfg: Config) -> Path:
 
 
 def _record(seg: Segment, final_wav: Path, sr: int) -> dict:
+    m = seg.metrics
+    ovrl = m.get("dnsmos_ovrl")
     return {
         "audio": str(final_wav.relative_to(PROJECT_ROOT)),
         "text": seg.transcript,
@@ -84,8 +92,23 @@ def _record(seg: Segment, final_wav: Path, sr: int) -> dict:
         "emotion_confidence": seg.emotion_confidence,
         "tag_source": seg.tag_source,
         "speaker_id": seg.speaker_id,
+        "gender": m.get("gender"),
+        "accent": m.get("accent"),
         "duration": round(seg.duration_s, 3),
-        "snr_db": seg.metrics.get("snr_db"),
+        "snr_db": m.get("snr_db"),
+        "dnsmos_ovrl": ovrl,
+        "dnsmos_sig": m.get("dnsmos_sig"),
+        "dnsmos_bak": m.get("dnsmos_bak"),
+        "dnsmos_pass": (ovrl is not None and ovrl > 3.0),
+        "squim_stoi": m.get("squim_stoi"),
+        "squim_pesq": m.get("squim_pesq"),
+        "squim_sisdr": m.get("squim_sisdr"),
+        "mms_align_score": m.get("mms_align_score"),
+        "overlap_flag": bool(m.get("overlap_flag", False)),
+        "ser_emotion": m.get("ser_emotion"),
+        "valence": m.get("valence"),
+        "arousal": m.get("arousal"),
+        "dominance": m.get("dominance"),
         "source_video_id": seg.source_video_id,
         "source_url": seg.source_url,
         "source_channel": seg.source_channel,
@@ -129,6 +152,8 @@ def compute_stats(selection: dict[str, list[Segment]], cfg: Config) -> dict:
             spk[s.speaker_id] += s.duration_s
             if s.tag_source == "human":
                 human += 1
+        ovrls = sorted(s.metrics["dnsmos_ovrl"] for s in segs if s.metrics.get("dnsmos_ovrl") is not None)
+        aligns = [s.metrics["mms_align_score"] for s in segs if s.metrics.get("mms_align_score") is not None]
         out["per_language"][lang] = {
             "name": cfg.languages[lang].name,
             "config": cfg.hf_config_name(lang),
@@ -140,6 +165,9 @@ def compute_stats(selection: dict[str, list[Segment]], cfg: Config) -> dict:
             "styles": dict(sorted(sty.items(), key=lambda x: -x[1])),
             "human_tagged": human,
             "mean_clip_s": round((minutes * 60 / len(segs)) if segs else 0, 2),
+            "dnsmos_ovrl_median": round(ovrls[len(ovrls) // 2], 2) if ovrls else None,
+            "dnsmos_pass_pct": round(100 * sum(v > 3.0 for v in ovrls) / len(ovrls)) if ovrls else None,
+            "mms_align_median": round(sorted(aligns)[len(aligns) // 2], 3) if aligns else None,
         }
         out["total_minutes"] = round(out["total_minutes"] + minutes, 2)
     return out
@@ -153,6 +181,8 @@ def _eval_section() -> str:
 
     spk, emo, pho, asr = _load("eval_speaker.json"), _load("eval_emotion.json"), \
         _load("eval_phoneme.json"), _load("eval_asr.json")
+    agr = _load("eval_agreement.json")
+    stats = _load("dataset_stats.json")
     if not any([spk, emo, pho, asr]):
         return ""
     lines = ["", "## Evaluation (evidence, not just claims)", ""]
@@ -171,7 +201,7 @@ def _eval_section() -> str:
         lid = asr.get("lang_id_match", {})
         line = (
             f"- **Transcript reliability**: English cross-ASR agreement with Whisper = "
-            f"{en['wer_mean']*100:.1f}% WER / {en['cer_mean']*100:.1f}% CER (n={en['n']}) — strong. "
+            f"{en['wer_mean']*100:.1f}% WER / {en['cer_mean']*100:.1f}% CER (n={en['n']}), strong. "
         )
         if lid:
             line += (
@@ -192,6 +222,27 @@ def _eval_section() -> str:
             f"- **Phoneme coverage**: English {pho['en']['unique_phonemes']} "
             f"({pho['en']['coverage']*100:.0f}%), Telugu {pho['te']['unique_phonemes']} "
             f"({pho['te']['coverage']*100:.0f}%)."
+        )
+    if stats and "per_language" in stats:
+        pl = stats["per_language"]
+        en, te = pl.get("en", {}), pl.get("te", {})
+        if en.get("dnsmos_ovrl_median") is not None:
+            lines.append(
+                f"- **Perceptual quality** (DNSMOS OVRL, published set): EN "
+                f"{en['dnsmos_ovrl_median']} ({en.get('dnsmos_pass_pct')}% pass>3.0), TE "
+                f"{te.get('dnsmos_ovrl_median')} ({te.get('dnsmos_pass_pct')}% pass>3.0). "
+                f"Filter `dnsmos_pass=True` for a stricter subset."
+            )
+        if en.get("mms_align_median") is not None:
+            lines.append(
+                f"- **Transcript–audio alignment** (MMS forced-align): median confidence EN "
+                f"{en['mms_align_median']}, TE {te.get('mms_align_median')}."
+            )
+    if agr and agr.get("krippendorff_alpha_llms") is not None:
+        lines.append(
+            f"- **Emotion-label agreement** (Krippendorff α): {agr['krippendorff_alpha_llms']} "
+            f"across the two LLM raters (≥0.4 = field norm); VAD dimensions (valence/arousal/"
+            f"dominance) are included per clip."
         )
     lines.append("")
     lines.append("See the project report (GitHub repo) for full methodology and figures.")
@@ -237,12 +288,16 @@ configs:
     path: indian_english/train-*
   - split: validation
     path: indian_english/validation-*
+  - split: test
+    path: indian_english/test-*
 - config_name: telugu
   data_files:
   - split: train
     path: telugu/train-*
   - split: validation
     path: telugu/validation-*
+  - split: test
+    path: telugu/test-*
 ---
 
 # Indian English + Telugu Single-Speaker TTS Dataset (emotion-tagged)
@@ -275,7 +330,7 @@ Total: **{stats.get('total_minutes', 0)} minutes**.
 5. Automated quality gates (clipping, SNR, silence, music/noise bed, ASR confidence, dedup).
 6. Hybrid emotion tagging: per-speaker-normalized acoustic features + Sarvam LLM,
    with an acoustic whisper override.
-7. Human review (listen, fix transcripts, relabel) — **human labels override automated ones**.
+7. Human review (listen, fix transcripts, relabel); **human labels override automated ones**.
 8. Light loudness normalization (dynamics preserved), balanced emotion selection.
 
 ## Audio

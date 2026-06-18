@@ -1,0 +1,4992 @@
+{
+  "en_air_talk_0000": {
+    "dnsmos_ovrl": 2.908,
+    "dnsmos_sig": 3.244,
+    "dnsmos_bak": 3.821,
+    "dnsmos_p808": 3.369,
+    "squim_stoi": 0.961,
+    "squim_pesq": 3.217,
+    "squim_sisdr": 15.84,
+    "language": "en"
+  },
+  "en_air_talk_0001": {
+    "dnsmos_ovrl": 3.08,
+    "dnsmos_sig": 3.446,
+    "dnsmos_bak": 3.857,
+    "dnsmos_p808": 3.659,
+    "squim_stoi": 0.982,
+    "squim_pesq": 3.366,
+    "squim_sisdr": 17.08,
+    "language": "en"
+  },
+  "en_air_talk_0002": {
+    "dnsmos_ovrl": 3.468,
+    "dnsmos_sig": 3.704,
+    "dnsmos_bak": 4.155,
+    "dnsmos_p808": 3.811,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.454,
+    "squim_sisdr": 24.26,
+    "language": "en"
+  },
+  "en_air_talk_0003": {
+    "dnsmos_ovrl": 3.402,
+    "dnsmos_sig": 3.65,
+    "dnsmos_bak": 4.124,
+    "dnsmos_p808": 3.902,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.619,
+    "squim_sisdr": 27.12,
+    "language": "en"
+  },
+  "en_air_talk_0004": {
+    "dnsmos_ovrl": 3.15,
+    "dnsmos_sig": 3.465,
+    "dnsmos_bak": 3.914,
+    "dnsmos_p808": 3.857,
+    "squim_stoi": 0.984,
+    "squim_pesq": 2.784,
+    "squim_sisdr": 19.79,
+    "language": "en"
+  },
+  "en_air_talk_0005": {
+    "dnsmos_ovrl": 3.287,
+    "dnsmos_sig": 3.551,
+    "dnsmos_bak": 4.091,
+    "dnsmos_p808": 3.818,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.115,
+    "squim_sisdr": 23.48,
+    "language": "en"
+  },
+  "en_air_talk_0006": {
+    "dnsmos_ovrl": 3.109,
+    "dnsmos_sig": 3.435,
+    "dnsmos_bak": 3.964,
+    "dnsmos_p808": 3.744,
+    "squim_stoi": 0.988,
+    "squim_pesq": 3.239,
+    "squim_sisdr": 23.78,
+    "language": "en"
+  },
+  "en_air_talk_0007": {
+    "dnsmos_ovrl": 3.049,
+    "dnsmos_sig": 3.377,
+    "dnsmos_bak": 3.94,
+    "dnsmos_p808": 3.766,
+    "squim_stoi": 0.98,
+    "squim_pesq": 3.08,
+    "squim_sisdr": 22.33,
+    "language": "en"
+  },
+  "en_air_talk_0008": {
+    "dnsmos_ovrl": 3.104,
+    "dnsmos_sig": 3.49,
+    "dnsmos_bak": 3.849,
+    "dnsmos_p808": 3.43,
+    "squim_stoi": 0.982,
+    "squim_pesq": 2.806,
+    "squim_sisdr": 23.04,
+    "language": "en"
+  },
+  "en_air_talk_0009": {
+    "dnsmos_ovrl": 3.232,
+    "dnsmos_sig": 3.525,
+    "dnsmos_bak": 4.009,
+    "dnsmos_p808": 4.014,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.094,
+    "squim_sisdr": 24.03,
+    "language": "en"
+  },
+  "en_air_talk_0010": {
+    "dnsmos_ovrl": 3.122,
+    "dnsmos_sig": 3.504,
+    "dnsmos_bak": 3.832,
+    "dnsmos_p808": 3.525,
+    "squim_stoi": 0.98,
+    "squim_pesq": 3.062,
+    "squim_sisdr": 23.19,
+    "language": "en"
+  },
+  "en_air_talk_0011": {
+    "dnsmos_ovrl": 2.744,
+    "dnsmos_sig": 3.548,
+    "dnsmos_bak": 3.045,
+    "dnsmos_p808": 3.643,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.188,
+    "squim_sisdr": 23.9,
+    "language": "en"
+  },
+  "en_air_talk_0012": {
+    "dnsmos_ovrl": 2.85,
+    "dnsmos_sig": 3.316,
+    "dnsmos_bak": 3.68,
+    "dnsmos_p808": 3.733,
+    "squim_stoi": 0.984,
+    "squim_pesq": 2.998,
+    "squim_sisdr": 18.24,
+    "language": "en"
+  },
+  "en_air_talk_0013": {
+    "dnsmos_ovrl": 2.998,
+    "dnsmos_sig": 3.381,
+    "dnsmos_bak": 3.832,
+    "dnsmos_p808": 3.794,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.471,
+    "squim_sisdr": 23.13,
+    "language": "en"
+  },
+  "en_air_talk_0014": {
+    "dnsmos_ovrl": 2.998,
+    "dnsmos_sig": 3.453,
+    "dnsmos_bak": 3.709,
+    "dnsmos_p808": 3.741,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.378,
+    "squim_sisdr": 18.81,
+    "language": "en"
+  },
+  "en_air_talk_0015": {
+    "dnsmos_ovrl": 3.189,
+    "dnsmos_sig": 3.548,
+    "dnsmos_bak": 3.889,
+    "dnsmos_p808": 3.91,
+    "squim_stoi": 0.987,
+    "squim_pesq": 2.671,
+    "squim_sisdr": 21.58,
+    "language": "en"
+  },
+  "en_air_talk_0016": {
+    "dnsmos_ovrl": 3.171,
+    "dnsmos_sig": 3.443,
+    "dnsmos_bak": 4.058,
+    "dnsmos_p808": 3.994,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.676,
+    "squim_sisdr": 25.9,
+    "language": "en"
+  },
+  "en_air_talk_0017": {
+    "dnsmos_ovrl": 3.108,
+    "dnsmos_sig": 3.454,
+    "dnsmos_bak": 3.951,
+    "dnsmos_p808": 3.769,
+    "squim_stoi": 0.974,
+    "squim_pesq": 3.091,
+    "squim_sisdr": 19.11,
+    "language": "en"
+  },
+  "en_air_talk_0018": {
+    "dnsmos_ovrl": 2.944,
+    "dnsmos_sig": 3.39,
+    "dnsmos_bak": 3.694,
+    "dnsmos_p808": 3.383,
+    "squim_stoi": 0.954,
+    "squim_pesq": 2.85,
+    "squim_sisdr": 17.05,
+    "language": "en"
+  },
+  "en_air_talk_0019": {
+    "dnsmos_ovrl": 2.17,
+    "dnsmos_sig": 2.889,
+    "dnsmos_bak": 2.918,
+    "dnsmos_p808": 3.687,
+    "squim_stoi": 0.973,
+    "squim_pesq": 3.591,
+    "squim_sisdr": 24.26,
+    "language": "en"
+  },
+  "en_air_talk_0020": {
+    "dnsmos_ovrl": 2.254,
+    "dnsmos_sig": 2.752,
+    "dnsmos_bak": 3.398,
+    "dnsmos_p808": 3.596,
+    "squim_stoi": 0.944,
+    "squim_pesq": 3.05,
+    "squim_sisdr": 22.82,
+    "language": "en"
+  },
+  "en_air_talk_0021": {
+    "dnsmos_ovrl": 2.516,
+    "dnsmos_sig": 3.259,
+    "dnsmos_bak": 3.12,
+    "dnsmos_p808": 3.342,
+    "squim_stoi": 0.931,
+    "squim_pesq": 2.728,
+    "squim_sisdr": 17.35,
+    "language": "en"
+  },
+  "en_air_talk_0022": {
+    "dnsmos_ovrl": 2.685,
+    "dnsmos_sig": 3.114,
+    "dnsmos_bak": 3.696,
+    "dnsmos_p808": 3.346,
+    "squim_stoi": 0.957,
+    "squim_pesq": 3.022,
+    "squim_sisdr": 22.59,
+    "language": "en"
+  },
+  "en_air_talk_0023": {
+    "dnsmos_ovrl": 2.188,
+    "dnsmos_sig": 3.145,
+    "dnsmos_bak": 2.706,
+    "dnsmos_p808": 2.939,
+    "squim_stoi": 0.954,
+    "squim_pesq": 2.539,
+    "squim_sisdr": 14.16,
+    "language": "en"
+  },
+  "en_air_talk_0024": {
+    "dnsmos_ovrl": 2.442,
+    "dnsmos_sig": 3.222,
+    "dnsmos_bak": 2.93,
+    "dnsmos_p808": 3.696,
+    "squim_stoi": 0.956,
+    "squim_pesq": 2.049,
+    "squim_sisdr": 13.22,
+    "language": "en"
+  },
+  "en_air_talk_0025": {
+    "dnsmos_ovrl": 2.912,
+    "dnsmos_sig": 3.493,
+    "dnsmos_bak": 3.452,
+    "dnsmos_p808": 3.358,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.344,
+    "squim_sisdr": 26.43,
+    "language": "en"
+  },
+  "en_air_talk_0026": {
+    "dnsmos_ovrl": 2.964,
+    "dnsmos_sig": 3.416,
+    "dnsmos_bak": 3.675,
+    "dnsmos_p808": 3.804,
+    "squim_stoi": 0.984,
+    "squim_pesq": 3.079,
+    "squim_sisdr": 25.92,
+    "language": "en"
+  },
+  "en_air_talk_0027": {
+    "dnsmos_ovrl": 3.225,
+    "dnsmos_sig": 3.543,
+    "dnsmos_bak": 3.988,
+    "dnsmos_p808": 3.577,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.123,
+    "squim_sisdr": 28.19,
+    "language": "en"
+  },
+  "en_air_talk_0028": {
+    "dnsmos_ovrl": 2.949,
+    "dnsmos_sig": 3.44,
+    "dnsmos_bak": 3.669,
+    "dnsmos_p808": 3.756,
+    "squim_stoi": 0.986,
+    "squim_pesq": 2.927,
+    "squim_sisdr": 25.88,
+    "language": "en"
+  },
+  "en_air_talk_0029": {
+    "dnsmos_ovrl": 2.873,
+    "dnsmos_sig": 3.225,
+    "dnsmos_bak": 3.798,
+    "dnsmos_p808": 3.602,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.133,
+    "squim_sisdr": 25.64,
+    "language": "en"
+  },
+  "en_air_talk_0030": {
+    "dnsmos_ovrl": 3.127,
+    "dnsmos_sig": 3.487,
+    "dnsmos_bak": 3.942,
+    "dnsmos_p808": 3.628,
+    "squim_stoi": 0.982,
+    "squim_pesq": 3.218,
+    "squim_sisdr": 27.61,
+    "language": "en"
+  },
+  "en_air_talk_0031": {
+    "dnsmos_ovrl": 3.242,
+    "dnsmos_sig": 3.582,
+    "dnsmos_bak": 3.941,
+    "dnsmos_p808": 3.693,
+    "squim_stoi": 0.965,
+    "squim_pesq": 2.539,
+    "squim_sisdr": 11.86,
+    "language": "en"
+  },
+  "en_air_talk_0032": {
+    "dnsmos_ovrl": 2.956,
+    "dnsmos_sig": 3.417,
+    "dnsmos_bak": 3.659,
+    "dnsmos_p808": 3.809,
+    "squim_stoi": 0.978,
+    "squim_pesq": 3.424,
+    "squim_sisdr": 21.61,
+    "language": "en"
+  },
+  "en_air_talk_0033": {
+    "dnsmos_ovrl": 2.899,
+    "dnsmos_sig": 3.289,
+    "dnsmos_bak": 3.768,
+    "dnsmos_p808": 2.951,
+    "squim_stoi": 0.972,
+    "squim_pesq": 2.293,
+    "squim_sisdr": 19.46,
+    "language": "en"
+  },
+  "en_air_talk_0034": {
+    "dnsmos_ovrl": 3.228,
+    "dnsmos_sig": 3.59,
+    "dnsmos_bak": 3.91,
+    "dnsmos_p808": 3.881,
+    "squim_stoi": 0.973,
+    "squim_pesq": 2.712,
+    "squim_sisdr": 20.62,
+    "language": "en"
+  },
+  "en_air_talk_0035": {
+    "dnsmos_ovrl": 3.079,
+    "dnsmos_sig": 3.382,
+    "dnsmos_bak": 3.97,
+    "dnsmos_p808": 3.799,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.038,
+    "squim_sisdr": 22.5,
+    "language": "en"
+  },
+  "en_air_talk_0036": {
+    "dnsmos_ovrl": 2.463,
+    "dnsmos_sig": 3.333,
+    "dnsmos_bak": 2.883,
+    "dnsmos_p808": 3.855,
+    "squim_stoi": 0.982,
+    "squim_pesq": 2.777,
+    "squim_sisdr": 8.88,
+    "language": "en"
+  },
+  "en_air_talk_0037": {
+    "dnsmos_ovrl": 2.692,
+    "dnsmos_sig": 3.193,
+    "dnsmos_bak": 3.517,
+    "dnsmos_p808": 3.706,
+    "squim_stoi": 0.986,
+    "squim_pesq": 2.855,
+    "squim_sisdr": 20.95,
+    "language": "en"
+  },
+  "en_air_talk_0038": {
+    "dnsmos_ovrl": 2.728,
+    "dnsmos_sig": 3.481,
+    "dnsmos_bak": 3.123,
+    "dnsmos_p808": 3.726,
+    "squim_stoi": 0.982,
+    "squim_pesq": 3.134,
+    "squim_sisdr": 16.85,
+    "language": "en"
+  },
+  "en_air_talk_0039": {
+    "dnsmos_ovrl": 3.231,
+    "dnsmos_sig": 3.463,
+    "dnsmos_bak": 4.138,
+    "dnsmos_p808": 3.66,
+    "squim_stoi": 0.99,
+    "squim_pesq": 2.951,
+    "squim_sisdr": 20.45,
+    "language": "en"
+  },
+  "en_air_talk_0040": {
+    "dnsmos_ovrl": 3.157,
+    "dnsmos_sig": 3.467,
+    "dnsmos_bak": 3.964,
+    "dnsmos_p808": 3.507,
+    "squim_stoi": 0.986,
+    "squim_pesq": 2.679,
+    "squim_sisdr": 21.51,
+    "language": "en"
+  },
+  "en_air_talk_0041": {
+    "dnsmos_ovrl": 3.176,
+    "dnsmos_sig": 3.45,
+    "dnsmos_bak": 4.047,
+    "dnsmos_p808": 3.628,
+    "squim_stoi": 0.985,
+    "squim_pesq": 2.665,
+    "squim_sisdr": 17.43,
+    "language": "en"
+  },
+  "en_air_talk_0042": {
+    "dnsmos_ovrl": 3.065,
+    "dnsmos_sig": 3.396,
+    "dnsmos_bak": 3.948,
+    "dnsmos_p808": 3.723,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.238,
+    "squim_sisdr": 21.46,
+    "language": "en"
+  },
+  "en_air_talk_0043": {
+    "dnsmos_ovrl": 2.931,
+    "dnsmos_sig": 3.35,
+    "dnsmos_bak": 3.696,
+    "dnsmos_p808": 3.56,
+    "squim_stoi": 0.976,
+    "squim_pesq": 2.629,
+    "squim_sisdr": 18.54,
+    "language": "en"
+  },
+  "en_mahabharata_0000": {
+    "dnsmos_ovrl": 3.335,
+    "dnsmos_sig": 3.717,
+    "dnsmos_bak": 3.923,
+    "dnsmos_p808": 4.043,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.997,
+    "squim_sisdr": 26.88,
+    "language": "en"
+  },
+  "en_mahabharata_0001": {
+    "dnsmos_ovrl": 3.041,
+    "dnsmos_sig": 3.616,
+    "dnsmos_bak": 3.533,
+    "dnsmos_p808": 3.576,
+    "squim_stoi": 0.985,
+    "squim_pesq": 2.77,
+    "squim_sisdr": 15.09,
+    "language": "en"
+  },
+  "en_mahabharata_0002": {
+    "dnsmos_ovrl": 3.422,
+    "dnsmos_sig": 3.667,
+    "dnsmos_bak": 4.163,
+    "dnsmos_p808": 4.122,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.999,
+    "squim_sisdr": 28.18,
+    "language": "en"
+  },
+  "en_mahabharata_0003": {
+    "dnsmos_ovrl": 2.342,
+    "dnsmos_sig": 3.517,
+    "dnsmos_bak": 2.318,
+    "dnsmos_p808": 3.363,
+    "squim_stoi": 0.916,
+    "squim_pesq": 1.339,
+    "squim_sisdr": 2.15,
+    "language": "en"
+  },
+  "en_mahabharata_0004": {
+    "dnsmos_ovrl": 3.191,
+    "dnsmos_sig": 3.627,
+    "dnsmos_bak": 3.722,
+    "dnsmos_p808": 3.708,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.34,
+    "squim_sisdr": 26.67,
+    "language": "en"
+  },
+  "en_mahabharata_0005": {
+    "dnsmos_ovrl": 2.885,
+    "dnsmos_sig": 3.564,
+    "dnsmos_bak": 3.291,
+    "dnsmos_p808": 3.479,
+    "squim_stoi": 0.994,
+    "squim_pesq": 2.586,
+    "squim_sisdr": 25.6,
+    "language": "en"
+  },
+  "en_mahabharata_0006": {
+    "dnsmos_ovrl": 3.147,
+    "dnsmos_sig": 3.683,
+    "dnsmos_bak": 3.57,
+    "dnsmos_p808": 3.603,
+    "squim_stoi": 0.998,
+    "squim_pesq": 2.775,
+    "squim_sisdr": 25.77,
+    "language": "en"
+  },
+  "en_mahabharata_0007": {
+    "dnsmos_ovrl": 2.326,
+    "dnsmos_sig": 3.538,
+    "dnsmos_bak": 2.169,
+    "dnsmos_p808": 3.474,
+    "squim_stoi": 0.929,
+    "squim_pesq": 1.384,
+    "squim_sisdr": 3.09,
+    "language": "en"
+  },
+  "en_mahabharata_0008": {
+    "dnsmos_ovrl": 3.239,
+    "dnsmos_sig": 3.723,
+    "dnsmos_bak": 3.714,
+    "dnsmos_p808": 3.295,
+    "squim_stoi": 0.989,
+    "squim_pesq": 2.469,
+    "squim_sisdr": 16.92,
+    "language": "en"
+  },
+  "en_mahabharata_0009": {
+    "dnsmos_ovrl": 3.075,
+    "dnsmos_sig": 3.656,
+    "dnsmos_bak": 3.537,
+    "dnsmos_p808": 3.23,
+    "squim_stoi": 0.973,
+    "squim_pesq": 2.21,
+    "squim_sisdr": 18.35,
+    "language": "en"
+  },
+  "en_mahabharata_0010": {
+    "dnsmos_ovrl": 3.396,
+    "dnsmos_sig": 3.649,
+    "dnsmos_bak": 4.168,
+    "dnsmos_p808": 3.941,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.999,
+    "squim_sisdr": 28.66,
+    "language": "en"
+  },
+  "en_mahabharata_0011": {
+    "dnsmos_ovrl": 2.913,
+    "dnsmos_sig": 3.698,
+    "dnsmos_bak": 3.159,
+    "dnsmos_p808": 3.275,
+    "squim_stoi": 0.988,
+    "squim_pesq": 2.82,
+    "squim_sisdr": 18.61,
+    "language": "en"
+  },
+  "en_mahabharata_0012": {
+    "dnsmos_ovrl": 3.18,
+    "dnsmos_sig": 3.651,
+    "dnsmos_bak": 3.772,
+    "dnsmos_p808": 3.663,
+    "squim_stoi": 0.992,
+    "squim_pesq": 2.606,
+    "squim_sisdr": 19.06,
+    "language": "en"
+  },
+  "en_mahabharata_0013": {
+    "dnsmos_ovrl": 3.355,
+    "dnsmos_sig": 3.607,
+    "dnsmos_bak": 4.138,
+    "dnsmos_p808": 3.745,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.205,
+    "squim_sisdr": 30.43,
+    "language": "en"
+  },
+  "en_mahabharata_0014": {
+    "dnsmos_ovrl": 2.815,
+    "dnsmos_sig": 3.628,
+    "dnsmos_bak": 3.0,
+    "dnsmos_p808": 2.631,
+    "squim_stoi": 0.986,
+    "squim_pesq": 2.533,
+    "squim_sisdr": 18.13,
+    "language": "en"
+  },
+  "en_mahabharata_0015": {
+    "dnsmos_ovrl": 2.871,
+    "dnsmos_sig": 3.699,
+    "dnsmos_bak": 3.101,
+    "dnsmos_p808": 2.717,
+    "squim_stoi": 0.983,
+    "squim_pesq": 2.411,
+    "squim_sisdr": 16.98,
+    "language": "en"
+  },
+  "en_mahabharata_0016": {
+    "dnsmos_ovrl": 2.636,
+    "dnsmos_sig": 3.434,
+    "dnsmos_bak": 2.991,
+    "dnsmos_p808": 3.475,
+    "squim_stoi": 0.969,
+    "squim_pesq": 2.011,
+    "squim_sisdr": 0.98,
+    "language": "en"
+  },
+  "en_mahabharata_0017": {
+    "dnsmos_ovrl": 2.679,
+    "dnsmos_sig": 3.553,
+    "dnsmos_bak": 2.952,
+    "dnsmos_p808": 3.281,
+    "squim_stoi": 0.95,
+    "squim_pesq": 1.81,
+    "squim_sisdr": 23.69,
+    "language": "en"
+  },
+  "en_mahabharata_0018": {
+    "dnsmos_ovrl": 2.629,
+    "dnsmos_sig": 3.536,
+    "dnsmos_bak": 2.885,
+    "dnsmos_p808": 2.983,
+    "squim_stoi": 0.98,
+    "squim_pesq": 2.103,
+    "squim_sisdr": 22.12,
+    "language": "en"
+  },
+  "en_mahabharata_0019": {
+    "dnsmos_ovrl": 2.555,
+    "dnsmos_sig": 3.432,
+    "dnsmos_bak": 2.899,
+    "dnsmos_p808": 3.464,
+    "squim_stoi": 0.991,
+    "squim_pesq": 2.754,
+    "squim_sisdr": 25.97,
+    "language": "en"
+  },
+  "en_mahabharata_0020": {
+    "dnsmos_ovrl": 2.922,
+    "dnsmos_sig": 3.588,
+    "dnsmos_bak": 3.256,
+    "dnsmos_p808": 3.925,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.25,
+    "squim_sisdr": 26.67,
+    "language": "en"
+  },
+  "en_mahabharata_0021": {
+    "dnsmos_ovrl": 3.302,
+    "dnsmos_sig": 3.613,
+    "dnsmos_bak": 4.037,
+    "dnsmos_p808": 4.007,
+    "squim_stoi": 0.998,
+    "squim_pesq": 4.156,
+    "squim_sisdr": 29.01,
+    "language": "en"
+  },
+  "en_mahabharata_0022": {
+    "dnsmos_ovrl": 3.267,
+    "dnsmos_sig": 3.548,
+    "dnsmos_bak": 4.107,
+    "dnsmos_p808": 3.81,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.904,
+    "squim_sisdr": 24.72,
+    "language": "en"
+  },
+  "en_mahabharata_0023": {
+    "dnsmos_ovrl": 3.233,
+    "dnsmos_sig": 3.564,
+    "dnsmos_bak": 4.043,
+    "dnsmos_p808": 3.896,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.439,
+    "squim_sisdr": 26.5,
+    "language": "en"
+  },
+  "en_mahabharata_0024": {
+    "dnsmos_ovrl": 3.45,
+    "dnsmos_sig": 3.664,
+    "dnsmos_bak": 4.176,
+    "dnsmos_p808": 4.054,
+    "squim_stoi": 0.997,
+    "squim_pesq": 4.016,
+    "squim_sisdr": 28.92,
+    "language": "en"
+  },
+  "en_mahabharata_0025": {
+    "dnsmos_ovrl": 3.494,
+    "dnsmos_sig": 3.717,
+    "dnsmos_bak": 4.202,
+    "dnsmos_p808": 4.003,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.919,
+    "squim_sisdr": 25.78,
+    "language": "en"
+  },
+  "en_mahabharata_0026": {
+    "dnsmos_ovrl": 3.468,
+    "dnsmos_sig": 3.688,
+    "dnsmos_bak": 4.189,
+    "dnsmos_p808": 4.013,
+    "squim_stoi": 0.998,
+    "squim_pesq": 4.203,
+    "squim_sisdr": 30.2,
+    "language": "en"
+  },
+  "en_mahabharata_0027": {
+    "dnsmos_ovrl": 3.383,
+    "dnsmos_sig": 3.666,
+    "dnsmos_bak": 4.078,
+    "dnsmos_p808": 3.935,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.707,
+    "squim_sisdr": 27.84,
+    "language": "en"
+  },
+  "en_mahabharata_0028": {
+    "dnsmos_ovrl": 2.75,
+    "dnsmos_sig": 3.729,
+    "dnsmos_bak": 2.856,
+    "dnsmos_p808": 2.968,
+    "squim_stoi": 0.955,
+    "squim_pesq": 1.715,
+    "squim_sisdr": 17.15,
+    "language": "en"
+  },
+  "en_mahabharata_0029": {
+    "dnsmos_ovrl": 3.244,
+    "dnsmos_sig": 3.562,
+    "dnsmos_bak": 4.002,
+    "dnsmos_p808": 3.969,
+    "squim_stoi": 0.998,
+    "squim_pesq": 4.142,
+    "squim_sisdr": 28.42,
+    "language": "en"
+  },
+  "en_mahabharata_0030": {
+    "dnsmos_ovrl": 2.34,
+    "dnsmos_sig": 3.527,
+    "dnsmos_bak": 2.294,
+    "dnsmos_p808": 3.033,
+    "squim_stoi": 0.943,
+    "squim_pesq": 1.396,
+    "squim_sisdr": 12.92,
+    "language": "en"
+  },
+  "en_mahabharata_0031": {
+    "dnsmos_ovrl": 2.622,
+    "dnsmos_sig": 3.55,
+    "dnsmos_bak": 2.878,
+    "dnsmos_p808": 2.952,
+    "squim_stoi": 0.92,
+    "squim_pesq": 1.346,
+    "squim_sisdr": 8.8,
+    "language": "en"
+  },
+  "en_mahabharata_0032": {
+    "dnsmos_ovrl": 1.966,
+    "dnsmos_sig": 2.752,
+    "dnsmos_bak": 2.154,
+    "dnsmos_p808": 2.96,
+    "squim_stoi": 0.892,
+    "squim_pesq": 1.367,
+    "squim_sisdr": 8.32,
+    "language": "en"
+  },
+  "en_mahabharata_0033": {
+    "dnsmos_ovrl": 3.39,
+    "dnsmos_sig": 3.625,
+    "dnsmos_bak": 4.185,
+    "dnsmos_p808": 4.012,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.916,
+    "squim_sisdr": 29.39,
+    "language": "en"
+  },
+  "en_mahabharata_0034": {
+    "dnsmos_ovrl": 3.039,
+    "dnsmos_sig": 3.514,
+    "dnsmos_bak": 3.727,
+    "dnsmos_p808": 3.98,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.778,
+    "squim_sisdr": 27.97,
+    "language": "en"
+  },
+  "en_mahabharata_0035": {
+    "dnsmos_ovrl": 3.321,
+    "dnsmos_sig": 3.635,
+    "dnsmos_bak": 4.082,
+    "dnsmos_p808": 4.205,
+    "squim_stoi": 0.995,
+    "squim_pesq": 4.157,
+    "squim_sisdr": 31.19,
+    "language": "en"
+  },
+  "en_mahabharata_0036": {
+    "dnsmos_ovrl": 3.273,
+    "dnsmos_sig": 3.584,
+    "dnsmos_bak": 4.019,
+    "dnsmos_p808": 3.911,
+    "squim_stoi": 0.998,
+    "squim_pesq": 4.132,
+    "squim_sisdr": 29.23,
+    "language": "en"
+  },
+  "en_mahabharata_0037": {
+    "dnsmos_ovrl": 3.344,
+    "dnsmos_sig": 3.597,
+    "dnsmos_bak": 4.166,
+    "dnsmos_p808": 4.092,
+    "squim_stoi": 0.992,
+    "squim_pesq": 4.008,
+    "squim_sisdr": 26.25,
+    "language": "en"
+  },
+  "en_mahabharata_0038": {
+    "dnsmos_ovrl": 3.234,
+    "dnsmos_sig": 3.524,
+    "dnsmos_bak": 4.012,
+    "dnsmos_p808": 3.898,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.913,
+    "squim_sisdr": 24.53,
+    "language": "en"
+  },
+  "en_mahabharata_0039": {
+    "dnsmos_ovrl": 3.208,
+    "dnsmos_sig": 3.503,
+    "dnsmos_bak": 4.084,
+    "dnsmos_p808": 3.887,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.24,
+    "squim_sisdr": 28.51,
+    "language": "en"
+  },
+  "en_mahabharata_0040": {
+    "dnsmos_ovrl": 3.157,
+    "dnsmos_sig": 3.607,
+    "dnsmos_bak": 3.774,
+    "dnsmos_p808": 3.76,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.64,
+    "squim_sisdr": 26.57,
+    "language": "en"
+  },
+  "en_mahabharata_0041": {
+    "dnsmos_ovrl": 3.402,
+    "dnsmos_sig": 3.665,
+    "dnsmos_bak": 4.146,
+    "dnsmos_p808": 3.919,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.874,
+    "squim_sisdr": 23.39,
+    "language": "en"
+  },
+  "en_mahabharata_0042": {
+    "dnsmos_ovrl": 3.17,
+    "dnsmos_sig": 3.72,
+    "dnsmos_bak": 3.676,
+    "dnsmos_p808": 3.091,
+    "squim_stoi": 0.991,
+    "squim_pesq": 2.744,
+    "squim_sisdr": 19.47,
+    "language": "en"
+  },
+  "en_mahabharata_0043": {
+    "dnsmos_ovrl": 3.454,
+    "dnsmos_sig": 3.689,
+    "dnsmos_bak": 4.174,
+    "dnsmos_p808": 4.047,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.043,
+    "squim_sisdr": 28.7,
+    "language": "en"
+  },
+  "en_mahabharata_0044": {
+    "dnsmos_ovrl": 3.283,
+    "dnsmos_sig": 3.652,
+    "dnsmos_bak": 3.935,
+    "dnsmos_p808": 4.071,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.04,
+    "squim_sisdr": 27.0,
+    "language": "en"
+  },
+  "en_mahabharata_0045": {
+    "dnsmos_ovrl": 2.961,
+    "dnsmos_sig": 3.586,
+    "dnsmos_bak": 3.466,
+    "dnsmos_p808": 3.117,
+    "squim_stoi": 0.984,
+    "squim_pesq": 2.814,
+    "squim_sisdr": 19.78,
+    "language": "en"
+  },
+  "en_mahabharata_0046": {
+    "dnsmos_ovrl": 3.387,
+    "dnsmos_sig": 3.606,
+    "dnsmos_bak": 4.175,
+    "dnsmos_p808": 3.676,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.5,
+    "squim_sisdr": 18.18,
+    "language": "en"
+  },
+  "en_mahabharata_0047": {
+    "dnsmos_ovrl": 3.439,
+    "dnsmos_sig": 3.73,
+    "dnsmos_bak": 4.102,
+    "dnsmos_p808": 3.287,
+    "squim_stoi": 0.984,
+    "squim_pesq": 2.667,
+    "squim_sisdr": 20.73,
+    "language": "en"
+  },
+  "en_mahabharata_0048": {
+    "dnsmos_ovrl": 2.664,
+    "dnsmos_sig": 3.561,
+    "dnsmos_bak": 2.899,
+    "dnsmos_p808": 2.724,
+    "squim_stoi": 0.955,
+    "squim_pesq": 1.868,
+    "squim_sisdr": 14.72,
+    "language": "en"
+  },
+  "en_mahabharata_0049": {
+    "dnsmos_ovrl": 2.388,
+    "dnsmos_sig": 3.397,
+    "dnsmos_bak": 2.549,
+    "dnsmos_p808": 2.704,
+    "squim_stoi": 0.935,
+    "squim_pesq": 1.886,
+    "squim_sisdr": 15.54,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0000": {
+    "dnsmos_ovrl": 3.02,
+    "dnsmos_sig": 3.683,
+    "dnsmos_bak": 3.382,
+    "dnsmos_p808": 3.831,
+    "squim_stoi": 0.988,
+    "squim_pesq": 3.097,
+    "squim_sisdr": 19.36,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0001": {
+    "dnsmos_ovrl": 3.421,
+    "dnsmos_sig": 3.696,
+    "dnsmos_bak": 4.102,
+    "dnsmos_p808": 3.837,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.846,
+    "squim_sisdr": 27.66,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0002": {
+    "dnsmos_ovrl": 2.859,
+    "dnsmos_sig": 3.452,
+    "dnsmos_bak": 3.411,
+    "dnsmos_p808": 3.486,
+    "squim_stoi": 0.964,
+    "squim_pesq": 1.651,
+    "squim_sisdr": 11.84,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0003": {
+    "dnsmos_ovrl": 2.886,
+    "dnsmos_sig": 3.526,
+    "dnsmos_bak": 3.285,
+    "dnsmos_p808": 3.58,
+    "squim_stoi": 0.991,
+    "squim_pesq": 2.232,
+    "squim_sisdr": 18.05,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0004": {
+    "dnsmos_ovrl": 3.044,
+    "dnsmos_sig": 3.47,
+    "dnsmos_bak": 3.709,
+    "dnsmos_p808": 3.879,
+    "squim_stoi": 0.992,
+    "squim_pesq": 2.172,
+    "squim_sisdr": 16.38,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0005": {
+    "dnsmos_ovrl": 3.115,
+    "dnsmos_sig": 3.658,
+    "dnsmos_bak": 3.632,
+    "dnsmos_p808": 3.883,
+    "squim_stoi": 0.988,
+    "squim_pesq": 2.402,
+    "squim_sisdr": 18.05,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0006": {
+    "dnsmos_ovrl": 3.193,
+    "dnsmos_sig": 3.605,
+    "dnsmos_bak": 3.839,
+    "dnsmos_p808": 3.88,
+    "squim_stoi": 0.989,
+    "squim_pesq": 1.926,
+    "squim_sisdr": 15.5,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0007": {
+    "dnsmos_ovrl": 3.184,
+    "dnsmos_sig": 3.618,
+    "dnsmos_bak": 3.79,
+    "dnsmos_p808": 3.625,
+    "squim_stoi": 0.994,
+    "squim_pesq": 2.268,
+    "squim_sisdr": 16.79,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0008": {
+    "dnsmos_ovrl": 2.465,
+    "dnsmos_sig": 3.565,
+    "dnsmos_bak": 2.433,
+    "dnsmos_p808": 2.948,
+    "squim_stoi": 0.857,
+    "squim_pesq": 1.26,
+    "squim_sisdr": 6.68,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0009": {
+    "dnsmos_ovrl": 2.622,
+    "dnsmos_sig": 3.481,
+    "dnsmos_bak": 2.951,
+    "dnsmos_p808": 3.485,
+    "squim_stoi": 0.974,
+    "squim_pesq": 1.885,
+    "squim_sisdr": 13.88,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0010": {
+    "dnsmos_ovrl": 2.849,
+    "dnsmos_sig": 3.614,
+    "dnsmos_bak": 3.201,
+    "dnsmos_p808": 3.292,
+    "squim_stoi": 0.958,
+    "squim_pesq": 1.707,
+    "squim_sisdr": 12.36,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0011": {
+    "dnsmos_ovrl": 2.476,
+    "dnsmos_sig": 3.65,
+    "dnsmos_bak": 2.53,
+    "dnsmos_p808": 2.958,
+    "squim_stoi": 0.928,
+    "squim_pesq": 1.329,
+    "squim_sisdr": 7.59,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0012": {
+    "dnsmos_ovrl": 2.822,
+    "dnsmos_sig": 3.616,
+    "dnsmos_bak": 3.074,
+    "dnsmos_p808": 3.184,
+    "squim_stoi": 0.959,
+    "squim_pesq": 1.777,
+    "squim_sisdr": 15.78,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0013": {
+    "dnsmos_ovrl": 2.783,
+    "dnsmos_sig": 3.553,
+    "dnsmos_bak": 3.064,
+    "dnsmos_p808": 3.249,
+    "squim_stoi": 0.972,
+    "squim_pesq": 1.961,
+    "squim_sisdr": 16.29,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0014": {
+    "dnsmos_ovrl": 2.817,
+    "dnsmos_sig": 3.496,
+    "dnsmos_bak": 3.236,
+    "dnsmos_p808": 3.159,
+    "squim_stoi": 0.976,
+    "squim_pesq": 1.79,
+    "squim_sisdr": 12.54,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0015": {
+    "dnsmos_ovrl": 3.031,
+    "dnsmos_sig": 3.617,
+    "dnsmos_bak": 3.49,
+    "dnsmos_p808": 3.683,
+    "squim_stoi": 0.984,
+    "squim_pesq": 2.783,
+    "squim_sisdr": 22.45,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0016": {
+    "dnsmos_ovrl": 3.277,
+    "dnsmos_sig": 3.609,
+    "dnsmos_bak": 3.959,
+    "dnsmos_p808": 3.653,
+    "squim_stoi": 0.995,
+    "squim_pesq": 2.751,
+    "squim_sisdr": 20.97,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0017": {
+    "dnsmos_ovrl": 3.133,
+    "dnsmos_sig": 3.557,
+    "dnsmos_bak": 3.771,
+    "dnsmos_p808": 3.974,
+    "squim_stoi": 0.994,
+    "squim_pesq": 2.76,
+    "squim_sisdr": 19.89,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0018": {
+    "dnsmos_ovrl": 3.116,
+    "dnsmos_sig": 3.652,
+    "dnsmos_bak": 3.571,
+    "dnsmos_p808": 3.987,
+    "squim_stoi": 0.996,
+    "squim_pesq": 2.576,
+    "squim_sisdr": 16.22,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0019": {
+    "dnsmos_ovrl": 2.53,
+    "dnsmos_sig": 3.612,
+    "dnsmos_bak": 2.612,
+    "dnsmos_p808": 2.995,
+    "squim_stoi": 0.889,
+    "squim_pesq": 1.261,
+    "squim_sisdr": 3.88,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0020": {
+    "dnsmos_ovrl": 1.911,
+    "dnsmos_sig": 3.425,
+    "dnsmos_bak": 1.59,
+    "dnsmos_p808": 2.501,
+    "squim_stoi": 0.802,
+    "squim_pesq": 1.105,
+    "squim_sisdr": 1.38,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0023": {
+    "dnsmos_ovrl": 2.296,
+    "dnsmos_sig": 3.573,
+    "dnsmos_bak": 2.182,
+    "dnsmos_p808": 2.734,
+    "squim_stoi": 0.934,
+    "squim_pesq": 1.251,
+    "squim_sisdr": 9.75,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0024": {
+    "dnsmos_ovrl": 2.733,
+    "dnsmos_sig": 3.645,
+    "dnsmos_bak": 2.946,
+    "dnsmos_p808": 2.964,
+    "squim_stoi": 0.962,
+    "squim_pesq": 1.419,
+    "squim_sisdr": 11.22,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0025": {
+    "dnsmos_ovrl": 2.597,
+    "dnsmos_sig": 3.686,
+    "dnsmos_bak": 2.685,
+    "dnsmos_p808": 2.976,
+    "squim_stoi": 0.945,
+    "squim_pesq": 1.34,
+    "squim_sisdr": 9.9,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0026": {
+    "dnsmos_ovrl": 2.407,
+    "dnsmos_sig": 3.544,
+    "dnsmos_bak": 2.397,
+    "dnsmos_p808": 2.663,
+    "squim_stoi": 0.942,
+    "squim_pesq": 1.754,
+    "squim_sisdr": 16.11,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0027": {
+    "dnsmos_ovrl": 2.901,
+    "dnsmos_sig": 3.614,
+    "dnsmos_bak": 3.219,
+    "dnsmos_p808": 3.421,
+    "squim_stoi": 0.966,
+    "squim_pesq": 1.911,
+    "squim_sisdr": 18.43,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0028": {
+    "dnsmos_ovrl": 2.358,
+    "dnsmos_sig": 3.374,
+    "dnsmos_bak": 2.604,
+    "dnsmos_p808": 2.753,
+    "squim_stoi": 0.863,
+    "squim_pesq": 1.18,
+    "squim_sisdr": 8.17,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0029": {
+    "dnsmos_ovrl": 2.256,
+    "dnsmos_sig": 3.229,
+    "dnsmos_bak": 2.451,
+    "dnsmos_p808": 2.877,
+    "squim_stoi": 0.91,
+    "squim_pesq": 1.365,
+    "squim_sisdr": 14.26,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0030": {
+    "dnsmos_ovrl": 2.693,
+    "dnsmos_sig": 3.587,
+    "dnsmos_bak": 3.005,
+    "dnsmos_p808": 2.913,
+    "squim_stoi": 0.931,
+    "squim_pesq": 1.314,
+    "squim_sisdr": 11.14,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0031": {
+    "dnsmos_ovrl": 2.782,
+    "dnsmos_sig": 3.559,
+    "dnsmos_bak": 3.076,
+    "dnsmos_p808": 3.432,
+    "squim_stoi": 0.978,
+    "squim_pesq": 1.874,
+    "squim_sisdr": 15.12,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0032": {
+    "dnsmos_ovrl": 2.633,
+    "dnsmos_sig": 3.488,
+    "dnsmos_bak": 3.004,
+    "dnsmos_p808": 3.449,
+    "squim_stoi": 0.976,
+    "squim_pesq": 2.058,
+    "squim_sisdr": 21.3,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0033": {
+    "dnsmos_ovrl": 2.923,
+    "dnsmos_sig": 3.606,
+    "dnsmos_bak": 3.326,
+    "dnsmos_p808": 3.627,
+    "squim_stoi": 0.991,
+    "squim_pesq": 2.301,
+    "squim_sisdr": 18.18,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0034": {
+    "dnsmos_ovrl": 2.838,
+    "dnsmos_sig": 3.521,
+    "dnsmos_bak": 3.211,
+    "dnsmos_p808": 3.255,
+    "squim_stoi": 0.968,
+    "squim_pesq": 2.139,
+    "squim_sisdr": 20.34,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0035": {
+    "dnsmos_ovrl": 2.939,
+    "dnsmos_sig": 3.528,
+    "dnsmos_bak": 3.485,
+    "dnsmos_p808": 3.401,
+    "squim_stoi": 0.987,
+    "squim_pesq": 2.019,
+    "squim_sisdr": 16.73,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0036": {
+    "dnsmos_ovrl": 2.896,
+    "dnsmos_sig": 3.651,
+    "dnsmos_bak": 3.23,
+    "dnsmos_p808": 3.339,
+    "squim_stoi": 0.987,
+    "squim_pesq": 2.182,
+    "squim_sisdr": 19.63,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0037": {
+    "dnsmos_ovrl": 2.503,
+    "dnsmos_sig": 3.488,
+    "dnsmos_bak": 2.688,
+    "dnsmos_p808": 3.065,
+    "squim_stoi": 0.905,
+    "squim_pesq": 1.165,
+    "squim_sisdr": 0.42,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0038": {
+    "dnsmos_ovrl": 2.896,
+    "dnsmos_sig": 3.608,
+    "dnsmos_bak": 3.247,
+    "dnsmos_p808": 3.596,
+    "squim_stoi": 0.992,
+    "squim_pesq": 2.236,
+    "squim_sisdr": 17.96,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0039": {
+    "dnsmos_ovrl": 3.083,
+    "dnsmos_sig": 3.569,
+    "dnsmos_bak": 3.735,
+    "dnsmos_p808": 3.659,
+    "squim_stoi": 0.996,
+    "squim_pesq": 2.803,
+    "squim_sisdr": 20.97,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0040": {
+    "dnsmos_ovrl": 2.979,
+    "dnsmos_sig": 3.399,
+    "dnsmos_bak": 3.726,
+    "dnsmos_p808": 3.469,
+    "squim_stoi": 0.996,
+    "squim_pesq": 2.615,
+    "squim_sisdr": 22.0,
+    "language": "en"
+  },
+  "en_mahabharata_e67_0041": {
+    "dnsmos_ovrl": 3.087,
+    "dnsmos_sig": 3.564,
+    "dnsmos_bak": 3.599,
+    "dnsmos_p808": 3.738,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.02,
+    "squim_sisdr": 25.19,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0000": {
+    "dnsmos_ovrl": 2.877,
+    "dnsmos_sig": 3.646,
+    "dnsmos_bak": 3.173,
+    "dnsmos_p808": 3.987,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.413,
+    "squim_sisdr": 24.68,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0001": {
+    "dnsmos_ovrl": 3.297,
+    "dnsmos_sig": 3.686,
+    "dnsmos_bak": 3.899,
+    "dnsmos_p808": 4.162,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.741,
+    "squim_sisdr": 26.49,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0002": {
+    "dnsmos_ovrl": 3.118,
+    "dnsmos_sig": 3.642,
+    "dnsmos_bak": 3.653,
+    "dnsmos_p808": 4.002,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.764,
+    "squim_sisdr": 27.5,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0003": {
+    "dnsmos_ovrl": 3.323,
+    "dnsmos_sig": 3.61,
+    "dnsmos_bak": 4.076,
+    "dnsmos_p808": 4.236,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.955,
+    "squim_sisdr": 27.8,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0004": {
+    "dnsmos_ovrl": 3.388,
+    "dnsmos_sig": 3.646,
+    "dnsmos_bak": 4.143,
+    "dnsmos_p808": 4.138,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.811,
+    "squim_sisdr": 28.66,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0005": {
+    "dnsmos_ovrl": 3.283,
+    "dnsmos_sig": 3.608,
+    "dnsmos_bak": 4.02,
+    "dnsmos_p808": 3.935,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.776,
+    "squim_sisdr": 28.25,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0006": {
+    "dnsmos_ovrl": 2.494,
+    "dnsmos_sig": 3.516,
+    "dnsmos_bak": 2.671,
+    "dnsmos_p808": 3.959,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.57,
+    "squim_sisdr": 26.62,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0007": {
+    "dnsmos_ovrl": 3.432,
+    "dnsmos_sig": 3.681,
+    "dnsmos_bak": 4.198,
+    "dnsmos_p808": 3.97,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.86,
+    "squim_sisdr": 28.19,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0008": {
+    "dnsmos_ovrl": 3.088,
+    "dnsmos_sig": 3.52,
+    "dnsmos_bak": 3.798,
+    "dnsmos_p808": 3.627,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.394,
+    "squim_sisdr": 22.99,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0009": {
+    "dnsmos_ovrl": 3.067,
+    "dnsmos_sig": 3.62,
+    "dnsmos_bak": 3.525,
+    "dnsmos_p808": 3.895,
+    "squim_stoi": 0.99,
+    "squim_pesq": 2.853,
+    "squim_sisdr": 24.75,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0010": {
+    "dnsmos_ovrl": 2.87,
+    "dnsmos_sig": 3.349,
+    "dnsmos_bak": 3.588,
+    "dnsmos_p808": 3.819,
+    "squim_stoi": 0.983,
+    "squim_pesq": 2.455,
+    "squim_sisdr": 19.89,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0011": {
+    "dnsmos_ovrl": 3.234,
+    "dnsmos_sig": 3.723,
+    "dnsmos_bak": 3.725,
+    "dnsmos_p808": 3.908,
+    "squim_stoi": 0.992,
+    "squim_pesq": 2.748,
+    "squim_sisdr": 24.09,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0012": {
+    "dnsmos_ovrl": 2.836,
+    "dnsmos_sig": 3.54,
+    "dnsmos_bak": 3.261,
+    "dnsmos_p808": 3.457,
+    "squim_stoi": 0.987,
+    "squim_pesq": 2.327,
+    "squim_sisdr": 18.51,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0013": {
+    "dnsmos_ovrl": 3.123,
+    "dnsmos_sig": 3.626,
+    "dnsmos_bak": 3.615,
+    "dnsmos_p808": 3.721,
+    "squim_stoi": 0.993,
+    "squim_pesq": 2.866,
+    "squim_sisdr": 23.64,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0014": {
+    "dnsmos_ovrl": 2.965,
+    "dnsmos_sig": 3.615,
+    "dnsmos_bak": 3.323,
+    "dnsmos_p808": 3.984,
+    "squim_stoi": 0.986,
+    "squim_pesq": 2.453,
+    "squim_sisdr": 22.84,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0015": {
+    "dnsmos_ovrl": 2.956,
+    "dnsmos_sig": 3.585,
+    "dnsmos_bak": 3.433,
+    "dnsmos_p808": 3.594,
+    "squim_stoi": 0.969,
+    "squim_pesq": 1.918,
+    "squim_sisdr": 16.88,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0016": {
+    "dnsmos_ovrl": 3.131,
+    "dnsmos_sig": 3.676,
+    "dnsmos_bak": 3.566,
+    "dnsmos_p808": 3.862,
+    "squim_stoi": 0.989,
+    "squim_pesq": 2.701,
+    "squim_sisdr": 22.57,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0017": {
+    "dnsmos_ovrl": 3.307,
+    "dnsmos_sig": 3.695,
+    "dnsmos_bak": 3.939,
+    "dnsmos_p808": 4.164,
+    "squim_stoi": 0.992,
+    "squim_pesq": 2.762,
+    "squim_sisdr": 22.72,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0018": {
+    "dnsmos_ovrl": 3.014,
+    "dnsmos_sig": 3.564,
+    "dnsmos_bak": 3.574,
+    "dnsmos_p808": 4.183,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.537,
+    "squim_sisdr": 25.88,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0019": {
+    "dnsmos_ovrl": 3.064,
+    "dnsmos_sig": 3.631,
+    "dnsmos_bak": 3.538,
+    "dnsmos_p808": 4.023,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.015,
+    "squim_sisdr": 24.89,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0020": {
+    "dnsmos_ovrl": 3.435,
+    "dnsmos_sig": 3.71,
+    "dnsmos_bak": 4.131,
+    "dnsmos_p808": 4.155,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.53,
+    "squim_sisdr": 26.58,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0021": {
+    "dnsmos_ovrl": 2.914,
+    "dnsmos_sig": 3.661,
+    "dnsmos_bak": 3.245,
+    "dnsmos_p808": 3.518,
+    "squim_stoi": 0.978,
+    "squim_pesq": 1.793,
+    "squim_sisdr": 14.03,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0023": {
+    "dnsmos_ovrl": 2.933,
+    "dnsmos_sig": 3.544,
+    "dnsmos_bak": 3.41,
+    "dnsmos_p808": 3.711,
+    "squim_stoi": 0.984,
+    "squim_pesq": 1.98,
+    "squim_sisdr": 13.78,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0024": {
+    "dnsmos_ovrl": 2.798,
+    "dnsmos_sig": 3.511,
+    "dnsmos_bak": 3.223,
+    "dnsmos_p808": 3.771,
+    "squim_stoi": 0.98,
+    "squim_pesq": 1.967,
+    "squim_sisdr": 14.82,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0025": {
+    "dnsmos_ovrl": 2.605,
+    "dnsmos_sig": 3.58,
+    "dnsmos_bak": 2.706,
+    "dnsmos_p808": 3.453,
+    "squim_stoi": 0.96,
+    "squim_pesq": 1.476,
+    "squim_sisdr": 6.11,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0028": {
+    "dnsmos_ovrl": 2.536,
+    "dnsmos_sig": 3.584,
+    "dnsmos_bak": 2.519,
+    "dnsmos_p808": 2.838,
+    "squim_stoi": 0.931,
+    "squim_pesq": 1.191,
+    "squim_sisdr": -0.33,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0030": {
+    "dnsmos_ovrl": 2.81,
+    "dnsmos_sig": 3.631,
+    "dnsmos_bak": 3.115,
+    "dnsmos_p808": 3.308,
+    "squim_stoi": 0.981,
+    "squim_pesq": 1.617,
+    "squim_sisdr": 11.08,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0031": {
+    "dnsmos_ovrl": 2.54,
+    "dnsmos_sig": 3.405,
+    "dnsmos_bak": 2.767,
+    "dnsmos_p808": 3.544,
+    "squim_stoi": 0.954,
+    "squim_pesq": 1.458,
+    "squim_sisdr": 7.47,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0032": {
+    "dnsmos_ovrl": 2.844,
+    "dnsmos_sig": 3.647,
+    "dnsmos_bak": 3.106,
+    "dnsmos_p808": 3.492,
+    "squim_stoi": 0.982,
+    "squim_pesq": 1.843,
+    "squim_sisdr": 12.85,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0033": {
+    "dnsmos_ovrl": 2.853,
+    "dnsmos_sig": 3.595,
+    "dnsmos_bak": 3.212,
+    "dnsmos_p808": 3.517,
+    "squim_stoi": 0.971,
+    "squim_pesq": 1.688,
+    "squim_sisdr": 16.05,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0034": {
+    "dnsmos_ovrl": 2.336,
+    "dnsmos_sig": 3.651,
+    "dnsmos_bak": 2.154,
+    "dnsmos_p808": 2.874,
+    "squim_stoi": 0.909,
+    "squim_pesq": 1.217,
+    "squim_sisdr": 7.26,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0035": {
+    "dnsmos_ovrl": 2.191,
+    "dnsmos_sig": 3.473,
+    "dnsmos_bak": 2.102,
+    "dnsmos_p808": 2.781,
+    "squim_stoi": 0.861,
+    "squim_pesq": 1.122,
+    "squim_sisdr": 1.46,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0037": {
+    "dnsmos_ovrl": 2.577,
+    "dnsmos_sig": 3.619,
+    "dnsmos_bak": 2.606,
+    "dnsmos_p808": 3.222,
+    "squim_stoi": 0.952,
+    "squim_pesq": 1.319,
+    "squim_sisdr": 5.01,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0038": {
+    "dnsmos_ovrl": 2.885,
+    "dnsmos_sig": 3.685,
+    "dnsmos_bak": 3.104,
+    "dnsmos_p808": 3.288,
+    "squim_stoi": 0.957,
+    "squim_pesq": 1.647,
+    "squim_sisdr": 9.63,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0039": {
+    "dnsmos_ovrl": 2.554,
+    "dnsmos_sig": 3.618,
+    "dnsmos_bak": 2.455,
+    "dnsmos_p808": 2.94,
+    "squim_stoi": 0.927,
+    "squim_pesq": 1.296,
+    "squim_sisdr": 8.81,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0040": {
+    "dnsmos_ovrl": 2.596,
+    "dnsmos_sig": 3.629,
+    "dnsmos_bak": 2.653,
+    "dnsmos_p808": 3.124,
+    "squim_stoi": 0.965,
+    "squim_pesq": 1.296,
+    "squim_sisdr": 4.17,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0041": {
+    "dnsmos_ovrl": 2.464,
+    "dnsmos_sig": 3.537,
+    "dnsmos_bak": 2.6,
+    "dnsmos_p808": 3.127,
+    "squim_stoi": 0.962,
+    "squim_pesq": 1.381,
+    "squim_sisdr": 10.03,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0042": {
+    "dnsmos_ovrl": 2.49,
+    "dnsmos_sig": 3.549,
+    "dnsmos_bak": 2.593,
+    "dnsmos_p808": 3.437,
+    "squim_stoi": 0.978,
+    "squim_pesq": 1.778,
+    "squim_sisdr": 14.02,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0043": {
+    "dnsmos_ovrl": 2.878,
+    "dnsmos_sig": 3.613,
+    "dnsmos_bak": 3.139,
+    "dnsmos_p808": 3.574,
+    "squim_stoi": 0.989,
+    "squim_pesq": 2.039,
+    "squim_sisdr": 17.84,
+    "language": "en"
+  },
+  "en_mahabharata_e69_0044": {
+    "dnsmos_ovrl": 2.598,
+    "dnsmos_sig": 3.737,
+    "dnsmos_bak": 2.54,
+    "dnsmos_p808": 3.25,
+    "squim_stoi": 0.936,
+    "squim_pesq": 1.26,
+    "squim_sisdr": 6.09,
+    "language": "en"
+  },
+  "en_nptel_0000": {
+    "dnsmos_ovrl": 3.224,
+    "dnsmos_sig": 3.572,
+    "dnsmos_bak": 3.979,
+    "dnsmos_p808": 3.612,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.404,
+    "squim_sisdr": 24.74,
+    "language": "en"
+  },
+  "en_nptel_0001": {
+    "dnsmos_ovrl": 3.174,
+    "dnsmos_sig": 3.544,
+    "dnsmos_bak": 3.986,
+    "dnsmos_p808": 3.704,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.447,
+    "squim_sisdr": 24.93,
+    "language": "en"
+  },
+  "en_nptel_0002": {
+    "dnsmos_ovrl": 3.225,
+    "dnsmos_sig": 3.585,
+    "dnsmos_bak": 4.001,
+    "dnsmos_p808": 3.834,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.124,
+    "squim_sisdr": 24.88,
+    "language": "en"
+  },
+  "en_nptel_0003": {
+    "dnsmos_ovrl": 3.195,
+    "dnsmos_sig": 3.565,
+    "dnsmos_bak": 3.961,
+    "dnsmos_p808": 3.717,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.274,
+    "squim_sisdr": 21.94,
+    "language": "en"
+  },
+  "en_nptel_0004": {
+    "dnsmos_ovrl": 3.115,
+    "dnsmos_sig": 3.548,
+    "dnsmos_bak": 3.812,
+    "dnsmos_p808": 3.489,
+    "squim_stoi": 0.995,
+    "squim_pesq": 2.941,
+    "squim_sisdr": 22.2,
+    "language": "en"
+  },
+  "en_nptel_0005": {
+    "dnsmos_ovrl": 3.254,
+    "dnsmos_sig": 3.58,
+    "dnsmos_bak": 4.039,
+    "dnsmos_p808": 3.764,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.081,
+    "squim_sisdr": 25.7,
+    "language": "en"
+  },
+  "en_nptel_0006": {
+    "dnsmos_ovrl": 3.204,
+    "dnsmos_sig": 3.605,
+    "dnsmos_bak": 3.892,
+    "dnsmos_p808": 3.546,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.651,
+    "squim_sisdr": 19.79,
+    "language": "en"
+  },
+  "en_nptel_0007": {
+    "dnsmos_ovrl": 3.196,
+    "dnsmos_sig": 3.544,
+    "dnsmos_bak": 4.066,
+    "dnsmos_p808": 3.748,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.119,
+    "squim_sisdr": 23.13,
+    "language": "en"
+  },
+  "en_nptel_0008": {
+    "dnsmos_ovrl": 3.234,
+    "dnsmos_sig": 3.64,
+    "dnsmos_bak": 3.865,
+    "dnsmos_p808": 3.656,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.036,
+    "squim_sisdr": 26.59,
+    "language": "en"
+  },
+  "en_nptel_0009": {
+    "dnsmos_ovrl": 3.135,
+    "dnsmos_sig": 3.557,
+    "dnsmos_bak": 3.835,
+    "dnsmos_p808": 3.439,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.595,
+    "squim_sisdr": 25.89,
+    "language": "en"
+  },
+  "en_nptel_0010": {
+    "dnsmos_ovrl": 3.265,
+    "dnsmos_sig": 3.591,
+    "dnsmos_bak": 4.022,
+    "dnsmos_p808": 3.588,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.531,
+    "squim_sisdr": 25.55,
+    "language": "en"
+  },
+  "en_nptel_0011": {
+    "dnsmos_ovrl": 3.457,
+    "dnsmos_sig": 3.715,
+    "dnsmos_bak": 4.157,
+    "dnsmos_p808": 3.349,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.952,
+    "squim_sisdr": 24.97,
+    "language": "en"
+  },
+  "en_nptel_0012": {
+    "dnsmos_ovrl": 3.118,
+    "dnsmos_sig": 3.53,
+    "dnsmos_bak": 3.852,
+    "dnsmos_p808": 3.534,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.771,
+    "squim_sisdr": 26.44,
+    "language": "en"
+  },
+  "en_nptel_0013": {
+    "dnsmos_ovrl": 3.029,
+    "dnsmos_sig": 3.408,
+    "dnsmos_bak": 3.941,
+    "dnsmos_p808": 3.331,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.39,
+    "squim_sisdr": 24.83,
+    "language": "en"
+  },
+  "en_nptel_0014": {
+    "dnsmos_ovrl": 3.3,
+    "dnsmos_sig": 3.631,
+    "dnsmos_bak": 4.068,
+    "dnsmos_p808": 3.587,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.85,
+    "squim_sisdr": 26.73,
+    "language": "en"
+  },
+  "en_nptel_0015": {
+    "dnsmos_ovrl": 3.325,
+    "dnsmos_sig": 3.632,
+    "dnsmos_bak": 4.081,
+    "dnsmos_p808": 3.324,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.382,
+    "squim_sisdr": 28.28,
+    "language": "en"
+  },
+  "en_nptel_0016": {
+    "dnsmos_ovrl": 3.344,
+    "dnsmos_sig": 3.648,
+    "dnsmos_bak": 4.091,
+    "dnsmos_p808": 3.629,
+    "squim_stoi": 0.985,
+    "squim_pesq": 2.98,
+    "squim_sisdr": 25.2,
+    "language": "en"
+  },
+  "en_nptel_0017": {
+    "dnsmos_ovrl": 3.315,
+    "dnsmos_sig": 3.614,
+    "dnsmos_bak": 4.101,
+    "dnsmos_p808": 3.545,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.627,
+    "squim_sisdr": 26.41,
+    "language": "en"
+  },
+  "en_nptel_0018": {
+    "dnsmos_ovrl": 3.036,
+    "dnsmos_sig": 3.513,
+    "dnsmos_bak": 3.763,
+    "dnsmos_p808": 3.451,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.37,
+    "squim_sisdr": 24.95,
+    "language": "en"
+  },
+  "en_nptel_0019": {
+    "dnsmos_ovrl": 3.196,
+    "dnsmos_sig": 3.506,
+    "dnsmos_bak": 4.078,
+    "dnsmos_p808": 3.595,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.558,
+    "squim_sisdr": 24.99,
+    "language": "en"
+  },
+  "en_nptel_0020": {
+    "dnsmos_ovrl": 3.097,
+    "dnsmos_sig": 3.515,
+    "dnsmos_bak": 3.808,
+    "dnsmos_p808": 3.761,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.919,
+    "squim_sisdr": 25.91,
+    "language": "en"
+  },
+  "en_nptel_0021": {
+    "dnsmos_ovrl": 3.227,
+    "dnsmos_sig": 3.586,
+    "dnsmos_bak": 4.013,
+    "dnsmos_p808": 3.364,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.758,
+    "squim_sisdr": 25.94,
+    "language": "en"
+  },
+  "en_nptel_0022": {
+    "dnsmos_ovrl": 3.258,
+    "dnsmos_sig": 3.59,
+    "dnsmos_bak": 4.051,
+    "dnsmos_p808": 3.646,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.242,
+    "squim_sisdr": 26.18,
+    "language": "en"
+  },
+  "en_nptel_0023": {
+    "dnsmos_ovrl": 3.361,
+    "dnsmos_sig": 3.647,
+    "dnsmos_bak": 4.097,
+    "dnsmos_p808": 3.404,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.632,
+    "squim_sisdr": 25.83,
+    "language": "en"
+  },
+  "en_nptel_0024": {
+    "dnsmos_ovrl": 3.462,
+    "dnsmos_sig": 3.726,
+    "dnsmos_bak": 4.16,
+    "dnsmos_p808": 3.5,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.953,
+    "squim_sisdr": 26.56,
+    "language": "en"
+  },
+  "en_nptel_0025": {
+    "dnsmos_ovrl": 3.347,
+    "dnsmos_sig": 3.639,
+    "dnsmos_bak": 4.148,
+    "dnsmos_p808": 3.781,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.595,
+    "squim_sisdr": 25.61,
+    "language": "en"
+  },
+  "en_nptel_0026": {
+    "dnsmos_ovrl": 3.118,
+    "dnsmos_sig": 3.585,
+    "dnsmos_bak": 3.738,
+    "dnsmos_p808": 3.247,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.593,
+    "squim_sisdr": 26.04,
+    "language": "en"
+  },
+  "en_nptel_0027": {
+    "dnsmos_ovrl": 3.361,
+    "dnsmos_sig": 3.647,
+    "dnsmos_bak": 4.133,
+    "dnsmos_p808": 3.852,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.25,
+    "squim_sisdr": 24.03,
+    "language": "en"
+  },
+  "en_nptel_0028": {
+    "dnsmos_ovrl": 3.188,
+    "dnsmos_sig": 3.597,
+    "dnsmos_bak": 3.814,
+    "dnsmos_p808": 3.412,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.739,
+    "squim_sisdr": 27.04,
+    "language": "en"
+  },
+  "en_nptel_0029": {
+    "dnsmos_ovrl": 3.334,
+    "dnsmos_sig": 3.589,
+    "dnsmos_bak": 4.158,
+    "dnsmos_p808": 3.48,
+    "squim_stoi": 1.0,
+    "squim_pesq": 3.621,
+    "squim_sisdr": 25.65,
+    "language": "en"
+  },
+  "en_nptel_0030": {
+    "dnsmos_ovrl": 3.221,
+    "dnsmos_sig": 3.529,
+    "dnsmos_bak": 4.047,
+    "dnsmos_p808": 3.45,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.91,
+    "squim_sisdr": 26.54,
+    "language": "en"
+  },
+  "en_nptel_0031": {
+    "dnsmos_ovrl": 3.383,
+    "dnsmos_sig": 3.669,
+    "dnsmos_bak": 4.144,
+    "dnsmos_p808": 3.56,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.873,
+    "squim_sisdr": 26.17,
+    "language": "en"
+  },
+  "en_nptel_0032": {
+    "dnsmos_ovrl": 3.124,
+    "dnsmos_sig": 3.503,
+    "dnsmos_bak": 3.91,
+    "dnsmos_p808": 3.85,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.892,
+    "squim_sisdr": 26.42,
+    "language": "en"
+  },
+  "en_nptel_0033": {
+    "dnsmos_ovrl": 3.294,
+    "dnsmos_sig": 3.619,
+    "dnsmos_bak": 4.028,
+    "dnsmos_p808": 3.636,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.726,
+    "squim_sisdr": 27.41,
+    "language": "en"
+  },
+  "en_nptel_0034": {
+    "dnsmos_ovrl": 3.337,
+    "dnsmos_sig": 3.62,
+    "dnsmos_bak": 4.114,
+    "dnsmos_p808": 3.75,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.744,
+    "squim_sisdr": 26.44,
+    "language": "en"
+  },
+  "en_nptel_0035": {
+    "dnsmos_ovrl": 3.107,
+    "dnsmos_sig": 3.489,
+    "dnsmos_bak": 3.98,
+    "dnsmos_p808": 3.511,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.553,
+    "squim_sisdr": 27.41,
+    "language": "en"
+  },
+  "en_nptel_0036": {
+    "dnsmos_ovrl": 3.249,
+    "dnsmos_sig": 3.577,
+    "dnsmos_bak": 4.043,
+    "dnsmos_p808": 3.694,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.642,
+    "squim_sisdr": 26.25,
+    "language": "en"
+  },
+  "en_nptel_0037": {
+    "dnsmos_ovrl": 3.351,
+    "dnsmos_sig": 3.633,
+    "dnsmos_bak": 4.141,
+    "dnsmos_p808": 3.807,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.906,
+    "squim_sisdr": 25.73,
+    "language": "en"
+  },
+  "en_nptel_0038": {
+    "dnsmos_ovrl": 3.268,
+    "dnsmos_sig": 3.599,
+    "dnsmos_bak": 4.005,
+    "dnsmos_p808": 3.591,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.891,
+    "squim_sisdr": 26.36,
+    "language": "en"
+  },
+  "en_nptel_0039": {
+    "dnsmos_ovrl": 3.341,
+    "dnsmos_sig": 3.607,
+    "dnsmos_bak": 4.129,
+    "dnsmos_p808": 3.561,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.763,
+    "squim_sisdr": 26.66,
+    "language": "en"
+  },
+  "en_nptel_0040": {
+    "dnsmos_ovrl": 3.149,
+    "dnsmos_sig": 3.624,
+    "dnsmos_bak": 3.705,
+    "dnsmos_p808": 3.297,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.652,
+    "squim_sisdr": 24.9,
+    "language": "en"
+  },
+  "en_nptel_0041": {
+    "dnsmos_ovrl": 3.226,
+    "dnsmos_sig": 3.581,
+    "dnsmos_bak": 3.954,
+    "dnsmos_p808": 3.537,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.891,
+    "squim_sisdr": 26.48,
+    "language": "en"
+  },
+  "en_nptel_0042": {
+    "dnsmos_ovrl": 3.308,
+    "dnsmos_sig": 3.567,
+    "dnsmos_bak": 4.138,
+    "dnsmos_p808": 3.603,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.623,
+    "squim_sisdr": 26.63,
+    "language": "en"
+  },
+  "en_nptel_0043": {
+    "dnsmos_ovrl": 3.074,
+    "dnsmos_sig": 3.543,
+    "dnsmos_bak": 3.762,
+    "dnsmos_p808": 3.712,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.717,
+    "squim_sisdr": 25.48,
+    "language": "en"
+  },
+  "en_nptel_0044": {
+    "dnsmos_ovrl": 3.178,
+    "dnsmos_sig": 3.575,
+    "dnsmos_bak": 3.881,
+    "dnsmos_p808": 3.739,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.932,
+    "squim_sisdr": 22.43,
+    "language": "en"
+  },
+  "en_nptel_0045": {
+    "dnsmos_ovrl": 3.23,
+    "dnsmos_sig": 3.617,
+    "dnsmos_bak": 3.894,
+    "dnsmos_p808": 3.413,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.489,
+    "squim_sisdr": 25.81,
+    "language": "en"
+  },
+  "en_nptel_0046": {
+    "dnsmos_ovrl": 3.312,
+    "dnsmos_sig": 3.651,
+    "dnsmos_bak": 3.99,
+    "dnsmos_p808": 3.668,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.931,
+    "squim_sisdr": 26.47,
+    "language": "en"
+  },
+  "en_nptel_0047": {
+    "dnsmos_ovrl": 3.174,
+    "dnsmos_sig": 3.541,
+    "dnsmos_bak": 3.921,
+    "dnsmos_p808": 3.425,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.932,
+    "squim_sisdr": 26.0,
+    "language": "en"
+  },
+  "en_nptel_0048": {
+    "dnsmos_ovrl": 3.277,
+    "dnsmos_sig": 3.616,
+    "dnsmos_bak": 4.022,
+    "dnsmos_p808": 3.759,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.972,
+    "squim_sisdr": 27.16,
+    "language": "en"
+  },
+  "en_nptel_0049": {
+    "dnsmos_ovrl": 3.326,
+    "dnsmos_sig": 3.608,
+    "dnsmos_bak": 4.098,
+    "dnsmos_p808": 3.545,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.844,
+    "squim_sisdr": 27.16,
+    "language": "en"
+  },
+  "en_nptel_0050": {
+    "dnsmos_ovrl": 3.2,
+    "dnsmos_sig": 3.576,
+    "dnsmos_bak": 3.942,
+    "dnsmos_p808": 3.678,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.409,
+    "squim_sisdr": 25.16,
+    "language": "en"
+  },
+  "en_nptel_0051": {
+    "dnsmos_ovrl": 3.387,
+    "dnsmos_sig": 3.675,
+    "dnsmos_bak": 4.11,
+    "dnsmos_p808": 3.473,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.888,
+    "squim_sisdr": 25.98,
+    "language": "en"
+  },
+  "en_nptel_0052": {
+    "dnsmos_ovrl": 3.236,
+    "dnsmos_sig": 3.561,
+    "dnsmos_bak": 4.012,
+    "dnsmos_p808": 3.542,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.809,
+    "squim_sisdr": 27.74,
+    "language": "en"
+  },
+  "en_tedx_amina_0000": {
+    "dnsmos_ovrl": 2.935,
+    "dnsmos_sig": 3.459,
+    "dnsmos_bak": 3.501,
+    "dnsmos_p808": 3.429,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.62,
+    "squim_sisdr": 27.33,
+    "language": "en"
+  },
+  "en_tedx_amina_0001": {
+    "dnsmos_ovrl": 3.283,
+    "dnsmos_sig": 3.581,
+    "dnsmos_bak": 4.043,
+    "dnsmos_p808": 3.626,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.447,
+    "squim_sisdr": 26.65,
+    "language": "en"
+  },
+  "en_tedx_amina_0002": {
+    "dnsmos_ovrl": 3.173,
+    "dnsmos_sig": 3.535,
+    "dnsmos_bak": 3.885,
+    "dnsmos_p808": 3.51,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.472,
+    "squim_sisdr": 25.92,
+    "language": "en"
+  },
+  "en_tedx_amina_0003": {
+    "dnsmos_ovrl": 3.351,
+    "dnsmos_sig": 3.715,
+    "dnsmos_bak": 3.95,
+    "dnsmos_p808": 3.787,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.534,
+    "squim_sisdr": 23.77,
+    "language": "en"
+  },
+  "en_tedx_amina_0004": {
+    "dnsmos_ovrl": 3.284,
+    "dnsmos_sig": 3.605,
+    "dnsmos_bak": 4.011,
+    "dnsmos_p808": 3.492,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.573,
+    "squim_sisdr": 26.61,
+    "language": "en"
+  },
+  "en_tedx_amina_0005": {
+    "dnsmos_ovrl": 3.104,
+    "dnsmos_sig": 3.409,
+    "dnsmos_bak": 3.922,
+    "dnsmos_p808": 3.432,
+    "squim_stoi": 0.991,
+    "squim_pesq": 4.026,
+    "squim_sisdr": 27.42,
+    "language": "en"
+  },
+  "en_tedx_amina_0006": {
+    "dnsmos_ovrl": 3.31,
+    "dnsmos_sig": 3.596,
+    "dnsmos_bak": 4.044,
+    "dnsmos_p808": 3.552,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.381,
+    "squim_sisdr": 27.19,
+    "language": "en"
+  },
+  "en_tedx_amina_0007": {
+    "dnsmos_ovrl": 2.885,
+    "dnsmos_sig": 3.441,
+    "dnsmos_bak": 3.466,
+    "dnsmos_p808": 3.361,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.731,
+    "squim_sisdr": 27.51,
+    "language": "en"
+  },
+  "en_tedx_amina_0008": {
+    "dnsmos_ovrl": 3.384,
+    "dnsmos_sig": 3.699,
+    "dnsmos_bak": 4.024,
+    "dnsmos_p808": 3.565,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.561,
+    "squim_sisdr": 25.92,
+    "language": "en"
+  },
+  "en_tedx_amina_0009": {
+    "dnsmos_ovrl": 3.289,
+    "dnsmos_sig": 3.56,
+    "dnsmos_bak": 4.098,
+    "dnsmos_p808": 3.732,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.823,
+    "squim_sisdr": 23.14,
+    "language": "en"
+  },
+  "en_tedx_amina_0010": {
+    "dnsmos_ovrl": 2.97,
+    "dnsmos_sig": 3.416,
+    "dnsmos_bak": 3.696,
+    "dnsmos_p808": 3.845,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.488,
+    "squim_sisdr": 25.55,
+    "language": "en"
+  },
+  "en_tedx_amina_0011": {
+    "dnsmos_ovrl": 2.689,
+    "dnsmos_sig": 3.398,
+    "dnsmos_bak": 3.122,
+    "dnsmos_p808": 3.536,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.803,
+    "squim_sisdr": 24.67,
+    "language": "en"
+  },
+  "en_tedx_amina_0012": {
+    "dnsmos_ovrl": 2.802,
+    "dnsmos_sig": 3.435,
+    "dnsmos_bak": 3.282,
+    "dnsmos_p808": 3.486,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.521,
+    "squim_sisdr": 21.59,
+    "language": "en"
+  },
+  "en_tedx_amina_0013": {
+    "dnsmos_ovrl": 2.827,
+    "dnsmos_sig": 3.232,
+    "dnsmos_bak": 3.686,
+    "dnsmos_p808": 3.497,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.649,
+    "squim_sisdr": 27.46,
+    "language": "en"
+  },
+  "en_tedx_amina_0014": {
+    "dnsmos_ovrl": 3.148,
+    "dnsmos_sig": 3.553,
+    "dnsmos_bak": 3.799,
+    "dnsmos_p808": 3.496,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.312,
+    "squim_sisdr": 19.7,
+    "language": "en"
+  },
+  "en_tedx_amina_0015": {
+    "dnsmos_ovrl": 2.789,
+    "dnsmos_sig": 3.271,
+    "dnsmos_bak": 3.55,
+    "dnsmos_p808": 3.471,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.272,
+    "squim_sisdr": 27.34,
+    "language": "en"
+  },
+  "en_tedx_amina_0016": {
+    "dnsmos_ovrl": 3.147,
+    "dnsmos_sig": 3.612,
+    "dnsmos_bak": 3.759,
+    "dnsmos_p808": 3.495,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.912,
+    "squim_sisdr": 26.36,
+    "language": "en"
+  },
+  "en_tedx_amina_0017": {
+    "dnsmos_ovrl": 3.159,
+    "dnsmos_sig": 3.481,
+    "dnsmos_bak": 3.959,
+    "dnsmos_p808": 3.267,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.251,
+    "squim_sisdr": 25.14,
+    "language": "en"
+  },
+  "en_tedx_amina_0018": {
+    "dnsmos_ovrl": 3.158,
+    "dnsmos_sig": 3.616,
+    "dnsmos_bak": 3.729,
+    "dnsmos_p808": 3.411,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.399,
+    "squim_sisdr": 27.23,
+    "language": "en"
+  },
+  "en_tedx_amina_0019": {
+    "dnsmos_ovrl": 2.7,
+    "dnsmos_sig": 3.465,
+    "dnsmos_bak": 3.117,
+    "dnsmos_p808": 3.38,
+    "squim_stoi": 0.986,
+    "squim_pesq": 3.148,
+    "squim_sisdr": 24.79,
+    "language": "en"
+  },
+  "en_tedx_amina_0020": {
+    "dnsmos_ovrl": 3.151,
+    "dnsmos_sig": 3.595,
+    "dnsmos_bak": 3.75,
+    "dnsmos_p808": 3.808,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.261,
+    "squim_sisdr": 23.2,
+    "language": "en"
+  },
+  "en_tedx_amina_0021": {
+    "dnsmos_ovrl": 2.975,
+    "dnsmos_sig": 3.622,
+    "dnsmos_bak": 3.348,
+    "dnsmos_p808": 3.478,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.673,
+    "squim_sisdr": 25.88,
+    "language": "en"
+  },
+  "en_tedx_amina_0022": {
+    "dnsmos_ovrl": 2.934,
+    "dnsmos_sig": 3.492,
+    "dnsmos_bak": 3.475,
+    "dnsmos_p808": 3.591,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.546,
+    "squim_sisdr": 25.06,
+    "language": "en"
+  },
+  "en_tedx_amina_0023": {
+    "dnsmos_ovrl": 2.852,
+    "dnsmos_sig": 3.55,
+    "dnsmos_bak": 3.175,
+    "dnsmos_p808": 3.673,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.545,
+    "squim_sisdr": 23.73,
+    "language": "en"
+  },
+  "en_tedx_amina_0024": {
+    "dnsmos_ovrl": 2.81,
+    "dnsmos_sig": 3.296,
+    "dnsmos_bak": 3.614,
+    "dnsmos_p808": 3.373,
+    "squim_stoi": 0.984,
+    "squim_pesq": 3.439,
+    "squim_sisdr": 21.61,
+    "language": "en"
+  },
+  "en_tedx_amina_0025": {
+    "dnsmos_ovrl": 2.83,
+    "dnsmos_sig": 3.323,
+    "dnsmos_bak": 3.499,
+    "dnsmos_p808": 3.487,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.519,
+    "squim_sisdr": 24.83,
+    "language": "en"
+  },
+  "en_tedx_amina_0026": {
+    "dnsmos_ovrl": 2.795,
+    "dnsmos_sig": 3.364,
+    "dnsmos_bak": 3.334,
+    "dnsmos_p808": 3.279,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.461,
+    "squim_sisdr": 27.72,
+    "language": "en"
+  },
+  "en_tedx_amina_0027": {
+    "dnsmos_ovrl": 3.307,
+    "dnsmos_sig": 3.675,
+    "dnsmos_bak": 3.944,
+    "dnsmos_p808": 3.723,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.786,
+    "squim_sisdr": 26.88,
+    "language": "en"
+  },
+  "en_tedx_amina_0028": {
+    "dnsmos_ovrl": 3.104,
+    "dnsmos_sig": 3.496,
+    "dnsmos_bak": 3.813,
+    "dnsmos_p808": 3.43,
+    "squim_stoi": 0.986,
+    "squim_pesq": 3.436,
+    "squim_sisdr": 21.11,
+    "language": "en"
+  },
+  "en_tedx_amina_0029": {
+    "dnsmos_ovrl": 2.961,
+    "dnsmos_sig": 3.4,
+    "dnsmos_bak": 3.682,
+    "dnsmos_p808": 3.516,
+    "squim_stoi": 0.982,
+    "squim_pesq": 3.611,
+    "squim_sisdr": 17.18,
+    "language": "en"
+  },
+  "en_tedx_amina_0030": {
+    "dnsmos_ovrl": 2.916,
+    "dnsmos_sig": 3.416,
+    "dnsmos_bak": 3.499,
+    "dnsmos_p808": 3.633,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.525,
+    "squim_sisdr": 27.0,
+    "language": "en"
+  },
+  "en_tedx_amina_0031": {
+    "dnsmos_ovrl": 2.938,
+    "dnsmos_sig": 3.472,
+    "dnsmos_bak": 3.511,
+    "dnsmos_p808": 3.247,
+    "squim_stoi": 0.986,
+    "squim_pesq": 3.506,
+    "squim_sisdr": 24.23,
+    "language": "en"
+  },
+  "en_tedx_amina_0032": {
+    "dnsmos_ovrl": 2.972,
+    "dnsmos_sig": 3.326,
+    "dnsmos_bak": 3.81,
+    "dnsmos_p808": 3.531,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.562,
+    "squim_sisdr": 28.06,
+    "language": "en"
+  },
+  "en_tedx_amina_0033": {
+    "dnsmos_ovrl": 2.897,
+    "dnsmos_sig": 3.422,
+    "dnsmos_bak": 3.451,
+    "dnsmos_p808": 3.302,
+    "squim_stoi": 0.985,
+    "squim_pesq": 3.221,
+    "squim_sisdr": 14.93,
+    "language": "en"
+  },
+  "en_tedx_amina_0034": {
+    "dnsmos_ovrl": 3.289,
+    "dnsmos_sig": 3.606,
+    "dnsmos_bak": 3.982,
+    "dnsmos_p808": 3.725,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.815,
+    "squim_sisdr": 21.4,
+    "language": "en"
+  },
+  "en_tedx_amina_0035": {
+    "dnsmos_ovrl": 2.961,
+    "dnsmos_sig": 3.468,
+    "dnsmos_bak": 3.584,
+    "dnsmos_p808": 3.509,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.446,
+    "squim_sisdr": 27.07,
+    "language": "en"
+  },
+  "en_tedx_amina_0036": {
+    "dnsmos_ovrl": 3.029,
+    "dnsmos_sig": 3.404,
+    "dnsmos_bak": 3.77,
+    "dnsmos_p808": 3.58,
+    "squim_stoi": 0.962,
+    "squim_pesq": 2.568,
+    "squim_sisdr": 10.57,
+    "language": "en"
+  },
+  "en_tedx_amina_0037": {
+    "dnsmos_ovrl": 2.872,
+    "dnsmos_sig": 3.249,
+    "dnsmos_bak": 3.712,
+    "dnsmos_p808": 3.543,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.521,
+    "squim_sisdr": 28.68,
+    "language": "en"
+  },
+  "en_tedx_amina_0038": {
+    "dnsmos_ovrl": 2.794,
+    "dnsmos_sig": 3.518,
+    "dnsmos_bak": 3.188,
+    "dnsmos_p808": 3.64,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.404,
+    "squim_sisdr": 29.06,
+    "language": "en"
+  },
+  "en_tedx_amina_0039": {
+    "dnsmos_ovrl": 3.181,
+    "dnsmos_sig": 3.497,
+    "dnsmos_bak": 4.004,
+    "dnsmos_p808": 3.251,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.619,
+    "squim_sisdr": 26.45,
+    "language": "en"
+  },
+  "en_tedx_amina_0040": {
+    "dnsmos_ovrl": 2.807,
+    "dnsmos_sig": 3.272,
+    "dnsmos_bak": 3.747,
+    "dnsmos_p808": 3.299,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.751,
+    "squim_sisdr": 27.71,
+    "language": "en"
+  },
+  "en_tedx_amina_0041": {
+    "dnsmos_ovrl": 3.264,
+    "dnsmos_sig": 3.537,
+    "dnsmos_bak": 4.11,
+    "dnsmos_p808": 3.741,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.728,
+    "squim_sisdr": 25.74,
+    "language": "en"
+  },
+  "en_tedx_amina_0042": {
+    "dnsmos_ovrl": 2.856,
+    "dnsmos_sig": 3.324,
+    "dnsmos_bak": 3.564,
+    "dnsmos_p808": 3.364,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.61,
+    "squim_sisdr": 26.9,
+    "language": "en"
+  },
+  "en_tedx_amina_0043": {
+    "dnsmos_ovrl": 3.002,
+    "dnsmos_sig": 3.468,
+    "dnsmos_bak": 3.674,
+    "dnsmos_p808": 3.354,
+    "squim_stoi": 0.918,
+    "squim_pesq": 3.312,
+    "squim_sisdr": 16.48,
+    "language": "en"
+  },
+  "en_tedx_amina_0044": {
+    "dnsmos_ovrl": 3.317,
+    "dnsmos_sig": 3.684,
+    "dnsmos_bak": 3.953,
+    "dnsmos_p808": 3.744,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.603,
+    "squim_sisdr": 27.04,
+    "language": "en"
+  },
+  "en_tedx_amina_0045": {
+    "dnsmos_ovrl": 2.742,
+    "dnsmos_sig": 3.404,
+    "dnsmos_bak": 3.241,
+    "dnsmos_p808": 3.582,
+    "squim_stoi": 0.972,
+    "squim_pesq": 3.447,
+    "squim_sisdr": 26.55,
+    "language": "en"
+  },
+  "te_audiobook_bhumiputri_0000": {
+    "dnsmos_ovrl": 2.794,
+    "dnsmos_sig": 3.56,
+    "dnsmos_bak": 3.053,
+    "dnsmos_p808": 3.592,
+    "squim_stoi": 0.975,
+    "squim_pesq": 2.859,
+    "squim_sisdr": 24.27,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0001": {
+    "dnsmos_ovrl": 2.915,
+    "dnsmos_sig": 3.632,
+    "dnsmos_bak": 3.206,
+    "dnsmos_p808": 3.547,
+    "squim_stoi": 0.973,
+    "squim_pesq": 2.989,
+    "squim_sisdr": 22.77,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0002": {
+    "dnsmos_ovrl": 3.068,
+    "dnsmos_sig": 3.638,
+    "dnsmos_bak": 3.503,
+    "dnsmos_p808": 3.676,
+    "squim_stoi": 0.983,
+    "squim_pesq": 2.637,
+    "squim_sisdr": 11.01,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0003": {
+    "dnsmos_ovrl": 2.765,
+    "dnsmos_sig": 3.333,
+    "dnsmos_bak": 3.454,
+    "dnsmos_p808": 3.437,
+    "squim_stoi": 0.992,
+    "squim_pesq": 2.604,
+    "squim_sisdr": 14.04,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0004": {
+    "dnsmos_ovrl": 2.766,
+    "dnsmos_sig": 3.443,
+    "dnsmos_bak": 3.198,
+    "dnsmos_p808": 3.5,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.199,
+    "squim_sisdr": 15.12,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0005": {
+    "dnsmos_ovrl": 3.038,
+    "dnsmos_sig": 3.596,
+    "dnsmos_bak": 3.482,
+    "dnsmos_p808": 3.572,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.338,
+    "squim_sisdr": 17.99,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0006": {
+    "dnsmos_ovrl": 3.139,
+    "dnsmos_sig": 3.505,
+    "dnsmos_bak": 3.887,
+    "dnsmos_p808": 3.412,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.233,
+    "squim_sisdr": 18.36,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0007": {
+    "dnsmos_ovrl": 3.039,
+    "dnsmos_sig": 3.423,
+    "dnsmos_bak": 3.831,
+    "dnsmos_p808": 3.718,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.271,
+    "squim_sisdr": 19.02,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0008": {
+    "dnsmos_ovrl": 3.171,
+    "dnsmos_sig": 3.554,
+    "dnsmos_bak": 3.862,
+    "dnsmos_p808": 3.802,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.274,
+    "squim_sisdr": 21.07,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0009": {
+    "dnsmos_ovrl": 3.105,
+    "dnsmos_sig": 3.508,
+    "dnsmos_bak": 3.809,
+    "dnsmos_p808": 3.36,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.428,
+    "squim_sisdr": 20.95,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0010": {
+    "dnsmos_ovrl": 2.906,
+    "dnsmos_sig": 3.401,
+    "dnsmos_bak": 3.594,
+    "dnsmos_p808": 3.509,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.433,
+    "squim_sisdr": 20.0,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0011": {
+    "dnsmos_ovrl": 3.094,
+    "dnsmos_sig": 3.526,
+    "dnsmos_bak": 3.759,
+    "dnsmos_p808": 3.65,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.396,
+    "squim_sisdr": 19.25,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0012": {
+    "dnsmos_ovrl": 3.104,
+    "dnsmos_sig": 3.454,
+    "dnsmos_bak": 3.87,
+    "dnsmos_p808": 3.444,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.448,
+    "squim_sisdr": 20.87,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0013": {
+    "dnsmos_ovrl": 2.771,
+    "dnsmos_sig": 3.423,
+    "dnsmos_bak": 3.338,
+    "dnsmos_p808": 3.615,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.662,
+    "squim_sisdr": 21.47,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0014": {
+    "dnsmos_ovrl": 2.748,
+    "dnsmos_sig": 3.335,
+    "dnsmos_bak": 3.383,
+    "dnsmos_p808": 3.56,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.022,
+    "squim_sisdr": 22.13,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0015": {
+    "dnsmos_ovrl": 2.944,
+    "dnsmos_sig": 3.339,
+    "dnsmos_bak": 3.776,
+    "dnsmos_p808": 3.641,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.211,
+    "squim_sisdr": 18.01,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0016": {
+    "dnsmos_ovrl": 2.955,
+    "dnsmos_sig": 3.336,
+    "dnsmos_bak": 3.805,
+    "dnsmos_p808": 3.58,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.624,
+    "squim_sisdr": 22.08,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0017": {
+    "dnsmos_ovrl": 2.959,
+    "dnsmos_sig": 3.473,
+    "dnsmos_bak": 3.615,
+    "dnsmos_p808": 3.788,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.679,
+    "squim_sisdr": 21.03,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0018": {
+    "dnsmos_ovrl": 2.709,
+    "dnsmos_sig": 3.166,
+    "dnsmos_bak": 3.594,
+    "dnsmos_p808": 3.723,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.454,
+    "squim_sisdr": 21.36,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0019": {
+    "dnsmos_ovrl": 3.057,
+    "dnsmos_sig": 3.605,
+    "dnsmos_bak": 3.547,
+    "dnsmos_p808": 3.725,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.591,
+    "squim_sisdr": 22.72,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0020": {
+    "dnsmos_ovrl": 3.062,
+    "dnsmos_sig": 3.473,
+    "dnsmos_bak": 3.732,
+    "dnsmos_p808": 3.708,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.473,
+    "squim_sisdr": 20.96,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0021": {
+    "dnsmos_ovrl": 2.974,
+    "dnsmos_sig": 3.379,
+    "dnsmos_bak": 3.818,
+    "dnsmos_p808": 3.629,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.55,
+    "squim_sisdr": 20.81,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0022": {
+    "dnsmos_ovrl": 2.922,
+    "dnsmos_sig": 3.341,
+    "dnsmos_bak": 3.702,
+    "dnsmos_p808": 3.382,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.514,
+    "squim_sisdr": 23.2,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0023": {
+    "dnsmos_ovrl": 2.716,
+    "dnsmos_sig": 3.278,
+    "dnsmos_bak": 3.483,
+    "dnsmos_p808": 3.602,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.565,
+    "squim_sisdr": 20.69,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0024": {
+    "dnsmos_ovrl": 3.013,
+    "dnsmos_sig": 3.43,
+    "dnsmos_bak": 3.702,
+    "dnsmos_p808": 3.431,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.394,
+    "squim_sisdr": 20.68,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0025": {
+    "dnsmos_ovrl": 2.814,
+    "dnsmos_sig": 3.369,
+    "dnsmos_bak": 3.391,
+    "dnsmos_p808": 3.651,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.494,
+    "squim_sisdr": 23.08,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0026": {
+    "dnsmos_ovrl": 3.142,
+    "dnsmos_sig": 3.557,
+    "dnsmos_bak": 3.75,
+    "dnsmos_p808": 3.599,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.544,
+    "squim_sisdr": 19.87,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0027": {
+    "dnsmos_ovrl": 3.043,
+    "dnsmos_sig": 3.472,
+    "dnsmos_bak": 3.771,
+    "dnsmos_p808": 3.619,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.493,
+    "squim_sisdr": 22.04,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0028": {
+    "dnsmos_ovrl": 2.966,
+    "dnsmos_sig": 3.426,
+    "dnsmos_bak": 3.642,
+    "dnsmos_p808": 3.626,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.403,
+    "squim_sisdr": 21.35,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0029": {
+    "dnsmos_ovrl": 2.706,
+    "dnsmos_sig": 3.25,
+    "dnsmos_bak": 3.393,
+    "dnsmos_p808": 3.533,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.302,
+    "squim_sisdr": 19.9,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0030": {
+    "dnsmos_ovrl": 2.998,
+    "dnsmos_sig": 3.427,
+    "dnsmos_bak": 3.727,
+    "dnsmos_p808": 3.462,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.506,
+    "squim_sisdr": 20.75,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0031": {
+    "dnsmos_ovrl": 3.011,
+    "dnsmos_sig": 3.446,
+    "dnsmos_bak": 3.724,
+    "dnsmos_p808": 3.623,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.355,
+    "squim_sisdr": 21.09,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0032": {
+    "dnsmos_ovrl": 2.654,
+    "dnsmos_sig": 3.125,
+    "dnsmos_bak": 3.621,
+    "dnsmos_p808": 3.426,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.573,
+    "squim_sisdr": 21.72,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0033": {
+    "dnsmos_ovrl": 2.905,
+    "dnsmos_sig": 3.291,
+    "dnsmos_bak": 3.812,
+    "dnsmos_p808": 3.374,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.802,
+    "squim_sisdr": 22.65,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0034": {
+    "dnsmos_ovrl": 2.902,
+    "dnsmos_sig": 3.304,
+    "dnsmos_bak": 3.825,
+    "dnsmos_p808": 3.572,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.709,
+    "squim_sisdr": 21.94,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0035": {
+    "dnsmos_ovrl": 3.042,
+    "dnsmos_sig": 3.509,
+    "dnsmos_bak": 3.629,
+    "dnsmos_p808": 3.586,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.421,
+    "squim_sisdr": 21.76,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0036": {
+    "dnsmos_ovrl": 2.922,
+    "dnsmos_sig": 3.373,
+    "dnsmos_bak": 3.612,
+    "dnsmos_p808": 3.517,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.599,
+    "squim_sisdr": 21.39,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0037": {
+    "dnsmos_ovrl": 3.046,
+    "dnsmos_sig": 3.457,
+    "dnsmos_bak": 3.756,
+    "dnsmos_p808": 3.392,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.43,
+    "squim_sisdr": 19.9,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0038": {
+    "dnsmos_ovrl": 2.848,
+    "dnsmos_sig": 3.402,
+    "dnsmos_bak": 3.46,
+    "dnsmos_p808": 3.618,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.213,
+    "squim_sisdr": 19.11,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0039": {
+    "dnsmos_ovrl": 2.95,
+    "dnsmos_sig": 3.3,
+    "dnsmos_bak": 3.859,
+    "dnsmos_p808": 3.651,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.557,
+    "squim_sisdr": 19.57,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0040": {
+    "dnsmos_ovrl": 2.767,
+    "dnsmos_sig": 3.257,
+    "dnsmos_bak": 3.555,
+    "dnsmos_p808": 3.648,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.287,
+    "squim_sisdr": 20.4,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0041": {
+    "dnsmos_ovrl": 2.84,
+    "dnsmos_sig": 3.423,
+    "dnsmos_bak": 3.431,
+    "dnsmos_p808": 3.829,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.609,
+    "squim_sisdr": 21.28,
+    "language": "te"
+  },
+  "te_audiobook_bhumiputri_0042": {
+    "dnsmos_ovrl": 2.655,
+    "dnsmos_sig": 3.267,
+    "dnsmos_bak": 3.294,
+    "dnsmos_p808": 3.699,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.391,
+    "squim_sisdr": 20.33,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0000": {
+    "dnsmos_ovrl": 3.187,
+    "dnsmos_sig": 3.625,
+    "dnsmos_bak": 3.772,
+    "dnsmos_p808": 3.915,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.712,
+    "squim_sisdr": 27.56,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0001": {
+    "dnsmos_ovrl": 3.191,
+    "dnsmos_sig": 3.565,
+    "dnsmos_bak": 3.971,
+    "dnsmos_p808": 3.473,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.899,
+    "squim_sisdr": 26.58,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0002": {
+    "dnsmos_ovrl": 2.985,
+    "dnsmos_sig": 3.609,
+    "dnsmos_bak": 3.32,
+    "dnsmos_p808": 3.615,
+    "squim_stoi": 0.989,
+    "squim_pesq": 2.914,
+    "squim_sisdr": 24.81,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0003": {
+    "dnsmos_ovrl": 3.141,
+    "dnsmos_sig": 3.617,
+    "dnsmos_bak": 3.685,
+    "dnsmos_p808": 3.764,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.406,
+    "squim_sisdr": 26.9,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0004": {
+    "dnsmos_ovrl": 3.352,
+    "dnsmos_sig": 3.699,
+    "dnsmos_bak": 3.931,
+    "dnsmos_p808": 3.675,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.378,
+    "squim_sisdr": 25.77,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0005": {
+    "dnsmos_ovrl": 3.175,
+    "dnsmos_sig": 3.592,
+    "dnsmos_bak": 3.778,
+    "dnsmos_p808": 3.62,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.358,
+    "squim_sisdr": 26.0,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0006": {
+    "dnsmos_ovrl": 3.221,
+    "dnsmos_sig": 3.591,
+    "dnsmos_bak": 3.935,
+    "dnsmos_p808": 3.895,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.575,
+    "squim_sisdr": 25.08,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0007": {
+    "dnsmos_ovrl": 3.194,
+    "dnsmos_sig": 3.643,
+    "dnsmos_bak": 3.747,
+    "dnsmos_p808": 3.49,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.644,
+    "squim_sisdr": 26.13,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0008": {
+    "dnsmos_ovrl": 3.18,
+    "dnsmos_sig": 3.647,
+    "dnsmos_bak": 3.684,
+    "dnsmos_p808": 3.968,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.709,
+    "squim_sisdr": 26.4,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0009": {
+    "dnsmos_ovrl": 3.127,
+    "dnsmos_sig": 3.653,
+    "dnsmos_bak": 3.584,
+    "dnsmos_p808": 3.689,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.81,
+    "squim_sisdr": 26.79,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0010": {
+    "dnsmos_ovrl": 3.314,
+    "dnsmos_sig": 3.67,
+    "dnsmos_bak": 3.919,
+    "dnsmos_p808": 3.513,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.81,
+    "squim_sisdr": 26.68,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0011": {
+    "dnsmos_ovrl": 3.231,
+    "dnsmos_sig": 3.576,
+    "dnsmos_bak": 3.99,
+    "dnsmos_p808": 3.717,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.818,
+    "squim_sisdr": 26.5,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0012": {
+    "dnsmos_ovrl": 3.188,
+    "dnsmos_sig": 3.606,
+    "dnsmos_bak": 3.833,
+    "dnsmos_p808": 3.487,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.143,
+    "squim_sisdr": 25.38,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0013": {
+    "dnsmos_ovrl": 3.248,
+    "dnsmos_sig": 3.636,
+    "dnsmos_bak": 3.868,
+    "dnsmos_p808": 3.917,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.74,
+    "squim_sisdr": 25.93,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0014": {
+    "dnsmos_ovrl": 3.316,
+    "dnsmos_sig": 3.673,
+    "dnsmos_bak": 3.964,
+    "dnsmos_p808": 3.723,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.449,
+    "squim_sisdr": 26.92,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0015": {
+    "dnsmos_ovrl": 3.155,
+    "dnsmos_sig": 3.583,
+    "dnsmos_bak": 3.762,
+    "dnsmos_p808": 3.856,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.604,
+    "squim_sisdr": 24.38,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0016": {
+    "dnsmos_ovrl": 3.369,
+    "dnsmos_sig": 3.739,
+    "dnsmos_bak": 3.98,
+    "dnsmos_p808": 3.703,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.729,
+    "squim_sisdr": 25.86,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0017": {
+    "dnsmos_ovrl": 3.189,
+    "dnsmos_sig": 3.671,
+    "dnsmos_bak": 3.657,
+    "dnsmos_p808": 3.368,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.474,
+    "squim_sisdr": 27.26,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0018": {
+    "dnsmos_ovrl": 2.852,
+    "dnsmos_sig": 3.411,
+    "dnsmos_bak": 3.42,
+    "dnsmos_p808": 3.782,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.634,
+    "squim_sisdr": 25.81,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0019": {
+    "dnsmos_ovrl": 3.13,
+    "dnsmos_sig": 3.684,
+    "dnsmos_bak": 3.589,
+    "dnsmos_p808": 3.713,
+    "squim_stoi": 0.998,
+    "squim_pesq": 4.03,
+    "squim_sisdr": 27.4,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0020": {
+    "dnsmos_ovrl": 3.073,
+    "dnsmos_sig": 3.684,
+    "dnsmos_bak": 3.414,
+    "dnsmos_p808": 3.598,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.686,
+    "squim_sisdr": 27.37,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0021": {
+    "dnsmos_ovrl": 3.174,
+    "dnsmos_sig": 3.555,
+    "dnsmos_bak": 3.899,
+    "dnsmos_p808": 3.588,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.536,
+    "squim_sisdr": 26.09,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0022": {
+    "dnsmos_ovrl": 3.044,
+    "dnsmos_sig": 3.671,
+    "dnsmos_bak": 3.368,
+    "dnsmos_p808": 3.363,
+    "squim_stoi": 0.988,
+    "squim_pesq": 2.929,
+    "squim_sisdr": 25.74,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0023": {
+    "dnsmos_ovrl": 3.305,
+    "dnsmos_sig": 3.614,
+    "dnsmos_bak": 4.021,
+    "dnsmos_p808": 3.571,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.528,
+    "squim_sisdr": 26.65,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0024": {
+    "dnsmos_ovrl": 3.302,
+    "dnsmos_sig": 3.74,
+    "dnsmos_bak": 3.781,
+    "dnsmos_p808": 3.187,
+    "squim_stoi": 0.987,
+    "squim_pesq": 2.685,
+    "squim_sisdr": 22.51,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0025": {
+    "dnsmos_ovrl": 3.306,
+    "dnsmos_sig": 3.681,
+    "dnsmos_bak": 3.932,
+    "dnsmos_p808": 3.79,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.306,
+    "squim_sisdr": 25.5,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0026": {
+    "dnsmos_ovrl": 3.205,
+    "dnsmos_sig": 3.683,
+    "dnsmos_bak": 3.701,
+    "dnsmos_p808": 3.459,
+    "squim_stoi": 0.991,
+    "squim_pesq": 2.985,
+    "squim_sisdr": 23.52,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0027": {
+    "dnsmos_ovrl": 3.208,
+    "dnsmos_sig": 3.693,
+    "dnsmos_bak": 3.713,
+    "dnsmos_p808": 3.414,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.504,
+    "squim_sisdr": 25.57,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0028": {
+    "dnsmos_ovrl": 2.996,
+    "dnsmos_sig": 3.593,
+    "dnsmos_bak": 3.563,
+    "dnsmos_p808": 3.23,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.517,
+    "squim_sisdr": 26.95,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0029": {
+    "dnsmos_ovrl": 3.237,
+    "dnsmos_sig": 3.697,
+    "dnsmos_bak": 3.781,
+    "dnsmos_p808": 3.723,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.647,
+    "squim_sisdr": 26.22,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0030": {
+    "dnsmos_ovrl": 3.154,
+    "dnsmos_sig": 3.7,
+    "dnsmos_bak": 3.639,
+    "dnsmos_p808": 3.544,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.374,
+    "squim_sisdr": 26.35,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0031": {
+    "dnsmos_ovrl": 3.181,
+    "dnsmos_sig": 3.668,
+    "dnsmos_bak": 3.739,
+    "dnsmos_p808": 3.873,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.794,
+    "squim_sisdr": 26.49,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0032": {
+    "dnsmos_ovrl": 3.324,
+    "dnsmos_sig": 3.661,
+    "dnsmos_bak": 4.015,
+    "dnsmos_p808": 3.756,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.66,
+    "squim_sisdr": 26.26,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0033": {
+    "dnsmos_ovrl": 2.892,
+    "dnsmos_sig": 3.551,
+    "dnsmos_bak": 3.249,
+    "dnsmos_p808": 3.258,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.607,
+    "squim_sisdr": 27.18,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0034": {
+    "dnsmos_ovrl": 3.275,
+    "dnsmos_sig": 3.675,
+    "dnsmos_bak": 3.869,
+    "dnsmos_p808": 3.713,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.574,
+    "squim_sisdr": 27.59,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0035": {
+    "dnsmos_ovrl": 3.402,
+    "dnsmos_sig": 3.733,
+    "dnsmos_bak": 3.98,
+    "dnsmos_p808": 3.615,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.692,
+    "squim_sisdr": 27.51,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0036": {
+    "dnsmos_ovrl": 3.324,
+    "dnsmos_sig": 3.657,
+    "dnsmos_bak": 3.99,
+    "dnsmos_p808": 3.756,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.85,
+    "squim_sisdr": 27.01,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0037": {
+    "dnsmos_ovrl": 3.009,
+    "dnsmos_sig": 3.666,
+    "dnsmos_bak": 3.35,
+    "dnsmos_p808": 3.657,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.345,
+    "squim_sisdr": 26.31,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0038": {
+    "dnsmos_ovrl": 3.321,
+    "dnsmos_sig": 3.719,
+    "dnsmos_bak": 3.896,
+    "dnsmos_p808": 3.432,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.584,
+    "squim_sisdr": 24.93,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0039": {
+    "dnsmos_ovrl": 3.418,
+    "dnsmos_sig": 3.715,
+    "dnsmos_bak": 4.091,
+    "dnsmos_p808": 3.772,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.8,
+    "squim_sisdr": 27.23,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0040": {
+    "dnsmos_ovrl": 3.322,
+    "dnsmos_sig": 3.664,
+    "dnsmos_bak": 3.989,
+    "dnsmos_p808": 3.313,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.615,
+    "squim_sisdr": 26.38,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0041": {
+    "dnsmos_ovrl": 3.29,
+    "dnsmos_sig": 3.653,
+    "dnsmos_bak": 3.956,
+    "dnsmos_p808": 3.56,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.418,
+    "squim_sisdr": 25.31,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0042": {
+    "dnsmos_ovrl": 3.095,
+    "dnsmos_sig": 3.645,
+    "dnsmos_bak": 3.537,
+    "dnsmos_p808": 3.625,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.568,
+    "squim_sisdr": 25.93,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0043": {
+    "dnsmos_ovrl": 3.268,
+    "dnsmos_sig": 3.657,
+    "dnsmos_bak": 3.854,
+    "dnsmos_p808": 3.574,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.697,
+    "squim_sisdr": 27.07,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0044": {
+    "dnsmos_ovrl": 2.887,
+    "dnsmos_sig": 3.41,
+    "dnsmos_bak": 3.527,
+    "dnsmos_p808": 3.624,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.614,
+    "squim_sisdr": 25.61,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0045": {
+    "dnsmos_ovrl": 3.178,
+    "dnsmos_sig": 3.666,
+    "dnsmos_bak": 3.671,
+    "dnsmos_p808": 3.633,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.418,
+    "squim_sisdr": 25.83,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0046": {
+    "dnsmos_ovrl": 3.037,
+    "dnsmos_sig": 3.567,
+    "dnsmos_bak": 3.594,
+    "dnsmos_p808": 3.662,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.899,
+    "squim_sisdr": 27.62,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0047": {
+    "dnsmos_ovrl": 3.328,
+    "dnsmos_sig": 3.654,
+    "dnsmos_bak": 3.986,
+    "dnsmos_p808": 3.333,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.62,
+    "squim_sisdr": 27.1,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0048": {
+    "dnsmos_ovrl": 3.267,
+    "dnsmos_sig": 3.654,
+    "dnsmos_bak": 3.9,
+    "dnsmos_p808": 3.875,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.494,
+    "squim_sisdr": 26.79,
+    "language": "te"
+  },
+  "te_audiobook_kalalavelugu_0049": {
+    "dnsmos_ovrl": 3.253,
+    "dnsmos_sig": 3.669,
+    "dnsmos_bak": 3.756,
+    "dnsmos_p808": 3.669,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.563,
+    "squim_sisdr": 26.74,
+    "language": "te"
+  },
+  "te_kathalu_epic_0000": {
+    "dnsmos_ovrl": 2.863,
+    "dnsmos_sig": 3.129,
+    "dnsmos_bak": 3.985,
+    "dnsmos_p808": 3.955,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.616,
+    "squim_sisdr": 23.56,
+    "language": "te"
+  },
+  "te_kathalu_epic_0001": {
+    "dnsmos_ovrl": 3.21,
+    "dnsmos_sig": 3.497,
+    "dnsmos_bak": 4.009,
+    "dnsmos_p808": 4.129,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.83,
+    "squim_sisdr": 24.67,
+    "language": "te"
+  },
+  "te_kathalu_epic_0002": {
+    "dnsmos_ovrl": 3.156,
+    "dnsmos_sig": 3.432,
+    "dnsmos_bak": 4.039,
+    "dnsmos_p808": 3.94,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.886,
+    "squim_sisdr": 25.84,
+    "language": "te"
+  },
+  "te_kathalu_epic_0003": {
+    "dnsmos_ovrl": 3.051,
+    "dnsmos_sig": 3.337,
+    "dnsmos_bak": 4.018,
+    "dnsmos_p808": 3.813,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.924,
+    "squim_sisdr": 29.24,
+    "language": "te"
+  },
+  "te_kathalu_epic_0004": {
+    "dnsmos_ovrl": 3.135,
+    "dnsmos_sig": 3.462,
+    "dnsmos_bak": 3.959,
+    "dnsmos_p808": 4.033,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.168,
+    "squim_sisdr": 30.08,
+    "language": "te"
+  },
+  "te_kathalu_epic_0005": {
+    "dnsmos_ovrl": 3.145,
+    "dnsmos_sig": 3.438,
+    "dnsmos_bak": 3.999,
+    "dnsmos_p808": 4.121,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.018,
+    "squim_sisdr": 28.48,
+    "language": "te"
+  },
+  "te_kathalu_epic_0006": {
+    "dnsmos_ovrl": 3.222,
+    "dnsmos_sig": 3.501,
+    "dnsmos_bak": 4.05,
+    "dnsmos_p808": 4.17,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.786,
+    "squim_sisdr": 29.21,
+    "language": "te"
+  },
+  "te_kathalu_epic_0007": {
+    "dnsmos_ovrl": 3.158,
+    "dnsmos_sig": 3.376,
+    "dnsmos_bak": 4.098,
+    "dnsmos_p808": 3.743,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.02,
+    "squim_sisdr": 28.18,
+    "language": "te"
+  },
+  "te_kathalu_epic_0008": {
+    "dnsmos_ovrl": 3.33,
+    "dnsmos_sig": 3.604,
+    "dnsmos_bak": 4.084,
+    "dnsmos_p808": 4.172,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.984,
+    "squim_sisdr": 29.57,
+    "language": "te"
+  },
+  "te_kathalu_epic_0009": {
+    "dnsmos_ovrl": 3.248,
+    "dnsmos_sig": 3.452,
+    "dnsmos_bak": 4.121,
+    "dnsmos_p808": 4.132,
+    "squim_stoi": 0.998,
+    "squim_pesq": 4.13,
+    "squim_sisdr": 24.84,
+    "language": "te"
+  },
+  "te_kathalu_epic_0010": {
+    "dnsmos_ovrl": 3.255,
+    "dnsmos_sig": 3.482,
+    "dnsmos_bak": 4.128,
+    "dnsmos_p808": 4.094,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.012,
+    "squim_sisdr": 25.62,
+    "language": "te"
+  },
+  "te_kathalu_epic_0011": {
+    "dnsmos_ovrl": 3.157,
+    "dnsmos_sig": 3.525,
+    "dnsmos_bak": 3.913,
+    "dnsmos_p808": 3.896,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.92,
+    "squim_sisdr": 28.51,
+    "language": "te"
+  },
+  "te_kathalu_epic_0012": {
+    "dnsmos_ovrl": 3.021,
+    "dnsmos_sig": 3.277,
+    "dnsmos_bak": 4.029,
+    "dnsmos_p808": 3.944,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.719,
+    "squim_sisdr": 26.31,
+    "language": "te"
+  },
+  "te_kathalu_epic_0013": {
+    "dnsmos_ovrl": 3.257,
+    "dnsmos_sig": 3.515,
+    "dnsmos_bak": 4.105,
+    "dnsmos_p808": 4.074,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.06,
+    "squim_sisdr": 29.73,
+    "language": "te"
+  },
+  "te_kathalu_epic_0014": {
+    "dnsmos_ovrl": 3.331,
+    "dnsmos_sig": 3.578,
+    "dnsmos_bak": 4.093,
+    "dnsmos_p808": 4.223,
+    "squim_stoi": 0.997,
+    "squim_pesq": 4.006,
+    "squim_sisdr": 29.05,
+    "language": "te"
+  },
+  "te_kathalu_epic_0015": {
+    "dnsmos_ovrl": 3.102,
+    "dnsmos_sig": 3.39,
+    "dnsmos_bak": 3.999,
+    "dnsmos_p808": 4.28,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.986,
+    "squim_sisdr": 29.93,
+    "language": "te"
+  },
+  "te_kathalu_epic_0016": {
+    "dnsmos_ovrl": 3.211,
+    "dnsmos_sig": 3.496,
+    "dnsmos_bak": 4.033,
+    "dnsmos_p808": 4.062,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.982,
+    "squim_sisdr": 28.46,
+    "language": "te"
+  },
+  "te_kathalu_epic_0017": {
+    "dnsmos_ovrl": 2.869,
+    "dnsmos_sig": 3.267,
+    "dnsmos_bak": 3.719,
+    "dnsmos_p808": 3.974,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.98,
+    "squim_sisdr": 28.1,
+    "language": "te"
+  },
+  "te_kathalu_epic_0018": {
+    "dnsmos_ovrl": 2.492,
+    "dnsmos_sig": 2.969,
+    "dnsmos_bak": 3.481,
+    "dnsmos_p808": 3.697,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.827,
+    "squim_sisdr": 29.31,
+    "language": "te"
+  },
+  "te_kathalu_epic_0019": {
+    "dnsmos_ovrl": 3.199,
+    "dnsmos_sig": 3.405,
+    "dnsmos_bak": 4.143,
+    "dnsmos_p808": 4.014,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.813,
+    "squim_sisdr": 24.66,
+    "language": "te"
+  },
+  "te_kathalu_epic_0020": {
+    "dnsmos_ovrl": 3.138,
+    "dnsmos_sig": 3.415,
+    "dnsmos_bak": 4.01,
+    "dnsmos_p808": 4.102,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.889,
+    "squim_sisdr": 28.19,
+    "language": "te"
+  },
+  "te_kathalu_epic_0021": {
+    "dnsmos_ovrl": 3.281,
+    "dnsmos_sig": 3.558,
+    "dnsmos_bak": 4.063,
+    "dnsmos_p808": 3.862,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.056,
+    "squim_sisdr": 27.16,
+    "language": "te"
+  },
+  "te_kathalu_epic_0022": {
+    "dnsmos_ovrl": 3.06,
+    "dnsmos_sig": 3.444,
+    "dnsmos_bak": 3.866,
+    "dnsmos_p808": 3.984,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.971,
+    "squim_sisdr": 29.39,
+    "language": "te"
+  },
+  "te_kathalu_epic_0023": {
+    "dnsmos_ovrl": 3.118,
+    "dnsmos_sig": 3.43,
+    "dnsmos_bak": 3.95,
+    "dnsmos_p808": 3.877,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.916,
+    "squim_sisdr": 28.41,
+    "language": "te"
+  },
+  "te_kathalu_epic_0024": {
+    "dnsmos_ovrl": 3.298,
+    "dnsmos_sig": 3.513,
+    "dnsmos_bak": 4.142,
+    "dnsmos_p808": 3.856,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.062,
+    "squim_sisdr": 27.41,
+    "language": "te"
+  },
+  "te_kathalu_epic_0025": {
+    "dnsmos_ovrl": 3.206,
+    "dnsmos_sig": 3.473,
+    "dnsmos_bak": 4.075,
+    "dnsmos_p808": 4.053,
+    "squim_stoi": 0.998,
+    "squim_pesq": 3.836,
+    "squim_sisdr": 26.51,
+    "language": "te"
+  },
+  "te_kathalu_epic_0026": {
+    "dnsmos_ovrl": 3.17,
+    "dnsmos_sig": 3.441,
+    "dnsmos_bak": 4.036,
+    "dnsmos_p808": 4.213,
+    "squim_stoi": 0.998,
+    "squim_pesq": 4.068,
+    "squim_sisdr": 28.05,
+    "language": "te"
+  },
+  "te_kathalu_epic_0027": {
+    "dnsmos_ovrl": 3.158,
+    "dnsmos_sig": 3.458,
+    "dnsmos_bak": 4.011,
+    "dnsmos_p808": 4.094,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.188,
+    "squim_sisdr": 30.59,
+    "language": "te"
+  },
+  "te_kathalu_epic_0028": {
+    "dnsmos_ovrl": 2.403,
+    "dnsmos_sig": 2.831,
+    "dnsmos_bak": 3.384,
+    "dnsmos_p808": 3.707,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.703,
+    "squim_sisdr": 30.67,
+    "language": "te"
+  },
+  "te_kathalu_epic_0029": {
+    "dnsmos_ovrl": 2.93,
+    "dnsmos_sig": 3.368,
+    "dnsmos_bak": 3.632,
+    "dnsmos_p808": 3.819,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.994,
+    "squim_sisdr": 29.18,
+    "language": "te"
+  },
+  "te_kathalu_epic_0030": {
+    "dnsmos_ovrl": 1.86,
+    "dnsmos_sig": 3.24,
+    "dnsmos_bak": 1.859,
+    "dnsmos_p808": 2.806,
+    "squim_stoi": 0.946,
+    "squim_pesq": 1.772,
+    "squim_sisdr": 13.78,
+    "language": "te"
+  },
+  "te_kathalu_epic_0031": {
+    "dnsmos_ovrl": 3.137,
+    "dnsmos_sig": 3.408,
+    "dnsmos_bak": 4.034,
+    "dnsmos_p808": 4.17,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.026,
+    "squim_sisdr": 25.76,
+    "language": "te"
+  },
+  "te_kathalu_epic_0032": {
+    "dnsmos_ovrl": 3.224,
+    "dnsmos_sig": 3.533,
+    "dnsmos_bak": 3.983,
+    "dnsmos_p808": 4.048,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.158,
+    "squim_sisdr": 27.52,
+    "language": "te"
+  },
+  "te_kathalu_epic_0033": {
+    "dnsmos_ovrl": 3.279,
+    "dnsmos_sig": 3.555,
+    "dnsmos_bak": 4.032,
+    "dnsmos_p808": 4.185,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.867,
+    "squim_sisdr": 27.38,
+    "language": "te"
+  },
+  "te_kathalu_epic_0034": {
+    "dnsmos_ovrl": 3.175,
+    "dnsmos_sig": 3.465,
+    "dnsmos_bak": 3.991,
+    "dnsmos_p808": 4.145,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.946,
+    "squim_sisdr": 27.48,
+    "language": "te"
+  },
+  "te_kathalu_epic_0035": {
+    "dnsmos_ovrl": 3.097,
+    "dnsmos_sig": 3.393,
+    "dnsmos_bak": 4.014,
+    "dnsmos_p808": 3.88,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.895,
+    "squim_sisdr": 27.97,
+    "language": "te"
+  },
+  "te_kathalu_epic_0036": {
+    "dnsmos_ovrl": 3.078,
+    "dnsmos_sig": 3.355,
+    "dnsmos_bak": 4.01,
+    "dnsmos_p808": 3.76,
+    "squim_stoi": 0.999,
+    "squim_pesq": 3.963,
+    "squim_sisdr": 26.05,
+    "language": "te"
+  },
+  "te_kathalu_epic_0037": {
+    "dnsmos_ovrl": 3.127,
+    "dnsmos_sig": 3.495,
+    "dnsmos_bak": 3.885,
+    "dnsmos_p808": 4.177,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.788,
+    "squim_sisdr": 25.43,
+    "language": "te"
+  },
+  "te_kathalu_epic_0038": {
+    "dnsmos_ovrl": 3.253,
+    "dnsmos_sig": 3.542,
+    "dnsmos_bak": 4.035,
+    "dnsmos_p808": 4.303,
+    "squim_stoi": 0.999,
+    "squim_pesq": 4.149,
+    "squim_sisdr": 29.03,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0000": {
+    "dnsmos_ovrl": 3.081,
+    "dnsmos_sig": 3.476,
+    "dnsmos_bak": 3.842,
+    "dnsmos_p808": 3.56,
+    "squim_stoi": 0.985,
+    "squim_pesq": 3.348,
+    "squim_sisdr": 24.2,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0001": {
+    "dnsmos_ovrl": 2.916,
+    "dnsmos_sig": 3.36,
+    "dnsmos_bak": 3.684,
+    "dnsmos_p808": 3.763,
+    "squim_stoi": 0.995,
+    "squim_pesq": 3.08,
+    "squim_sisdr": 24.32,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0002": {
+    "dnsmos_ovrl": 3.255,
+    "dnsmos_sig": 3.559,
+    "dnsmos_bak": 4.005,
+    "dnsmos_p808": 3.83,
+    "squim_stoi": 0.988,
+    "squim_pesq": 3.644,
+    "squim_sisdr": 24.57,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0003": {
+    "dnsmos_ovrl": 2.923,
+    "dnsmos_sig": 3.487,
+    "dnsmos_bak": 3.485,
+    "dnsmos_p808": 3.622,
+    "squim_stoi": 0.956,
+    "squim_pesq": 2.483,
+    "squim_sisdr": 12.28,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0004": {
+    "dnsmos_ovrl": 2.875,
+    "dnsmos_sig": 3.218,
+    "dnsmos_bak": 3.842,
+    "dnsmos_p808": 3.867,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.433,
+    "squim_sisdr": 23.0,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0005": {
+    "dnsmos_ovrl": 2.122,
+    "dnsmos_sig": 2.938,
+    "dnsmos_bak": 2.843,
+    "dnsmos_p808": 3.56,
+    "squim_stoi": 0.977,
+    "squim_pesq": 3.046,
+    "squim_sisdr": 13.59,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0006": {
+    "dnsmos_ovrl": 2.532,
+    "dnsmos_sig": 3.265,
+    "dnsmos_bak": 2.959,
+    "dnsmos_p808": 2.849,
+    "squim_stoi": 0.966,
+    "squim_pesq": 3.344,
+    "squim_sisdr": 15.0,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0007": {
+    "dnsmos_ovrl": 2.526,
+    "dnsmos_sig": 3.501,
+    "dnsmos_bak": 2.604,
+    "dnsmos_p808": 3.585,
+    "squim_stoi": 0.976,
+    "squim_pesq": 2.792,
+    "squim_sisdr": 14.35,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0008": {
+    "dnsmos_ovrl": 2.762,
+    "dnsmos_sig": 3.18,
+    "dnsmos_bak": 3.685,
+    "dnsmos_p808": 3.783,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.575,
+    "squim_sisdr": 23.83,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0009": {
+    "dnsmos_ovrl": 3.12,
+    "dnsmos_sig": 3.474,
+    "dnsmos_bak": 3.821,
+    "dnsmos_p808": 3.223,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.392,
+    "squim_sisdr": 24.26,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0010": {
+    "dnsmos_ovrl": 3.264,
+    "dnsmos_sig": 3.553,
+    "dnsmos_bak": 4.042,
+    "dnsmos_p808": 3.649,
+    "squim_stoi": 0.986,
+    "squim_pesq": 3.551,
+    "squim_sisdr": 20.98,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0011": {
+    "dnsmos_ovrl": 2.797,
+    "dnsmos_sig": 3.432,
+    "dnsmos_bak": 3.341,
+    "dnsmos_p808": 3.256,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.732,
+    "squim_sisdr": 24.64,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0012": {
+    "dnsmos_ovrl": 3.013,
+    "dnsmos_sig": 3.459,
+    "dnsmos_bak": 3.743,
+    "dnsmos_p808": 3.371,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.708,
+    "squim_sisdr": 25.68,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0013": {
+    "dnsmos_ovrl": 3.063,
+    "dnsmos_sig": 3.416,
+    "dnsmos_bak": 3.944,
+    "dnsmos_p808": 3.038,
+    "squim_stoi": 0.977,
+    "squim_pesq": 3.039,
+    "squim_sisdr": 22.12,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0014": {
+    "dnsmos_ovrl": 3.139,
+    "dnsmos_sig": 3.605,
+    "dnsmos_bak": 3.729,
+    "dnsmos_p808": 3.481,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.274,
+    "squim_sisdr": 24.85,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0015": {
+    "dnsmos_ovrl": 1.834,
+    "dnsmos_sig": 2.983,
+    "dnsmos_bak": 2.206,
+    "dnsmos_p808": 3.258,
+    "squim_stoi": 0.904,
+    "squim_pesq": 2.111,
+    "squim_sisdr": 7.94,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0016": {
+    "dnsmos_ovrl": 3.0,
+    "dnsmos_sig": 3.35,
+    "dnsmos_bak": 3.905,
+    "dnsmos_p808": 3.712,
+    "squim_stoi": 0.984,
+    "squim_pesq": 3.109,
+    "squim_sisdr": 18.78,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0017": {
+    "dnsmos_ovrl": 3.179,
+    "dnsmos_sig": 3.538,
+    "dnsmos_bak": 3.885,
+    "dnsmos_p808": 3.492,
+    "squim_stoi": 0.952,
+    "squim_pesq": 2.027,
+    "squim_sisdr": 10.42,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0018": {
+    "dnsmos_ovrl": 2.779,
+    "dnsmos_sig": 3.476,
+    "dnsmos_bak": 3.149,
+    "dnsmos_p808": 3.711,
+    "squim_stoi": 0.986,
+    "squim_pesq": 2.983,
+    "squim_sisdr": 19.6,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0019": {
+    "dnsmos_ovrl": 3.131,
+    "dnsmos_sig": 3.514,
+    "dnsmos_bak": 3.892,
+    "dnsmos_p808": 3.584,
+    "squim_stoi": 0.986,
+    "squim_pesq": 3.611,
+    "squim_sisdr": 22.72,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0020": {
+    "dnsmos_ovrl": 3.188,
+    "dnsmos_sig": 3.58,
+    "dnsmos_bak": 3.785,
+    "dnsmos_p808": 3.815,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.464,
+    "squim_sisdr": 22.28,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0021": {
+    "dnsmos_ovrl": 3.308,
+    "dnsmos_sig": 3.638,
+    "dnsmos_bak": 4.007,
+    "dnsmos_p808": 3.512,
+    "squim_stoi": 0.981,
+    "squim_pesq": 3.216,
+    "squim_sisdr": 21.92,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0022": {
+    "dnsmos_ovrl": 2.966,
+    "dnsmos_sig": 3.289,
+    "dnsmos_bak": 3.813,
+    "dnsmos_p808": 3.265,
+    "squim_stoi": 0.985,
+    "squim_pesq": 3.495,
+    "squim_sisdr": 22.32,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0023": {
+    "dnsmos_ovrl": 3.039,
+    "dnsmos_sig": 3.542,
+    "dnsmos_bak": 3.642,
+    "dnsmos_p808": 3.28,
+    "squim_stoi": 0.975,
+    "squim_pesq": 3.327,
+    "squim_sisdr": 13.6,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0024": {
+    "dnsmos_ovrl": 3.352,
+    "dnsmos_sig": 3.636,
+    "dnsmos_bak": 4.105,
+    "dnsmos_p808": 3.522,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.59,
+    "squim_sisdr": 23.16,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0025": {
+    "dnsmos_ovrl": 3.003,
+    "dnsmos_sig": 3.37,
+    "dnsmos_bak": 3.83,
+    "dnsmos_p808": 3.69,
+    "squim_stoi": 0.982,
+    "squim_pesq": 3.569,
+    "squim_sisdr": 21.84,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0026": {
+    "dnsmos_ovrl": 3.279,
+    "dnsmos_sig": 3.585,
+    "dnsmos_bak": 4.003,
+    "dnsmos_p808": 3.808,
+    "squim_stoi": 0.986,
+    "squim_pesq": 3.363,
+    "squim_sisdr": 21.11,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0027": {
+    "dnsmos_ovrl": 3.021,
+    "dnsmos_sig": 3.485,
+    "dnsmos_bak": 3.748,
+    "dnsmos_p808": 3.719,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.655,
+    "squim_sisdr": 22.49,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0028": {
+    "dnsmos_ovrl": 3.156,
+    "dnsmos_sig": 3.462,
+    "dnsmos_bak": 4.038,
+    "dnsmos_p808": 3.764,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.612,
+    "squim_sisdr": 24.12,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0029": {
+    "dnsmos_ovrl": 3.197,
+    "dnsmos_sig": 3.521,
+    "dnsmos_bak": 4.01,
+    "dnsmos_p808": 3.551,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.828,
+    "squim_sisdr": 23.64,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0030": {
+    "dnsmos_ovrl": 2.874,
+    "dnsmos_sig": 3.412,
+    "dnsmos_bak": 3.496,
+    "dnsmos_p808": 3.738,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.382,
+    "squim_sisdr": 22.77,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0031": {
+    "dnsmos_ovrl": 3.073,
+    "dnsmos_sig": 3.412,
+    "dnsmos_bak": 3.964,
+    "dnsmos_p808": 3.664,
+    "squim_stoi": 0.973,
+    "squim_pesq": 3.71,
+    "squim_sisdr": 21.28,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0032": {
+    "dnsmos_ovrl": 2.837,
+    "dnsmos_sig": 3.397,
+    "dnsmos_bak": 3.487,
+    "dnsmos_p808": 3.635,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.714,
+    "squim_sisdr": 23.72,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0033": {
+    "dnsmos_ovrl": 3.135,
+    "dnsmos_sig": 3.53,
+    "dnsmos_bak": 3.871,
+    "dnsmos_p808": 3.663,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.709,
+    "squim_sisdr": 25.1,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0034": {
+    "dnsmos_ovrl": 2.935,
+    "dnsmos_sig": 3.344,
+    "dnsmos_bak": 3.718,
+    "dnsmos_p808": 3.701,
+    "squim_stoi": 0.984,
+    "squim_pesq": 3.744,
+    "squim_sisdr": 23.88,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0035": {
+    "dnsmos_ovrl": 3.081,
+    "dnsmos_sig": 3.401,
+    "dnsmos_bak": 3.946,
+    "dnsmos_p808": 3.69,
+    "squim_stoi": 0.988,
+    "squim_pesq": 3.305,
+    "squim_sisdr": 21.72,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0036": {
+    "dnsmos_ovrl": 2.834,
+    "dnsmos_sig": 3.322,
+    "dnsmos_bak": 3.631,
+    "dnsmos_p808": 3.68,
+    "squim_stoi": 0.993,
+    "squim_pesq": 3.599,
+    "squim_sisdr": 24.56,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0037": {
+    "dnsmos_ovrl": 2.842,
+    "dnsmos_sig": 3.289,
+    "dnsmos_bak": 3.647,
+    "dnsmos_p808": 3.549,
+    "squim_stoi": 0.978,
+    "squim_pesq": 3.484,
+    "squim_sisdr": 17.11,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0038": {
+    "dnsmos_ovrl": 3.066,
+    "dnsmos_sig": 3.422,
+    "dnsmos_bak": 3.875,
+    "dnsmos_p808": 3.894,
+    "squim_stoi": 0.957,
+    "squim_pesq": 2.351,
+    "squim_sisdr": 7.39,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0039": {
+    "dnsmos_ovrl": 3.312,
+    "dnsmos_sig": 3.616,
+    "dnsmos_bak": 4.026,
+    "dnsmos_p808": 3.632,
+    "squim_stoi": 0.981,
+    "squim_pesq": 2.704,
+    "squim_sisdr": 17.08,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0040": {
+    "dnsmos_ovrl": 2.878,
+    "dnsmos_sig": 3.308,
+    "dnsmos_bak": 3.667,
+    "dnsmos_p808": 3.682,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.225,
+    "squim_sisdr": 21.77,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0041": {
+    "dnsmos_ovrl": 2.877,
+    "dnsmos_sig": 3.347,
+    "dnsmos_bak": 3.604,
+    "dnsmos_p808": 3.712,
+    "squim_stoi": 0.971,
+    "squim_pesq": 2.661,
+    "squim_sisdr": 12.32,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0042": {
+    "dnsmos_ovrl": 2.726,
+    "dnsmos_sig": 3.228,
+    "dnsmos_bak": 3.442,
+    "dnsmos_p808": 3.61,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.73,
+    "squim_sisdr": 25.84,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0043": {
+    "dnsmos_ovrl": 3.119,
+    "dnsmos_sig": 3.441,
+    "dnsmos_bak": 3.967,
+    "dnsmos_p808": 3.875,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.591,
+    "squim_sisdr": 26.5,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0044": {
+    "dnsmos_ovrl": 2.882,
+    "dnsmos_sig": 3.37,
+    "dnsmos_bak": 3.481,
+    "dnsmos_p808": 2.98,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.588,
+    "squim_sisdr": 23.73,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0045": {
+    "dnsmos_ovrl": 2.847,
+    "dnsmos_sig": 3.232,
+    "dnsmos_bak": 3.686,
+    "dnsmos_p808": 3.642,
+    "squim_stoi": 0.952,
+    "squim_pesq": 2.472,
+    "squim_sisdr": 10.32,
+    "language": "te"
+  },
+  "te_motivation_kasyap_0046": {
+    "dnsmos_ovrl": 3.261,
+    "dnsmos_sig": 3.567,
+    "dnsmos_bak": 4.046,
+    "dnsmos_p808": 3.78,
+    "squim_stoi": 0.988,
+    "squim_pesq": 3.157,
+    "squim_sisdr": 14.97,
+    "language": "te"
+  },
+  "te_ramaaraavi_0000": {
+    "dnsmos_ovrl": 3.269,
+    "dnsmos_sig": 3.562,
+    "dnsmos_bak": 4.063,
+    "dnsmos_p808": 3.889,
+    "squim_stoi": 0.975,
+    "squim_pesq": 3.626,
+    "squim_sisdr": 22.92,
+    "language": "te"
+  },
+  "te_ramaaraavi_0001": {
+    "dnsmos_ovrl": 2.799,
+    "dnsmos_sig": 3.198,
+    "dnsmos_bak": 3.66,
+    "dnsmos_p808": 3.174,
+    "squim_stoi": 0.971,
+    "squim_pesq": 3.054,
+    "squim_sisdr": 8.47,
+    "language": "te"
+  },
+  "te_ramaaraavi_0002": {
+    "dnsmos_ovrl": 3.253,
+    "dnsmos_sig": 3.552,
+    "dnsmos_bak": 4.046,
+    "dnsmos_p808": 3.689,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.302,
+    "squim_sisdr": 23.97,
+    "language": "te"
+  },
+  "te_ramaaraavi_0003": {
+    "dnsmos_ovrl": 3.145,
+    "dnsmos_sig": 3.421,
+    "dnsmos_bak": 4.045,
+    "dnsmos_p808": 3.505,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.752,
+    "squim_sisdr": 24.54,
+    "language": "te"
+  },
+  "te_ramaaraavi_0004": {
+    "dnsmos_ovrl": 3.266,
+    "dnsmos_sig": 3.534,
+    "dnsmos_bak": 4.103,
+    "dnsmos_p808": 3.568,
+    "squim_stoi": 0.972,
+    "squim_pesq": 3.756,
+    "squim_sisdr": 26.07,
+    "language": "te"
+  },
+  "te_ramaaraavi_0005": {
+    "dnsmos_ovrl": 3.357,
+    "dnsmos_sig": 3.668,
+    "dnsmos_bak": 4.011,
+    "dnsmos_p808": 3.515,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.605,
+    "squim_sisdr": 25.87,
+    "language": "te"
+  },
+  "te_ramaaraavi_0006": {
+    "dnsmos_ovrl": 3.179,
+    "dnsmos_sig": 3.543,
+    "dnsmos_bak": 3.902,
+    "dnsmos_p808": 3.671,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.596,
+    "squim_sisdr": 25.5,
+    "language": "te"
+  },
+  "te_ramaaraavi_0007": {
+    "dnsmos_ovrl": 3.306,
+    "dnsmos_sig": 3.531,
+    "dnsmos_bak": 4.168,
+    "dnsmos_p808": 3.647,
+    "squim_stoi": 0.982,
+    "squim_pesq": 3.533,
+    "squim_sisdr": 23.94,
+    "language": "te"
+  },
+  "te_ramaaraavi_0008": {
+    "dnsmos_ovrl": 3.509,
+    "dnsmos_sig": 3.73,
+    "dnsmos_bak": 4.237,
+    "dnsmos_p808": 3.463,
+    "squim_stoi": 0.979,
+    "squim_pesq": 3.731,
+    "squim_sisdr": 22.72,
+    "language": "te"
+  },
+  "te_ramaaraavi_0009": {
+    "dnsmos_ovrl": 3.463,
+    "dnsmos_sig": 3.713,
+    "dnsmos_bak": 4.147,
+    "dnsmos_p808": 3.774,
+    "squim_stoi": 0.989,
+    "squim_pesq": 3.763,
+    "squim_sisdr": 26.51,
+    "language": "te"
+  },
+  "te_ramaaraavi_0010": {
+    "dnsmos_ovrl": 3.385,
+    "dnsmos_sig": 3.641,
+    "dnsmos_bak": 4.132,
+    "dnsmos_p808": 3.708,
+    "squim_stoi": 0.993,
+    "squim_pesq": 4.139,
+    "squim_sisdr": 27.74,
+    "language": "te"
+  },
+  "te_ramaaraavi_0011": {
+    "dnsmos_ovrl": 3.268,
+    "dnsmos_sig": 3.532,
+    "dnsmos_bak": 4.113,
+    "dnsmos_p808": 3.832,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.649,
+    "squim_sisdr": 24.06,
+    "language": "te"
+  },
+  "te_ramaaraavi_0012": {
+    "dnsmos_ovrl": 3.162,
+    "dnsmos_sig": 3.44,
+    "dnsmos_bak": 4.051,
+    "dnsmos_p808": 3.682,
+    "squim_stoi": 0.977,
+    "squim_pesq": 3.25,
+    "squim_sisdr": 22.44,
+    "language": "te"
+  },
+  "te_ramaaraavi_0013": {
+    "dnsmos_ovrl": 3.138,
+    "dnsmos_sig": 3.469,
+    "dnsmos_bak": 3.97,
+    "dnsmos_p808": 3.799,
+    "squim_stoi": 0.986,
+    "squim_pesq": 3.426,
+    "squim_sisdr": 21.49,
+    "language": "te"
+  },
+  "te_ramaaraavi_0014": {
+    "dnsmos_ovrl": 3.108,
+    "dnsmos_sig": 3.402,
+    "dnsmos_bak": 4.054,
+    "dnsmos_p808": 3.657,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.913,
+    "squim_sisdr": 22.57,
+    "language": "te"
+  },
+  "te_ramaaraavi_0015": {
+    "dnsmos_ovrl": 3.058,
+    "dnsmos_sig": 3.35,
+    "dnsmos_bak": 4.026,
+    "dnsmos_p808": 4.046,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.995,
+    "squim_sisdr": 25.42,
+    "language": "te"
+  },
+  "te_ramaaraavi_0016": {
+    "dnsmos_ovrl": 3.406,
+    "dnsmos_sig": 3.674,
+    "dnsmos_bak": 4.083,
+    "dnsmos_p808": 3.424,
+    "squim_stoi": 0.983,
+    "squim_pesq": 3.598,
+    "squim_sisdr": 19.87,
+    "language": "te"
+  },
+  "te_ramaaraavi_0017": {
+    "dnsmos_ovrl": 3.209,
+    "dnsmos_sig": 3.489,
+    "dnsmos_bak": 4.075,
+    "dnsmos_p808": 3.893,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.955,
+    "squim_sisdr": 27.12,
+    "language": "te"
+  },
+  "te_ramaaraavi_0018": {
+    "dnsmos_ovrl": 3.255,
+    "dnsmos_sig": 3.547,
+    "dnsmos_bak": 4.057,
+    "dnsmos_p808": 3.706,
+    "squim_stoi": 0.985,
+    "squim_pesq": 3.747,
+    "squim_sisdr": 20.08,
+    "language": "te"
+  },
+  "te_ramaaraavi_0019": {
+    "dnsmos_ovrl": 2.838,
+    "dnsmos_sig": 3.392,
+    "dnsmos_bak": 3.464,
+    "dnsmos_p808": 3.623,
+    "squim_stoi": 0.98,
+    "squim_pesq": 3.446,
+    "squim_sisdr": 20.44,
+    "language": "te"
+  },
+  "te_ramaaraavi_0020": {
+    "dnsmos_ovrl": 3.09,
+    "dnsmos_sig": 3.313,
+    "dnsmos_bak": 4.078,
+    "dnsmos_p808": 3.205,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.878,
+    "squim_sisdr": 25.91,
+    "language": "te"
+  },
+  "te_ramaaraavi_0021": {
+    "dnsmos_ovrl": 3.3,
+    "dnsmos_sig": 3.548,
+    "dnsmos_bak": 4.162,
+    "dnsmos_p808": 3.625,
+    "squim_stoi": 0.974,
+    "squim_pesq": 3.704,
+    "squim_sisdr": 25.6,
+    "language": "te"
+  },
+  "te_ramaaraavi_0022": {
+    "dnsmos_ovrl": 3.345,
+    "dnsmos_sig": 3.631,
+    "dnsmos_bak": 4.1,
+    "dnsmos_p808": 3.645,
+    "squim_stoi": 0.99,
+    "squim_pesq": 3.764,
+    "squim_sisdr": 23.28,
+    "language": "te"
+  },
+  "te_ramaaraavi_0023": {
+    "dnsmos_ovrl": 3.111,
+    "dnsmos_sig": 3.387,
+    "dnsmos_bak": 4.007,
+    "dnsmos_p808": 3.357,
+    "squim_stoi": 0.997,
+    "squim_pesq": 4.099,
+    "squim_sisdr": 27.18,
+    "language": "te"
+  },
+  "te_ramaaraavi_0024": {
+    "dnsmos_ovrl": 3.125,
+    "dnsmos_sig": 3.424,
+    "dnsmos_bak": 3.995,
+    "dnsmos_p808": 3.847,
+    "squim_stoi": 0.985,
+    "squim_pesq": 3.66,
+    "squim_sisdr": 24.9,
+    "language": "te"
+  },
+  "te_ramaaraavi_0025": {
+    "dnsmos_ovrl": 3.23,
+    "dnsmos_sig": 3.495,
+    "dnsmos_bak": 4.127,
+    "dnsmos_p808": 3.841,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.688,
+    "squim_sisdr": 27.6,
+    "language": "te"
+  },
+  "te_ramaaraavi_0026": {
+    "dnsmos_ovrl": 3.215,
+    "dnsmos_sig": 3.493,
+    "dnsmos_bak": 3.968,
+    "dnsmos_p808": 3.336,
+    "squim_stoi": 0.978,
+    "squim_pesq": 3.314,
+    "squim_sisdr": 22.54,
+    "language": "te"
+  },
+  "te_ramaaraavi_0027": {
+    "dnsmos_ovrl": 3.242,
+    "dnsmos_sig": 3.565,
+    "dnsmos_bak": 3.98,
+    "dnsmos_p808": 3.664,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.891,
+    "squim_sisdr": 28.22,
+    "language": "te"
+  },
+  "te_ramaaraavi_0028": {
+    "dnsmos_ovrl": 3.513,
+    "dnsmos_sig": 3.739,
+    "dnsmos_bak": 4.205,
+    "dnsmos_p808": 3.507,
+    "squim_stoi": 0.97,
+    "squim_pesq": 3.791,
+    "squim_sisdr": 22.48,
+    "language": "te"
+  },
+  "te_ramaaraavi_0029": {
+    "dnsmos_ovrl": 3.255,
+    "dnsmos_sig": 3.516,
+    "dnsmos_bak": 4.124,
+    "dnsmos_p808": 3.608,
+    "squim_stoi": 0.994,
+    "squim_pesq": 3.93,
+    "squim_sisdr": 30.08,
+    "language": "te"
+  },
+  "te_ramaaraavi_0030": {
+    "dnsmos_ovrl": 3.416,
+    "dnsmos_sig": 3.677,
+    "dnsmos_bak": 4.154,
+    "dnsmos_p808": 3.412,
+    "squim_stoi": 0.984,
+    "squim_pesq": 3.939,
+    "squim_sisdr": 21.57,
+    "language": "te"
+  },
+  "te_ramaaraavi_0031": {
+    "dnsmos_ovrl": 2.463,
+    "dnsmos_sig": 3.23,
+    "dnsmos_bak": 3.27,
+    "dnsmos_p808": 3.01,
+    "squim_stoi": 0.914,
+    "squim_pesq": 3.474,
+    "squim_sisdr": 18.73,
+    "language": "te"
+  },
+  "te_ramaaraavi_0032": {
+    "dnsmos_ovrl": 3.211,
+    "dnsmos_sig": 3.495,
+    "dnsmos_bak": 4.039,
+    "dnsmos_p808": 3.704,
+    "squim_stoi": 0.992,
+    "squim_pesq": 3.657,
+    "squim_sisdr": 23.31,
+    "language": "te"
+  },
+  "te_ramaaraavi_0033": {
+    "dnsmos_ovrl": 2.905,
+    "dnsmos_sig": 3.289,
+    "dnsmos_bak": 3.776,
+    "dnsmos_p808": 3.322,
+    "squim_stoi": 0.977,
+    "squim_pesq": 3.472,
+    "squim_sisdr": 22.54,
+    "language": "te"
+  },
+  "te_ramaaraavi_0034": {
+    "dnsmos_ovrl": 3.171,
+    "dnsmos_sig": 3.48,
+    "dnsmos_bak": 3.989,
+    "dnsmos_p808": 3.391,
+    "squim_stoi": 0.984,
+    "squim_pesq": 4.043,
+    "squim_sisdr": 28.47,
+    "language": "te"
+  },
+  "te_ramaaraavi_0035": {
+    "dnsmos_ovrl": 3.23,
+    "dnsmos_sig": 3.515,
+    "dnsmos_bak": 4.078,
+    "dnsmos_p808": 3.903,
+    "squim_stoi": 0.98,
+    "squim_pesq": 3.48,
+    "squim_sisdr": 25.67,
+    "language": "te"
+  },
+  "te_ramaaraavi_0036": {
+    "dnsmos_ovrl": 3.098,
+    "dnsmos_sig": 3.357,
+    "dnsmos_bak": 4.021,
+    "dnsmos_p808": 3.481,
+    "squim_stoi": 0.958,
+    "squim_pesq": 2.603,
+    "squim_sisdr": 19.85,
+    "language": "te"
+  },
+  "te_ramaaraavi_0037": {
+    "dnsmos_ovrl": 3.485,
+    "dnsmos_sig": 3.719,
+    "dnsmos_bak": 4.214,
+    "dnsmos_p808": 3.915,
+    "squim_stoi": 0.991,
+    "squim_pesq": 3.87,
+    "squim_sisdr": 26.91,
+    "language": "te"
+  },
+  "te_ramaaraavi_0038": {
+    "dnsmos_ovrl": 3.364,
+    "dnsmos_sig": 3.673,
+    "dnsmos_bak": 4.045,
+    "dnsmos_p808": 3.969,
+    "squim_stoi": 0.997,
+    "squim_pesq": 3.99,
+    "squim_sisdr": 27.19,
+    "language": "te"
+  },
+  "te_ramaaraavi_0039": {
+    "dnsmos_ovrl": 2.955,
+    "dnsmos_sig": 3.215,
+    "dnsmos_bak": 4.046,
+    "dnsmos_p808": 3.114,
+    "squim_stoi": 0.963,
+    "squim_pesq": 3.658,
+    "squim_sisdr": 23.85,
+    "language": "te"
+  },
+  "te_ramaaraavi_0040": {
+    "dnsmos_ovrl": 3.47,
+    "dnsmos_sig": 3.697,
+    "dnsmos_bak": 4.22,
+    "dnsmos_p808": 3.702,
+    "squim_stoi": 0.996,
+    "squim_pesq": 3.862,
+    "squim_sisdr": 25.17,
+    "language": "te"
+  },
+  "te_ramaaraavi_0041": {
+    "dnsmos_ovrl": 3.084,
+    "dnsmos_sig": 3.462,
+    "dnsmos_bak": 3.867,
+    "dnsmos_p808": 3.701,
+    "squim_stoi": 0.985,
+    "squim_pesq": 3.819,
+    "squim_sisdr": 23.25,
+    "language": "te"
+  },
+  "te_ramaaraavi_0042": {
+    "dnsmos_ovrl": 3.116,
+    "dnsmos_sig": 3.414,
+    "dnsmos_bak": 4.011,
+    "dnsmos_p808": 3.42,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.736,
+    "squim_sisdr": 25.41,
+    "language": "te"
+  },
+  "te_ramaaraavi_0043": {
+    "dnsmos_ovrl": 3.221,
+    "dnsmos_sig": 3.501,
+    "dnsmos_bak": 4.061,
+    "dnsmos_p808": 3.778,
+    "squim_stoi": 0.987,
+    "squim_pesq": 3.399,
+    "squim_sisdr": 21.36,
+    "language": "te"
+  },
+  "te_ramaaraavi_0044": {
+    "dnsmos_ovrl": 3.438,
+    "dnsmos_sig": 3.673,
+    "dnsmos_bak": 4.207,
+    "dnsmos_p808": 3.693,
+    "squim_stoi": 0.931,
+    "squim_pesq": 2.397,
+    "squim_sisdr": 11.57,
+    "language": "te"
+  },
+  "te_ramaaraavi_0045": {
+    "dnsmos_ovrl": 3.301,
+    "dnsmos_sig": 3.573,
+    "dnsmos_bak": 4.129,
+    "dnsmos_p808": 3.558,
+    "squim_stoi": 0.982,
+    "squim_pesq": 3.537,
+    "squim_sisdr": 22.71,
+    "language": "te"
+  },
+  "te_ramaaraavi_0046": {
+    "dnsmos_ovrl": 3.167,
+    "dnsmos_sig": 3.556,
+    "dnsmos_bak": 3.852,
+    "dnsmos_p808": 3.421,
+    "squim_stoi": 0.988,
+    "squim_pesq": 3.866,
+    "squim_sisdr": 25.18,
+    "language": "te"
+  }
+}

@@ -80,7 +80,7 @@ sources:
     max_minutes: 6
     start_offset_s: 15
     end_trim_s: 10
-    enabled: true
+    enabled: false   # DNSMOS OVRL 2.42 (0/19 > 3.0) — perceptually poor (compression); dropped on re-curation
     notes: "Premchand 'Kafan' audiobook in English — expressive/sad narration"
 
   - id: en_air_century
@@ -93,8 +93,48 @@ sources:
     max_minutes: 8
     start_offset_s: 20
     end_trim_s: 10
-    enabled: true
+    enabled: false   # DNSMOS OVRL 2.31 (0/18 > 3.0) — noisy archival recording; dropped on re-curation
     notes: "AIR 'A Century of Stories' — narrative/neutral"
+
+  # ---- added on re-curation (DNSMOS gate fired): expand the proven-clean narrator + 1 new voice ----
+  - id: en_mahabharata_e67
+    url: "https://www.youtube.com/watch?v=XkKHjGUS_FE"
+    language: en
+    content_type: story
+    speaker_id: en_mahabharata
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 20
+    end_trim_s: 10
+    enabled: true
+    notes: "Mahabharata ep67 — same narrator as en_mahabharata (DNSMOS 3.19); added to lift clean-English supply"
+
+  - id: en_mahabharata_e69
+    url: "https://www.youtube.com/watch?v=6FqOwTYpgSA"
+    language: en
+    content_type: story
+    speaker_id: en_mahabharata
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 20
+    end_trim_s: 10
+    enabled: true
+    notes: "Mahabharata ep69 — same narrator (DNSMOS 3.19); added on re-curation"
+
+  - id: en_estories
+    url: "https://www.youtube.com/watch?v=o17CJMSPk_o"
+    language: en
+    content_type: story
+    speaker_id: en_estories
+    license: "Standard YouTube (research use)"
+    expected_speakers: 1
+    max_minutes: 10
+    start_offset_s: 15
+    end_trim_s: 10
+    enabled: false   # queued on re-curation but Sarvam credits ran out before processing; English supply already 50+ min
+    notes: "English Medium Stories — distinct Indian-English narrator (added on re-curation for voice diversity)"
 
   # ================= Telugu =================
   - id: te_audiobook_bhumiputri
@@ -146,7 +186,7 @@ sources:
     max_minutes: 10
     start_offset_s: 60
     end_trim_s: 30
-    enabled: true
+    enabled: false   # DNSMOS OVRL 2.27 (0/42 > 3.0) — large-hall reverb/ambience; dropped on re-curation
     notes: "Chaganti Koteswara Rao pravachanam — calm/formal/varied discourse"
 
   - id: te_kathalu_epic

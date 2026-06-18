@@ -58,20 +58,9 @@ def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     md_text = (REPORTS_DIR / "report.md").read_text(encoding="utf-8")
     body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
-    body, inlined = _inline_body_images(body)
-
-    figs = [f for f in sorted(FIGURES_DIR.glob("*.png")) if f.name not in inlined]
-    fig_html = ""
-    if figs:
-        fig_html = "<h2>Appendix: Additional figures</h2>"
-        for f in figs:
-            b64 = base64.b64encode(f.read_bytes()).decode("ascii")
-            fig_html += (
-                f'<div class="fig"><img src="data:image/png;base64,{b64}"/>'
-                f'<div class="figcap">{f.stem}</div></div>'
-            )
-
-    html = f"<html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body}{fig_html}</body></html>"
+    body, _ = _inline_body_images(body)
+    # only the figures referenced inline in the report appear; no figure dump.
+    html = f"<html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body}</body></html>"
     out = REPORTS_DIR / "report.pdf"
     with open(out, "wb") as fh:
         result = pisa.CreatePDF(html, dest=fh, encoding="utf-8")

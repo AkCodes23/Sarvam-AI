@@ -1,43 +1,43 @@
 {
   "indian_english": {
-    "clips": 142,
-    "total_words": 4651,
-    "unique_words": 1553,
-    "type_token_ratio": 0.3339,
-    "wpm_mean": 155.2,
-    "wpm_median": 149.1,
-    "duration_mean_s": 12.7,
+    "clips": 169,
+    "total_words": 4546,
+    "unique_words": 1462,
+    "type_token_ratio": 0.3216,
+    "wpm_mean": 149.5,
+    "wpm_median": 147.4,
+    "duration_mean_s": 10.65,
     "emotion_conf_median": 0.85,
-    "snr_db_median": 28.9
+    "snr_db_median": 34.8
   },
   "telugu": {
-    "clips": 140,
-    "total_words": 3508,
-    "unique_words": 2072,
-    "type_token_ratio": 0.5906,
-    "wpm_mean": 116.4,
-    "wpm_median": 117.1,
-    "duration_mean_s": 12.96,
+    "clips": 156,
+    "total_words": 3731,
+    "unique_words": 2092,
+    "type_token_ratio": 0.5607,
+    "wpm_mean": 124.9,
+    "wpm_median": 124.3,
+    "duration_mean_s": 11.56,
     "emotion_conf_median": 0.85,
-    "snr_db_median": 28.0
+    "snr_db_median": 34.0
   },
   "pauses": {
-    "mean_leading_s": 0.0,
-    "mean_trailing_s": 0.001,
-    "mean_internal_silence_frac": 0.059
+    "mean_leading_s": 0.001,
+    "mean_trailing_s": 0.002,
+    "mean_internal_silence_frac": 0.109
   },
   "snr_ablation": {
     "en": {
-      "candidates": 189,
-      "kept": 177,
-      "snr_all_median": 30.5,
-      "snr_kept_median": 31.6
+      "candidates": 280,
+      "kept": 273,
+      "snr_all_median": 31.7,
+      "snr_kept_median": 32.2
     },
     "te": {
-      "candidates": 268,
-      "kept": 268,
-      "snr_all_median": 32.0,
-      "snr_kept_median": 32.0
+      "candidates": 226,
+      "kept": 226,
+      "snr_all_median": 33.8,
+      "snr_kept_median": 33.8
     }
   }
 }

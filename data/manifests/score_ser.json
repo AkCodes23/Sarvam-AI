@@ -1,0 +1,2996 @@
+{
+  "en_air_talk_0000": {
+    "valence": 0.6066,
+    "arousal": 0.4669,
+    "dominance": 0.5645,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0001": {
+    "valence": 0.5306,
+    "arousal": 0.4256,
+    "dominance": 0.5373,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0002": {
+    "valence": 0.543,
+    "arousal": 0.4945,
+    "dominance": 0.5625,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0003": {
+    "valence": 0.7492,
+    "arousal": 0.5818,
+    "dominance": 0.6573,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0004": {
+    "valence": 0.7573,
+    "arousal": 0.5707,
+    "dominance": 0.6407,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0005": {
+    "valence": 0.5591,
+    "arousal": 0.4462,
+    "dominance": 0.5388,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0006": {
+    "valence": 0.272,
+    "arousal": 0.5592,
+    "dominance": 0.6374,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0007": {
+    "valence": 0.6135,
+    "arousal": 0.5491,
+    "dominance": 0.607,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0008": {
+    "valence": 0.512,
+    "arousal": 0.5572,
+    "dominance": 0.6162,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0009": {
+    "valence": 0.4885,
+    "arousal": 0.4769,
+    "dominance": 0.5645,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0010": {
+    "valence": 0.5651,
+    "arousal": 0.5098,
+    "dominance": 0.5799,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0011": {
+    "valence": 0.4282,
+    "arousal": 0.6193,
+    "dominance": 0.6521,
+    "ser_emotion": "angry"
+  },
+  "en_air_talk_0012": {
+    "valence": 0.634,
+    "arousal": 0.4544,
+    "dominance": 0.5171,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0013": {
+    "valence": 0.3942,
+    "arousal": 0.476,
+    "dominance": 0.5094,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0014": {
+    "valence": 0.5287,
+    "arousal": 0.4484,
+    "dominance": 0.5005,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0015": {
+    "valence": 0.5372,
+    "arousal": 0.4208,
+    "dominance": 0.4917,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0016": {
+    "valence": 0.3992,
+    "arousal": 0.414,
+    "dominance": 0.4701,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0017": {
+    "valence": 0.3226,
+    "arousal": 0.5085,
+    "dominance": 0.5507,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0018": {
+    "valence": 0.4603,
+    "arousal": 0.6138,
+    "dominance": 0.6424,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0019": {
+    "valence": 0.3732,
+    "arousal": 0.3757,
+    "dominance": 0.4442,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0020": {
+    "valence": 0.4193,
+    "arousal": 0.5021,
+    "dominance": 0.5298,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0021": {
+    "valence": 0.4925,
+    "arousal": 0.4974,
+    "dominance": 0.5281,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0022": {
+    "valence": 0.4509,
+    "arousal": 0.5713,
+    "dominance": 0.5983,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0023": {
+    "valence": 0.4827,
+    "arousal": 0.5715,
+    "dominance": 0.5852,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0024": {
+    "valence": 0.5343,
+    "arousal": 0.536,
+    "dominance": 0.5946,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0025": {
+    "valence": 0.6422,
+    "arousal": 0.5707,
+    "dominance": 0.6056,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0026": {
+    "valence": 0.556,
+    "arousal": 0.5662,
+    "dominance": 0.6073,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0027": {
+    "valence": 0.5522,
+    "arousal": 0.4893,
+    "dominance": 0.5355,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0028": {
+    "valence": 0.4044,
+    "arousal": 0.5085,
+    "dominance": 0.5353,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0029": {
+    "valence": 0.32,
+    "arousal": 0.5364,
+    "dominance": 0.573,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0030": {
+    "valence": 0.4269,
+    "arousal": 0.509,
+    "dominance": 0.562,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0031": {
+    "valence": 0.7423,
+    "arousal": 0.5532,
+    "dominance": 0.5946,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0032": {
+    "valence": 0.2819,
+    "arousal": 0.4747,
+    "dominance": 0.5726,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0033": {
+    "valence": 0.6226,
+    "arousal": 0.5346,
+    "dominance": 0.5792,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0034": {
+    "valence": 0.5007,
+    "arousal": 0.5636,
+    "dominance": 0.6109,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0035": {
+    "valence": 0.6519,
+    "arousal": 0.5575,
+    "dominance": 0.6055,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0036": {
+    "valence": 0.4251,
+    "arousal": 0.411,
+    "dominance": 0.4669,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0037": {
+    "valence": 0.4953,
+    "arousal": 0.4994,
+    "dominance": 0.5074,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0038": {
+    "valence": 0.5573,
+    "arousal": 0.5141,
+    "dominance": 0.5421,
+    "ser_emotion": "happy"
+  },
+  "en_air_talk_0039": {
+    "valence": 0.5111,
+    "arousal": 0.5579,
+    "dominance": 0.5798,
+    "ser_emotion": "neutral"
+  },
+  "en_air_talk_0040": {
+    "valence": 0.4328,
+    "arousal": 0.5429,
+    "dominance": 0.5794,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0041": {
+    "valence": 0.4193,
+    "arousal": 0.5363,
+    "dominance": 0.5622,
+    "ser_emotion": "sad"
+  },
+  "en_air_talk_0042": {
+    "valence": 0.2841,
+    "arousal": 0.6209,
+    "dominance": 0.6306,
+    "ser_emotion": "angry"
+  },
+  "en_air_talk_0043": {
+    "valence": 0.496,
+    "arousal": 0.5907,
+    "dominance": 0.601,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0000": {
+    "valence": 0.5916,
+    "arousal": 0.4797,
+    "dominance": 0.5655,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0001": {
+    "valence": 0.4705,
+    "arousal": 0.4788,
+    "dominance": 0.5437,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0002": {
+    "valence": 0.5143,
+    "arousal": 0.5519,
+    "dominance": 0.5911,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0003": {
+    "valence": 0.5086,
+    "arousal": 0.5197,
+    "dominance": 0.5292,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0004": {
+    "valence": 0.7153,
+    "arousal": 0.571,
+    "dominance": 0.6385,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0005": {
+    "valence": 0.5947,
+    "arousal": 0.5044,
+    "dominance": 0.533,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0006": {
+    "valence": 0.4506,
+    "arousal": 0.4454,
+    "dominance": 0.5132,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0007": {
+    "valence": 0.4409,
+    "arousal": 0.4396,
+    "dominance": 0.4835,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0008": {
+    "valence": 0.3841,
+    "arousal": 0.5306,
+    "dominance": 0.5951,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0009": {
+    "valence": 0.4229,
+    "arousal": 0.5044,
+    "dominance": 0.5395,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0010": {
+    "valence": 0.3779,
+    "arousal": 0.4948,
+    "dominance": 0.5726,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0011": {
+    "valence": 0.5169,
+    "arousal": 0.6252,
+    "dominance": 0.6381,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0012": {
+    "valence": 0.4839,
+    "arousal": 0.4467,
+    "dominance": 0.5391,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0013": {
+    "valence": 0.5478,
+    "arousal": 0.5139,
+    "dominance": 0.5525,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0014": {
+    "valence": 0.5147,
+    "arousal": 0.6543,
+    "dominance": 0.6517,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0015": {
+    "valence": 0.7019,
+    "arousal": 0.4736,
+    "dominance": 0.5397,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0016": {
+    "valence": 0.4568,
+    "arousal": 0.463,
+    "dominance": 0.5132,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0017": {
+    "valence": 0.7251,
+    "arousal": 0.4108,
+    "dominance": 0.4596,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0018": {
+    "valence": 0.6711,
+    "arousal": 0.423,
+    "dominance": 0.5026,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_0019": {
+    "valence": 0.4081,
+    "arousal": 0.4828,
+    "dominance": 0.5314,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0020": {
+    "valence": 0.4044,
+    "arousal": 0.5718,
+    "dominance": 0.6103,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0021": {
+    "valence": 0.5385,
+    "arousal": 0.4872,
+    "dominance": 0.5173,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0022": {
+    "valence": 0.3,
+    "arousal": 0.4097,
+    "dominance": 0.4912,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0023": {
+    "valence": 0.4834,
+    "arousal": 0.4049,
+    "dominance": 0.4842,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0024": {
+    "valence": 0.3371,
+    "arousal": 0.5498,
+    "dominance": 0.5982,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0025": {
+    "valence": 0.3871,
+    "arousal": 0.4036,
+    "dominance": 0.5085,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0026": {
+    "valence": 0.3552,
+    "arousal": 0.4963,
+    "dominance": 0.5524,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0027": {
+    "valence": 0.2418,
+    "arousal": 0.6888,
+    "dominance": 0.6928,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_0028": {
+    "valence": 0.5977,
+    "arousal": 0.384,
+    "dominance": 0.4513,
+    "ser_emotion": "calm"
+  },
+  "en_mahabharata_0029": {
+    "valence": 0.4467,
+    "arousal": 0.6023,
+    "dominance": 0.6033,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_0030": {
+    "valence": 0.4154,
+    "arousal": 0.5392,
+    "dominance": 0.5784,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0031": {
+    "valence": 0.3941,
+    "arousal": 0.4019,
+    "dominance": 0.454,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0032": {
+    "valence": 0.3163,
+    "arousal": 0.6332,
+    "dominance": 0.6282,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_0033": {
+    "valence": 0.3313,
+    "arousal": 0.3694,
+    "dominance": 0.4517,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0034": {
+    "valence": 0.4419,
+    "arousal": 0.4351,
+    "dominance": 0.4969,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0035": {
+    "valence": 0.2874,
+    "arousal": 0.4125,
+    "dominance": 0.4816,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0036": {
+    "valence": 0.2675,
+    "arousal": 0.5657,
+    "dominance": 0.6027,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0037": {
+    "valence": 0.346,
+    "arousal": 0.3281,
+    "dominance": 0.4407,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0038": {
+    "valence": 0.3131,
+    "arousal": 0.7722,
+    "dominance": 0.7628,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_0039": {
+    "valence": 0.3588,
+    "arousal": 0.3693,
+    "dominance": 0.4646,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0040": {
+    "valence": 0.0989,
+    "arousal": 0.8687,
+    "dominance": 0.8564,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_0041": {
+    "valence": 0.3177,
+    "arousal": 0.4101,
+    "dominance": 0.5005,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0042": {
+    "valence": 0.4708,
+    "arousal": 0.5262,
+    "dominance": 0.5678,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0043": {
+    "valence": 0.3386,
+    "arousal": 0.4802,
+    "dominance": 0.5474,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0044": {
+    "valence": 0.2173,
+    "arousal": 0.6236,
+    "dominance": 0.6627,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_0045": {
+    "valence": 0.5012,
+    "arousal": 0.541,
+    "dominance": 0.5985,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_0046": {
+    "valence": 0.3463,
+    "arousal": 0.4678,
+    "dominance": 0.5407,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0047": {
+    "valence": 0.2744,
+    "arousal": 0.4306,
+    "dominance": 0.5159,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_0048": {
+    "valence": 0.5051,
+    "arousal": 0.3954,
+    "dominance": 0.4766,
+    "ser_emotion": "calm"
+  },
+  "en_mahabharata_0049": {
+    "valence": 0.3222,
+    "arousal": 0.5545,
+    "dominance": 0.5808,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0000": {
+    "valence": 0.7204,
+    "arousal": 0.6207,
+    "dominance": 0.6852,
+    "ser_emotion": "excited"
+  },
+  "en_mahabharata_e67_0001": {
+    "valence": 0.2566,
+    "arousal": 0.5781,
+    "dominance": 0.6347,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0002": {
+    "valence": 0.2976,
+    "arousal": 0.4964,
+    "dominance": 0.5706,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0003": {
+    "valence": 0.2139,
+    "arousal": 0.8335,
+    "dominance": 0.8341,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0004": {
+    "valence": 0.1616,
+    "arousal": 0.7328,
+    "dominance": 0.7458,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0005": {
+    "valence": 0.4464,
+    "arousal": 0.7337,
+    "dominance": 0.7569,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0006": {
+    "valence": 0.3451,
+    "arousal": 0.5888,
+    "dominance": 0.6594,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0007": {
+    "valence": 0.3314,
+    "arousal": 0.6604,
+    "dominance": 0.6857,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0008": {
+    "valence": 0.2828,
+    "arousal": 0.4707,
+    "dominance": 0.5204,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0009": {
+    "valence": 0.2187,
+    "arousal": 0.5079,
+    "dominance": 0.5606,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0010": {
+    "valence": 0.3351,
+    "arousal": 0.4255,
+    "dominance": 0.5259,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0011": {
+    "valence": 0.6213,
+    "arousal": 0.6594,
+    "dominance": 0.6559,
+    "ser_emotion": "excited"
+  },
+  "en_mahabharata_e67_0012": {
+    "valence": 0.328,
+    "arousal": 0.6777,
+    "dominance": 0.7128,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0013": {
+    "valence": 0.1531,
+    "arousal": 0.856,
+    "dominance": 0.8423,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0014": {
+    "valence": 0.1688,
+    "arousal": 0.8183,
+    "dominance": 0.8209,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0015": {
+    "valence": 0.1163,
+    "arousal": 0.8878,
+    "dominance": 0.8404,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0016": {
+    "valence": 0.2867,
+    "arousal": 0.8037,
+    "dominance": 0.7376,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0017": {
+    "valence": 0.3583,
+    "arousal": 0.4773,
+    "dominance": 0.5203,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0018": {
+    "valence": 0.2763,
+    "arousal": 0.5153,
+    "dominance": 0.6108,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0019": {
+    "valence": 0.4558,
+    "arousal": 0.3759,
+    "dominance": 0.4164,
+    "ser_emotion": "calm"
+  },
+  "en_mahabharata_e67_0020": {
+    "valence": 0.419,
+    "arousal": 0.6716,
+    "dominance": 0.6468,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0023": {
+    "valence": 0.455,
+    "arousal": 0.6906,
+    "dominance": 0.6426,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e67_0024": {
+    "valence": 0.2761,
+    "arousal": 0.6163,
+    "dominance": 0.6266,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0025": {
+    "valence": 0.4158,
+    "arousal": 0.6211,
+    "dominance": 0.6204,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0026": {
+    "valence": 0.305,
+    "arousal": 0.8045,
+    "dominance": 0.7639,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0027": {
+    "valence": 0.1354,
+    "arousal": 0.7502,
+    "dominance": 0.7383,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0028": {
+    "valence": 0.4341,
+    "arousal": 0.3863,
+    "dominance": 0.4281,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0029": {
+    "valence": 0.3323,
+    "arousal": 0.7096,
+    "dominance": 0.6648,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0030": {
+    "valence": 0.3393,
+    "arousal": 0.3669,
+    "dominance": 0.4034,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0031": {
+    "valence": 0.2323,
+    "arousal": 0.545,
+    "dominance": 0.6093,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0032": {
+    "valence": 0.2816,
+    "arousal": 0.5963,
+    "dominance": 0.6597,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0033": {
+    "valence": 0.3449,
+    "arousal": 0.629,
+    "dominance": 0.6513,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0034": {
+    "valence": 0.2622,
+    "arousal": 0.8013,
+    "dominance": 0.7876,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0035": {
+    "valence": 0.3353,
+    "arousal": 0.5231,
+    "dominance": 0.5857,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e67_0036": {
+    "valence": 0.4163,
+    "arousal": 0.7162,
+    "dominance": 0.7313,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0037": {
+    "valence": 0.493,
+    "arousal": 0.4446,
+    "dominance": 0.4975,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_e67_0038": {
+    "valence": 0.2615,
+    "arousal": 0.6678,
+    "dominance": 0.6811,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0039": {
+    "valence": 0.293,
+    "arousal": 0.7125,
+    "dominance": 0.7247,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e67_0040": {
+    "valence": 0.7043,
+    "arousal": 0.6177,
+    "dominance": 0.6825,
+    "ser_emotion": "excited"
+  },
+  "en_mahabharata_e67_0041": {
+    "valence": 0.6181,
+    "arousal": 0.7278,
+    "dominance": 0.753,
+    "ser_emotion": "excited"
+  },
+  "en_mahabharata_e69_0000": {
+    "valence": 0.647,
+    "arousal": 0.5787,
+    "dominance": 0.6486,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e69_0001": {
+    "valence": 0.3333,
+    "arousal": 0.5069,
+    "dominance": 0.5848,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0002": {
+    "valence": 0.5104,
+    "arousal": 0.3879,
+    "dominance": 0.4692,
+    "ser_emotion": "calm"
+  },
+  "en_mahabharata_e69_0003": {
+    "valence": 0.4944,
+    "arousal": 0.441,
+    "dominance": 0.5305,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_e69_0004": {
+    "valence": 0.3568,
+    "arousal": 0.5324,
+    "dominance": 0.6137,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0005": {
+    "valence": 0.5847,
+    "arousal": 0.609,
+    "dominance": 0.6454,
+    "ser_emotion": "excited"
+  },
+  "en_mahabharata_e69_0006": {
+    "valence": 0.4932,
+    "arousal": 0.6891,
+    "dominance": 0.7654,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e69_0007": {
+    "valence": 0.3675,
+    "arousal": 0.512,
+    "dominance": 0.6046,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0008": {
+    "valence": 0.2395,
+    "arousal": 0.5324,
+    "dominance": 0.6319,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0009": {
+    "valence": 0.4274,
+    "arousal": 0.4129,
+    "dominance": 0.4933,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0010": {
+    "valence": 0.4231,
+    "arousal": 0.5198,
+    "dominance": 0.5891,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0011": {
+    "valence": 0.4996,
+    "arousal": 0.6526,
+    "dominance": 0.6957,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e69_0012": {
+    "valence": 0.4129,
+    "arousal": 0.654,
+    "dominance": 0.7008,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e69_0013": {
+    "valence": 0.7206,
+    "arousal": 0.681,
+    "dominance": 0.7356,
+    "ser_emotion": "excited"
+  },
+  "en_mahabharata_e69_0014": {
+    "valence": 0.4869,
+    "arousal": 0.6895,
+    "dominance": 0.7384,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e69_0015": {
+    "valence": 0.4185,
+    "arousal": 0.3943,
+    "dominance": 0.4746,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0016": {
+    "valence": 0.3288,
+    "arousal": 0.7047,
+    "dominance": 0.7413,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e69_0017": {
+    "valence": 0.4328,
+    "arousal": 0.4509,
+    "dominance": 0.5462,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0018": {
+    "valence": 0.3644,
+    "arousal": 0.3497,
+    "dominance": 0.4385,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0019": {
+    "valence": 0.4937,
+    "arousal": 0.6685,
+    "dominance": 0.7218,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e69_0020": {
+    "valence": 0.4764,
+    "arousal": 0.4733,
+    "dominance": 0.5533,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_e69_0021": {
+    "valence": 0.3477,
+    "arousal": 0.5601,
+    "dominance": 0.6169,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0023": {
+    "valence": 0.28,
+    "arousal": 0.4166,
+    "dominance": 0.4902,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0024": {
+    "valence": 0.4992,
+    "arousal": 0.5294,
+    "dominance": 0.5757,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_e69_0025": {
+    "valence": 0.2536,
+    "arousal": 0.5435,
+    "dominance": 0.5929,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0028": {
+    "valence": 0.5718,
+    "arousal": 0.6619,
+    "dominance": 0.6815,
+    "ser_emotion": "excited"
+  },
+  "en_mahabharata_e69_0030": {
+    "valence": 0.4068,
+    "arousal": 0.502,
+    "dominance": 0.544,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0031": {
+    "valence": 0.1033,
+    "arousal": 0.5709,
+    "dominance": 0.638,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0032": {
+    "valence": 0.3046,
+    "arousal": 0.5047,
+    "dominance": 0.5908,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0033": {
+    "valence": 0.5422,
+    "arousal": 0.5819,
+    "dominance": 0.6588,
+    "ser_emotion": "neutral"
+  },
+  "en_mahabharata_e69_0034": {
+    "valence": 0.5434,
+    "arousal": 0.6717,
+    "dominance": 0.6787,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e69_0035": {
+    "valence": 0.4678,
+    "arousal": 0.6225,
+    "dominance": 0.6106,
+    "ser_emotion": "happy"
+  },
+  "en_mahabharata_e69_0037": {
+    "valence": 0.2526,
+    "arousal": 0.5033,
+    "dominance": 0.5514,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0038": {
+    "valence": 0.4166,
+    "arousal": 0.6215,
+    "dominance": 0.6478,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e69_0039": {
+    "valence": 0.408,
+    "arousal": 0.7525,
+    "dominance": 0.7606,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e69_0040": {
+    "valence": 0.4285,
+    "arousal": 0.719,
+    "dominance": 0.7306,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e69_0041": {
+    "valence": 0.1871,
+    "arousal": 0.5559,
+    "dominance": 0.6025,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0042": {
+    "valence": 0.2437,
+    "arousal": 0.6803,
+    "dominance": 0.7275,
+    "ser_emotion": "angry"
+  },
+  "en_mahabharata_e69_0043": {
+    "valence": 0.2834,
+    "arousal": 0.5772,
+    "dominance": 0.6611,
+    "ser_emotion": "sad"
+  },
+  "en_mahabharata_e69_0044": {
+    "valence": 0.4271,
+    "arousal": 0.575,
+    "dominance": 0.5995,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0000": {
+    "valence": 0.6159,
+    "arousal": 0.4758,
+    "dominance": 0.5251,
+    "ser_emotion": "happy"
+  },
+  "en_nptel_0001": {
+    "valence": 0.4232,
+    "arousal": 0.4108,
+    "dominance": 0.4852,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0002": {
+    "valence": 0.3504,
+    "arousal": 0.3868,
+    "dominance": 0.4201,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0003": {
+    "valence": 0.3962,
+    "arousal": 0.4199,
+    "dominance": 0.4585,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0004": {
+    "valence": 0.4934,
+    "arousal": 0.4707,
+    "dominance": 0.5262,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0005": {
+    "valence": 0.4243,
+    "arousal": 0.4449,
+    "dominance": 0.5077,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0006": {
+    "valence": 0.5093,
+    "arousal": 0.451,
+    "dominance": 0.53,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0007": {
+    "valence": 0.311,
+    "arousal": 0.3856,
+    "dominance": 0.4687,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0008": {
+    "valence": 0.5724,
+    "arousal": 0.4528,
+    "dominance": 0.5199,
+    "ser_emotion": "happy"
+  },
+  "en_nptel_0009": {
+    "valence": 0.4581,
+    "arousal": 0.4864,
+    "dominance": 0.5151,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0010": {
+    "valence": 0.4526,
+    "arousal": 0.4246,
+    "dominance": 0.4785,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0011": {
+    "valence": 0.4905,
+    "arousal": 0.5039,
+    "dominance": 0.5723,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0012": {
+    "valence": 0.5626,
+    "arousal": 0.4887,
+    "dominance": 0.5428,
+    "ser_emotion": "happy"
+  },
+  "en_nptel_0013": {
+    "valence": 0.2521,
+    "arousal": 0.3951,
+    "dominance": 0.465,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0014": {
+    "valence": 0.5222,
+    "arousal": 0.4579,
+    "dominance": 0.5402,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0015": {
+    "valence": 0.5306,
+    "arousal": 0.4952,
+    "dominance": 0.5517,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0016": {
+    "valence": 0.3943,
+    "arousal": 0.4518,
+    "dominance": 0.5555,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0017": {
+    "valence": 0.5245,
+    "arousal": 0.4956,
+    "dominance": 0.5469,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0018": {
+    "valence": 0.2987,
+    "arousal": 0.4364,
+    "dominance": 0.4882,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0019": {
+    "valence": 0.4914,
+    "arousal": 0.49,
+    "dominance": 0.5291,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0020": {
+    "valence": 0.4548,
+    "arousal": 0.509,
+    "dominance": 0.5837,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0021": {
+    "valence": 0.3885,
+    "arousal": 0.3981,
+    "dominance": 0.4585,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0022": {
+    "valence": 0.5204,
+    "arousal": 0.4434,
+    "dominance": 0.5147,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0023": {
+    "valence": 0.5497,
+    "arousal": 0.4864,
+    "dominance": 0.5553,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0024": {
+    "valence": 0.6284,
+    "arousal": 0.4508,
+    "dominance": 0.516,
+    "ser_emotion": "happy"
+  },
+  "en_nptel_0025": {
+    "valence": 0.5522,
+    "arousal": 0.4975,
+    "dominance": 0.5625,
+    "ser_emotion": "happy"
+  },
+  "en_nptel_0026": {
+    "valence": 0.5094,
+    "arousal": 0.4645,
+    "dominance": 0.5328,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0027": {
+    "valence": 0.5562,
+    "arousal": 0.4651,
+    "dominance": 0.5005,
+    "ser_emotion": "happy"
+  },
+  "en_nptel_0028": {
+    "valence": 0.5291,
+    "arousal": 0.5006,
+    "dominance": 0.5605,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0029": {
+    "valence": 0.454,
+    "arousal": 0.4476,
+    "dominance": 0.5328,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0030": {
+    "valence": 0.5472,
+    "arousal": 0.5021,
+    "dominance": 0.5574,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0031": {
+    "valence": 0.4182,
+    "arousal": 0.4973,
+    "dominance": 0.5847,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0032": {
+    "valence": 0.3117,
+    "arousal": 0.3582,
+    "dominance": 0.4569,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0033": {
+    "valence": 0.5628,
+    "arousal": 0.5086,
+    "dominance": 0.5671,
+    "ser_emotion": "happy"
+  },
+  "en_nptel_0034": {
+    "valence": 0.4344,
+    "arousal": 0.5033,
+    "dominance": 0.5761,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0035": {
+    "valence": 0.4278,
+    "arousal": 0.4589,
+    "dominance": 0.534,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0036": {
+    "valence": 0.3366,
+    "arousal": 0.4045,
+    "dominance": 0.4445,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0037": {
+    "valence": 0.386,
+    "arousal": 0.5033,
+    "dominance": 0.5508,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0038": {
+    "valence": 0.4455,
+    "arousal": 0.4997,
+    "dominance": 0.5302,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0039": {
+    "valence": 0.4387,
+    "arousal": 0.4509,
+    "dominance": 0.5179,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0040": {
+    "valence": 0.4565,
+    "arousal": 0.4936,
+    "dominance": 0.5473,
+    "ser_emotion": "neutral"
+  },
+  "en_nptel_0041": {
+    "valence": 0.4277,
+    "arousal": 0.4462,
+    "dominance": 0.5085,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0042": {
+    "valence": 0.3673,
+    "arousal": 0.457,
+    "dominance": 0.5074,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0043": {
+    "valence": 0.328,
+    "arousal": 0.4524,
+    "dominance": 0.5335,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0044": {
+    "valence": 0.3653,
+    "arousal": 0.442,
+    "dominance": 0.5252,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0045": {
+    "valence": 0.3825,
+    "arousal": 0.4495,
+    "dominance": 0.523,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0046": {
+    "valence": 0.3466,
+    "arousal": 0.5105,
+    "dominance": 0.5923,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0047": {
+    "valence": 0.4062,
+    "arousal": 0.4979,
+    "dominance": 0.5465,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0048": {
+    "valence": 0.4417,
+    "arousal": 0.464,
+    "dominance": 0.5118,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0049": {
+    "valence": 0.4224,
+    "arousal": 0.453,
+    "dominance": 0.5044,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0050": {
+    "valence": 0.4102,
+    "arousal": 0.4813,
+    "dominance": 0.5279,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0051": {
+    "valence": 0.3622,
+    "arousal": 0.4044,
+    "dominance": 0.4912,
+    "ser_emotion": "sad"
+  },
+  "en_nptel_0052": {
+    "valence": 0.4691,
+    "arousal": 0.5046,
+    "dominance": 0.5694,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0000": {
+    "valence": 0.3251,
+    "arousal": 0.4718,
+    "dominance": 0.5349,
+    "ser_emotion": "sad"
+  },
+  "en_tedx_amina_0001": {
+    "valence": 0.5332,
+    "arousal": 0.5793,
+    "dominance": 0.6206,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0002": {
+    "valence": 0.5112,
+    "arousal": 0.5489,
+    "dominance": 0.577,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0003": {
+    "valence": 0.5663,
+    "arousal": 0.5997,
+    "dominance": 0.622,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0004": {
+    "valence": 0.5504,
+    "arousal": 0.574,
+    "dominance": 0.6052,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0005": {
+    "valence": 0.5433,
+    "arousal": 0.5607,
+    "dominance": 0.5936,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0006": {
+    "valence": 0.6466,
+    "arousal": 0.6138,
+    "dominance": 0.6448,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0007": {
+    "valence": 0.2629,
+    "arousal": 0.5993,
+    "dominance": 0.6118,
+    "ser_emotion": "sad"
+  },
+  "en_tedx_amina_0008": {
+    "valence": 0.5032,
+    "arousal": 0.6364,
+    "dominance": 0.6517,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0009": {
+    "valence": 0.6054,
+    "arousal": 0.5713,
+    "dominance": 0.6265,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0010": {
+    "valence": 0.4324,
+    "arousal": 0.6791,
+    "dominance": 0.6405,
+    "ser_emotion": "angry"
+  },
+  "en_tedx_amina_0011": {
+    "valence": 0.5018,
+    "arousal": 0.5848,
+    "dominance": 0.6112,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0012": {
+    "valence": 0.5269,
+    "arousal": 0.5405,
+    "dominance": 0.5958,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0013": {
+    "valence": 0.6328,
+    "arousal": 0.6158,
+    "dominance": 0.6257,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0014": {
+    "valence": 0.3465,
+    "arousal": 0.6164,
+    "dominance": 0.6362,
+    "ser_emotion": "angry"
+  },
+  "en_tedx_amina_0015": {
+    "valence": 0.502,
+    "arousal": 0.5496,
+    "dominance": 0.5647,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0016": {
+    "valence": 0.731,
+    "arousal": 0.6146,
+    "dominance": 0.6415,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0017": {
+    "valence": 0.4872,
+    "arousal": 0.527,
+    "dominance": 0.5689,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0018": {
+    "valence": 0.4033,
+    "arousal": 0.5618,
+    "dominance": 0.6032,
+    "ser_emotion": "sad"
+  },
+  "en_tedx_amina_0019": {
+    "valence": 0.4976,
+    "arousal": 0.6073,
+    "dominance": 0.6135,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0020": {
+    "valence": 0.3963,
+    "arousal": 0.6207,
+    "dominance": 0.6556,
+    "ser_emotion": "angry"
+  },
+  "en_tedx_amina_0021": {
+    "valence": 0.5077,
+    "arousal": 0.5605,
+    "dominance": 0.594,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0022": {
+    "valence": 0.5014,
+    "arousal": 0.5861,
+    "dominance": 0.5775,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0023": {
+    "valence": 0.6129,
+    "arousal": 0.6251,
+    "dominance": 0.6175,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0024": {
+    "valence": 0.6016,
+    "arousal": 0.5726,
+    "dominance": 0.5921,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0025": {
+    "valence": 0.23,
+    "arousal": 0.6151,
+    "dominance": 0.615,
+    "ser_emotion": "angry"
+  },
+  "en_tedx_amina_0026": {
+    "valence": 0.531,
+    "arousal": 0.5414,
+    "dominance": 0.614,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0027": {
+    "valence": 0.7905,
+    "arousal": 0.6679,
+    "dominance": 0.7186,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0028": {
+    "valence": 0.6295,
+    "arousal": 0.6177,
+    "dominance": 0.6659,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0029": {
+    "valence": 0.4007,
+    "arousal": 0.5521,
+    "dominance": 0.6067,
+    "ser_emotion": "sad"
+  },
+  "en_tedx_amina_0030": {
+    "valence": 0.4298,
+    "arousal": 0.5543,
+    "dominance": 0.5904,
+    "ser_emotion": "sad"
+  },
+  "en_tedx_amina_0031": {
+    "valence": 0.4024,
+    "arousal": 0.5516,
+    "dominance": 0.6099,
+    "ser_emotion": "sad"
+  },
+  "en_tedx_amina_0032": {
+    "valence": 0.4891,
+    "arousal": 0.5538,
+    "dominance": 0.6073,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0033": {
+    "valence": 0.5087,
+    "arousal": 0.5731,
+    "dominance": 0.6302,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0034": {
+    "valence": 0.4028,
+    "arousal": 0.5721,
+    "dominance": 0.6077,
+    "ser_emotion": "sad"
+  },
+  "en_tedx_amina_0035": {
+    "valence": 0.5276,
+    "arousal": 0.5797,
+    "dominance": 0.6281,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0036": {
+    "valence": 0.5761,
+    "arousal": 0.5954,
+    "dominance": 0.6443,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0037": {
+    "valence": 0.5278,
+    "arousal": 0.5614,
+    "dominance": 0.6121,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0038": {
+    "valence": 0.5743,
+    "arousal": 0.6095,
+    "dominance": 0.6517,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0039": {
+    "valence": 0.6429,
+    "arousal": 0.6129,
+    "dominance": 0.6385,
+    "ser_emotion": "excited"
+  },
+  "en_tedx_amina_0040": {
+    "valence": 0.4719,
+    "arousal": 0.5476,
+    "dominance": 0.5595,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0041": {
+    "valence": 0.5672,
+    "arousal": 0.5607,
+    "dominance": 0.6019,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0042": {
+    "valence": 0.5007,
+    "arousal": 0.5873,
+    "dominance": 0.6065,
+    "ser_emotion": "neutral"
+  },
+  "en_tedx_amina_0043": {
+    "valence": 0.5519,
+    "arousal": 0.5501,
+    "dominance": 0.5819,
+    "ser_emotion": "happy"
+  },
+  "en_tedx_amina_0044": {
+    "valence": 0.3611,
+    "arousal": 0.6046,
+    "dominance": 0.6505,
+    "ser_emotion": "angry"
+  },
+  "en_tedx_amina_0045": {
+    "valence": 0.5838,
+    "arousal": 0.6293,
+    "dominance": 0.6205,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_bhumiputri_0000": {
+    "valence": 0.5712,
+    "arousal": 0.4697,
+    "dominance": 0.5151,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0001": {
+    "valence": 0.5665,
+    "arousal": 0.4725,
+    "dominance": 0.5052,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0002": {
+    "valence": 0.6635,
+    "arousal": 0.5099,
+    "dominance": 0.5601,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0003": {
+    "valence": 0.4772,
+    "arousal": 0.4754,
+    "dominance": 0.4844,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0004": {
+    "valence": 0.5504,
+    "arousal": 0.489,
+    "dominance": 0.5011,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0005": {
+    "valence": 0.5734,
+    "arousal": 0.5231,
+    "dominance": 0.5299,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0006": {
+    "valence": 0.394,
+    "arousal": 0.571,
+    "dominance": 0.5634,
+    "ser_emotion": "sad"
+  },
+  "te_audiobook_bhumiputri_0007": {
+    "valence": 0.5725,
+    "arousal": 0.5062,
+    "dominance": 0.5106,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0008": {
+    "valence": 0.5737,
+    "arousal": 0.5582,
+    "dominance": 0.552,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0009": {
+    "valence": 0.534,
+    "arousal": 0.52,
+    "dominance": 0.5362,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0010": {
+    "valence": 0.5143,
+    "arousal": 0.4837,
+    "dominance": 0.5038,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0011": {
+    "valence": 0.5793,
+    "arousal": 0.5539,
+    "dominance": 0.5504,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0012": {
+    "valence": 0.5244,
+    "arousal": 0.4865,
+    "dominance": 0.5128,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0013": {
+    "valence": 0.4627,
+    "arousal": 0.5274,
+    "dominance": 0.5387,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0014": {
+    "valence": 0.6225,
+    "arousal": 0.5517,
+    "dominance": 0.5529,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0015": {
+    "valence": 0.5924,
+    "arousal": 0.5463,
+    "dominance": 0.5462,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0016": {
+    "valence": 0.5181,
+    "arousal": 0.5236,
+    "dominance": 0.527,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0017": {
+    "valence": 0.5514,
+    "arousal": 0.5181,
+    "dominance": 0.5324,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0018": {
+    "valence": 0.5495,
+    "arousal": 0.5648,
+    "dominance": 0.5679,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0019": {
+    "valence": 0.6658,
+    "arousal": 0.5912,
+    "dominance": 0.5793,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0020": {
+    "valence": 0.4986,
+    "arousal": 0.5166,
+    "dominance": 0.5343,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0021": {
+    "valence": 0.6037,
+    "arousal": 0.5424,
+    "dominance": 0.5395,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0022": {
+    "valence": 0.5415,
+    "arousal": 0.5679,
+    "dominance": 0.5574,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0023": {
+    "valence": 0.5257,
+    "arousal": 0.497,
+    "dominance": 0.5111,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0024": {
+    "valence": 0.6223,
+    "arousal": 0.6003,
+    "dominance": 0.6021,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_bhumiputri_0025": {
+    "valence": 0.6319,
+    "arousal": 0.5652,
+    "dominance": 0.5727,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0026": {
+    "valence": 0.5442,
+    "arousal": 0.532,
+    "dominance": 0.543,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0027": {
+    "valence": 0.5838,
+    "arousal": 0.5812,
+    "dominance": 0.5681,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0028": {
+    "valence": 0.5791,
+    "arousal": 0.5692,
+    "dominance": 0.5514,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0029": {
+    "valence": 0.5199,
+    "arousal": 0.531,
+    "dominance": 0.5439,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0030": {
+    "valence": 0.4916,
+    "arousal": 0.4744,
+    "dominance": 0.4992,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0031": {
+    "valence": 0.4846,
+    "arousal": 0.4904,
+    "dominance": 0.5088,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0032": {
+    "valence": 0.6039,
+    "arousal": 0.5859,
+    "dominance": 0.5827,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0033": {
+    "valence": 0.5909,
+    "arousal": 0.5806,
+    "dominance": 0.5777,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0034": {
+    "valence": 0.6117,
+    "arousal": 0.609,
+    "dominance": 0.6,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_bhumiputri_0035": {
+    "valence": 0.5322,
+    "arousal": 0.5612,
+    "dominance": 0.555,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_bhumiputri_0036": {
+    "valence": 0.5779,
+    "arousal": 0.6053,
+    "dominance": 0.5798,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_bhumiputri_0037": {
+    "valence": 0.5835,
+    "arousal": 0.5772,
+    "dominance": 0.5633,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0038": {
+    "valence": 0.7836,
+    "arousal": 0.6461,
+    "dominance": 0.6329,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_bhumiputri_0039": {
+    "valence": 0.6408,
+    "arousal": 0.5807,
+    "dominance": 0.5684,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0040": {
+    "valence": 0.5728,
+    "arousal": 0.5846,
+    "dominance": 0.5903,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0041": {
+    "valence": 0.6163,
+    "arousal": 0.5234,
+    "dominance": 0.5258,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_bhumiputri_0042": {
+    "valence": 0.4962,
+    "arousal": 0.5696,
+    "dominance": 0.5667,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0000": {
+    "valence": 0.485,
+    "arousal": 0.5335,
+    "dominance": 0.5622,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0001": {
+    "valence": 0.5095,
+    "arousal": 0.5443,
+    "dominance": 0.5612,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0002": {
+    "valence": 0.511,
+    "arousal": 0.528,
+    "dominance": 0.5285,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0003": {
+    "valence": 0.5158,
+    "arousal": 0.5238,
+    "dominance": 0.5511,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0004": {
+    "valence": 0.5702,
+    "arousal": 0.5613,
+    "dominance": 0.5692,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0005": {
+    "valence": 0.5118,
+    "arousal": 0.5504,
+    "dominance": 0.5413,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0006": {
+    "valence": 0.5608,
+    "arousal": 0.6008,
+    "dominance": 0.5878,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_kalalavelugu_0007": {
+    "valence": 0.6156,
+    "arousal": 0.604,
+    "dominance": 0.5896,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_kalalavelugu_0008": {
+    "valence": 0.5128,
+    "arousal": 0.5706,
+    "dominance": 0.5915,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0009": {
+    "valence": 0.5497,
+    "arousal": 0.5779,
+    "dominance": 0.5905,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0010": {
+    "valence": 0.5144,
+    "arousal": 0.5795,
+    "dominance": 0.583,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0011": {
+    "valence": 0.4882,
+    "arousal": 0.5824,
+    "dominance": 0.5802,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0012": {
+    "valence": 0.5671,
+    "arousal": 0.5652,
+    "dominance": 0.5595,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0013": {
+    "valence": 0.6136,
+    "arousal": 0.6223,
+    "dominance": 0.6329,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_kalalavelugu_0014": {
+    "valence": 0.5746,
+    "arousal": 0.4956,
+    "dominance": 0.5297,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0015": {
+    "valence": 0.5209,
+    "arousal": 0.5393,
+    "dominance": 0.5722,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0016": {
+    "valence": 0.5609,
+    "arousal": 0.5477,
+    "dominance": 0.5805,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0017": {
+    "valence": 0.496,
+    "arousal": 0.5451,
+    "dominance": 0.5745,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0018": {
+    "valence": 0.558,
+    "arousal": 0.5778,
+    "dominance": 0.5816,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0019": {
+    "valence": 0.5989,
+    "arousal": 0.5751,
+    "dominance": 0.576,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0020": {
+    "valence": 0.5015,
+    "arousal": 0.5932,
+    "dominance": 0.6123,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0021": {
+    "valence": 0.5674,
+    "arousal": 0.5514,
+    "dominance": 0.5707,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0022": {
+    "valence": 0.4341,
+    "arousal": 0.5809,
+    "dominance": 0.5931,
+    "ser_emotion": "sad"
+  },
+  "te_audiobook_kalalavelugu_0023": {
+    "valence": 0.4558,
+    "arousal": 0.5159,
+    "dominance": 0.5431,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0024": {
+    "valence": 0.4987,
+    "arousal": 0.5601,
+    "dominance": 0.566,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0025": {
+    "valence": 0.5159,
+    "arousal": 0.6117,
+    "dominance": 0.6181,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0026": {
+    "valence": 0.5225,
+    "arousal": 0.5738,
+    "dominance": 0.5737,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0027": {
+    "valence": 0.4872,
+    "arousal": 0.5725,
+    "dominance": 0.5774,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0028": {
+    "valence": 0.5991,
+    "arousal": 0.5826,
+    "dominance": 0.6029,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0029": {
+    "valence": 0.5192,
+    "arousal": 0.5374,
+    "dominance": 0.5571,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0030": {
+    "valence": 0.3548,
+    "arousal": 0.5973,
+    "dominance": 0.6043,
+    "ser_emotion": "sad"
+  },
+  "te_audiobook_kalalavelugu_0031": {
+    "valence": 0.5271,
+    "arousal": 0.5515,
+    "dominance": 0.5805,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0032": {
+    "valence": 0.4713,
+    "arousal": 0.5058,
+    "dominance": 0.5362,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0033": {
+    "valence": 0.5459,
+    "arousal": 0.5601,
+    "dominance": 0.5919,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0034": {
+    "valence": 0.4331,
+    "arousal": 0.5489,
+    "dominance": 0.5693,
+    "ser_emotion": "sad"
+  },
+  "te_audiobook_kalalavelugu_0035": {
+    "valence": 0.4892,
+    "arousal": 0.5443,
+    "dominance": 0.5558,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0036": {
+    "valence": 0.5186,
+    "arousal": 0.5375,
+    "dominance": 0.5581,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0037": {
+    "valence": 0.4976,
+    "arousal": 0.6056,
+    "dominance": 0.5965,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0038": {
+    "valence": 0.4623,
+    "arousal": 0.5741,
+    "dominance": 0.5861,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0039": {
+    "valence": 0.4545,
+    "arousal": 0.5247,
+    "dominance": 0.5495,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0040": {
+    "valence": 0.4802,
+    "arousal": 0.5938,
+    "dominance": 0.5916,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0041": {
+    "valence": 0.5248,
+    "arousal": 0.5554,
+    "dominance": 0.5569,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0042": {
+    "valence": 0.6064,
+    "arousal": 0.6115,
+    "dominance": 0.6283,
+    "ser_emotion": "excited"
+  },
+  "te_audiobook_kalalavelugu_0043": {
+    "valence": 0.5131,
+    "arousal": 0.5597,
+    "dominance": 0.5697,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0044": {
+    "valence": 0.462,
+    "arousal": 0.5163,
+    "dominance": 0.5485,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0045": {
+    "valence": 0.5361,
+    "arousal": 0.6159,
+    "dominance": 0.6157,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0046": {
+    "valence": 0.5305,
+    "arousal": 0.5336,
+    "dominance": 0.5657,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0047": {
+    "valence": 0.5085,
+    "arousal": 0.5676,
+    "dominance": 0.583,
+    "ser_emotion": "neutral"
+  },
+  "te_audiobook_kalalavelugu_0048": {
+    "valence": 0.5583,
+    "arousal": 0.5228,
+    "dominance": 0.5416,
+    "ser_emotion": "happy"
+  },
+  "te_audiobook_kalalavelugu_0049": {
+    "valence": 0.5123,
+    "arousal": 0.6085,
+    "dominance": 0.6129,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0000": {
+    "valence": 0.6949,
+    "arousal": 0.6734,
+    "dominance": 0.6836,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0001": {
+    "valence": 0.6039,
+    "arousal": 0.6133,
+    "dominance": 0.604,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0002": {
+    "valence": 0.5701,
+    "arousal": 0.5989,
+    "dominance": 0.6026,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0003": {
+    "valence": 0.5652,
+    "arousal": 0.6404,
+    "dominance": 0.6486,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0004": {
+    "valence": 0.5526,
+    "arousal": 0.5871,
+    "dominance": 0.5861,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0005": {
+    "valence": 0.5932,
+    "arousal": 0.5909,
+    "dominance": 0.599,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0006": {
+    "valence": 0.5993,
+    "arousal": 0.5938,
+    "dominance": 0.6021,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0007": {
+    "valence": 0.629,
+    "arousal": 0.6951,
+    "dominance": 0.6904,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0008": {
+    "valence": 0.4801,
+    "arousal": 0.4909,
+    "dominance": 0.5401,
+    "ser_emotion": "neutral"
+  },
+  "te_kathalu_epic_0009": {
+    "valence": 0.6045,
+    "arousal": 0.516,
+    "dominance": 0.5405,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0010": {
+    "valence": 0.508,
+    "arousal": 0.4927,
+    "dominance": 0.5316,
+    "ser_emotion": "neutral"
+  },
+  "te_kathalu_epic_0011": {
+    "valence": 0.4676,
+    "arousal": 0.7034,
+    "dominance": 0.7004,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0012": {
+    "valence": 0.347,
+    "arousal": 0.6273,
+    "dominance": 0.6495,
+    "ser_emotion": "angry"
+  },
+  "te_kathalu_epic_0013": {
+    "valence": 0.595,
+    "arousal": 0.5855,
+    "dominance": 0.5909,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0014": {
+    "valence": 0.5202,
+    "arousal": 0.4758,
+    "dominance": 0.5027,
+    "ser_emotion": "neutral"
+  },
+  "te_kathalu_epic_0015": {
+    "valence": 0.602,
+    "arousal": 0.5245,
+    "dominance": 0.5602,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0016": {
+    "valence": 0.6326,
+    "arousal": 0.616,
+    "dominance": 0.5917,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0017": {
+    "valence": 0.5821,
+    "arousal": 0.6487,
+    "dominance": 0.6394,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0018": {
+    "valence": 0.6318,
+    "arousal": 0.6866,
+    "dominance": 0.6539,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0019": {
+    "valence": 0.632,
+    "arousal": 0.6752,
+    "dominance": 0.665,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0020": {
+    "valence": 0.6043,
+    "arousal": 0.6849,
+    "dominance": 0.6699,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0021": {
+    "valence": 0.6292,
+    "arousal": 0.5715,
+    "dominance": 0.5815,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0022": {
+    "valence": 0.7462,
+    "arousal": 0.6773,
+    "dominance": 0.6601,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0023": {
+    "valence": 0.5861,
+    "arousal": 0.6085,
+    "dominance": 0.6124,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0024": {
+    "valence": 0.6084,
+    "arousal": 0.6419,
+    "dominance": 0.6249,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0025": {
+    "valence": 0.5429,
+    "arousal": 0.542,
+    "dominance": 0.5697,
+    "ser_emotion": "neutral"
+  },
+  "te_kathalu_epic_0026": {
+    "valence": 0.5998,
+    "arousal": 0.6275,
+    "dominance": 0.6192,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0027": {
+    "valence": 0.5813,
+    "arousal": 0.6142,
+    "dominance": 0.6226,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0028": {
+    "valence": 0.557,
+    "arousal": 0.6597,
+    "dominance": 0.6438,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0029": {
+    "valence": 0.552,
+    "arousal": 0.6722,
+    "dominance": 0.648,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0030": {
+    "valence": 0.3562,
+    "arousal": 0.7468,
+    "dominance": 0.6873,
+    "ser_emotion": "angry"
+  },
+  "te_kathalu_epic_0031": {
+    "valence": 0.6093,
+    "arousal": 0.566,
+    "dominance": 0.58,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0032": {
+    "valence": 0.5695,
+    "arousal": 0.5241,
+    "dominance": 0.5536,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0033": {
+    "valence": 0.5075,
+    "arousal": 0.5262,
+    "dominance": 0.5498,
+    "ser_emotion": "neutral"
+  },
+  "te_kathalu_epic_0034": {
+    "valence": 0.6004,
+    "arousal": 0.624,
+    "dominance": 0.6102,
+    "ser_emotion": "excited"
+  },
+  "te_kathalu_epic_0035": {
+    "valence": 0.5412,
+    "arousal": 0.6451,
+    "dominance": 0.642,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0036": {
+    "valence": 0.5069,
+    "arousal": 0.6471,
+    "dominance": 0.6413,
+    "ser_emotion": "happy"
+  },
+  "te_kathalu_epic_0037": {
+    "valence": 0.4731,
+    "arousal": 0.4737,
+    "dominance": 0.5059,
+    "ser_emotion": "neutral"
+  },
+  "te_kathalu_epic_0038": {
+    "valence": 0.597,
+    "arousal": 0.5681,
+    "dominance": 0.5895,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0000": {
+    "valence": 0.4476,
+    "arousal": 0.613,
+    "dominance": 0.5953,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0001": {
+    "valence": 0.4562,
+    "arousal": 0.5514,
+    "dominance": 0.5514,
+    "ser_emotion": "neutral"
+  },
+  "te_motivation_kasyap_0002": {
+    "valence": 0.5349,
+    "arousal": 0.6386,
+    "dominance": 0.583,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0003": {
+    "valence": 0.3817,
+    "arousal": 0.5979,
+    "dominance": 0.5871,
+    "ser_emotion": "sad"
+  },
+  "te_motivation_kasyap_0004": {
+    "valence": 0.4903,
+    "arousal": 0.5565,
+    "dominance": 0.5458,
+    "ser_emotion": "neutral"
+  },
+  "te_motivation_kasyap_0005": {
+    "valence": 0.463,
+    "arousal": 0.5316,
+    "dominance": 0.5674,
+    "ser_emotion": "neutral"
+  },
+  "te_motivation_kasyap_0006": {
+    "valence": 0.5958,
+    "arousal": 0.6756,
+    "dominance": 0.6629,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0007": {
+    "valence": 0.6248,
+    "arousal": 0.7031,
+    "dominance": 0.6645,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0008": {
+    "valence": 0.3876,
+    "arousal": 0.659,
+    "dominance": 0.6536,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0009": {
+    "valence": 0.3829,
+    "arousal": 0.6582,
+    "dominance": 0.629,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0010": {
+    "valence": 0.4704,
+    "arousal": 0.7004,
+    "dominance": 0.6769,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0011": {
+    "valence": 0.5924,
+    "arousal": 0.7522,
+    "dominance": 0.6999,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0012": {
+    "valence": 0.5099,
+    "arousal": 0.7648,
+    "dominance": 0.7153,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0013": {
+    "valence": 0.565,
+    "arousal": 0.6666,
+    "dominance": 0.6784,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0014": {
+    "valence": 0.4616,
+    "arousal": 0.7683,
+    "dominance": 0.7771,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0015": {
+    "valence": 0.2041,
+    "arousal": 0.7264,
+    "dominance": 0.7021,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0016": {
+    "valence": 0.5042,
+    "arousal": 0.6731,
+    "dominance": 0.6709,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0017": {
+    "valence": 0.8701,
+    "arousal": 0.7977,
+    "dominance": 0.8224,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0018": {
+    "valence": 0.5456,
+    "arousal": 0.5572,
+    "dominance": 0.5923,
+    "ser_emotion": "neutral"
+  },
+  "te_motivation_kasyap_0019": {
+    "valence": 0.3774,
+    "arousal": 0.7321,
+    "dominance": 0.7181,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0020": {
+    "valence": 0.6976,
+    "arousal": 0.7227,
+    "dominance": 0.7246,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0021": {
+    "valence": 0.5531,
+    "arousal": 0.6895,
+    "dominance": 0.6891,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0022": {
+    "valence": 0.5143,
+    "arousal": 0.8741,
+    "dominance": 0.8109,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0023": {
+    "valence": 0.2822,
+    "arousal": 0.8267,
+    "dominance": 0.7604,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0024": {
+    "valence": 0.5656,
+    "arousal": 0.6812,
+    "dominance": 0.6744,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0025": {
+    "valence": 0.4469,
+    "arousal": 0.7006,
+    "dominance": 0.6746,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0026": {
+    "valence": 0.6381,
+    "arousal": 0.6234,
+    "dominance": 0.6766,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0027": {
+    "valence": 0.5557,
+    "arousal": 0.5288,
+    "dominance": 0.6074,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0028": {
+    "valence": 0.2679,
+    "arousal": 0.5208,
+    "dominance": 0.5988,
+    "ser_emotion": "sad"
+  },
+  "te_motivation_kasyap_0029": {
+    "valence": 0.463,
+    "arousal": 0.6739,
+    "dominance": 0.7041,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0030": {
+    "valence": 0.3924,
+    "arousal": 0.6992,
+    "dominance": 0.7004,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0031": {
+    "valence": 0.1616,
+    "arousal": 0.7857,
+    "dominance": 0.7531,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0032": {
+    "valence": 0.3173,
+    "arousal": 0.7608,
+    "dominance": 0.7025,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0033": {
+    "valence": 0.4077,
+    "arousal": 0.5812,
+    "dominance": 0.5965,
+    "ser_emotion": "sad"
+  },
+  "te_motivation_kasyap_0034": {
+    "valence": 0.4908,
+    "arousal": 0.5921,
+    "dominance": 0.5979,
+    "ser_emotion": "neutral"
+  },
+  "te_motivation_kasyap_0035": {
+    "valence": 0.5241,
+    "arousal": 0.6484,
+    "dominance": 0.6853,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0036": {
+    "valence": 0.5198,
+    "arousal": 0.6272,
+    "dominance": 0.6482,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0037": {
+    "valence": 0.505,
+    "arousal": 0.6679,
+    "dominance": 0.6746,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0038": {
+    "valence": 0.5388,
+    "arousal": 0.6429,
+    "dominance": 0.6224,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0039": {
+    "valence": 0.4582,
+    "arousal": 0.7451,
+    "dominance": 0.7109,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0040": {
+    "valence": 0.5304,
+    "arousal": 0.7084,
+    "dominance": 0.6761,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0041": {
+    "valence": 0.5524,
+    "arousal": 0.6729,
+    "dominance": 0.7053,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0042": {
+    "valence": 0.4509,
+    "arousal": 0.8192,
+    "dominance": 0.8026,
+    "ser_emotion": "happy"
+  },
+  "te_motivation_kasyap_0043": {
+    "valence": 0.45,
+    "arousal": 0.677,
+    "dominance": 0.6593,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0044": {
+    "valence": 0.4468,
+    "arousal": 0.6841,
+    "dominance": 0.6975,
+    "ser_emotion": "angry"
+  },
+  "te_motivation_kasyap_0045": {
+    "valence": 0.6563,
+    "arousal": 0.6979,
+    "dominance": 0.659,
+    "ser_emotion": "excited"
+  },
+  "te_motivation_kasyap_0046": {
+    "valence": 0.6672,
+    "arousal": 0.6068,
+    "dominance": 0.6656,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0000": {
+    "valence": 0.3929,
+    "arousal": 0.4884,
+    "dominance": 0.5545,
+    "ser_emotion": "sad"
+  },
+  "te_ramaaraavi_0001": {
+    "valence": 0.5195,
+    "arousal": 0.5813,
+    "dominance": 0.6091,
+    "ser_emotion": "neutral"
+  },
+  "te_ramaaraavi_0002": {
+    "valence": 0.4451,
+    "arousal": 0.599,
+    "dominance": 0.6027,
+    "ser_emotion": "sad"
+  },
+  "te_ramaaraavi_0003": {
+    "valence": 0.3589,
+    "arousal": 0.6965,
+    "dominance": 0.6585,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0004": {
+    "valence": 0.5269,
+    "arousal": 0.7192,
+    "dominance": 0.6753,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0005": {
+    "valence": 0.3956,
+    "arousal": 0.645,
+    "dominance": 0.6352,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0006": {
+    "valence": 0.4145,
+    "arousal": 0.6654,
+    "dominance": 0.6259,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0007": {
+    "valence": 0.4856,
+    "arousal": 0.6037,
+    "dominance": 0.599,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0008": {
+    "valence": 0.4798,
+    "arousal": 0.6607,
+    "dominance": 0.6541,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0009": {
+    "valence": 0.2473,
+    "arousal": 0.6646,
+    "dominance": 0.6794,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0010": {
+    "valence": 0.4861,
+    "arousal": 0.6114,
+    "dominance": 0.6377,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0011": {
+    "valence": 0.4841,
+    "arousal": 0.6062,
+    "dominance": 0.6169,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0012": {
+    "valence": 0.5436,
+    "arousal": 0.669,
+    "dominance": 0.6458,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0013": {
+    "valence": 0.6157,
+    "arousal": 0.5609,
+    "dominance": 0.5845,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0014": {
+    "valence": 0.4503,
+    "arousal": 0.5178,
+    "dominance": 0.5519,
+    "ser_emotion": "neutral"
+  },
+  "te_ramaaraavi_0015": {
+    "valence": 0.4505,
+    "arousal": 0.6111,
+    "dominance": 0.6204,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0016": {
+    "valence": 0.6277,
+    "arousal": 0.7112,
+    "dominance": 0.6677,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0017": {
+    "valence": 0.5153,
+    "arousal": 0.6578,
+    "dominance": 0.6566,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0018": {
+    "valence": 0.5371,
+    "arousal": 0.7042,
+    "dominance": 0.671,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0019": {
+    "valence": 0.5092,
+    "arousal": 0.5338,
+    "dominance": 0.566,
+    "ser_emotion": "neutral"
+  },
+  "te_ramaaraavi_0020": {
+    "valence": 0.4764,
+    "arousal": 0.6612,
+    "dominance": 0.6377,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0021": {
+    "valence": 0.5728,
+    "arousal": 0.6435,
+    "dominance": 0.6101,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0022": {
+    "valence": 0.5351,
+    "arousal": 0.6513,
+    "dominance": 0.6411,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0023": {
+    "valence": 0.5686,
+    "arousal": 0.6081,
+    "dominance": 0.6316,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0024": {
+    "valence": 0.4518,
+    "arousal": 0.6092,
+    "dominance": 0.6189,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0025": {
+    "valence": 0.567,
+    "arousal": 0.6634,
+    "dominance": 0.6656,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0026": {
+    "valence": 0.5511,
+    "arousal": 0.6348,
+    "dominance": 0.6384,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0027": {
+    "valence": 0.5513,
+    "arousal": 0.6758,
+    "dominance": 0.6554,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0028": {
+    "valence": 0.4814,
+    "arousal": 0.7243,
+    "dominance": 0.6691,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0029": {
+    "valence": 0.6326,
+    "arousal": 0.6738,
+    "dominance": 0.6575,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0030": {
+    "valence": 0.5759,
+    "arousal": 0.6953,
+    "dominance": 0.7041,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0031": {
+    "valence": 0.5813,
+    "arousal": 0.7216,
+    "dominance": 0.669,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0032": {
+    "valence": 0.5719,
+    "arousal": 0.6992,
+    "dominance": 0.6672,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0033": {
+    "valence": 0.6807,
+    "arousal": 0.6158,
+    "dominance": 0.6308,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0034": {
+    "valence": 0.4039,
+    "arousal": 0.7353,
+    "dominance": 0.6923,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0035": {
+    "valence": 0.526,
+    "arousal": 0.5668,
+    "dominance": 0.5872,
+    "ser_emotion": "neutral"
+  },
+  "te_ramaaraavi_0036": {
+    "valence": 0.5102,
+    "arousal": 0.5313,
+    "dominance": 0.5479,
+    "ser_emotion": "neutral"
+  },
+  "te_ramaaraavi_0037": {
+    "valence": 0.5571,
+    "arousal": 0.572,
+    "dominance": 0.5967,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0038": {
+    "valence": 0.4167,
+    "arousal": 0.6505,
+    "dominance": 0.6402,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0039": {
+    "valence": 0.3548,
+    "arousal": 0.6694,
+    "dominance": 0.6547,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0040": {
+    "valence": 0.5347,
+    "arousal": 0.5528,
+    "dominance": 0.5751,
+    "ser_emotion": "neutral"
+  },
+  "te_ramaaraavi_0041": {
+    "valence": 0.5893,
+    "arousal": 0.5913,
+    "dominance": 0.6139,
+    "ser_emotion": "happy"
+  },
+  "te_ramaaraavi_0042": {
+    "valence": 0.6399,
+    "arousal": 0.6261,
+    "dominance": 0.6419,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0043": {
+    "valence": 0.6251,
+    "arousal": 0.6452,
+    "dominance": 0.6522,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0044": {
+    "valence": 0.5772,
+    "arousal": 0.7252,
+    "dominance": 0.6891,
+    "ser_emotion": "excited"
+  },
+  "te_ramaaraavi_0045": {
+    "valence": 0.341,
+    "arousal": 0.7217,
+    "dominance": 0.7005,
+    "ser_emotion": "angry"
+  },
+  "te_ramaaraavi_0046": {
+    "valence": 0.6215,
+    "arousal": 0.7773,
+    "dominance": 0.7333,
+    "ser_emotion": "excited"
+  }
+}

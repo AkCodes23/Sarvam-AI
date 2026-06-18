@@ -30,3 +30,7 @@ build/
 *.egg-info/
 
 # report figures are deliverables — keep them tracked
+
+.venv_ser/
+data/manifests/disabled/
+data/manifests/*.log

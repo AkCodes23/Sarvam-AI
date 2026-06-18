@@ -1,0 +1,32 @@
+{
+  "n": 100,
+  "raters": [
+    "sarvam-30b (LLM)",
+    "emotion2vec (multilingual SER)",
+    "audeering (VAD SER)"
+  ],
+  "krippendorff_alpha_3raters": 0.0129,
+  "krippendorff_alpha_30b_vs_emotion2vec": -0.1127,
+  "llm_inter_model_alpha": 0.4442,
+  "pairwise_agreement": {
+    "30b_vs_emotion2vec": 0.12,
+    "30b_vs_audeering": 0.16,
+    "emotion2vec_vs_audeering": 0.37
+  },
+  "emotion2vec_label_dist": {
+    "neutral": 63,
+    "happy": 22,
+    "sad": 8,
+    "angry": 4,
+    "surprised": 3
+  },
+  "shipped_30b_label_dist": {
+    "sad": 22,
+    "calm": 21,
+    "excited": 21,
+    "angry": 15,
+    "neutral": 12,
+    "happy": 5,
+    "fearful": 4
+  }
+}
