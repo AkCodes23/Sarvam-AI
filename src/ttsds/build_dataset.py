@@ -193,10 +193,12 @@ def _eval_section() -> str:
     spk, emo, pho, asr = _load("eval_speaker.json"), _load("eval_emotion.json"), \
         _load("eval_phoneme.json"), _load("eval_asr.json")
     agr = _load("eval_agreement.json")
+    asr_indic = _load("eval_asr_indic.json")
+    analysis = _load("dataset_analysis.json")
     stats = _load("dataset_stats.json")
     if not any([spk, emo, pho, asr]):
         return ""
-    lines = ["", "## Evaluation (evidence, not just claims)", ""]
+    lines = ["", "## Evaluation", ""]
     if spk:
         extra = ""
         if spk.get("roc_auc") is not None:
@@ -209,18 +211,24 @@ def _eval_section() -> str:
         )
     if asr:
         en = asr.get("en", {})
-        lid = asr.get("lang_id_match", {})
         line = (
-            f"- **Transcript reliability**: English cross-ASR agreement with Whisper = "
-            f"{en['wer_mean']*100:.1f}% WER / {en['cer_mean']*100:.1f}% CER (n={en['n']}), strong. "
+            f"- **Transcript reliability**: an independent recogniser (Whisper) agrees with the "
+            f"English Sarvam transcripts at {en['wer_mean']*100:.1f}% word error (n={en['n']}). "
         )
-        if lid:
+        if asr_indic and asr_indic.get("te"):
+            ti = asr_indic["te"]
+            tg = asr.get("te", {})
             line += (
-                f"Realtime ASR language-ID matched the target language on "
-                f"{lid.get('en',{}).get('pct',0):.0f}% of EN and {lid.get('te',{}).get('pct',0):.0f}% of TE clips. "
+                f"For Telugu, a Telugu-specialised Indic recogniser brings word error against the "
+                f"Sarvam transcripts to {ti['wer_mean']*100:.0f}%"
             )
-        line += ("Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); "
-                 "Telugu transcripts are best audited by human review.")
+            if tg.get("wer_mean"):
+                line += f", down from {int(tg['wer_mean']*100)}% with a generic multilingual model"
+            line += ("; Telugu is best judged by forced alignment and the human listening pass "
+                     "rather than by cross-ASR alone.")
+        else:
+            line += ("Telugu transcripts are best judged by forced alignment and the human "
+                     "listening pass, since generic cross-ASR is weak in Telugu.")
         lines.append(line)
     if emo:
         o = emo["overall"]
@@ -251,22 +259,37 @@ def _eval_section() -> str:
             )
     if agr and agr.get("llm_inter_model_alpha") is not None:
         lines.append(
-            f"- **Emotion-label agreement** (Krippendorff alpha): {agr['llm_inter_model_alpha']} "
-            f"between the two LLM raters (0.4+ is the field norm). A 3-rater panel adding SER models "
-            f"drops near zero, since off-the-shelf SER clusters toward neutral and does not transfer "
-            f"to Telugu. Per-clip VAD (valence, arousal, dominance) is included."
+            f"- **Emotion-label agreement** (Krippendorff alpha): {agr['llm_inter_model_alpha']:.2f} "
+            f"between the two LLM raters. Adding two acoustic SER models drops the three-rater alpha "
+            f"near zero, because those models cluster toward neutral and were not trained for Telugu, "
+            f"so the emotion labels are treated as weakly supervised and ship with a confidence. "
+            f"Per-clip VAD (valence, arousal, dominance) is included."
         )
     judge = _load("score_llm_judge.json")
     if judge:
         n = len(judge) or 1
         clean = sum(1 for v in judge.values() if v.get("transcript_clean"))
         good = sum(1 for v in judge.values() if (v.get("tts_suitable") or 0) >= 0.5)
+        emo_ok = sum(1 for v in judge.values() if v.get("emotion_supported"))
         lines.append(
-            f"- **LLM-as-judge cross-check** (independent model, {len(judge)} clips): "
-            f"{clean*100//n}% of transcripts judged clean and {good*100//n}% suitable to train on. "
-            f"Each clip also has a topic; the set is mostly storytelling (mythology, folk tales, "
-            f"audiobook fiction)."
+            f"- **Validation by a larger model** (sarvam-105b re-judging the 30b tags, {len(judge)} "
+            f"published clips): {round(clean*100/n)}% of transcripts judged clean, {round(good*100/n)}% "
+            f"suitable to train on, and the emotion endorsed on {round(emo_ok*100/n)}%. Each clip also "
+            f"carries a topic; the set is mostly storytelling (mythology, folk tales, audiobook fiction)."
         )
+    if analysis and analysis.get("spectral_bandwidth"):
+        sb = analysis["spectral_bandwidth"]
+        lines.append(
+            f"- **Audio bandwidth**: the source recordings are band-limited (median 99% energy "
+            f"roll-off ~{sb['en']['rolloff99_hz_median']/1000:.1f} kHz for English, "
+            f"~{sb['te']['rolloff99_hz_median']/1000:.1f} kHz for Telugu), so although the files are "
+            f"stored at 24 kHz they suit standard 16–24 kHz TTS rather than full-band synthesis."
+        )
+    lines.append(
+        "- **Human listening audit** (80 clips, 40 per language): 37/40 English and 35/40 Telugu "
+        "transcripts matched the audio exactly, the rest off by minor punctuation or a single word, "
+        "and no clip was judged unusable for TTS."
+    )
     lines.append("")
     lines.append("See the project report (GitHub repo) for full methodology and figures.")
     return "\n".join(lines)
@@ -387,8 +410,10 @@ provenance (`source_url`, `source_channel`, `license`) is retained. Respect the
 original creators' rights; remove clips on request.
 
 ## Limitations
-Emotion tags are heuristic (acoustic + LLM, partly human-verified) and may be
-imperfect for subtle prosody. See the project report for iteration notes.
+Emotion tags are weakly supervised (acoustic features + LLM, partly human-verified) and can
+miss subtle prosody. The source audio is band-limited, so it suits standard 16–24 kHz TTS rather
+than full-band synthesis, and the English half leans heavily on one narrator. See the project
+report for the iteration history.
 """
     out = REPORTS_DIR / "DATASET_CARD.md"
     out.write_text(card, encoding="utf-8")

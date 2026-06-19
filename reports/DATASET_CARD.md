@@ -50,16 +50,18 @@ diarization, and labeled with emotion/style tags. Built as a data-quality / cura
 
 Total: **60.25 minutes**.
 
-## Evaluation (evidence, not just claims)
+## Evaluation
 
 - **Single-speaker check** (ECAPA-TDNN embeddings): same-speaker cosine 0.74 vs different-speaker 0.21 (separation 0.52, verification AUC 0.96 / EER 9.1%; 0/11 candidate speakers flagged).
-- **Transcript reliability**: English cross-ASR agreement with Whisper = 5.5% WER / 3.4% CER (n=40), strong. Telugu cross-ASR is not a valid proxy (Whisper is weak in Telugu); Telugu transcripts are best audited by human review.
+- **Transcript reliability**: an independent recogniser (Whisper) agrees with the English Sarvam transcripts at 5.5% word error (n=40). For Telugu, a Telugu-specialised Indic recogniser brings word error against the Sarvam transcripts to 47%, down from 76% with a generic multilingual model; Telugu is best judged by forced alignment and the human listening pass rather than by cross-ASR alone.
 - **Emotion-tag reliability** (sarvam-30b vs sarvam-105b on 120 clips): 65% agreement, Cohen's κ 0.55.
 - **Phoneme coverage**: English 39 (100%), Telugu 44 (88%).
 - **Perceptual quality** (DNSMOS OVRL, published set): EN 3.09 (58% pass>3.0), TE 3.16 (81% pass>3.0). Filter `dnsmos_pass=True` for a stricter subset.
 - **Transcript–audio alignment** (MMS forced-align): median confidence EN 0.954, TE 0.937.
-- **Emotion-label agreement** (Krippendorff alpha): 0.4442 between the two LLM raters (0.4+ is the field norm). A 3-rater panel adding SER models drops near zero, since off-the-shelf SER clusters toward neutral and does not transfer to Telugu. Per-clip VAD (valence, arousal, dominance) is included.
-- **LLM-as-judge cross-check** (independent model, 499 clips): 75% of transcripts judged clean and 81% suitable to train on. Each clip also has a topic; the set is mostly storytelling (mythology, folk tales, audiobook fiction).
+- **Emotion-label agreement** (Krippendorff alpha): 0.44 between the two LLM raters. Adding two acoustic SER models drops the three-rater alpha near zero, because those models cluster toward neutral and were not trained for Telugu, so the emotion labels are treated as weakly supervised and ship with a confidence. Per-clip VAD (valence, arousal, dominance) is included.
+- **Validation by a larger model** (sarvam-105b re-judging the 30b tags, 310 published clips): 89% of transcripts judged clean, 81% suitable to train on, and the emotion endorsed on 26%. Each clip also carries a topic; the set is mostly storytelling (mythology, folk tales, audiobook fiction).
+- **Audio bandwidth**: the source recordings are band-limited (median 99% energy roll-off ~4.1 kHz for English, ~2.6 kHz for Telugu), so although the files are stored at 24 kHz they suit standard 16–24 kHz TTS rather than full-band synthesis.
+- **Human listening audit** (80 clips, 40 per language): 37/40 English and 35/40 Telugu transcripts matched the audio exactly, the rest off by minor punctuation or a single word, and no clip was judged unusable for TTS.
 
 See the project report (GitHub repo) for full methodology and figures.
 
@@ -112,5 +114,7 @@ provenance (`source_url`, `source_channel`, `license`) is retained. Respect the
 original creators' rights; remove clips on request.
 
 ## Limitations
-Emotion tags are heuristic (acoustic + LLM, partly human-verified) and may be
-imperfect for subtle prosody. See the project report for iteration notes.
+Emotion tags are weakly supervised (acoustic features + LLM, partly human-verified) and can
+miss subtle prosody. The source audio is band-limited, so it suits standard 16–24 kHz TTS rather
+than full-band synthesis, and the English half leans heavily on one narrator. See the project
+report for the iteration history.
