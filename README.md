@@ -2,13 +2,13 @@
 
 A data-quality-first pipeline that builds a clean, single-speaker, emotion-tagged TTS dataset
 (~30 min Indian English + ~30 min Telugu) from YouTube, using [Sarvam](https://docs.sarvam.ai) APIs
-for ASR, diarization, and LLM tagging, and publishes it as a public HuggingFace dataset.
+for ASR, diarization, and LLM tagging, and published it as a public HuggingFace dataset.
 
 - **Dataset:** https://huggingface.co/datasets/AkCodes23/sarvam-tts-in-te-en
 - **Report:** [`reports/report.pdf`](reports/report.pdf) — pipeline, iterations, quality analysis, decisions
 - **Code:** https://github.com/AkCodes23/Sarvam-AI
 
-The pipeline is the means; the deliverable is the data. The two stages that decide quality are source
+The two stages that decide quality are source
 curation (listening to and choosing clean single-speaker sources) and the human review loop. Each clip
 contains a single voice, tracked by `speaker_id`; the set spans 9 speakers (4 English, 5 Telugu), with
 several voices per language kept on purpose for accent and speaking-style variety.
