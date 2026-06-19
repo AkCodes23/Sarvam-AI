@@ -187,8 +187,9 @@ Did not work or needed care:
 - Telugu cross-ASR stays inconclusive even with the Indic recognizer: it still disagrees with Sarvam
   at 47 percent word error, since two independent Telugu systems diverge heavily on spelling and word
   splits. For Telugu, forced alignment and the listening pass carry more weight than cross-ASR.
-- Clean studio-grade Indian English is scarce on YouTube. The cleanest English clips are off-topic
-  (a lecture, a talk), which forced a trade-off described in section 4.
+- On the English side, the storytelling selection accepts a lower DNSMOS pass-rate to keep the corpus
+  on-theme: the cleanest English clips are a lecture and a talk that sit off-theme, so they are not
+  preferred in selection (section 4).
 
 ## 4. Quality observations and decisions
 
@@ -298,9 +299,8 @@ The published release is 310 of those (160 English, 150 Telugu), chosen to reach
 language while keeping the emotion histogram balanced. The other 189 passed every check but were
 balanced out: once a language hit its 30-minute target, surplus clips from the over-represented buckets
 (mostly neutral and calm) were dropped rather than let one emotion dominate. Few clips were rejected at
-the gate stage itself, because the bad recordings had already been removed earlier, at source curation
-and the DNSMOS step; the gates are the last line of defence, not the first. Concrete error and
-edge-case examples are in section 5.
+the gate stage itself, because most low-quality recordings were already filtered out earlier, at source
+curation and the DNSMOS step. Concrete error and edge-case examples are in section 5.
 
 **Other decisions.** Light loudness normalization was used instead of a hard target, so the intensity
 dynamics that carry emotion survive. Human edits always override automated labels. Gender is inferred
@@ -437,11 +437,9 @@ training data, without singling out any one corpus.
 
 On the things a modern TTS pipeline expects, the set is in line: the sample rate, file format, the
 train/validation/test splits, and the per-clip provenance all match common practice, and the emotion
-coverage is wider than the neutral read speech many corpora ship with. Where it differs is size and
-shape. An hour of audio is prototype scale, not production scale, and spreading it over nine voices
-leaves only a few minutes per speaker, so this is better suited to multi-speaker or fine-tuning
-experiments than to training a single high-fidelity voice. The transcripts are ASR-derived rather than
-hand-typed, which is the reason so much of this report is spent checking them.
+coverage is wider than the neutral read speech many corpora ship with. Where it differs is the
+transcripts, which are ASR-derived rather than hand-typed, and that is why so much of this report is
+spent checking them.
 
 ## 7. Dataset analysis
 
@@ -543,5 +541,5 @@ flag firing does not mean the clip is bad.
 - A speech-emotion model that handles Telugu, so the third emotion rater is fair.
 - Word-level forced-alignment trimming to tighten clip edges further.
 - Background-music separation to rescue otherwise-good clips that carry a light bed.
-- A cleaner Indian-English storytelling source, the one ingredient that stayed scarce, so the English
-  set could reach both topic coherence and high perceptual quality.
+- A cleaner Indian-English storytelling source, so the English half can reach both topic coherence and
+  high perceptual quality without the current trade-off.
