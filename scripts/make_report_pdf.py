@@ -35,17 +35,17 @@ def _inline_body_images(html: str) -> tuple[str, set[str]]:
     return html, inlined
 
 CSS = """
-@page { size: A4; margin: 1.8cm 1.6cm; }
-body { font-family: Helvetica, Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #1a1a1a; }
+@page { size: A4; margin: 1.5cm 1.6cm; }
+body { font-family: Helvetica, Arial, sans-serif; font-size: 10.5pt; line-height: 1.38; color: #1a1a1a; }
 h1 { font-size: 19pt; color: #0f2a52; margin: 0 0 2pt; }
-h2 { font-size: 14pt; color: #14346b; border-bottom: 1.5px solid #c9d6ee; padding-bottom: 2pt; margin-top: 16pt; }
-h3 { font-size: 11.5pt; color: #1f2937; margin-top: 10pt; }
+h2 { font-size: 14pt; color: #14346b; border-bottom: 1.5px solid #c9d6ee; padding-bottom: 2pt; margin-top: 12pt; -pdf-keep-with-next: true; }
+h3 { font-size: 11.5pt; color: #1f2937; margin-top: 10pt; -pdf-keep-with-next: true; }
 p, li { font-size: 10.5pt; }
 code { font-family: Courier, monospace; background: #f1f3f7; font-size: 9.5pt; }
 hr { border: 0; border-top: 1px solid #d6dce6; }
 strong { color: #0f2a52; }
 img { max-width: 100%; }
-.inlinefig { width: 13cm; margin: 6pt 0; }
+.inlinefig { width: 11.5cm; margin: 5pt 0; }
 .fig { margin: 8pt 0 14pt; }
 .figcap { font-size: 9pt; color: #555; }
 table { width: 100%; }
@@ -93,12 +93,24 @@ def _set_col_widths(html: str) -> str:
     return re.sub(r"<table>.*?</table>", repl, html, flags=re.DOTALL)
 
 
+def _bind_subheadings_to_tables(html: str) -> str:
+    """A sub-heading paragraph (e.g. **Statistics (published set).**) immediately
+    followed by a table should stay with it, not be stranded at the foot of a page.
+    Binds the paragraph to the start of the table only (the table can still split)."""
+    return re.sub(
+        r"<p>((?:(?!</p>).)*?)</p>(\s*)<table",
+        r'<p style="-pdf-keep-with-next: true">\1</p>\2<table',
+        html, flags=re.DOTALL,
+    )
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     md_text = (REPORTS_DIR / "report.md").read_text(encoding="utf-8")
     body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
     body, _ = _inline_body_images(body)
     body = _set_col_widths(body)
+    body = _bind_subheadings_to_tables(body)
     # only the figures referenced inline in the report appear; no figure dump.
     html = f"<html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body}</body></html>"
     out = REPORTS_DIR / "report.pdf"
